@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="pruebas.css">
+
+        <title>Responsive 404 website - Bedimcode</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    COPA DEPARTAMENTAL SAN CRISTÓBAL
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="tablas_des.html" class="nav__link" >Fixture</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="equipos.html" class="nav__link">Equipos</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">Reglamento</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+                </div>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="table" id="customers_table">
+            <!--==================== HOME ====================-->
+            <section class="home">
+                <div class="home__container container">
+                    <section class="table__header">
+                        <h1>Fixture</h1>
+                        <div class="export__file">
+                            <label for="export-file" class="export__file-btn" title="Export File"></label>
+                            <input type="checkbox" id="export-file">
+                            <div class="export__file-options">
+                                <label>Export As &nbsp; &#10140;</label>
+                                <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                                <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                                <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                                <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="table__body">
+                        <button class="btn" id="fase1">Fase 1 IDA</button>
+                        <button class="btn" id="fase2">Fase 1 VUELTA</button>
+                         <table cellspacing="0">
+                             <thead>
+                                 <tr>
+                                    <th> Local </th>
+                                    <th></th>
+                                    <th></th>
+                                    <th> Visita </th>
+                                    <th> Fecha </th>
+                                    <th> Estado </th>
+                                    <th> Info </th>
+                                 </tr>
+                             </thead>
+                             <tbody id="res">
+                                 
+                             </tbody>
+                         </table>
+                     </section>
+                </div>
+
+                    
+            </section>
+        </main>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

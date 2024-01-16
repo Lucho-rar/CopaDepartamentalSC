@@ -1,0 +1,87 @@
+<!-- 
+Responsive HTML Table With Pure CSS - Web Design/UI Design
+
+Code written by:
+👨🏻‍⚕️ Coding Design (Jeet Saru)
+
+> You can do whatever you want with the code. However if you love my content, you can **SUBSCRIBED** my YouTube Channel.
+
+🌎link: www.youtube.com/codingdesign 
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Fixture</title>
+     <link rel="stylesheet" type="text/css" href="style_table.css">
+ </head>
+ 
+ <body>
+     <header class="header">
+         <nav class="nav container">
+             <a href="">Volver</a>
+         </nav>
+         <nav class="menu">
+             <ul class="navlist">
+                 <li class="nav__item">
+                     <a href="">home</a>
+                 </li>
+ 
+                 <div class="nav__close" id="nav-close">
+                     <i class='bx bx-x'></i>
+                 </div>
+                 <!-- Toggle button -->
+                 <div class="nav__toggle" id="nav-toggle">
+                     <i class='bx bx-grid-alt'></i>
+                 </div>
+             </ul>
+         </nav>
+     </header>
+     <main class="table" id="customers_table">
+         <section class="table__header">
+             <h1>Fixture</h1>
+             <div class="export__file">
+                 <label for="export-file" class="export__file-btn" title="Export File"></label>
+                 <input type="checkbox" id="export-file">
+                 <div class="export__file-options">
+                     <label>Export As &nbsp; &#10140;</label>
+                     <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                     <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                     <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                     <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                 </div>
+             </div>
+         </section>
+         <section class="table__body">
+             <button class="btn" id="fase1">Fase 1 IDA</button>
+             <button class="btn" id="fase2">Fase 1 VUELTA</button>
+             <table cellspacing="0">
+                 <thead>
+                     <tr>
+                         <th> Local </th>
+                         <th></th>
+                         <th></th>
+                         <th> Visita </th>
+                         <th> Fecha </th>
+                         <th> Estado </th>
+                         <th> Info </th>
+                     </tr>
+                 </thead>
+                 <tbody id="res">
+ 
+                 </tbody>
+             </table>
+         </section>
+     </main>
+ 
+    
+ 
+     <script src="ajax.js"></script>
+ 
+ </body>
+ 
+ </html>
+ 

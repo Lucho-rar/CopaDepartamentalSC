@@ -1,0 +1,63 @@
+[
+    {
+        "local": "UNION SAN GUILLERMO",
+        "glocal": "",
+        "gvisitante": "",
+        "visitante": "SPORTIVO SUARDI",
+        "fecha" : "11/02/2024",
+        "estado" : "Por jugar",
+        "imagenlocal" : "ucyd.png",
+        "imagenvisita" : "sportivo.png"
+    },
+    {
+        "local": "JUNIORS SUARDI",
+        "glocal": "",
+        "gvisitante": "",
+        "visitante": "ATL. LIBERTAD TRINIDAD",
+        "fecha" : "11/02/2024",
+        "estado" : "Por jugar",
+        "imagenlocal" : "juniors.png",
+        "imagenvisita" : "calt.png"
+    },
+    {
+        "local": "SAN LORENZO (A)",
+        "glocal": "",
+        "gvisitante": "",
+        "visitante": "UNIÓN HERSILIA",
+        "fecha" : "11/02/2024",
+        "estado" : "Por jugar",
+        "imagenlocal" : "ambro.png",
+        "imagenvisita" : "hersilia.png"
+    },
+    {
+        "local": "UNION ARRUFO ",
+        "glocal": "",
+        "gvisitante": "",
+        "visitante": "TIRO FEDERAL MOISES VILLE",
+        "fecha" : "11/02/2024",
+        "estado" : "Por jugar",
+        "imagenlocal" : "cuda.png",
+        "imagenvisita" : "tiro.png"
+    },
+    {
+        "local": "FERRO DHO (SC) ",
+        "glocal": "",
+        "gvisitante": "",
+        "visitante": "INDEPENDIENTE (SC)",
+        "fecha" : "11/02/2024",
+        "estado" : "Por jugar",
+        "imagenlocal" : "ferro.png",
+        "imagenvisita" : "indsc.png"
+    },
+    {
+        "local": "ATL. UNIÓN DE CERES",
+        "glocal": "",
+        "gvisitante": "",
+        "visitante": "CENTRAL ARG. OLÍMPICO",
+        "fecha" : "11/02/2024",
+        "estado" : "Por jugar",
+        "imagenlocal" : "cacu.png",
+        "imagenvisita" : "ccao.png"
+    }
+
+]
