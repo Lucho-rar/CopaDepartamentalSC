@@ -14,7 +14,6 @@ Code written by:
 * {
     margin: 0;
     padding: 0;
-
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
 }
@@ -30,7 +29,7 @@ Code written by:
 body {
     min-height: 100vh;
     /*background-color:#006b21;*/
-    background: url(/assets/img/bg.jpg) center / cover;
+    background: url(assets/img/bg.jpg) center / cover;
     display: flex;
     justify-content: center;
     align-items: center;
