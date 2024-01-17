@@ -1,5 +1,5 @@
 console.log('correcto');
-document.querySelector('#fase1').addEventListener('click',traerDatos);
+document.querySelector('#fase1').addEventListener('click',traerDatos2);
 document.querySelector('#fase2').addEventListener('click',traerDatos2);
 
 function traerDatos(){
@@ -59,5 +59,8 @@ function traerDatos2(){
 }
 
 
-
+function scrollTop(sectionId){
+    const section = document.querySelector(sectionId);
+    section.scrollIntoView({behavior: 'smooth'});
+}
 

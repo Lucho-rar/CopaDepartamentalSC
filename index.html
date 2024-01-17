@@ -8,8 +8,11 @@
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
         <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+        
 
+        <!--        DATATABLES       -->
+        
+        <link rel="stylesheet" href="assets/css/equipos_style.css">
         <title>Responsive 404 website - Bedimcode</title>
     </head>
     <body>
@@ -26,14 +29,18 @@
                             <a href="#" class="nav__link">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="tablas_des.html" class="nav__link" target="_blank" rel="noopener">Fixture</a>
+                            <a href="fixture.html" class="nav__link">Fixture</a>
                         </li>
                         <li class="nav__item">
-                            <a href="equipos.html" class="nav__link">Equipos</a>
+                            <a href="#" class="nav__link">Estadisticas</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#equipos_seccion" onclick="scrollToSection('#equipos_seccion')" class="nav__link">Equipos</a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">Reglamento</a>
                         </li>
+                        
                     </ul>
 
                     <div class="nav__close" id="nav-close">
@@ -57,9 +64,9 @@
                         <span class="home__subtitle">Página no oficial</span>
                         <h1 class="home__title">Copa Departamental</h1>
                         <p class="home__description">
-                            Estadísticas y partidos del torneo. <br> Si desea colaborar, comuníquese.
+                            Estadísticas y partidos del torneo. <br> Si desea colaborar con la información, comuníquese.
                         </p>
-                        <a href="tablas_des.html" class="home__button">
+                        <a href="fixture.html" class="home__button">
                             Ver Fixture
                         </a>
                     </div>
@@ -69,19 +76,132 @@
                         <div class="home__shadow"></div>
                     </div>
                 </div>
-
-                <footer class="home__footer">
-                    <span>(554) 987-654</span>
-                    <span>|</span>
-                    <span>info@company.com</span>
-                </footer>
             </section>
+            <section class="tabla" id="equipos_seccion">
+                
+                <div class="card">
+                    <div class="card-content">
+                      <img src="/assets/img/cacu.png" alt="">
+                      <h2 class="card-title">Club Atlético Ceres Unión</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                      <img src="/assets/img/ccao.png" alt="">
+                      <h2 class="card-title">Club Central Argentino Olímpico</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                      <img src="assets/img/ferro.png" alt="">
+                      <h2 class="card-title">Club Ferro Dho</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                      <img src="assets/img/ambro.png" alt="">
+                      <h2 class="card-title">Club Atlético San Lorenzo de Ambrosetti</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                      <img src="assets/img/cuda.png" alt="">
+                      <h2 class="card-title">Club Unión Deportiva Arrufó</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                      <img src="assets/img/calt.png" alt="">
+                      <h2 class="card-title">Club Atlético Libertad Trinidad</h2>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                      <img src="assets/img/ucyd.png" alt="">
+                      <h2 class="card-title">Club Unión Cultural y Deportivo San Guillermo</h2>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-content">
+                      <img src="assets/img/tiro.png" alt="">
+                      <h2 class="card-title">Club Tiro Federal Moisés Ville</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                      <img src="assets/img/indsc.png" alt="">
+                      <h2 class="card-title">Club Independiente de San Cristóbal</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                      <img src="assets/img/juniors.png" alt="">
+                      <h2 class="card-title">Club Juniors</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                      <img src="assets/img/sportivo.png" alt="">
+                      <h2 class="card-title">Club Sportivo Suardi</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                      <img src="assets/img/hersilia.png" alt="">
+                      <h2 class="card-title">Club Unión Soc. y Dep. hersilia</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="reglas">
+                <div class="wrapper">
+                    <img id="trofeo" src="assets/img/trofeo.png" alt="">
+                    <div class="text-box">
+                        <h2>Reglamento</h2>
+                        <ul>
+                            <li>• 12 equipos del departamento.</li>
+                            <li>• Habrá un premio mayor de $ 900000 al campeón, el subcampeón, tercero y cuarto de la competencia se alzaran con premios de 600 mil, 500 mil y 400 mil. Ya por participar los 12 clubes recibirán un aporte de $ 300 mil.</li>
+                            <li>• Lista de buena fe 35 jugadores </li>
+                            <li>• Los ganadores de la primera fase y los dos mejores perdedores clasifican a la segunda ronda. </li>
+                            <li>• La primera ronda es ida y vuelta.</li>
+                            <li>• Todos los demas partidos son a un solo partido (2da ronda, 3er ronda, 3er/4to puesto, semifinales, final).</li>
+                            
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            
+                
+            
         </main>
 
+        <script>
+            function scrollToSection(sectionId) {
+                const section = document.querySelector(sectionId);
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        </script>
+    
+        
+        <script src="ajax.js"></script>
         <!--=============== SCROLLREVEAL ===============-->
         <script src="assets/js/scrollreveal.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+
+
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+        </script>
+        <!-- DATATABLES -->
+        <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js">
+        </script>
+
+        
     </body>
 </html>

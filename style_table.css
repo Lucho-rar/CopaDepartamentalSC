@@ -42,7 +42,7 @@ ul{
 .header {
     position: fixed;
     width: 100%;
-    background-color: transparent;
+    background-color: white;
     top: 0;
     left: 0;
     z-index: 100;
@@ -307,22 +307,6 @@ thead th.active,tbody td.active {
     color: #6c00bd;
 }
 
-.btn{
-    
-    font-family: "Roboto",sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    background: #3f13a8fe;
-    width: 185px;
-    padding:0px ;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
-}
 
 .export__file {
     position: relative;
@@ -405,3 +389,44 @@ h1{
     font-size: 65px;
 }
 
+.btn{
+    
+    position: relative;
+    display: inline-block;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    color: rgb(28, 137, 51);
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid rgb(28, 137, 51);
+    padding: 8px 27px;
+    z-index: 1;
+    overflow: hidden;
+    transition: color 1s, box-shadow 1s;
+}
+
+.btn:hover {
+    transition-delay: 0s, 1s;
+    color: #fff;
+    box-shadow:
+        0 0 10px hsl(129, 45%, 39%),
+        0 0 20px hsl(129, 45%, 39%),
+        0 0 40px hsl(129, 45%, 39%),
+        0 0 80px hsl(129, 45%, 39%),
+        0 0 160px hsl(129, 45%, 39%);
+}
+.btn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 0;
+    height: 100%;
+    background: hsl(129, 45%, 39%);
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: 1s;
+}
+.btn:hover:before {
+    width: 100%;
+}
