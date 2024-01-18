@@ -42,10 +42,10 @@ function traerDatos2(){
                // console.log(item.local);
                res.innerHTML += `
                <tr>
-                <td><img src="/assets/minis/${item.imagenlocal}" alt="Imagen">${item.local}</td>
+                <td><img src="assets/minis/${item.imagenlocal}" alt="Imagen">${item.local}</td>
                 <td>${item.glocal}</td>
                 <td>${item.gvisitante}</td>
-                <td><img src="/assets/minis/${item.imagenvisita}" alt="Imagen">${item.visitante}</td>
+                <td><img src="assets/minis/${item.imagenvisita}" alt="Imagen">${item.visitante}</td>
                 <td>${item.fecha}</td>
                 <td>${item.estado}</td>
                 <td></td>
