@@ -230,13 +230,15 @@ img {
 .card-title {
     font-size: 1.5em;
     margin-bottom: 10px;
+    height: auto;
   }
 
 .card-img{
   max-width: 100%;
-  height: 1px;
+  height: auto;
   border-radius: 8px;
   margin-bottom: 10px;
+  
 }
 .card-description {
     color: #666;
@@ -294,9 +296,42 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 200px) {
   .home {
     padding-top: 7rem;
+  }
+  
+  .tabla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card{
+    font-size: 0.8em;
+    width: 150px;
+  }
+  
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #trofeo{
+    width: 40%;
+  }
+  #titulo_reglamento{
+    font-size: 2.5em;
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+  .text-box ul li {
+    font-size: 1.0em; /* Ajusta el tamaño según sea necesario */
   }
 }
 
@@ -323,6 +358,8 @@ img {
     animation: enhance-header linear both ;
     animation-timeline: scroll(root block);
   }
+  
+  
 }
 
 /* For large devices */
@@ -352,6 +389,7 @@ img {
     animation: enhance-header linear both ;
     animation-timeline: scroll(root block);
   }
+
 }
 
 @media screen and (min-width: 1048px) {
