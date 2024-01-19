@@ -114,7 +114,7 @@ main.table {
     max-height: calc(89% - 1.6rem);
     background-color: #fffb;
 
-    margin: .8rem auto;
+    margin: 0.9rem auto;
     border-radius: .6rem;
 
     overflow: auto;
@@ -431,26 +431,29 @@ h1{
 }
 
 @media screen and (min-width: 200px) and (max-width:767px){
+    #customers_table{
+        width: 100%;
+    }
     .table {
-        width: 80%; /* Ajusta el ancho de la tabla según sea necesario */
-        margin: auto; /* Centra la tabla en la pantalla */
+        width: 100%; /* Ocupa el 100% del ancho de la pantalla */
         zoom: 0.8; /* Ajusta el valor de zoom según sea necesario */
     }
 
     .table__body {
-        width: 100%; /* Ajusta el ancho del cuerpo de la tabla según sea necesario */
-        max-height: calc(89% - 1.6rem); /* Ajusta la altura máxima según sea necesario */
+        width: 100%;
+        max-height: calc(100vh - 1.6rem); /* Ocupa el 100% del alto de la pantalla, ajusta según sea necesario */
+        overflow-x: auto; /* Permitir desplazamiento horizontal si es necesario */
     }
 
     table,
     th,
     td {
-        padding: 0.8rem; /* Ajusta el espaciado interno según sea necesario */
+        padding: 0.4rem; /* Ajusta el espaciado interno según sea necesario */
     }
 
     thead th,
     tbody td:first-child {
-        width: auto; /* Restaura el ancho del primer elemento según sea necesario */
+        width: auto;
     }
 
     tbody th:nth-child(2),
@@ -461,7 +464,7 @@ h1{
     tbody td:nth-child(4),
     tbody th:nth-child(5),
     tbody td:nth-child(5) {
-        width: auto; /* Restaura los anchos de las columnas según sea necesario */
+        width: auto;
     }
 }
   
