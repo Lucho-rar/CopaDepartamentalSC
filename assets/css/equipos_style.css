@@ -297,10 +297,21 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (min-width: 200px) and (max-width:767px){
-  .home {
-    padding-top: 7rem;
-  }
   
+  :root{
+    --biggest-font-size: 1.5rem;
+    --normal-font-size: 1.0rem;
+    --smaller-font-size: .5rem;
+  }
+
+  .home__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home__img img{
+    width: 0%;
+  }
   .tabla{
     display: flex;
     flex-direction: column;
@@ -321,18 +332,42 @@ img {
     flex-direction: column;
     align-items: center;
   }
-
+  
   #trofeo{
     width: 40%;
   }
+  
+
+  .card{
+    width: 90%;
+  }
+  .card-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card h2{
+    font-size: var(--smaller-font-size);
+  }
+  .card img{
+    padding-bottom: 10px;
+    width: 20%;
+  }
+  .text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   #titulo_reglamento{
-    font-size: 2.5em;
+    font-size: var(--normal-font-size);
     padding-bottom: 30px;
     padding-top: 20px;
   }
   .text-box ul li {
-    font-size: 1.0em; /* Ajusta el tamaño según sea necesario */
+    font-size: 0.5rem; /* Ajusta el tamaño según sea necesario */
   }
+  
 }
 
 /* For medium devices */

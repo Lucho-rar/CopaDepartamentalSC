@@ -27,6 +27,7 @@ Code written by:
 /*=============== HEADER & NAV ===============*/
 
 body {
+   
     min-height: 100vh;
     /*background-color:#006b21;*/
     background: url(assets/img/bg.jpg) center / cover;
@@ -444,6 +445,8 @@ h1{
         max-height: calc(100vh - 1.6rem); /* Ocupa el 100% del alto de la pantalla, ajusta según sea necesario */
         overflow-x: auto; /* Permitir desplazamiento horizontal si es necesario */
     }
+
+    
 
     table,
     th,
