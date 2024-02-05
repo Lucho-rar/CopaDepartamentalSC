@@ -27,32 +27,33 @@ function traerDatos(){
     }
 }
 
-function traerDatos2(){
+function traerDatos2() {
     const xh = new XMLHttpRequest();
-    xh.open('GET','fase2.json',true);
+    xh.open('GET', 'fase2.json', true);
     xh.send();
-    xh.onreadystatechange = function(){
-        if(this.readyState == 4 && this.status==200){
-            //console.log(this.responseText);
+    xh.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
             let datos = JSON.parse(this.responseText);
-            //console.log(datos);
             let res = document.querySelector('#res');
-            res.innerHTML= '';
-            for(let item of datos){
-               // console.log(item.local);
-               res.innerHTML += `
-               <tr>
-                <td><img src="assets/minis/${item.imagenlocal}" alt="Imagen">${item.local}</td>
-                <td>${item.glocal}</td>
-                <td>${item.gvisitante}</td>
-                <td><img src="assets/minis/${item.imagenvisita}" alt="Imagen">${item.visitante}</td>
-                <td>${item.fecha}</td>
-                <td>${item.estado}</td>
-                <td></td>
-                
-                </tr>
-               `
-
+            res.innerHTML = '';
+            for (let item of datos) {
+                res.innerHTML += `
+                    <tr>
+                        <td>
+                            <img src="assets/minis/${item.imagenlocal}" alt="Imagen" class="table-image">
+                            ${item.local}
+                        </td>
+                        <td>${item.glocal}</td>
+                        <td>${item.gvisitante}</td>
+                        <td>
+                            <img src="assets/minis/${item.imagenvisita}" alt="Imagen" class="table-image">
+                            ${item.visitante}
+                        </td>
+                        <td>${item.fecha}</td>
+                        <td>${item.estado}</td>
+                        <td></td>
+                    </tr>
+                `;
             }
         }
     }

@@ -39,7 +39,7 @@ body {
   font-size: var(--normal-font-size);
   font-weight: 500;
   color: var(--text-color);
-  background-color: #a5ffac;
+  background-color: var(--first-color);
 }
 
 ul {
@@ -118,7 +118,22 @@ img {
     border-radius: 0 0 1.5rem 1.5rem;
     box-shadow: 0 2px 4px hsla(38, 4%, 15%, .15);
     transition: .4s;
+    z-index: 2; /* Asegura que el menú de navegación esté sobre el contenido de la sección home */
   }
+  
+  .home {
+    background-color: var(--first-color);
+    padding: 9rem 0 2rem;
+    height: 100vh;
+    display: grid;
+    position: relative;
+    z-index: 1; /* Asegura que la sección home esté detrás del menú de navegación */
+  }
+  
+  
+  
+
+  
 }
 
 .nav__list {

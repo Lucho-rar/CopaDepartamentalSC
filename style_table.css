@@ -432,25 +432,48 @@ h1{
 }
 
 @media screen and (min-width: 200px) and (max-width:767px){
+
+    body{
+        font-size: 0.8rem;
+    }
+    h1{
+        font-size: 1.2rem;
+    }
+
+    .btn{
+        font-size: 0.3rem;
+        padding: 2px 10px;
+        
+    }
+
     #customers_table{
         width: 100%;
     }
     .table {
-        width: 100%; /* Ocupa el 100% del ancho de la pantalla */
-        zoom: 0.8; /* Ajusta el valor de zoom según sea necesario */
+        width: 20%; /* Ocupa el 100% del ancho de la pantalla */
     }
 
     .table__body {
-        width: 100%;
-        max-height: calc(100vh - 1.6rem); /* Ocupa el 100% del alto de la pantalla, ajusta según sea necesario */
-        overflow-x: auto; /* Permitir desplazamiento horizontal si es necesario */
+        width: 95%;
+        max-height: calc(89% - 1.6rem);
+        background-color: #fffb;
+        margin: 0.9rem auto;
+        border-radius: .6rem;
+        overflow: auto;
+        overflow-x: auto; /* Mantener el desplazamiento horizontal */
+        overflow-y: auto; /* Deshabilitar el desplazamiento vertical cuando no es necesario */
     }
-
+    .table-image {
+        max-width: 10px; /* Ajusta el valor según sea necesario */
+        max-height: 10px; /* Ajusta el valor según sea necesario */
+        border-radius: 50%; /* O cualquier otra forma de borde que desees */
+    }
     
 
     table,
     th,
     td {
+        font-size: 0.5rem;
         padding: 0.4rem; /* Ajusta el espaciado interno según sea necesario */
     }
 
@@ -458,6 +481,8 @@ h1{
     tbody td:first-child {
         width: auto;
     }
+
+    
 
     tbody th:nth-child(2),
     tbody td:nth-child(2),
