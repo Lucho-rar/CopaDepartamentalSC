@@ -2,6 +2,9 @@ console.log('correcto');
 document.querySelector('#fase1').addEventListener('click',traerDatos2);
 document.querySelector('#fase2').addEventListener('click',traerDatos2);
 
+
+window.jsPDF = window.jspdf.jsPDF;
+
 function traerDatos(){
     const xh = new XMLHttpRequest();
     xh.open('GET','prueba.json',true);
@@ -65,3 +68,22 @@ function scrollTop(sectionId){
     section.scrollIntoView({behavior: 'smooth'});
 }
 
+function exportarPDF() {
+    const pdf = new jsPDF();  // Utiliza jsPDF directamente
+
+    // Agregar encabezado
+    pdf.text('Fixture', 20, 10);
+
+    // Configurar opciones de la tabla
+    const options = {
+        startY: 20,
+    };
+
+    // Agregar contenido de la tabla
+    pdf.autoTable({ html: '#customers_table', options });  // Utiliza '#customers_table'
+
+    // Guardar o visualizar el PDF
+    pdf.save('fixture.pdf'); // Guardar como 'fixture.pdf'
+    // O puedes usar pdf.output('dataurlnewwindow'); para abrir en una nueva ventana
+}
+document.getElementById('toPDF').addEventListener('click', exportarPDF);

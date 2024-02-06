@@ -431,11 +431,76 @@ h1{
     width: 100%;
 }
 
+@media screen and (min-width:769px) {
+    
+    h1{
+        font-size: 2.9rem;
+    }
+
+    .btn{
+        font-size: 0.8rem;
+        padding: 4px 12px;
+        
+    }
+
+    #customers_table{
+        width: 100%;
+    }
+    .table {
+        width: 20%; /* Ocupa el 100% del ancho de la pantalla */
+    }
+
+    .table__body {
+        width: 95%;
+        max-height: calc(89% - 1.6rem);
+        background-color: #fffb;
+        margin: 0.9rem auto;
+        border-radius: .6rem;
+        overflow: auto;
+        overflow-x: auto; /* Mantener el desplazamiento horizontal */
+        overflow-y: auto; /* Deshabilitar el desplazamiento vertical cuando no es necesario */
+    }
+    .table-image {
+        max-width: 10px; /* Ajusta el valor según sea necesario */
+        max-height: 10px; /* Ajusta el valor según sea necesario */
+        border-radius: 50%; /* O cualquier otra forma de borde que desees */
+    }
+    
+    
+    table,
+    th,
+    td {
+        font-size: 0.9rem;
+        padding: 0.6rem; /* Ajusta el espaciado interno según sea necesario */
+    }
+
+    thead th,
+    tbody td:first-child {
+        width: 50px;
+    }
+    tbody tr td {
+        height: 50px; /* Ajusta la altura deseada para todas las filas */
+    }
+
+    thead th:nth-child(2),
+    tbody td:nth-child(2),
+    thead th:nth-child(3),
+    tbody td:nth-child(3){
+        width:2px;
+        text-align: center;
+    }
+    thead th:nth-child(4),
+    tbody td:nth-child(4),
+    thead th:nth-child(5),
+    tbody td:nth-child(5) {
+        width: 50px;
+    }
+    
+}
+
 @media screen and (min-width: 200px) and (max-width:767px){
 
-    body{
-        font-size: 0.8rem;
-    }
+    
     h1{
         font-size: 1.2rem;
     }
