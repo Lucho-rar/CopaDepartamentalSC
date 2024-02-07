@@ -45,18 +45,15 @@ const btnUp = document.querySelector('#btn-up')
 
 if(btnUp){
     
-    window.addEventListener('scroll', function (e){
-        var doc = document.documentElement;
-        var left = doc.scrollLeft - (doc.clientLeft || 0);
-        var top = doc.scrollTop  - (doc.clientTop || 0);
+    function toggleBtnUp (){
+        const doc = document.documentElement;
+        const top = doc.scrollTop  - (doc.clientTop || 0);
 
-        
-        if(top < 600){
-            btnUp.style.display = 'none'
-        } else {
-            btnUp.style.display = 'inline-block';
-        }
-    })
+        btnUp.style.display = top < 600 ? 'none' : 'inline-block'
+    }
+
+    toggleBtnUp()
+    window.addEventListener('scroll', toggleBtnUp)
 
     btnUp.addEventListener('click', function (){
         window.scrollTo({ 
