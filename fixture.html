@@ -28,26 +28,38 @@ Code written by:
 
      <main class="table" id="customers_table">
          <section class="table__header">
-             <h1>Fixture</h1>
-             <div class="export__file">
-                 <label for="export-file" class="export__file-btn" title="Export File"></label>
-                 <input type="checkbox" id="export-file">
-                 <div class="export__file-options">
-                     <label>Export As &nbsp; &#10140;</label>
-                     <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
-                     <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
-                     <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
-                     <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
-                 </div>
-             </div>
+            <h1>
+                 <svg width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 2h5v4h-5z" /><path d="M15 10h5v4h-5z" /><path d="M5 18h5v4h-5z" /><path d="M5 10h5v4h-5z" /><path d="M10 12h5" /><path d="M7.5 6v4" /><path d="M7.5 14v4" /></svg>
+
+                Fixture
+                 
+            </h1>
+            <div class="export__file">
+                <label for="export-file" class="export__file-btn" title="Export File">
+                <svg width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M11.5 21h-4.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v5m-5 6h7m-3 -3l3 3l-3 3" /></svg>
+                </label>
+                <input type="checkbox" id="export-file">
+                <div class="export__file-options">
+                    <label>Export As &nbsp; &#10140;</label>
+                    <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                    <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                    <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                    <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                </div>
+            </div>
          </section>
+
+         <div class="fases_eliminatorias">
+             <button type="button" class="btn" id="fase1">Fase 1 IDA</button>
+             <button type="button" class="btn" id="fase2">Fase 1 VUELTA</button>
+             <button type="button" class="btn" id="fase2">Fase 2</button>
+             <button type="button" class="btn" id="fase2">Fase 3</button>
+             <button type="button" class="btn" id="fase2">SEMIFINALES</button>
+             <button type="button" class="btn" id="fase2">FINAL Y 3ER PUESTO</button>
+         </div>
+         
          <section class="table__body">
-            <button class="btn" id="fase1">Fase 1 IDA</button>
-            <button class="btn" id="fase2">Fase 1 VUELTA</button>
-            <button class="btn" id="fase2">Fase 2</button>
-            <button class="btn" id="fase2">Fase 3</button>
-            <button class="btn" id="fase2">SEMIFINALES</button>
-            <button class="btn" id="fase2">FINAL Y 3ER PUESTO</button>
+
              <table cellspacing="0">
                  <thead>
                      <tr>
@@ -72,6 +84,7 @@ Code written by:
     
  
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+     
      <script src="ajax.js"></script>
  
  </body>

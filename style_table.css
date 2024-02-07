@@ -29,8 +29,9 @@ Code written by:
 body {
    
     min-height: 100vh;
+    background-color:#379044;
     /*background-color:#006b21;*/
-    background: url(assets/img/bg.jpg) center / cover;
+    /* background: url(assets/img/bg.jpg) center / cover; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,21 +57,20 @@ ul{
 
 main.table {
     width: 82vw;
-    height: 90vh;
-    background-color: #fff5;
+    /* height: 90vh; */
+    /* background-color: #fff5; */
+    /* backdrop-filter: blur(7px); */
+    /* box-shadow: 0 .4rem .8rem #0005; */
 
-    backdrop-filter: blur(7px);
-    box-shadow: 0 .4rem .8rem #0005;
-    border-radius: .8rem;
-
-    overflow: hidden;
+    /* border-radius: .8rem; */
+    /* overflow: hidden; */
 }
 
 .table__header {
     width: 100%;
-    height: 10%;
-    background-color: #fff4;
-    padding: .8rem 1rem;
+    /* height: 10%; */
+    /* background-color: #fff4; */
+    padding: 1rem 0;
 
     display: flex;
     justify-content: space-between;
@@ -111,15 +111,20 @@ main.table {
 }
 
 .table__body {
-    width: 95%;
-    max-height: calc(89% - 1.6rem);
-    background-color: #fffb;
+    /* width: 95%;
+    max-height: calc(89% - 1.6rem); */
+    /* background-color: #fffb; */
 
-    margin: 0.9rem auto;
-    border-radius: .6rem;
+    /* margin: 0.9rem auto; */
+    /* border-radius: .6rem; */
 
     overflow: auto;
     overflow: overlay;
+}
+
+.fases_eliminatorias {
+    padding: 1rem 0;
+    margin: 1rem 0;
 }
 
 
@@ -144,8 +149,13 @@ table {
 }
 
 td img {
-    width: 36px;
-    height: 36px;
+    width: 14px !important;
+    height: 14px !important;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+    /* width: 36px;
+    height: 36px; */
     margin-right: .5rem;
     border-radius: 50%;
 
@@ -162,19 +172,24 @@ thead th {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: #d5d1defe;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
     cursor: pointer;
     text-transform: capitalize;
 }
 
 tbody tr:nth-child(even) {
-    background-color: #0000000b;
+    /* background-color: #0000000b; */
+    background-color: #f1f1f2fe;
     
 }
 
 tbody tr {
-    --delay: .1s;
-    transition: .5s ease-in-out var(--delay), background-color 0s;
+    background-color: #fff;
+    
+    /* --delay: .1s; */
+    /* transition: .5s ease-in-out var(--delay), background-color 0s; */
 }
 
 tbody tr.hide {
@@ -183,7 +198,8 @@ tbody tr.hide {
 }
 
 tbody tr:hover {
-    background-color: #fff6 !important;
+    /* background-color: #fff6 !important; */
+    /* background-color: #fff6 !important; */
 }
 
 thead th:first-child,
@@ -208,7 +224,7 @@ tbody th:nth-child(5),
 tbody td:nth-child(5){
     width: 100px;
 }
-tbody td:nth-child(2){
+/* tbody td:nth-child(2){
     border-right: 1px solid #000000;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
@@ -219,7 +235,7 @@ tbody td:nth-child(3){
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     border-left: 1px solid #000000;
-}
+} */
 tbody tr td,
 tbody tr td p,
 tbody tr td img {
@@ -290,9 +306,9 @@ thead th:hover span.icon-arrow{
     border: 1.4px solid #6c00bd;
 }
 
-thead th:hover {
+/* thead th:hover {
     color: #6c00bd;
-}
+} */
 
 thead th.active span.icon-arrow{
     background-color: #6c00bd;
@@ -313,16 +329,18 @@ thead th.active,tbody td.active {
 }
 
 .export__file .export__file-btn {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 2rem;
     height: 2rem;
-    background: #fff6 url(images/export.png) center / 80% no-repeat;
-    border-radius: 50%;
+    /* background: #fff6 url(images/export.png) center / 80% no-repeat; */
+    border-radius: .5rem;
     transition: .2s ease-in-out;
+    background-color: #fff;
 }
 
 .export__file .export__file-btn:hover { 
-    background-color: #fff;
     transform: scale(1.15);
     cursor: pointer;
 }
@@ -340,18 +358,20 @@ thead th.active,tbody td.active {
     overflow: hidden;
     text-align: center;
 
-    opacity: 0;
+    /* opacity: 0; */
     transform: scale(.8);
     transform-origin: top right;
     
     box-shadow: 0 .2rem .5rem #0004;
     
     transition: .2s;
+    display: none;
 }
 
 .export__file input:checked + .export__file-options {
-    opacity: 1;
-    transform: scale(1);
+    /* opacity: 1; */
+    /* transform: scale(1); */
+    display: block;
     z-index: 100;
 }
 
@@ -386,34 +406,40 @@ thead th.active,tbody td.active {
 
 h1{
     color: white;
-    font-size: 65px;
+    /* font-size: 65px; */
 }
 
 .btn{
     
     position: relative;
     display: inline-block;
-    font-size: 1.2em;
+    font-size: .8rem;
     letter-spacing: .1em;
-    color: rgb(28, 137, 51);
+    margin-bottom: 5px;
+    /* color: rgb(28, 137, 51); */
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    border: 2px solid rgb(28, 137, 51);
+    background-color: hsl(129, 45%, 39%);
+    /* border: 2px solid rgb(28, 137, 51); */
+    border: 2px solid currentColor;
+    border-radius: .3rem;
     padding: 8px 27px;
     z-index: 1;
     overflow: hidden;
     transition: color 1s, box-shadow 1s;
+    cursor: pointer;
 }
 
 .btn:hover {
     transition-delay: 0s, 1s;
     color: #fff;
-    box-shadow:
+    /* box-shadow:
         0 0 10px hsl(129, 45%, 39%),
         0 0 20px hsl(129, 45%, 39%),
         0 0 40px hsl(129, 45%, 39%),
         0 0 80px hsl(129, 45%, 39%),
-        0 0 160px hsl(129, 45%, 39%);
+        0 0 160px hsl(129, 45%, 39%); */
 }
 .btn:before {
     content: '';
@@ -422,7 +448,8 @@ h1{
     left: -50px;
     width: 0;
     height: 100%;
-    background: hsl(129, 45%, 39%);
+    /* background: hsl(129, 45%, 39%); */
+    background: hsl(129, 48%, 34%);
     transform: skewX(35deg);
     z-index: -1;
     transition: 1s;
@@ -438,33 +465,42 @@ h1{
     }
 
     .btn{
-        font-size: 0.8rem;
+        font-size: .8rem;
         padding: 4px 12px;
+    }
+
+    /* #customers_table{
+        width: 100%;
+    } */
+    .table {
+        width: 20%; /* Ocupa el 100% del ancho de la pantalla */
         
     }
 
-    #customers_table{
-        width: 100%;
-    }
-    .table {
-        width: 20%; /* Ocupa el 100% del ancho de la pantalla */
+    .table__body {
+        /* width: 95%; */
+        /* max-height: calc(89% - 1.6rem); */
+        /* background-color: #fffb; */
+        /* margin: 0.9rem auto; */
+                
+        /* Mantener el desplazamiento horizontal */
+        /* Deshabilitar el desplazamiento vertical cuando no es necesario */
+        /* overflow: auto; */
     }
 
-    .table__body {
-        width: 95%;
-        max-height: calc(89% - 1.6rem);
-        background-color: #fffb;
-        margin: 0.9rem auto;
-        border-radius: .6rem;
-        overflow: auto;
-        overflow-x: auto; /* Mantener el desplazamiento horizontal */
-        overflow-y: auto; /* Deshabilitar el desplazamiento vertical cuando no es necesario */
+    .table__body table {
+        border-radius: .5rem;
+        overflow: hidden;
     }
-    .table-image {
-        max-width: 10px; /* Ajusta el valor según sea necesario */
-        max-height: 10px; /* Ajusta el valor según sea necesario */
-        border-radius: 50%; /* O cualquier otra forma de borde que desees */
-    }
+
+    /* .table-image { */
+        /* Ajusta el valor según sea necesario */
+        /* max-width: 10px;  */
+        /* Ajusta el valor según sea necesario */
+        /* max-height: 10px;  */
+        /* O cualquier otra forma de borde que desees */
+        /* border-radius: 50%;  */
+    /* } */
     
     
     table,
@@ -502,26 +538,29 @@ h1{
 
     
     h1{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
+        display: flex;
+        gap: 1rem;
     }
 
     .btn{
-        font-size: 0.3rem;
+        font-size: 1rem;
         padding: 2px 10px;
         
     }
 
-    #customers_table{
+    /* #customers_table{
         width: 100%;
-    }
+    } */
+
     .table {
         width: 20%; /* Ocupa el 100% del ancho de la pantalla */
     }
 
     .table__body {
-        width: 95%;
-        max-height: calc(89% - 1.6rem);
-        background-color: #fffb;
+        /* width: 95%;
+        max-height: calc(89% - 1.6rem); */
+        /* background-color: #fffb; */
         margin: 0.9rem auto;
         border-radius: .6rem;
         overflow: auto;
@@ -538,7 +577,8 @@ h1{
     table,
     th,
     td {
-        font-size: 0.5rem;
+        font-size: 1rem;
+        /* font-size: 0.5rem; */
         padding: 0.4rem; /* Ajusta el espaciado interno según sea necesario */
     }
 

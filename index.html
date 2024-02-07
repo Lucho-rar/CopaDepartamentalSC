@@ -29,10 +29,10 @@
                             <a href="#" class="nav__link">Estadisticas</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#equipos_seccion" onclick="scrollToSection('#equipos_seccion')" class="nav__link">Equipos</a>
+                            <a href="#equipos_seccion" class="nav__link">Equipos</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Reglamento</a>
+                            <a href="#reglamento" class="nav__link">Reglamento</a>
                         </li>
                         
                     </ul>
@@ -44,7 +44,9 @@
 
                 <!-- Toggle button -->
                 <div class="nav__toggle" id="nav-toggle">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAGZJREFUSEvtlrENACAMw8pnnMZpfAYTC1W3CDOEA2JhUpUW0GkQNwx+Zt6qj+ohdp7yKtVLDE6c78DiC+c4t/o46WLX8877rlzYOGGqxU/scYryB4KVCwNja9GtlhvwWpQrrQIx1Rt3TwofeC3yFwAAAABJRU5ErkJggg=="/>
+                    <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAGZJREFUSEvtlrENACAMw8pnnMZpfAYTC1W3CDOEA2JhUpUW0GkQNwx+Zt6qj+ohdp7yKtVLDE6c78DiC+c4t/o46WLX8877rlzYOGGqxU/scYryB4KVCwNja9GtlhvwWpQrrQIx1Rt3TwofeC3yFwAAAABJRU5ErkJggg=="/> -->
+
+                    <svg width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>
                 </div>
             </nav>
         </header>
@@ -148,7 +150,7 @@
                     </div>
                 </div>
             </section>
-            <section class="reglas">
+            <section class="reglas" id="reglamento">
                 <div class="wrapper">
                     <img id="trofeo" src="assets/img/trofeo.png" alt="">
                     <div class="text-box">
@@ -170,6 +172,12 @@
                 
             
         </main>
+
+        <button class="btn-up" id="btn-up" >
+
+            <svg width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 5l0 14" /><path d="M18 11l-6 -6" /><path d="M6 11l6 -6" /></svg>
+        </button>
+        
 
         <script>
             function scrollToSection(sectionId) {

@@ -40,3 +40,30 @@ const sr = ScrollReveal({
 sr.reveal(`.home__data`, {origin: 'top', delay: 400})
 sr.reveal(`.home__img`, {origin: 'bottom', delay: 600})
 sr.reveal(`.home__footer`, {origin: 'bottom', delay: 800})
+
+const btnUp = document.querySelector('#btn-up')
+
+if(btnUp){
+    
+    window.addEventListener('scroll', function (e){
+        var doc = document.documentElement;
+        var left = doc.scrollLeft - (doc.clientLeft || 0);
+        var top = doc.scrollTop  - (doc.clientTop || 0);
+
+        
+        if(top < 600){
+            btnUp.style.display = 'none'
+        } else {
+            btnUp.style.display = 'inline-block';
+        }
+    })
+
+    btnUp.addEventListener('click', function (){
+        window.scrollTo({ 
+            behavior: "smooth",
+            top: -document.documentElement.scrollHeight
+        })
+    })
+
+
+}

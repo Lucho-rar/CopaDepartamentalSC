@@ -1,4 +1,5 @@
-console.log('correcto');
+window.addEventListener('load', function (){
+    console.log('correcto');
 document.querySelector('#fase1').addEventListener('click',traerDatos2);
 document.querySelector('#fase2').addEventListener('click',traerDatos2);
 
@@ -29,6 +30,8 @@ function traerDatos(){
         }
     }
 }
+
+traerDatos2()
 
 function traerDatos2() {
     const xh = new XMLHttpRequest();
@@ -87,3 +90,5 @@ function exportarPDF() {
     // O puedes usar pdf.output('dataurlnewwindow'); para abrir en una nueva ventana
 }
 document.getElementById('toPDF').addEventListener('click', exportarPDF);
+
+})
