@@ -4,7 +4,7 @@ document.querySelector('#fase1').addEventListener('click',traerDatos2);
 document.querySelector('#fase2').addEventListener('click',traerDatos2);
 
 
-window.jsPDF = window.jspdf.jsPDF;
+window.jsPDF = window?.jspdf?.jsPDF;
 
 function traerDatos(){
     const xh = new XMLHttpRequest();

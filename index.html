@@ -7,6 +7,7 @@
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
         <link rel="icon" href="assets/img/logo.png" type="image/x-icon">        
         <link rel="stylesheet" href="assets/css/equipos_style.css">
+
         <title>Copa Departamental SC</title>
     </head>
     <body>
@@ -22,18 +23,22 @@
                         <li class="nav__item">
                             <a href="#" class="nav__link">Home</a>
                         </li>
-                        <li class="nav__item">
-                            <a href="fixture.html" class="nav__link">Fixture</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Estadisticas</a>
-                        </li>
+
                         <li class="nav__item">
                             <a href="#equipos_seccion" class="nav__link">Equipos</a>
                         </li>
+
                         <li class="nav__item">
                             <a href="#reglamento" class="nav__link">Reglamento</a>
                         </li>
+
+                        <li class="nav__item">
+                            <a href="#fixture_seccion" class="nav__link">Fixture</a>
+                        </li>
+
+                        <!-- <li class="nav__item">
+                            <a href="#" class="nav__link">Estadisticas</a>
+                        </li> -->
                         
                     </ul>
 
@@ -62,7 +67,7 @@
                         <p class="home__description">
                             Estadísticas y partidos del torneo. <br> Si desea colaborar con la información, comuníquese.
                         </p>
-                        <a href="fixture.html" class="home__button">
+                        <a href="#fixture_seccion" class="home__button">
                             Ver Fixture
                         </a>
                     </div>
@@ -73,6 +78,7 @@
                     </div>
                 </div>
             </section>
+
             <section class="tabla" id="equipos_seccion">
                 
                 <div class="card">
@@ -150,6 +156,7 @@
                     </div>
                 </div>
             </section>
+
             <section class="reglas" id="reglamento">
                 <div class="wrapper">
                     <img id="trofeo" src="assets/img/trofeo.png" alt="">
@@ -168,9 +175,62 @@
                 </div>
             </section>
 
-            
+            <section class="fixture" id="fixture_seccion">
                 
-            
+                <header class="table__header">
+                    <h2>
+                         <svg width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 2h5v4h-5z" /><path d="M15 10h5v4h-5z" /><path d="M5 18h5v4h-5z" /><path d="M5 10h5v4h-5z" /><path d="M10 12h5" /><path d="M7.5 6v4" /><path d="M7.5 14v4" /></svg>
+        
+                        Fixture
+                    </h2>
+
+                    <div class="export__file">
+                        <label for="export-file" class="export__file-btn" title="Export File">
+                        <svg width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M11.5 21h-4.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v5m-5 6h7m-3 -3l3 3l-3 3" /></svg>
+                        </label>
+                        <input type="checkbox" id="export-file">
+                        <div class="export__file-options">
+                            <label>Export As &nbsp; &#10140;</label>
+                            <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                            <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                            <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                            <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                        </div>
+                    </div>
+                 </header>
+        
+                 <div class="fases_eliminatorias">
+                     <button type="button" class="btn" id="fase1">Fase 1 IDA</button>
+                     <button type="button" class="btn" id="fase2">Fase 1 VUELTA</button>
+                     <button type="button" class="btn" id="fase2">Fase 2</button>
+                     <button type="button" class="btn" id="fase2">Fase 3</button>
+                     <button type="button" class="btn" id="fase2">SEMIFINALES</button>
+                     <button type="button" class="btn" id="fase2">FINAL Y 3ER PUESTO</button>
+                 </div>
+                 
+                 <section class="table_fixture">
+        
+                     <table cellspacing="0">
+                         <thead>
+                             <tr>
+                                 <th> Local </th>
+                                 <th></th>
+                                 <th></th>
+                                 <th> Visita </th>
+                                 <th> Fecha </th>
+                                 <th> Estado </th>
+                                 <th> Info </th>
+                             </tr>
+                         </thead>
+                         <tbody id="res">
+                            
+                         </tbody>
+                     </table>
+                 </section>
+
+            </section>
+
+
         </main>
 
         <button class="btn-up" id="btn-up" >
@@ -186,8 +246,8 @@
             }
         </script>
     
-        
         <script src="ajax.js"></script>
+        
         <!--=============== SCROLLREVEAL ===============-->
         <script src="assets/js/scrollreveal.min.js"></script>
 
@@ -202,6 +262,7 @@
         <!-- DATATABLES -->
         <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js">
         </script>
+
 
         
     </body>
