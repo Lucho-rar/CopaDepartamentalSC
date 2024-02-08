@@ -35,7 +35,7 @@ traerDatos2()
 
 function traerDatos2() {
     const xh = new XMLHttpRequest();
-    xh.open('GET', 'fase2.json', true);
+    xh.open('GET', '/data/fase1.json', true);
     xh.send();
     xh.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
