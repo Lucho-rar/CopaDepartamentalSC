@@ -46,9 +46,11 @@ html {
   scroll-behavior: smooth;
 }
 
-ul {
+.nav__list {
   list-style: none;
 }
+
+
 
 a {
   text-decoration: none;
@@ -128,9 +130,9 @@ img {
   
   .home {
     background-color: var(--first-color);
-    padding: 9rem 0 2rem;
-    height: 100vh;
-    display: grid;
+    /* padding: 9rem 0 2rem; */
+    /* height: 100vh; */
+    /* display: grid; */
     position: relative;
     z-index: 1; /* Asegura que la sección home esté detrás del menú de navegación */
   }
@@ -171,7 +173,9 @@ img {
   background-color: var(--first-color);
   padding: 9rem 0 2rem;
   min-height: 100vh;
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home__container {
@@ -316,6 +320,17 @@ img {
 .texto_reglas h2{
   margin-bottom: 25px;
 }
+
+.reglas ul {
+  margin-left: 1rem;
+  list-style-type: circle;
+}
+
+.reglas ul li::marker {
+  font-size: 1rem;
+  vertical-align: baseline;
+}
+
 /* Animate ghost */
 @keyframes floaty {
   0% {
@@ -378,14 +393,16 @@ img {
   align-items: center;
 }
 
-.fixture .table__header {
-  font-size: calc(2vw + 1rem);
+.titulo_secciones {
+  font-size: calc(2vw + 1rem) !important;
+  /* margin: 1rem 0 !important; */
+  padding: 0;
 }
 
 .export__file {
   position: relative;
   color: #000;
-  font-size: .9rem;
+  font-size: .8rem;
 }
 
 .export__file .export__file-btn {
@@ -437,21 +454,24 @@ img {
 }
 
 .export__file .export__file-options label{
-  display: block;
+  /* display: block; */
   width: 100%;
-  padding: .6rem 0;
+  padding: .6rem;
   background-color: #f2f2f2;
   
   display: flex;
-  justify-content: space-around;
+  gap: 5px;
+  /* justify-content: space-around; */
+
   align-items: center;
 
   transition: .2s ease-in-out;
 }
 
 .export__file .export__file-options label:first-of-type{
-  padding: 1rem 0;
-  text-align: left;
+  /* padding: 1rem 0;
+  text-align: left; */
+  padding: 1rem;
   background-color: #cffad9 !important;
 }
 
@@ -461,13 +481,14 @@ img {
   cursor: pointer;
 }
 
-.export__file .export__file-options img{
+/* .export__file .export__file-options img{
   width: 2rem;
   height: auto;
-}
+} */
 
 .table_fixture {
   overflow-x: auto;
+  margin-bottom: 2rem;
 }
 
 .table_fixture::-webkit-scrollbar{
@@ -592,7 +613,7 @@ img {
 @media screen and (min-width: 200px) and (max-width:767px){
   
   :root{
-    --biggest-font-size: 1.5rem;
+    --biggest-font-size: 2rem;
     --normal-font-size: 1.0rem;
     --smaller-font-size: .5rem;
   }
@@ -603,7 +624,8 @@ img {
     align-items: center;
   }
   .home__img img{
-    width: 0%;
+    /* width: 0%; */
+    width: 25%;
   }
   .tabla{
     display: flex;
@@ -658,14 +680,14 @@ img {
     
   }
  
-  #titulo_reglamento{
+  /* #titulo_reglamento{ */
     /* font-size: var(--normal-font-size);
     padding-bottom: 30px;
     padding-top: 20px; */
-    margin: 1rem 0 !important;
+    /* margin: 1rem 0 !important;
     padding: 0;
-    font-size: 2rem; /* 1rem = 16 */
-  }
+    font-size: 2rem;  */
+  /* } */
 
 
   /* .text-box ul li {
@@ -678,6 +700,7 @@ img {
 
   .reglas .wrapper {
     display: block !important;
+    width: 80% !important;
   }
 
 
@@ -689,6 +712,19 @@ img {
     font-size: .7rem;
   }
   
+
+  .home__container {
+    row-gap: 1rem;
+  }
+
+  .home__img {
+    order: 1;
+  }
+  
+
+  .home__data {
+    order: 2;
+  }
 }
 
 /* For medium devices */

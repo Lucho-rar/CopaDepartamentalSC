@@ -56,11 +56,14 @@ let pageContent = function (data, titulo = '', subtitulo = '') {
     // headerCeldas[0].styles.halign = 'right';
   };
 
-function imprimirTabla(tablaId, subtitulo, configuracion_personalizada = {}, download = false){
-  const tablaHTML = document.getElementById(tablaId);
+function imprimirDescargarTabla({ download = false } = {}){
+  const tablaHTML = document.getElementById('tabla_fixture_impresion');
   const tablaJSON = doc.autoTableHtmlToJson(tablaHTML);
 
+  const subtitulo_fixture = 'Fixture y estadisticas';
+
   const configuracion = {
+    html: tablaHTML,
     theme: 'grid',
     headerStyles : {
       fillColor : [25, 135, 84],
@@ -69,22 +72,64 @@ function imprimirTabla(tablaId, subtitulo, configuracion_personalizada = {}, dow
       fillColor : [242, 250, 247]
     },
     addPageContent: function (data) {
-      pageContent(data, 'Copa Departamental San Cristóbal', subtitulo)
+      pageContent(data, 'Copa Departamental San Cristóbal', subtitulo_fixture)
     },
     // useCss: true,
     margin: { top: 20 },
-    ...configuracion_personalizada,
+    columnStyles: {
+      1: { 
+        halign: 'center',
+      },
+      2: {  
+        halign: 'center',
+      }
+    },
   }
  
   doc.autoTable(tablaJSON.columns, tablaJSON.data, configuracion);
+  
+  
+  // AGREGA TABLA ESTADISTICAS
+  const tablaEstadisticas = document.getElementById('tabla_estadisticas');
+  const tablaEstadisticasJSON = doc.autoTableHtmlToJson(tablaEstadisticas);
 
+  const subtitulo_estadisticas = '';
+
+  const finalY = doc.autoTable.previous.finalY;
+  const configuracion_estadisticas = {
+    theme: 'grid',
+    startY: finalY + 10,
+    headerStyles : {
+      fillColor : [25, 135, 84],
+    },
+    alternateRowStyles: {
+      fillColor : [242, 250, 247]
+    },
+    // addPageContent: function (data) {
+    //   pageContent(data, 'Estadisticas', subtitulo_estadisticas)
+    // },
+    // useCss: true,
+    // margin: { top: 20 },
+    // columnStyles: {
+    //   1: { 
+    //     halign: 'center',
+    //   },
+    //   2: {  
+    //     halign: 'center',
+    //   }
+    // },
+  }
+
+  doc.autoTable(tablaEstadisticasJSON.columns, tablaEstadisticasJSON.data, configuracion_estadisticas);
+
+  
   // if (typeof doc.putTotalPages === 'function') {
   //   doc.putTotalPages(totalPagesExp);
   // }
 
   if(download){
-    const nombre = subtitulo.trim() 
-        ? subtitulo.toLowerCase().split(' ').join('_') 
+    const nombre = subtitulo_fixture.trim() 
+        ? subtitulo_fixture.toLowerCase().split(' ').join('_') 
         : `copa_departamental_${Date.now()}`; 
 
     doc.save(`${nombre}.pdf`)
@@ -101,31 +146,29 @@ function imprimirTabla(tablaId, subtitulo, configuracion_personalizada = {}, dow
   
 }
 
-function imprimirTablaFixture (download){
+function imprimirTablaFixtureYStats (download){
   pdfConfig = pdfConfigHorizontal;
   doc = new jsPDF(pdfConfigHorizontal);
 
-  imprimirTabla(
-    'tabla_fixture_impresion',
-    'Fixture fase 1 ida',
-     {
-      columnStyles: {
-        1: { 
-          halign: 'center',
-        },
-        2: {  
-          halign: 'center',
-        }
-      },
-    },
-    download
-  )
-
+  imprimirDescargarTabla({ download })
 }
 
 function exportarCSV(filename) {
-  const wb = XLSX.utils.table_to_book(document.getElementById('tabla_fixture_impresion'));
-  XLSX.writeFileXLSX(wb, filename);
+  // const wb1 = XLSX.utils.table_to_book(document.getElementById('tabla_fixture_impresion'));
+  // const wb2 = XLSX.utils.table_to_book(document.getElementById('tabla_estadisticas'));
+
+  // XLSX.writeFileXLSX(wb1, wb2, filename);
+
+  const wb1 = XLSX.utils.table_to_book(document.getElementById('tabla_fixture_impresion'));
+  const wb2 = XLSX.utils.table_to_book(document.getElementById('tabla_estadisticas'));
+
+  // Fusionar las hojas de cálculo wb1 y wb2 en un solo workbook
+  const mergedWorkbook = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(mergedWorkbook, wb1.Sheets[wb1.SheetNames[0]], 'Partidos');
+  XLSX.utils.book_append_sheet(mergedWorkbook, wb2.Sheets[wb2.SheetNames[0]], 'Estadisticas');
+
+  // Escribir el archivo XLSX
+  XLSX.writeFile(mergedWorkbook, filename);
 }
 
 

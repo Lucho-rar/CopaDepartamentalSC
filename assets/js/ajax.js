@@ -3,7 +3,7 @@ window.addEventListener('load', function (){
 document.querySelector('#fase1').addEventListener('click',traerDatos2);
 document.querySelector('#fase2').addEventListener('click',traerDatos2);
 
-window.jsPDF = window?.jspdf?.jsPDF;
+// window.jsPDF = window?.jspdf?.jsPDF;
 
 let datosEquipos = {
     "UNION SAN GUILLERMO": {
@@ -169,7 +169,7 @@ function llenarStats() {
 }
 
 llenarStats()
-traerDatos2()
+
 function traerDatos2() {
     const xh = new XMLHttpRequest();
     xh.open('GET', 'data/fase1.json', true);
@@ -178,12 +178,14 @@ function traerDatos2() {
         if (this.readyState == 4 && this.status == 200) {
             let datos = JSON.parse(this.responseText);
             let res = document.querySelector('#res');
+            let res_impresion = document.querySelector('#res_impresion');
             res.innerHTML = '';
+            if(res_impresion !== null) res_impresion.innerHTML = '';
+            
             for (let item of datos) {
-                res.innerHTML += `
-                    <tr>
-                        <td>
-                            <img src="assets/minis/${item.imagenlocal}" alt="Imagen" class="table-image">
+                const celdasCompartidasHTML = `
+                    <td>
+                        <img src="assets/minis/${item.imagenlocal}" alt="Imagen" class="table-image">
                             ${item.local}
                         </td>
                         <td>${item.glocal}</td>
@@ -194,38 +196,47 @@ function traerDatos2() {
                         </td>
                         <td>${item.fecha}</td>
                         <td>${item.estado}</td>
+                `
+
+                res.innerHTML += `
+                    <tr>
+                        ${celdasCompartidasHTML}
                         <td></td>
                     </tr>
                 `;
+
+                if(res_impresion !== null) res_impresion.innerHTML += `<tr> ${celdasCompartidasHTML} </tr>`;    
             }
         }
     }
 }
 
+traerDatos2()
 
-function scrollTop(sectionId){
-    const section = document.querySelector(sectionId);
-    section.scrollIntoView({behavior: 'smooth'});
-}
 
-function exportarPDF() {
-    const pdf = new jsPDF();  // Utiliza jsPDF directamente
+// function scrollTop(sectionId){
+//     const section = document.querySelector(sectionId);
+//     section.scrollIntoView({behavior: 'smooth'});
+// }
 
-    // Agregar encabezado
-    pdf.text('Fixture', 20, 10);
+// function exportarPDF() {
+//     const pdf = new jsPDF();  // Utiliza jsPDF directamente
 
-    // Configurar opciones de la tabla
-    const options = {
-        startY: 20,
-    };
+//     // Agregar encabezado
+//     pdf.text('Fixture', 20, 10);
 
-    // Agregar contenido de la tabla
-    pdf.autoTable({ html: '#customers_table', options });  // Utiliza '#customers_table'
+//     // Configurar opciones de la tabla
+//     const options = {
+//         startY: 20,
+//     };
 
-    // Guardar o visualizar el PDF
-    pdf.save('fixture.pdf'); // Guardar como 'fixture.pdf'
-    // O puedes usar pdf.output('dataurlnewwindow'); para abrir en una nueva ventana
-}
-document.getElementById('toPDF').addEventListener('click', exportarPDF);
+//     // Agregar contenido de la tabla
+//     pdf.autoTable({ html: '#customers_table', options });  // Utiliza '#customers_table'
+
+//     // Guardar o visualizar el PDF
+//     pdf.save('fixture.pdf'); // Guardar como 'fixture.pdf'
+//     // O puedes usar pdf.output('dataurlnewwindow'); para abrir en una nueva ventana
+// }
+// document.getElementById('toPDF').addEventListener('click', exportarPDF);
 
 })
