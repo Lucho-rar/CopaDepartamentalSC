@@ -7,7 +7,7 @@
         "fecha" : "11/02/2024 - 21:00hs",
         "estado" : "Por jugar",
         "imagenlocal" : "ucyd.png",
-        "imagenvisita" : "sportivo.png"
+        "imagenvisita" : "sportivo.png" 
     },
     {
         "local": "JUNIORS SUARDI",
@@ -54,7 +54,7 @@
         "glocal": "-",
         "gvisitante": "-",
         "visitante": "CENTRAL ARG. OLÍMPICO",
-        "fecha" : "11/02/2024 - 21:00hs",
+        "fecha" : "11/02/2024",
         "estado" : "Por jugar",
         "imagenlocal" : "cacu.png",
         "imagenvisita" : "ccao.png"

@@ -352,6 +352,10 @@ img {
 
 }
 
+/* --------- STATS ------------ */
+
+
+
 /* ---------------- FIXTURE --------- */
 
 .fixture {
@@ -360,6 +364,8 @@ img {
   font-weight: 300;
   font-size: 1rem;
 }
+
+
 
 .fixture .table__header {
   width: 100%;
