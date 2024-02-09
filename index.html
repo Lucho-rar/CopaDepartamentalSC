@@ -230,6 +230,53 @@
 
             </section>
 
+            <section class="fixture" id="stats_seccion">
+                
+                <header class="table__header">
+                    <h2>
+                         <svg width="35" height="35" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 2h5v4h-5z" /><path d="M15 10h5v4h-5z" /><path d="M5 18h5v4h-5z" /><path d="M5 10h5v4h-5z" /><path d="M10 12h5" /><path d="M7.5 6v4" /><path d="M7.5 14v4" /></svg>
+        
+                        Estadisticas
+                    </h2>
+
+                    <div class="export__file">
+                        <label for="export-file" class="export__file-btn" title="Export File">
+                        <svg width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M11.5 21h-4.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v5m-5 6h7m-3 -3l3 3l-3 3" /></svg>
+                        </label>
+                        <input type="checkbox" id="export-file">
+                        <div class="export__file-options">
+                            <label>Export As &nbsp; &#10140;</label>
+                            <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                            <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                            <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                            <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                        </div>
+                    </div>
+                 </header>
+        
+                 <section class="table_fixture">
+                    
+                     <table cellspacing="0">
+                         <thead>
+                             <tr>
+                                 <th> Equipo </th>
+                                 <th> PJ </th>
+                                 <th> PG </th>
+                                 <th> PE  </th>
+                                 <th> PP </th>
+                                 <th> GF </th>
+                                 <th> GC </th>
+                                 <th> DF </th>
+                             </tr>
+                         </thead>
+                         <tbody id="res_stats">
+                            
+                         </tbody>
+                     </table>
+                 </section>
+
+            </section>
+
 
         </main>
 
@@ -262,7 +309,6 @@
         <!-- DATATABLES -->
         <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js">
         </script>
-
 
         
     </body>
