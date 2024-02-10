@@ -115,6 +115,16 @@ let datosEquipos = {
         pe: 0,
         pp: 0,
         path: "ccao.png"
+    },
+    "TIRO FEDERAL MOISES VILLE": {
+        nombre: "TIRO FEDERAL MOISES VILLE",
+        gf: 0,
+        gc: 0,
+        pj: 0,
+        pg: 0,
+        pe: 0,
+        pp: 0,
+        path: "tiro.png"
     }
 };
 
