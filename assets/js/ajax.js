@@ -128,15 +128,26 @@ function cargarStats() {
             if (this.readyState == 4 && this.status == 200) {
                 let datos = JSON.parse(this.responseText);
                 for (let item of datos) {
-                    if(item.glocal != "-") {    // si tiene el caracter no se jugó el partido aun
+                    if(item.glocal != "-" && datosEquipos[item.local]) {   
+                         // si tiene el caracter no se jugó el partido aun
                         datosEquipos[item.local].pj += 1;       //suma a ambos equipos el partido jugado
                         datosEquipos[item.visitante].pj += 1;
                         
-                        datosEquipos[item.local].gf += item.glocal;     //aumento gf del local y le sumo gc con los goles del visitante
-                        datosEquipos[item.local].gc += item.gvisitante;
+                        //aumento gf del local y le sumo gc con los goles del visitante 
+                        datosEquipos[item.local].gf += Number(item.glocal);
+                        datosEquipos[item.local].gc += Number(item.gvisitante);
                         
-                        datosEquipos[item.visitante].gf += item.gvisitante; // idem pero para visitante
-                        datosEquipos[item.visitante].gc += item.glocal;
+                        // idem pero para visitante
+                        datosEquipos[item.visitante].gf += Number(item.gvisitante); 
+                        datosEquipos[item.visitante].gc += Number(item.glocal);
+
+                        datosEquipos[item.visitante].pg += Number(item.gvisitante) > Number(item.glocal) ? 1 : 0; 
+                        datosEquipos[item.visitante].pp += Number(item.gvisitante) < Number(item.glocal) ? 1 : 0;
+                        datosEquipos[item.visitante].pe += Number(item.gvisitante) === Number(item.glocal) ? 1 : 0;
+                      
+                        datosEquipos[item.local].pg += Number(item.glocal) > Number(item.gvisitante) ? 1 : 0; 
+                        datosEquipos[item.local].pp += Number(item.glocal) < Number(item.gvisitante) ? 1 : 0;
+                        datosEquipos[item.local].pe += Number(item.glocal) === Number(item.gvisitante) ? 1 : 0;
                     }
                 }
                 resolve(); // Resuelve la promesa una vez que los datos están procesados
@@ -150,21 +161,48 @@ function llenarStats() {
         .then(() => {
             let res = document.querySelector('#res_stats');
             res.innerHTML = '';
-            for (let equipo in datosEquipos) {
-                console.log(datosEquipos[equipo].pj);
+            
+            const ordenadoPorPG = Object.entries(datosEquipos)
+                .sort((a,b)=> b[1].pp - a[1].pp) // de mayor a menor por partidos perdidos
+                .sort((a,b)=> b[1].pe - a[1].pe) // de mayor a menor por partidos empatadas
+                .sort((a,b)=> b[1].pg - a[1].pg) // de mayor a menor por partidos ganados
+                .sort((a,b)=> {
+                    const diffGolesB = b[1].gf - b[1].gc
+                    const diffGolesA = a[1].gf - a[1].gc
+                    return diffGolesB - diffGolesA
+                }) // de mayor a menor por diff de goles
+
+            for (let [_equipo, datosEquipos] of ordenadoPorPG) {
+                // console.log(datosEquipos[equipo].pj);
                 res.innerHTML += `
                     <tr>
-                        <td><img src="assets/minis/${datosEquipos[equipo].path}" alt="Imagen" class="table-image">${datosEquipos[equipo].nombre}</td>
-                        <td>${datosEquipos[equipo].pj}</td>
-                        <td>${datosEquipos[equipo].pg}</td>
-                        <td>${datosEquipos[equipo].pe}</td>
-                        <td>${datosEquipos[equipo].pp}</td>
-                        <td>${datosEquipos[equipo].gf}</td>
-                        <td>${datosEquipos[equipo].gc}</td>
-                        <td>${datosEquipos[equipo].gf - datosEquipos[equipo].gc}</td>
+                        <td><img src="assets/minis/${datosEquipos.path}" alt="Imagen" class="table-image">${datosEquipos.nombre}</td>
+                        <td>${datosEquipos.pj}</td>
+                        <td>${datosEquipos.pg}</td>
+                        <td>${datosEquipos.pe}</td>
+                        <td>${datosEquipos.pp}</td>
+                        <td>${datosEquipos.gf}</td>
+                        <td>${datosEquipos.gc}</td>
+                        <td>${datosEquipos.gf - datosEquipos.gc}</td>
                     </tr>
                 `;
             }
+
+            // for (let equipo in datosEquipos) {
+            //     // console.log(datosEquipos[equipo].pj);
+            //     res.innerHTML += `
+            //         <tr>
+            //             <td><img src="assets/minis/${datosEquipos[equipo].path}" alt="Imagen" class="table-image">${datosEquipos[equipo].nombre}</td>
+            //             <td>${datosEquipos[equipo].pj}</td>
+            //             <td>${datosEquipos[equipo].pg}</td>
+            //             <td>${datosEquipos[equipo].pe}</td>
+            //             <td>${datosEquipos[equipo].pp}</td>
+            //             <td>${datosEquipos[equipo].gf}</td>
+            //             <td>${datosEquipos[equipo].gc}</td>
+            //             <td>${datosEquipos[equipo].gf - datosEquipos[equipo].gc}</td>
+            //         </tr>
+            //     `;
+            // }
         });
 }
 
