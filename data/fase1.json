@@ -12,11 +12,11 @@
     },
     {
         "local": "JUNIORS SUARDI",
-        "glocal": "-",
-        "gvisitante": "-",
+        "glocal": 1,
+        "gvisitante": 1,
         "visitante": "ATL. LIBERTAD TRINIDAD",
         "fecha" : "11/02/2024 - 19:00hs",
-        "estado" : "Por jugar",
+        "estado" : "En juego",
         "imagenlocal" : "juniors.png",
         "imagenvisita" : "calt.png",
         "info" : "-"
