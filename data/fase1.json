@@ -23,8 +23,8 @@
     },
     {
         "local": "SAN LORENZO (A)",
-        "glocal": 0,
-        "gvisitante": 0,
+        "glocal": 2,
+        "gvisitante": 1,
         "visitante": "UNIÓN HERSILIA",
         "fecha" : "11/02/2024 - 17:30hs",
         "estado" : "En juego",
