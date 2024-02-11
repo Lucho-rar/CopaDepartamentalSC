@@ -7,7 +7,8 @@
         "fecha" : "11/02/2024 - 21:00hs",
         "estado" : "Por jugar",
         "imagenlocal" : "ucyd.png",
-        "imagenvisita" : "sportivo.png"
+        "imagenvisita" : "sportivo.png",
+        "info" : "-"
     },
     {
         "local": "JUNIORS SUARDI",
@@ -17,7 +18,8 @@
         "fecha" : "11/02/2024 - 19:00hs",
         "estado" : "Por jugar",
         "imagenlocal" : "juniors.png",
-        "imagenvisita" : "calt.png"
+        "imagenvisita" : "calt.png",
+        "info" : "-"
     },
     {
         "local": "SAN LORENZO (A)",
@@ -27,7 +29,8 @@
         "fecha" : "11/02/2024 - 17:30hs",
         "estado" : "Por jugar",
         "imagenlocal" : "ambro.png",
-        "imagenvisita" : "hersilia.png"
+        "imagenvisita" : "hersilia.png",
+        "info" : "-"
     },
     {
         "local": "UNION ARRUFO ",
@@ -37,7 +40,8 @@
         "fecha" : "10/02/2024 - 21:00hs",
         "estado" : "Finalizado",
         "imagenlocal" : "cuda.png",
-        "imagenvisita" : "tiro.png"
+        "imagenvisita" : "tiro.png",
+        "info" : "🟥 G. Acosta (2) TFMV;"
     },
     {
         "local": "FERRO DHO (SC) ",
@@ -47,7 +51,8 @@
         "fecha" : "11/02/2024 - 19:00hs",
         "estado" : "Por jugar",
         "imagenlocal" : "ferro.png",
-        "imagenvisita" : "indsc.png"
+        "imagenvisita" : "indsc.png",
+        "info" : "-"
     },
     {
         "local": "ATL. UNIÓN DE CERES",
@@ -57,7 +62,8 @@
         "fecha" : "11/02/2024 - 21:00hs",
         "estado" : "Por jugar",
         "imagenlocal" : "cacu.png",
-        "imagenvisita" : "ccao.png"
+        "imagenvisita" : "ccao.png",
+        "info" : "-"
     }
 
 ]

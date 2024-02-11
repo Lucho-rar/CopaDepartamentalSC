@@ -244,6 +244,7 @@ function traerDatos2() {
                         </td>
                         <td>${item.fecha}</td>
                         <td>${item.estado}</td>
+                        <td>${item.info}</td>
                 `
 
                 res.innerHTML += `
