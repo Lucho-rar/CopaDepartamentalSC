@@ -12,14 +12,14 @@
     },
     {
         "local": "JUNIORS SUARDI",
-        "glocal": 1,
+        "glocal": 2,
         "gvisitante": 1,
         "visitante": "ATL. LIBERTAD TRINIDAD",
         "fecha" : "11/02/2024 - 19:00hs",
-        "estado" : "En juego",
+        "estado" : "Finalizado",
         "imagenlocal" : "juniors.png",
         "imagenvisita" : "calt.png",
-        "info" : "⚽ Negri (ADJC); ⚽ Puebla (CALT);"
+        "info" : "⚽ Negri, Pineda(ADJC); ⚽ Puebla (CALT);"
     },
     {
         "local": "SAN LORENZO (A)",
@@ -45,11 +45,11 @@
     },
     {
         "local": "FERRO DHO (SC) ",
-        "glocal": "-",
-        "gvisitante": "-",
+        "glocal": 2,
+        "gvisitante": 1,
         "visitante": "INDEPENDIENTE (SC)",
         "fecha" : "11/02/2024 - 19:00hs",
-        "estado" : "Por jugar",
+        "estado" : "Finalizado",
         "imagenlocal" : "ferro.png",
         "imagenvisita" : "indsc.png",
         "info" : "-"
