@@ -1,11 +1,11 @@
 [
     {
         "local": "UNION SAN GUILLERMO",
-        "glocal": "-",
-        "gvisitante": "-",
+        "glocal": 0,
+        "gvisitante": 1,
         "visitante": "SPORTIVO SUARDI",
         "fecha" : "11/02/2024 - 21:00hs",
-        "estado" : "Por jugar",
+        "estado" : "En juego",
         "imagenlocal" : "ucyd.png",
         "imagenvisita" : "sportivo.png",
         "info" : "-"
