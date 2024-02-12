@@ -8,7 +8,7 @@
         "estado" : "Finalizado",
         "imagenlocal" : "ucyd.png",
         "imagenvisita" : "sportivo.png",
-        "info" : "⚽ Gottero, G. Krenz, Nuñez (SS); ⚽ Costamagna (USG)"
+        "info" : "⚽ T. Gottero, G. Krenz, J.Nuñez (SS); ⚽ M. Costamagna (USG)"
     },
     {
         "local": "JUNIORS SUARDI",
@@ -19,7 +19,7 @@
         "estado" : "Finalizado",
         "imagenlocal" : "juniors.png",
         "imagenvisita" : "calt.png",
-        "info" : "⚽ Negri, Pineda(ADJC); ⚽ Puebla (CALT);"
+        "info" : "⚽ J. Negri, B. Pineda, 🟥 L. Montiel (ADJC); ⚽ R. Puebla (CALT);"
     },
     {
         "local": "SAN LORENZO (A)",
@@ -30,7 +30,7 @@
         "estado" : "Finalizado",
         "imagenlocal" : "ambro.png",
         "imagenvisita" : "hersilia.png",
-        "info" : "⚽ Arevalo, Vianco, Pato (SLA); ⚽ Escalada (UH)"
+        "info" : "⚽ F. Arevalo, N. Vianco, J. Pato (SLA); ⚽ E. Escalada (UH)"
     },
     {
         "local": "UNION ARRUFO ",
@@ -41,7 +41,7 @@
         "estado" : "Finalizado",
         "imagenlocal" : "cuda.png",
         "imagenvisita" : "tiro.png",
-        "info" : "🟥 G. Acosta (2) TFMV;"
+        "info" : "🟥 G. Acosta (TFMV);"
     },
     {
         "local": "FERRO DHO (SC) ",
@@ -52,7 +52,7 @@
         "estado" : "Finalizado",
         "imagenlocal" : "ferro.png",
         "imagenvisita" : "indsc.png",
-        "info" : "⚽ T. Cardozo, L. Aldriaz (FD); ⚽ E. Gomez (ISC)"
+        "info" : "⚽ T. Cardozo, L. Aldriaz, 🟥 M. Loto, J. Fernández (FD); ⚽ E. Gomez, 🟥 E. Gomez (ISC)"
     },
     {
         "local": "ATL. UNIÓN DE CERES",
@@ -63,7 +63,7 @@
         "estado" : "Finalizado",
         "imagenlocal" : "cacu.png",
         "imagenvisita" : "ccao.png",
-        "info" : "⚽ Marchisioni, Yulka, Meternicht, 🟥 Meternicht (CCAO); ⚽ Benitez, 🟥 Guiroy (CACU)"
+        "info" : "⚽ N. Marchisio, B. Yulka, M. Meternicht, 🟥 M. Meternicht (CCAO); ⚽ M. Benitez, 🟥 E. Guiroy (CACU)"
     }
 
 ]
