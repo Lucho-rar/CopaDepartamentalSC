@@ -57,7 +57,7 @@
     {
         "local": "ATL. UNIÓN DE CERES",
         "glocal": 0,
-        "gvisitante": 0,
+        "gvisitante": 1,
         "visitante": "CENTRAL ARG. OLÍMPICO",
         "fecha" : "11/02/2024 - 21:00hs",
         "estado" : "En juego",
