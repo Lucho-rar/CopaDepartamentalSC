@@ -56,11 +56,11 @@
     },
     {
         "local": "ATL. UNIÓN DE CERES",
-        "glocal": "-",
-        "gvisitante": "-",
+        "glocal": 0,
+        "gvisitante": 0,
         "visitante": "CENTRAL ARG. OLÍMPICO",
         "fecha" : "11/02/2024 - 21:00hs",
-        "estado" : "Por jugar",
+        "estado" : "En juego",
         "imagenlocal" : "cacu.png",
         "imagenvisita" : "ccao.png",
         "info" : "-"
