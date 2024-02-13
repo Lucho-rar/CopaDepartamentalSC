@@ -1,6 +1,3 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
-
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -32,10 +29,10 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: var(--body-font);
 }
 
 body {
-  font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: 500;
   color: var(--text-color);
@@ -516,16 +513,12 @@ img {
 }
 
 .table_fixture  td img {
-  width: 14px !important;
-  height: 14px !important;
+  width: 15px !important;
+  height: 15px !important;
   aspect-ratio: 1/1;
-  object-fit: cover;
+  object-fit: contain;
 
-  /* width: 36px;
-  height: 36px; */
   margin-right: .5rem;
-  /* border-radius: 50%; */
-
   vertical-align: middle;
 }
 
@@ -548,7 +541,7 @@ img {
   text-transform: capitalize;
 }
 
-.table_fixture table tbody tr:nth-child(even) {
+#tabla_estadisticas tbody tr:nth-child(even) {
   /* background-color: #0000000b; */
   background-color: #f1f1f2fe;
 }
@@ -607,6 +600,77 @@ img {
 
 /* ---------------- FIXTURE --------- */
 
+  .text-center {
+    text-align: center !important;
+  }
+
+  .fw-bold {
+    font-weight: bold !important;
+  }
+  
+  /* TABLAS */
+  .cell-visible { display: inherit !important; }
+  .cell-hide { display: none !important; }
+
+  .celda-contexto {
+    background-color: lightyellow;
+    min-height: 30px;
+  }
+
+  /* tr.row-info,
+  tr.row-match {
+    display: table-row;
+  } */
+
+  tr.row-match td {
+    width: calc(100% / 4);
+    vertical-align: middle;
+  }
+
+  tr.row-info {
+    border-bottom: 1px solid rgb(243, 243, 243);
+  }
+  tr.row-info td {
+    width: calc(100% / 4);
+    vertical-align: middle;
+  }
+
+  .bg-pendiente {
+    background: #fee980 !important;
+    color: #1d1d1d !important;
+  }
+
+  .badge.bg-finalizado {
+    background: #ff8080;
+    color: #fff;
+  } 
+
+  .badge.bg-ahora {
+    background: #85fd97 !important;
+    color: #1d1d1d !important;
+  }
+
+    /* badge */
+    .badge {
+      display: block;
+      padding: .3rem;
+      border-radius: 5px;
+      width: fit-content;
+      margin: 0 auto .5rem auto;
+      font-size: .6rem !important;
+    }
+
+  .match-result > td {
+    background: #f1f1f2fe !important;
+  }
+
+  .small {
+    font-size: .9rem !important;
+  }
+
+  .table_fixture table:not(#tabla_estadisticas) th {
+    padding: 5px 0 !important;
+  }
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
@@ -725,6 +789,34 @@ img {
   .home__data {
     order: 2;
   }
+
+
+  table td,
+  table th {
+    font-size: .7rem !important; 
+    padding: 1rem .3rem !important;
+  }
+  
+  .table_fixture table tbody td img {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: .5rem;
+  }
+
+  #res_stats td img {
+    display: none;
+  }
+
+  .badge {
+    font-size: .6rem !important;
+    padding: .2rem;
+  }
+
+  .small {
+    font-size: .7rem !important;
+  }
+
 }
 
 /* For medium devices */

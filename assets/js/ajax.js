@@ -16,8 +16,8 @@ let datosEquipos = {
         pp: 0,
         path: "ucyd.png"
     },
-    "SPORTIVO SUARDI": {
-        nombre: "SPORTIVO SUARDI",
+    "CLUB SPORTIVO SUARDI": {
+        nombre: "CLUB SPORTIVO SUARDI",
         gf: 0,
         gc: 0,
         pj: 0,
@@ -26,8 +26,8 @@ let datosEquipos = {
         pp: 0,
         path: "sportivo.png"
     },
-    "JUNIORS SUARDI": {
-        nombre: "JUNIORS SUARDI",
+    "ASOCIACION DEPORTIVA JUNIORS CLUB": {
+        nombre: "ASOCIACION DEPORTIVA JUNIORS CLUB",
         gf: 0,
         gc: 0,
         pj: 0,
@@ -56,8 +56,8 @@ let datosEquipos = {
         pp: 0,
         path: "ambro.png"
     },
-    "UNIÓN HERSILIA": {
-        nombre: "UNIÓN HERSILIA",
+    "UNIÓN SOCIAL DE HERSILIA": {
+        nombre: "UNIÓN SOCIAL DE HERSILIA",
         gf: 0,
         gc: 0,
         pj: 0,
@@ -66,8 +66,8 @@ let datosEquipos = {
         pp: 0,
         path: "hersilia.png"
     },
-    "UNION ARRUFO ": {
-        nombre: "UNION ARRUFO ",
+    "UNION ARRUFO": {
+        nombre: "UNION ARRUFO",
         gf: 0,
         gc: 0,
         pj: 0,
@@ -76,8 +76,8 @@ let datosEquipos = {
         pp: 0,
         path: "cuda.png"
     },
-    "FERRO DHO (SC) ": {
-        nombre: "FERRO DHO (SC) ",
+    "FERRO DHO (SC)": {
+        nombre: "FERRO DHO (SC)",
         gf: 0,
         gc: 0,
         pj: 0,
@@ -86,8 +86,8 @@ let datosEquipos = {
         pp: 0,
         path: "ferro.png"
     },
-    "INDEPENDIENTE (SC)": {
-        nombre: "INDEPENDIENTE (SC)",
+    "CLUB ATLÉTICO INDEPENDIENTE (SC)": {
+        nombre: "CLUB ATLÉTICO INDEPENDIENTE (SC)",
         gf: 0,
         gc: 0,
         pj: 0,
@@ -138,28 +138,36 @@ function cargarStats() {
             if (this.readyState == 4 && this.status == 200) {
                 let datos = JSON.parse(this.responseText);
                 for (let item of datos) {
-                    if(item.glocal != "-" && datosEquipos[item.local]) {   
-                         // si tiene el caracter no se jugó el partido aun
-                        datosEquipos[item.local].pj += 1;       //suma a ambos equipos el partido jugado
-                        datosEquipos[item.visitante].pj += 1;
+                    const idLocal = item.local.nombre.completo;
+                    const idVistante = item.visitante.nombre.completo;
+
+                    const cantidadGolesLocal = Number(item.local.goles.length)
+                    const cantidadGolesVisitante = Number(item.visitante.goles.length)
+
+                    if(datosEquipos[idLocal] && datosEquipos[idVistante]) {   
+  
+                        // si tiene el caracter no se jugó el partido aun
+                        datosEquipos[idLocal].pj += 1; //suma a ambos equipos el partido jugado
+                        datosEquipos[idVistante].pj += 1;
                         
                         //aumento gf del local y le sumo gc con los goles del visitante 
-                        datosEquipos[item.local].gf += Number(item.glocal);
-                        datosEquipos[item.local].gc += Number(item.gvisitante);
+                        datosEquipos[idLocal].gf += cantidadGolesLocal;
+                        datosEquipos[idLocal].gc += cantidadGolesVisitante;
                         
                         // idem pero para visitante
-                        datosEquipos[item.visitante].gf += Number(item.gvisitante); 
-                        datosEquipos[item.visitante].gc += Number(item.glocal);
+                        datosEquipos[idVistante].gf += cantidadGolesVisitante; 
+                        datosEquipos[idVistante].gc += cantidadGolesLocal;
 
-                        datosEquipos[item.visitante].pg += Number(item.gvisitante) > Number(item.glocal) ? 1 : 0; 
-                        datosEquipos[item.visitante].pp += Number(item.gvisitante) < Number(item.glocal) ? 1 : 0;
-                        datosEquipos[item.visitante].pe += Number(item.gvisitante) === Number(item.glocal) ? 1 : 0;
+                        datosEquipos[idVistante].pg += cantidadGolesVisitante > cantidadGolesLocal ? 1 : 0; 
+                        datosEquipos[idVistante].pp += cantidadGolesVisitante < cantidadGolesLocal ? 1 : 0;
+                        datosEquipos[idVistante].pe += cantidadGolesVisitante === cantidadGolesLocal ? 1 : 0;
                       
-                        datosEquipos[item.local].pg += Number(item.glocal) > Number(item.gvisitante) ? 1 : 0; 
-                        datosEquipos[item.local].pp += Number(item.glocal) < Number(item.gvisitante) ? 1 : 0;
-                        datosEquipos[item.local].pe += Number(item.glocal) === Number(item.gvisitante) ? 1 : 0;
+                        datosEquipos[idLocal].pg += cantidadGolesLocal > cantidadGolesVisitante ? 1 : 0; 
+                        datosEquipos[idLocal].pp += cantidadGolesLocal < cantidadGolesVisitante ? 1 : 0;
+                        datosEquipos[idLocal].pe += cantidadGolesLocal === cantidadGolesVisitante ? 1 : 0;
                     }
                 }
+
                 resolve(); // Resuelve la promesa una vez que los datos están procesados
             }
         }
@@ -172,7 +180,7 @@ function llenarStats() {
             let res = document.querySelector('#res_stats');
             res.innerHTML = '';
             
-            const ordenadoPorPG = Object.entries(datosEquipos)
+            const ordenadoPorPG = Object.entries(datosEquipos) // -> ['SPORTIVO, { nombre, fecha... }]
                 .sort((a,b)=> b[1].pp - a[1].pp) // de mayor a menor por partidos perdidos
                 .sort((a,b)=> b[1].pe - a[1].pe) // de mayor a menor por partidos empatadas
                 .sort((a,b)=> b[1].pg - a[1].pg) // de mayor a menor por partidos ganados
@@ -224,68 +232,100 @@ function traerDatos2() {
     xh.send();
     xh.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-            let datos = JSON.parse(this.responseText);
+            let partidos = JSON.parse(this.responseText);
             let res = document.querySelector('#res');
-            let res_impresion = document.querySelector('#res_impresion');
             res.innerHTML = '';
-            if(res_impresion !== null) res_impresion.innerHTML = '';
+  
+            const bgEstados = {
+              "por jugar": 'bg-pendiente',
+              "jugando": 'bg-ahora',
+              "finalizado": 'bg-finalizado',
+            }
+
+            const formatearCantidadGoles = (estadoPartido, cantidadGoles)=> {
+                return estadoPartido.toLowerCase() !== "por jugar" ? cantidadGoles : '-'
+            }
+
+            const formatearGolesJugadores = (goles)=> {
+                const hayGoles = goles.length > 0 ? '⚽' : ''
+                const golesPorJugador = goles
+                    .map(gol=> `${gol.min ? `'${gol.min}` : ''} ${gol.jugador} ${gol.penal ? '(P)' : ''}`)
+                    .join(';')
+
+                return `${hayGoles} ${golesPorJugador}`
+            }
+         
+            const formatearTAJugadores = (tarjetasAmarillas)=> {
+              return tarjetasAmarillas
+                .map(ta=> `${'🟨'.repeat(ta.cantidad)} ${ta.cantidad == 2 ? '🟥' : ''} ${ta.jugador}\n `)
+                .join(';')
+            }
             
-            for (let item of datos) {
-                const celdasCompartidasHTML = `
-                    <td>
-                        <img src="assets/minis/${item.imagenlocal}" alt="Imagen" class="table-image">
-                            ${item.local}
-                        </td>
-                        <td>${item.glocal}</td>
-                        <td>${item.gvisitante}</td>
-                        <td>
-                            <img src="assets/minis/${item.imagenvisita}" alt="Imagen" class="table-image">
-                            ${item.visitante}
-                        </td>
-                        <td>${item.fecha}</td>
-                        <td>${item.estado}</td>
-                        <td>${item.info}</td>
-                `
+            const formatearTRJugadores = tarjetasRojas => {
+                return tarjetasRojas.length ? `🟥 ${tarjetasRojas.map(tr=> `${tr.jugador} \n`).join('; ')}` : ''
+            }
+
+            for (let partido of partidos) {
 
                 res.innerHTML += `
-                    <tr>
-                        ${celdasCompartidasHTML}
-                        <td></td>
-                    </tr>
-                `;
+                <tr class="row-match match-result">
+                  <td class="fw-bold text-center">
+                   <img width="15" height="15" class="object-fit-contain" src="/assets/minis/${partido.local.logo}" />
+                   ${partido.local.nombre.completo}
+                  </td>
+                  <td class="text-center">${formatearCantidadGoles(partido.estado, partido.local.goles.length)}</td>
+                  <td class="text-center">${formatearCantidadGoles(partido.estado, partido.visitante.goles.length)}</td>
+                  <td class="fw-bold text-center">
+                    <img width="15" height="15" class="object-fit-contain" src="/assets/minis/${partido.visitante.logo}" />
+                    ${partido.visitante.nombre.completo}
+                  </td>
+                </tr>
 
-                if(res_impresion !== null) res_impresion.innerHTML += `<tr> ${celdasCompartidasHTML} </tr>`;    
+                <tr class="row-info text-center">
+                    <td class="small">
+                    
+                        <p class="mb-0 text-center">  
+                          ${formatearGolesJugadores(partido.local.goles)}
+                        </p>
+                        
+                        <p class="mb-0 text-center">
+                          ${formatearTAJugadores(partido.local.info.amarillas)}
+                          ${formatearTRJugadores(partido.local.info.rojas_directas)}
+                        </p>
+
+                    </td>
+                    <td colspan="2" style="margin: 0 auto;text-align: center;"> 
+      
+                        <span class="badge ${bgEstados[partido.estado.toLowerCase()]}"> 
+                        ${partido.estado.toUpperCase()}
+                        </span>
+                        <span class="small"> ${partido.fecha.toString()} </span>
+                 
+                    </td>
+                 
+                    <td class="small">
+                        <p class="mb-0 text-center"> 
+                            ${formatearGolesJugadores(partido.visitante.goles)}
+                        </p>
+                     
+                        <p class="mb-0 text-center">
+                            ${formatearTAJugadores(partido.visitante.info.amarillas)}
+                            ${formatearTRJugadores(partido.visitante.info.rojas_directas)}
+                        </p>
+
+                    </td>
+                </tr>
+                <tr class="small">
+                    <td colspan="4" class="celda-contexto ${partido.contexto.length > 0 ? 'cell-visible' : 'cell-hide'}"> 
+                        ${partido.contexto.join(';')}
+                    </td>
+                </tr>
+                `;
+    
             }
         }
     }
 }
 
 traerDatos2()
-
-
-// function scrollTop(sectionId){
-//     const section = document.querySelector(sectionId);
-//     section.scrollIntoView({behavior: 'smooth'});
-// }
-
-// function exportarPDF() {
-//     const pdf = new jsPDF();  // Utiliza jsPDF directamente
-
-//     // Agregar encabezado
-//     pdf.text('Fixture', 20, 10);
-
-//     // Configurar opciones de la tabla
-//     const options = {
-//         startY: 20,
-//     };
-
-//     // Agregar contenido de la tabla
-//     pdf.autoTable({ html: '#customers_table', options });  // Utiliza '#customers_table'
-
-//     // Guardar o visualizar el PDF
-//     pdf.save('fixture.pdf'); // Guardar como 'fixture.pdf'
-//     // O puedes usar pdf.output('dataurlnewwindow'); para abrir en una nueva ventana
-// }
-// document.getElementById('toPDF').addEventListener('click', exportarPDF);
-
 })

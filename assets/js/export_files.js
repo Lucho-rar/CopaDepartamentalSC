@@ -60,7 +60,26 @@ function imprimirDescargarTabla({ download = false } = {}){
   const tablaHTML = document.getElementById('tabla_fixture_impresion');
   const tablaJSON = doc.autoTableHtmlToJson(tablaHTML);
 
+  const emojis = [
+    { emoji: '⚽', label: 'Goles: ' },
+    { emoji: '🟨', label: '(TA)' },
+    { emoji: '🟥', label: '(TR)' }
+  ]
+
+  for (let index = 0; index < tablaJSON.data.length; index++) {
+    let row = tablaJSON.data[index];
+    
+    if(row.filter(Boolean).length === 3){
+      const cellEmpty = document.createElement('td')
+      cellEmpty.classList.add('cell-empty')
+ 
+      row.splice(2, 0, cellEmpty);
+    };
+    
+  }
+
   const subtitulo_fixture = 'Fixture y estadisticas';
+  // const columnsWidth = (pdfConfigHorizontal.format[0] / 4)
 
   const configuracion = {
     html: tablaHTML,
@@ -68,32 +87,61 @@ function imprimirDescargarTabla({ download = false } = {}){
     headerStyles : {
       fillColor : [25, 135, 84],
     },
-    alternateRowStyles: {
-      fillColor : [242, 250, 247]
-    },
+    // alternateRowStyles: {
+    //   fillColor : [242, 250, 247]
+    // },
     addPageContent: function (data) {
       pageContent(data, 'Copa Departamental San Cristóbal', subtitulo_fixture)
     },
     // useCss: true,
     margin: { top: 20 },
     columnStyles: {
-      1: { 
+      0: { 
+        overflow: 'linebreak',
         halign: 'center',
+
+        // columnWidth: columnsWidth
+      },
+      1: { 
+        overflow: 'linebreak',
+        halign: 'center',
+        // columnWidth: columnsWidth
       },
       2: {  
+        overflow: 'linebreak',
         halign: 'center',
+        // columnWidth: columnsWidth
+      },
+      3: {  
+        overflow: 'linebreak',
+        halign: 'center',
+
+        // columnWidth: columnsWidth
       }
     },
+    createdCell: function (cell, data) {
+      if(cell?.raw?.parentElement?.classList.contains('row-info') || cell?.raw?.classList.contains('cell-empty')){
+        cell.styles.lineWidth = 0;
+      } else {
+        cell.styles.lineWidth = 0;
+        cell.styles.fillColor = [242, 250, 247];
+      }
+
+      if(cell.text){
+        emojis.forEach(({ emoji, label })=> {
+          const newCellText = cell.text.map(txt=> txt.replaceAll(emoji.trim(), label).toUpperCase())
+          cell.text = newCellText;
+        })
+      }
+  
+    },
   }
- 
   doc.autoTable(tablaJSON.columns, tablaJSON.data, configuracion);
   
   
   // AGREGA TABLA ESTADISTICAS
   const tablaEstadisticas = document.getElementById('tabla_estadisticas');
   const tablaEstadisticasJSON = doc.autoTableHtmlToJson(tablaEstadisticas);
-
-  const subtitulo_estadisticas = '';
 
   const finalY = doc.autoTable.previous.finalY;
   const configuracion_estadisticas = {
@@ -105,19 +153,14 @@ function imprimirDescargarTabla({ download = false } = {}){
     alternateRowStyles: {
       fillColor : [242, 250, 247]
     },
+    createdCell: function (cell, data) {
+      cell.styles.lineWidth = 0
+    }
     // addPageContent: function (data) {
     //   pageContent(data, 'Estadisticas', subtitulo_estadisticas)
     // },
     // useCss: true,
     // margin: { top: 20 },
-    // columnStyles: {
-    //   1: { 
-    //     halign: 'center',
-    //   },
-    //   2: {  
-    //     halign: 'center',
-    //   }
-    // },
   }
 
   doc.autoTable(tablaEstadisticasJSON.columns, tablaEstadisticasJSON.data, configuracion_estadisticas);
@@ -170,5 +213,3 @@ function exportarCSV(filename) {
   // Escribir el archivo XLSX
   XLSX.writeFile(mergedWorkbook, filename);
 }
-
-
