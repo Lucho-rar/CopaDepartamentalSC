@@ -97,20 +97,6 @@ img {
   cursor: pointer;
 }
 
-@media screen and (max-width: 767px) {
-  .nav__menu {
-    position: fixed;
-    background-color: var(--first-color);
-    left: 0;
-    top: -100%;
-    width: 100%;
-    padding: 5rem 0 4rem;
-    border-radius: 0 0 1.5rem 1.5rem;
-    box-shadow: 0 2px 4px hsla(38, 4%, 15%, .15);
-    transition: .4s;
-  }
-}
-
 .nav__list {
   text-align: center;
   display: flex;
@@ -216,6 +202,21 @@ img {
   }
   100% {
     transform: scale(.85, .85);
+  }
+}
+
+/* Aplica a dispositivos con ancho de menor de 767px */
+@media screen and (max-width: 767px) {
+  .nav__menu {
+    position: fixed;
+    background-color: var(--first-color);
+    left: 0;
+    top: -100%;
+    width: 100%;
+    padding: 5rem 0 4rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+    box-shadow: 0 2px 4px hsla(38, 4%, 15%, .15);
+    transition: .4s;
   }
 }
 

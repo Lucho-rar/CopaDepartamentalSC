@@ -1,69 +1,312 @@
 [
     {
-        "local": "UNION SAN GUILLERMO",
-        "glocal": 1,
-        "gvisitante": 3,
-        "visitante": "SPORTIVO SUARDI",
-        "fecha" : "11/02/2024 - 21:00hs",
-        "estado" : "Finalizado",
-        "imagenlocal" : "ucyd.png",
-        "imagenvisita" : "sportivo.png",
-        "info" : "⚽ T. Gottero, G. Krenz, J.Nuñez (SS); ⚽ M. Costamagna (USG)"
+        "local": {
+            "nombre": {
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+            },
+            "goles": [
+                {
+                    "min": "",
+                    "jugador": "M. Costamagna",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ucyd.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "CLUB SPORTIVO SUARDI",
+                "corto": "CCS"
+            },
+            "goles": [
+                {
+                    "min": "",
+                    "jugador": "T. Gottero",
+                    "penal": false
+                },
+                {
+                    "min": "",
+                    "jugador": "G. Krenz",
+                    "penal": false
+                },
+                {
+                    "min": "",
+                    "jugador": "J. Nuñez",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "sportivo.png"
+        },
+        "fecha": "11/02/2024 - 21:00hs",
+        "estado": "Finalizado",
+        "contexto": []
     },
+
     {
-        "local": "JUNIORS SUARDI",
-        "glocal": 2,
-        "gvisitante": 1,
-        "visitante": "ATL. LIBERTAD TRINIDAD",
-        "fecha" : "11/02/2024 - 19:00hs",
-        "estado" : "Finalizado",
-        "imagenlocal" : "juniors.png",
-        "imagenvisita" : "calt.png",
-        "info" : "⚽ J. Negri, B. Pineda, 🟥 L. Montiel (ADJC); ⚽ R. Puebla (CALT);"
+        "local": {
+            "nombre": {
+                "completo": "ASOCIACION DEPORTIVA JUNIORS CLUB",
+                "corto": "ADJC"
+            },
+            "goles": [
+                {
+                    "jugador": "J. Negri",
+                    "min": "",
+                    "penal": false
+                },
+                {
+                    "jugador": "B. Pineda",
+                    "min": "",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                    {
+                        "jugador": "L. Montiel"
+                    }
+                ]
+            },
+            "logo": "juniors.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
+            },
+            "goles": [
+                {
+                    "jugador": "R. Puebla",
+                    "min": "",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "calt.png"
+        },
+        "fecha": "11/02/2024 - 19:00hs",
+        "estado": "Finalizado",
+        "contexto": []
     },
+
+    
     {
-        "local": "SAN LORENZO (A)",
-        "glocal": 3,
-        "gvisitante": 1,
-        "visitante": "UNIÓN HERSILIA",
-        "fecha" : "11/02/2024 - 17:30hs",
-        "estado" : "Finalizado",
-        "imagenlocal" : "ambro.png",
-        "imagenvisita" : "hersilia.png",
-        "info" : "⚽ F. Arevalo, N. Vianco, J. Pato (SLA); ⚽ E. Escalada (UH)"
+        "local": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [
+                {
+                    "jugador": "F. Arevalo",
+                    "min": "",
+                    "penal": false
+                },
+                {
+                    "jugador": "N. Vianco",
+                    "min": "",
+                    "penal": false
+                },
+                {
+                    "jugador": "J. Pato",
+                    "min": "",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNIÓN SOCIAL DE HERSILIA",
+                "corto": "USdH"
+            },
+            "goles": [
+                {
+                    "jugador": "E. Escalada",
+                    "min": "",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "hersilia.png"
+        },
+        "fecha": "11/02/2024 - 17:30hs",
+        "estado": "Finalizado",
+        "contexto": []
     },
+
+
     {
-        "local": "UNION ARRUFO ",
-        "glocal": 0,
-        "gvisitante": 0,
-        "visitante": "TIRO FEDERAL MOISES VILLE",
-        "fecha" : "10/02/2024 - 21:00hs",
-        "estado" : "Finalizado",
-        "imagenlocal" : "cuda.png",
-        "imagenvisita" : "tiro.png",
-        "info" : "🟥 G. Acosta (TFMV);"
+        "local": {
+            "nombre": {
+                "completo": "UNION ARRUFO",
+                "corto": "CUDA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cuda.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "TIRO FEDERAL MOISES VILLE",
+                "corto": "TFMV"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                    {
+                        "jugador": "G. Acosta"
+                    }
+                ]
+            },
+            "logo": "tiro.png"
+        },
+        "fecha": "10/02/2024 - 21:00hs",
+        "estado": "Finalizado",
+        "contexto": []
     },
+
     {
-        "local": "FERRO DHO (SC) ",
-        "glocal": 2,
-        "gvisitante": 1,
-        "visitante": "INDEPENDIENTE (SC)",
-        "fecha" : "11/02/2024 - 19:00hs",
-        "estado" : "Finalizado",
-        "imagenlocal" : "ferro.png",
-        "imagenvisita" : "indsc.png",
-        "info" : "⚽ T. Cardozo, L. Aldriaz, 🟥 M. Loto, J. Fernández (FD); ⚽ E. Gomez, 🟥 E. Gomez (ISC)"
+        "local": {
+            "nombre": {
+                "completo": "FERRO DHO (SC)",
+                "corto": "FDSC"
+            },
+            "goles": [
+                {
+                    "jugador": "T. Cardozo",
+                    "min": "",
+                    "penal": false
+                },
+                {
+                    "jugador": "L. Aldriaz",
+                    "min": "",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                    {
+                        "jugador": "M. Loto"
+                    },
+                    {
+                        "jugador": "J. Fernández"
+                    }
+                ]
+            },
+            "logo": "ferro.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "CLUB ATLÉTICO INDEPENDIENTE (SC)",
+                "corto": "CAI"
+            },
+            "goles": [
+                {   
+                    "jugador": "E. Gomez",
+                    "min": "",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                    {
+                        "jugador": "E. Gomez"
+                    }
+                ]
+            },
+            "logo": "indsc.png"
+        },
+        "fecha": "11/02/2024 - 19:00hs",
+        "estado": "Finalizado",
+        "contexto": []
     },
+    
+    
     {
-        "local": "ATL. UNIÓN DE CERES",
-        "glocal": 1,
-        "gvisitante": 3,
-        "visitante": "CENTRAL ARG. OLÍMPICO",
-        "fecha" : "11/02/2024 - 21:00hs",
-        "estado" : "Finalizado",
-        "imagenlocal" : "cacu.png",
-        "imagenvisita" : "ccao.png",
-        "info" : "⚽ N. Marchisio, B. Yulka, M. Meternicht, 🟥 M. Meternicht (CCAO); ⚽ M. Benitez, 🟥 E. Guiroy (CACU)"
+        "local": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [
+                {
+                    "jugador": "M. Benitez",
+                    "min": "",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                    {
+                        "jugador": "E. Guiroy"
+                    }
+                ]
+            },
+            "logo": "cacu.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [
+                {
+                    "jugador": "N. Marchisio", 
+                    "min": "",
+                    "penal": false
+                },
+                {
+                    "jugador": "B. Yulka", 
+                    "min": "",
+                    "penal": false
+                },
+                {
+                    "jugador": "M. Meternicht", 
+                    "min": "",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                    {
+                        "jugador": "M. Meternicht"
+                    }
+                ]
+            },
+            "logo": "ccao.png"
+        },
+        "fecha": "11/02/2024 - 21:00hs",
+        "estado": "Finalizado",
+        "contexto": []
     }
 
 ]
