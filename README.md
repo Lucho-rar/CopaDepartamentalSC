@@ -7,6 +7,10 @@ Authors:
 * __[Guido Rivoira](https://github.com/GuiDev404)__
 * __[Luciano Rodriguez](https://github.com/Lucho-rar)__
 
+Scripts de python:
+* __[Repo con scripts para estadísticas](https://github.com/Lucho-rar/Scripts-Python-Futbol)__
+
+
 El proyecto es un desarrollo de una página básica donde se puedan visualizar los partidos, reglamentos, participantes, y más estadísticas. 
 
 - Fixture de partidos.
