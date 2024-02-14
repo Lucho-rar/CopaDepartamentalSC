@@ -1,7 +1,7 @@
 window.addEventListener('load', function (){
     console.log('correcto');
 document.querySelector('#fase1').addEventListener('click',traerDatos2);
-document.querySelector('#fase2').addEventListener('click',traerDatos2);
+document.querySelector('#fase2').addEventListener('click',traerDatos_vuelta);
 
 // window.jsPDF = window?.jspdf?.jsPDF;
 
@@ -327,5 +327,105 @@ function traerDatos2() {
     }
 }
 
-traerDatos2()
+function traerDatos_vuelta() {
+    const xh = new XMLHttpRequest();
+    xh.open('GET', 'data/fase1_vuelta.json', true);
+    xh.send();
+    xh.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            let partidos = JSON.parse(this.responseText);
+            let res = document.querySelector('#res');
+            res.innerHTML = '';
+  
+            const bgEstados = {
+              "por jugar": 'bg-pendiente',
+              "jugando": 'bg-ahora',
+              "finalizado": 'bg-finalizado',
+            }
+
+            const formatearCantidadGoles = (estadoPartido, cantidadGoles)=> {
+                return estadoPartido.toLowerCase() !== "por jugar" ? cantidadGoles : '-'
+            }
+
+            const formatearGolesJugadores = (goles)=> {
+                const hayGoles = goles.length > 0 ? '⚽' : ''
+                const golesPorJugador = goles
+                    .map(gol=> `${gol.min ? `'${gol.min}` : ''} ${gol.jugador} ${gol.penal ? '(P)' : ''}`)
+                    .join(';')
+
+                return `${hayGoles} ${golesPorJugador}`
+            }
+         
+            const formatearTAJugadores = (tarjetasAmarillas)=> {
+              return tarjetasAmarillas
+                .map(ta=> `${'🟨'.repeat(ta.cantidad)} ${ta.cantidad == 2 ? '🟥' : ''} ${ta.jugador}\n `)
+                .join(';')
+            }
+            
+            const formatearTRJugadores = tarjetasRojas => {
+                return tarjetasRojas.length ? `🟥 ${tarjetasRojas.map(tr=> `${tr.jugador} \n`).join('; ')}` : ''
+            }
+
+            for (let partido of partidos) {
+
+                res.innerHTML += `
+                <tr class="row-match match-result">
+                  <td class="fw-bold text-center">
+                   <img width="15" height="15" class="object-fit-contain" src="/assets/minis/${partido.local.logo}" />
+                   ${partido.local.nombre.completo}
+                  </td>
+                  <td class="text-center">${formatearCantidadGoles(partido.estado, partido.local.goles.length)}</td>
+                  <td class="text-center">${formatearCantidadGoles(partido.estado, partido.visitante.goles.length)}</td>
+                  <td class="fw-bold text-center">
+                    <img width="15" height="15" class="object-fit-contain" src="/assets/minis/${partido.visitante.logo}" />
+                    ${partido.visitante.nombre.completo}
+                  </td>
+                </tr>
+
+                <tr class="row-info text-center">
+                    <td class="small">
+                    
+                        <p class="mb-0 text-center">  
+                          ${formatearGolesJugadores(partido.local.goles)}
+                        </p>
+                        
+                        <p class="mb-0 text-center">
+                          ${formatearTAJugadores(partido.local.info.amarillas)}
+                          ${formatearTRJugadores(partido.local.info.rojas_directas)}
+                        </p>
+
+                    </td>
+                    <td colspan="2" style="margin: 0 auto;text-align: center;"> 
+      
+                        <span class="badge ${bgEstados[partido.estado.toLowerCase()]}"> 
+                        ${partido.estado.toUpperCase()}
+                        </span>
+                        <span class="small"> ${partido.fecha.toString()} </span>
+                 
+                    </td>
+                 
+                    <td class="small">
+                        <p class="mb-0 text-center"> 
+                            ${formatearGolesJugadores(partido.visitante.goles)}
+                        </p>
+                     
+                        <p class="mb-0 text-center">
+                            ${formatearTAJugadores(partido.visitante.info.amarillas)}
+                            ${formatearTRJugadores(partido.visitante.info.rojas_directas)}
+                        </p>
+
+                    </td>
+                </tr>
+                <tr class="small">
+                    <td colspan="4" class="celda-contexto ${partido.contexto.length > 0 ? 'cell-visible' : 'cell-hide'}"> 
+                        ${partido.contexto.join(';')}
+                    </td>
+                </tr>
+                `;
+    
+            }
+        }
+    }
+}
+traerDatos_vuelta()
 })
