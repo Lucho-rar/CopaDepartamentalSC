@@ -128,23 +128,88 @@ let datosEquipos = {
     }
 };
 
+let datosJugadores = {};
 
-function cargarStats() {
+
+const nombreEquipo = "UNION SAN GUILLERMO"; // Por ejemplo
+const nombreJugador = "Juan Pérez"; // Nombre del jugador que deseas agregar
+
+
+function cargarTarjetaRoja(nombreEquipo, nombreJugador) {
+    // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
+    if (!datosJugadores[nombreEquipo]) {
+        datosJugadores[nombreEquipo] = {};
+    }
+
+    // Verificar si el jugador ya está en el equipo
+    if (!datosJugadores[nombreEquipo][nombreJugador]) {
+        // Si el jugador no está inicializado, inicializarlo con tarjetas rojas en 1
+        datosJugadores[nombreEquipo][nombreJugador] = {
+            goles: 0,
+            tarjetasAmarillas: 0,
+            tarjetasRojas: 1,
+            asistencias: 0,
+            // Otros datos que desees agregar inicialmente
+        };
+    } else {
+        // Si el jugador ya está inicializado, sumar 1 a la cantidad de tarjetas rojas
+        datosJugadores[nombreEquipo][nombreJugador].tarjetasRojas++;
+    }
+}
+
+function cargarGoles(nombreEquipo, nombreJugador) {
+    // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
+    if (!datosJugadores[nombreEquipo]) {
+        datosJugadores[nombreEquipo] = {};
+    }
+
+    // Verificar si el jugador ya está en el equipo
+    if (!datosJugadores[nombreEquipo][nombreJugador]) {
+        // Si el jugador no está inicializado, inicializarlo con goles en 1
+        datosJugadores[nombreEquipo][nombreJugador] = {
+            goles: 1,
+            tarjetasRojas: 0
+            // Otros datos que desees agregar inicialmente
+        };
+    } else {
+        // Si el jugador ya está inicializado, sumar 1 a la cantidad de goles
+        datosJugadores[nombreEquipo][nombreJugador].goles++;
+    }
+}
+
+
+function cargarStats(archivo) {
     return new Promise((resolve, reject) => {
         const xh = new XMLHttpRequest();
-        xh.open('GET', 'data/fase1.json', true);
+        xh.open('GET', `data/${archivo}`, true);
         xh.send();
         xh.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 let datos = JSON.parse(this.responseText);
                 for (let item of datos) {
+
                     const idLocal = item.local.nombre.completo;
                     const idVistante = item.visitante.nombre.completo;
 
                     const cantidadGolesLocal = Number(item.local.goles.length)
                     const cantidadGolesVisitante = Number(item.visitante.goles.length)
+        
+                    for (let gol of item.local.goles) {
+                        cargarGoles(idLocal,gol.jugador)
+                        //console.log(idLocal, gol.jugador);
+                    }
+                    for (let gol of item.visitante.goles) {
+                        cargarGoles(idVistante,gol.jugador)
+                        //console.log(idLocal, gol.jugador);
+                    }
+                    for (let tarjetaRoja of item.local.info.rojas_directas) {
+                        cargarTarjetaRoja(idLocal, tarjetaRoja.jugador);
+                    }
+                    for (let tarjetaRoja of item.visitante.info.rojas_directas) {
+                        cargarTarjetaRoja(idVistante, tarjetaRoja.jugador);
+                    }
 
-                    if(datosEquipos[idLocal] && datosEquipos[idVistante]) {   
+                    if(datosEquipos[idLocal] && datosEquipos[idVistante] && item.estado!= "Por jugar") {   
   
                         // si tiene el caracter no se jugó el partido aun
                         datosEquipos[idLocal].pj += 1; //suma a ambos equipos el partido jugado
@@ -170,16 +235,20 @@ function cargarStats() {
 
                 resolve(); // Resuelve la promesa una vez que los datos están procesados
             }
+        
         }
+        
     });
 }
 
+
 function llenarStats() {
-    cargarStats()
+    Promise.all([cargarStats('fase1.json'), cargarStats('fase1_vuelta.json')])
         .then(() => {
             let res = document.querySelector('#res_stats');
+            let resGoleadores = document.querySelector('#res_goleadores');
             res.innerHTML = '';
-            
+            console.log(datosJugadores)
             const ordenadoPorPG = Object.entries(datosEquipos) // -> ['SPORTIVO, { nombre, fecha... }]
                 .sort((a,b)=> b[1].pp - a[1].pp) // de mayor a menor por partidos perdidos
                 .sort((a,b)=> b[1].pe - a[1].pe) // de mayor a menor por partidos empatadas
@@ -204,6 +273,20 @@ function llenarStats() {
                         <td>${datosEquipos.gf - datosEquipos.gc}</td>
                     </tr>
                 `;
+            }
+
+            for (let equipo in datosJugadores) {
+                for (let jugador in datosJugadores[equipo]) {
+                    if (datosJugadores[equipo][jugador].goles > 0) {
+                        resGoleadores.innerHTML += `
+                            <tr>
+                                <td>${jugador}</td>
+                                <td>${equipo}</td>
+                                <td>${datosJugadores[equipo][jugador].goles}</td>
+                            </tr>
+                        `;
+                    }
+                }
             }
 
             // for (let equipo in datosEquipos) {
