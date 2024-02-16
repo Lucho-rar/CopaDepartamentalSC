@@ -8,7 +8,7 @@
             "goles": [
                 {
                     "min": "",
-                    "jugador": "M. Costamagna",
+                    "jugador": "Matias Costamagna",
                     "penal": false
                 }
             ],
@@ -26,17 +26,17 @@
             "goles": [
                 {
                     "min": "",
-                    "jugador": "T. Gottero",
+                    "jugador": "Tomas Gottero",
                     "penal": false
                 },
                 {
                     "min": "",
-                    "jugador": "G. Krenz",
+                    "jugador": "Gianfranco Krenz",
                     "penal": false
                 },
                 {
                     "min": "",
-                    "jugador": "J. Nuñez",
+                    "jugador": "Jose Nuñez",
                     "penal": false
                 }
             ],
@@ -59,12 +59,12 @@
             },
             "goles": [
                 {
-                    "jugador": "J. Negri",
+                    "jugador": "Julio Negri",
                     "min": "",
                     "penal": false
                 },
                 {
-                    "jugador": "B. Pineda",
+                    "jugador": "Brian Pineda",
                     "min": "",
                     "penal": false
                 }
@@ -73,7 +73,7 @@
                 "amarillas": [],
                 "rojas_directas": [
                     {
-                        "jugador": "L. Montiel"
+                        "jugador": "Lucas Montiel"
                     }
                 ]
             },
@@ -86,7 +86,7 @@
             },
             "goles": [
                 {
-                    "jugador": "R. Puebla",
+                    "jugador": "Rodrigo Puebla",
                     "min": "",
                     "penal": false
                 }
@@ -111,17 +111,17 @@
             },
             "goles": [
                 {
-                    "jugador": "F. Arevalo",
+                    "jugador": "Fabian Arévalo",
                     "min": "",
                     "penal": false
                 },
                 {
-                    "jugador": "N. Vianco",
+                    "jugador": "Nicolas Vianco",
                     "min": "",
                     "penal": false
                 },
                 {
-                    "jugador": "J. Pato",
+                    "jugador": "Juan Pato",
                     "min": "",
                     "penal": false
                 }
@@ -139,7 +139,7 @@
             },
             "goles": [
                 {
-                    "jugador": "E. Escalada",
+                    "jugador": "Elias Escalada",
                     "min": "",
                     "penal": false
                 }
@@ -179,7 +179,7 @@
                 "amarillas": [],
                 "rojas_directas": [
                     {
-                        "jugador": "G. Acosta"
+                        "jugador": "German Acosta"
                     }
                 ]
             },
@@ -198,12 +198,12 @@
             },
             "goles": [
                 {
-                    "jugador": "T. Cardozo",
+                    "jugador": "Tomas Cardozo",
                     "min": "",
                     "penal": false
                 },
                 {
-                    "jugador": "L. Aldriaz",
+                    "jugador": "Lucio Aldrian",
                     "min": "",
                     "penal": false
                 }
@@ -212,10 +212,10 @@
                 "amarillas": [],
                 "rojas_directas": [
                     {
-                        "jugador": "M. Loto"
+                        "jugador": "Matias Loto"
                     },
                     {
-                        "jugador": "J. Fernández"
+                        "jugador": "Jose Fernández"
                     }
                 ]
             },
@@ -228,7 +228,7 @@
             },
             "goles": [
                 {   
-                    "jugador": "E. Gomez",
+                    "jugador": "Emanuel Gomez",
                     "min": "",
                     "penal": false
                 }
@@ -237,7 +237,7 @@
                 "amarillas": [],
                 "rojas_directas": [
                     {
-                        "jugador": "E. Gomez"
+                        "jugador": "Emanuel Gomez"
                     }
                 ]
             },
@@ -257,7 +257,7 @@
             },
             "goles": [
                 {
-                    "jugador": "M. Benitez",
+                    "jugador": "Martin Benitez",
                     "min": "",
                     "penal": false
                 }
@@ -266,7 +266,7 @@
                 "amarillas": [],
                 "rojas_directas": [
                     {
-                        "jugador": "E. Guiroy"
+                        "jugador": "Elias Guiroy"
                     }
                 ]
             },
@@ -279,17 +279,17 @@
             },
             "goles": [
                 {
-                    "jugador": "N. Marchisio", 
+                    "jugador": "Nicolas Marchisio", 
                     "min": "",
                     "penal": false
                 },
                 {
-                    "jugador": "B. Yulka", 
+                    "jugador": "Brian Yulka", 
                     "min": "",
                     "penal": false
                 },
                 {
-                    "jugador": "M. Meternicht", 
+                    "jugador": "Mark Meternicht", 
                     "min": "",
                     "penal": false
                 }
@@ -298,7 +298,7 @@
                 "amarillas": [],
                 "rojas_directas": [
                     {
-                        "jugador": "M. Meternicht"
+                        "jugador": "Mark Meternicht"
                     }
                 ]
             },
