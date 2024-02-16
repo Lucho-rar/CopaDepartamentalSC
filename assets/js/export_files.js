@@ -12,7 +12,7 @@ const pdfConfigVertical = {
 
 let doc, pdfConfig;
 
-let totalPagesExp = "{total_pages_count_string}";
+// let totalPagesExp = "{total_pages_count_string}";
 let pageContent = function (data, titulo = '', subtitulo = '') {
     if(data.pageCount === 1){
       doc.setFontSize(16);
@@ -58,6 +58,9 @@ let pageContent = function (data, titulo = '', subtitulo = '') {
 
 function imprimirDescargarTabla({ download = false } = {}){
   const tablaHTML = document.getElementById('tabla_fixture_impresion');
+  tablaHTML.querySelectorAll('tr.row-contexto').forEach(tr=> tr.remove())
+  console.log(tablaHTML);
+
   const tablaJSON = doc.autoTableHtmlToJson(tablaHTML);
 
   const emojis = [
@@ -78,7 +81,6 @@ function imprimirDescargarTabla({ download = false } = {}){
     
   }
 
-  const subtitulo_fixture = 'Fixture y estadisticas';
   // const columnsWidth = (pdfConfigHorizontal.format[0] / 4)
 
   const configuracion = {
@@ -91,7 +93,7 @@ function imprimirDescargarTabla({ download = false } = {}){
     //   fillColor : [242, 250, 247]
     // },
     addPageContent: function (data) {
-      pageContent(data, 'Copa Departamental San Cristóbal', subtitulo_fixture)
+      pageContent(data, 'Copa Departamental San Cristóbal', 'Fixture actual')
     },
     // useCss: true,
     margin: { top: 20 },
@@ -99,7 +101,6 @@ function imprimirDescargarTabla({ download = false } = {}){
       0: { 
         overflow: 'linebreak',
         halign: 'center',
-
         // columnWidth: columnsWidth
       },
       1: { 
@@ -143,10 +144,11 @@ function imprimirDescargarTabla({ download = false } = {}){
   const tablaEstadisticas = document.getElementById('tabla_estadisticas');
   const tablaEstadisticasJSON = doc.autoTableHtmlToJson(tablaEstadisticas);
 
-  const finalY = doc.autoTable.previous.finalY;
+  // const finalY = ()=> doc.autoTable.previous.finalY;
+
   const configuracion_estadisticas = {
     theme: 'grid',
-    startY: finalY + 10,
+    // startY: 10,
     headerStyles : {
       fillColor : [25, 135, 84],
     },
@@ -155,25 +157,51 @@ function imprimirDescargarTabla({ download = false } = {}){
     },
     createdCell: function (cell, data) {
       cell.styles.lineWidth = 0
-    }
-    // addPageContent: function (data) {
-    //   pageContent(data, 'Estadisticas', subtitulo_estadisticas)
-    // },
+    },
+    addPageContent: function (data) {
+      pageContent(data, 'Estadisticas', 'Datos por equipo')
+    },
+    margin: { top: 20 },
     // useCss: true,
     // margin: { top: 20 },
   }
 
-  doc.autoTable(tablaEstadisticasJSON.columns, tablaEstadisticasJSON.data, configuracion_estadisticas);
+  doc
+    .addPage()
+    .autoTable(tablaEstadisticasJSON.columns, tablaEstadisticasJSON.data, configuracion_estadisticas);
+  
+  // AGREGA TABLA GOLEADORES
+  const tablaGoleadores = document.getElementById('tabla_goleadores');
+  const tablaGoleadoresJSON = doc.autoTableHtmlToJson(tablaGoleadores);
+  
+  const configuracion_goleadores = {
+    theme: 'grid',
+    // startY: 10,
+    margin: { top: 20 },
+    headerStyles : {
+      fillColor : [25, 135, 84],
+    },
+    alternateRowStyles: {
+      fillColor : [242, 250, 247]
+    },
+    createdCell: function (cell, data) {
+      cell.styles.lineWidth = 0
+    },
+    addPageContent: function (data) {
+      pageContent(data, 'Goleadores', 'Tabla de goleadores')
+    },
+  }
 
+  doc
+    .addPage()
+    .autoTable(tablaGoleadoresJSON.columns, tablaGoleadoresJSON.data, configuracion_goleadores);
   
   // if (typeof doc.putTotalPages === 'function') {
   //   doc.putTotalPages(totalPagesExp);
   // }
 
   if(download){
-    const nombre = subtitulo_fixture.trim() 
-        ? subtitulo_fixture.toLowerCase().split(' ').join('_') 
-        : `copa_departamental_${Date.now()}`; 
+    const nombre = `copa_departamental_${Date.now()}`; 
 
     doc.save(`${nombre}.pdf`)
   } else {
@@ -189,11 +217,11 @@ function imprimirDescargarTabla({ download = false } = {}){
   
 }
 
-function imprimirTablaFixtureYStats (download){
+function imprimirTablaFixtureYStats (esParaDescargar){
   pdfConfig = pdfConfigHorizontal;
   doc = new jsPDF(pdfConfigHorizontal);
 
-  imprimirDescargarTabla({ download })
+  imprimirDescargarTabla({ download: esParaDescargar })
 }
 
 function exportarCSV(filename) {
@@ -204,11 +232,13 @@ function exportarCSV(filename) {
 
   const wb1 = XLSX.utils.table_to_book(document.getElementById('tabla_fixture_impresion'));
   const wb2 = XLSX.utils.table_to_book(document.getElementById('tabla_estadisticas'));
+  const wb3 = XLSX.utils.table_to_book(document.getElementById('tabla_goleadores'));
 
   // Fusionar las hojas de cálculo wb1 y wb2 en un solo workbook
   const mergedWorkbook = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(mergedWorkbook, wb1.Sheets[wb1.SheetNames[0]], 'Partidos');
   XLSX.utils.book_append_sheet(mergedWorkbook, wb2.Sheets[wb2.SheetNames[0]], 'Estadisticas');
+  XLSX.utils.book_append_sheet(mergedWorkbook, wb3.Sheets[wb3.SheetNames[0]], 'Goleadores');
 
   // Escribir el archivo XLSX
   XLSX.writeFile(mergedWorkbook, filename);

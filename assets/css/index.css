@@ -575,26 +575,34 @@ img {
   cursor: pointer;
 }
 
-.fases_eliminatorias .btn::before {
+.fases_eliminatorias .btn::before,
+.fases_eliminatorias .btn-active::before {
   content: '';
   position: absolute;
   top: 0;
   left: -50px;
   width: 0;
   height: 100%;
-  /* background: hsl(129, 45%, 39%); */
   background: hsl(129, 48%, 34%);
   transform: skewX(35deg);
   z-index: -1;
   transition: 1s;
 }
 
-.fases_eliminatorias .btn:hover {
+.fases_eliminatorias .btn-active::before {
+  left: 0;
+  transform: skewX(0deg);
+  background: hsl(130, 38%, 34%);
+}
+
+.fases_eliminatorias .btn:hover
+.fases_eliminatorias .btn-active {
   transition-delay: 0s, 1s;
   color: #fff;
 }
 
-.fases_eliminatorias .btn:hover::before {
+.fases_eliminatorias .btn:hover::before,
+.fases_eliminatorias .btn-active::before {
   width: 100%;
 }
 
@@ -609,7 +617,7 @@ img {
   }
   
   /* TABLAS */
-  .cell-visible { display: inherit !important; }
+  .cell-visible { display: table-cell !important; }
   .cell-hide { display: none !important; }
 
   .celda-contexto {
@@ -668,7 +676,7 @@ img {
     font-size: .9rem !important;
   }
 
-  .table_fixture table:not(#tabla_estadisticas) th {
+  .table_fixture table:not(#tabla_estadisticas, #tabla_goleadores) th {
     padding: 5px 0 !important;
   }
 
