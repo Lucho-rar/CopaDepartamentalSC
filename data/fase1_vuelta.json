@@ -59,14 +59,21 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Mario Sotomayor",
+                    "penal" :false
+                }
+
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "ferro.png"
         },
-        "fecha": "Resultado Global 1 - 2  \n\n\n\n\n\n\n\n18/02/2024 - 19:00hs",
+        "fecha": "Resultado Global 1 - 3  \n\n\n\n\n\n\n\n18/02/2024 - 19:00hs",
         "estado": "Jugando",
         "contexto": []
     },
@@ -162,14 +169,20 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Juan Pato",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "ambro.png"
         },
-        "fecha": "Resultado Global 1 - 3  \n\n\n\n\n\n\n\n18/02/2024 - 20:00hs",
+        "fecha": "Resultado Global 1 - 4  \n\n\n\n\n\n\n\n18/02/2024 - 20:00hs",
         "estado": "Jugando",
         "contexto": []
     },
