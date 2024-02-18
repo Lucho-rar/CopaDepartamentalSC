@@ -6,7 +6,13 @@
                 "completo": "TIRO FEDERAL MOISES VILLE",
                 "corto": "TFMV"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Nuñez",
+                    "penal": false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
