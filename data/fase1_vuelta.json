@@ -95,7 +95,13 @@
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Nicola",
+                    "penal":true
+                }                
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
