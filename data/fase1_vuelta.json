@@ -107,7 +107,12 @@
                     "min":"",
                     "jugador":"Rafael Nicola",
                     "penal":true
-                }                
+                },      
+                {
+                    "min":"",
+                    "jugador":"Andres Benitez",
+                    "penal":false
+                }            
             ],
             "info": {
                 "amarillas": [],
@@ -115,7 +120,7 @@
             },
             "logo": "ucyd.png"
         },
-        "fecha": "Resultado Global 4 - 2  \n\n\n\n\n\n\n\n18/02/2024 - 20:00hs",
+        "fecha": "Resultado Global 4 - 3  \n\n\n\n\n\n\n\n18/02/2024 - 20:00hs",
         "estado": "Jugando",
         "contexto": []
     },
