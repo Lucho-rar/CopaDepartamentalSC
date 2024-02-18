@@ -24,7 +24,13 @@
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Alexander Leguizamon",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
