@@ -149,14 +149,20 @@
                 "completo": "ASOCIACION DEPORTIVA JUNIORS CLUB",
                 "corto": "ADJC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Julio Negri",
+                    "penal":true
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "juniors.png"
         },
-        "fecha": "Resultado Global 2 - 2  \n\n\n\n\n\n\n\n18/02/2024 - 20:00hs",
+        "fecha": "Resultado Global 2 - 3  \n\n\n\n\n\n\n\n18/02/2024 - 20:00hs",
         "estado": "Jugando",
         "contexto": []
     },
