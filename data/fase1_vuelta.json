@@ -199,7 +199,13 @@
                 "corto": "CCAO"
 
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Hollmann",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
