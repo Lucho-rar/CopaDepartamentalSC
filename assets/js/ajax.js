@@ -2,11 +2,12 @@ window.addEventListener('load', function (){
     console.log('[CORRECTO]');
 
     const btnFaseUno = document.querySelector('#fase1');
-    const btnFaseDos = document.querySelector('#fase2');
+    const btnFaseDos = document.querySelector('#fase2');//Fase 2 -> Fase 1 vuelta real.
+    const btnFaseTres = document.querySelector('#fase3'); //Fase 3-> Fase 2 real
 
     btnFaseUno.addEventListener('click', traerDatos_ida);
     btnFaseDos.addEventListener('click', traerDatos_vuelta);
-
+    btnFaseTres.addEventListener('click',traerDatos_fase2);
     let datosEquipos = {
         "UNION SAN GUILLERMO": {
             nombre: "UNION SAN GUILLERMO",
@@ -460,6 +461,19 @@ window.addEventListener('load', function (){
             }
         }
     }
-
     traerDatos_vuelta(btnFaseDos)
+    function traerDatos_fase2(btnOrEvent) {
+        toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+        
+        const xh = new XMLHttpRequest();
+        xh.open('GET', 'data/fase2.json', true);
+        xh.send();
+        xh.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                let partidos = JSON.parse(this.responseText);
+                llenarTablaHTMLPartidos(partidos)
+            }
+        }
+    }
+    //traerDatos_fase2(btnFaseTres)
 })
