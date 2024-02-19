@@ -256,6 +256,11 @@
                     "min":"",
                     "jugador":"Gonzalo Santillan",
                     "penal":true
+                },
+                {
+                    "min":"",
+                    "jugador":"Martin Benitez",
+                    "penal": false
                 }
             ],
             "info": {
@@ -264,8 +269,8 @@
             },
             "logo": "cacu.png"
         },
-        "fecha": "Resultado Global 4 - 2  \n\n\n\n\n\n\n\n18/02/2024 - 21:00hs",
-        "estado": "Jugando",
+        "fecha": "Resultado Global 4 - 3  \n\n\n\n\n\n\n\n18/02/2024 - 21:00hs",
+        "estado": "Finalizado",
         "contexto": []
     }
 
