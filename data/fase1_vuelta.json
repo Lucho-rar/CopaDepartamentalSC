@@ -9,7 +9,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Nuñez",
+                    "jugador":"Maximiliano Nuñez",
                     "penal": false
                 }
             ],
@@ -69,7 +69,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Juan Barberis"
+                    }
+                ]
             },
             "logo": "ferro.png"
         },
@@ -242,7 +246,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Yoel Holhman"
+                    }
+                ]
             },
             "logo": "ccao.png"
         },
@@ -254,7 +262,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Gonzalo Santillan",
+                    "jugador":"Facundo Vivas",
                     "penal":true
                 },
                 {
