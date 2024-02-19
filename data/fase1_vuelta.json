@@ -188,7 +188,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador": "Ian Simbron"
+                    }
+                ]
             },
             "logo": "hersilia.png"
         },
@@ -206,7 +210,14 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Fabian Arevalo"
+                    },
+                    {
+                        "jugador":"Rodrigo Arevalo"
+                    }
+                ]
             },
             "logo": "ambro.png"
         },
