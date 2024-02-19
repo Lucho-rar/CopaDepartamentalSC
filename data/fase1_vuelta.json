@@ -131,7 +131,13 @@
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Daniel Diaz",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -150,7 +156,7 @@
             },
             "logo": "juniors.png"
         },
-        "fecha": "Resultado Global 1 - 2  \n\n\n\n\n\n\n\n18/02/2024 - 20:00hs",
+        "fecha": "Resultado Global 2 - 2  \n\n\n\n\n\n\n\n18/02/2024 - 20:00hs",
         "estado": "Jugando",
         "contexto": []
     },
