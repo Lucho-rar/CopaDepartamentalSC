@@ -179,7 +179,13 @@
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Nicolas Martinez",
+                    "penal":true
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -204,7 +210,7 @@
             },
             "logo": "ambro.png"
         },
-        "fecha": "Resultado Global 1 - 4  \n\n\n\n\n\n\n\n18/02/2024 - 20:00hs",
+        "fecha": "Resultado Global 2 - 4  \n\n\n\n\n\n\n\n18/02/2024 - 20:00hs",
         "estado": "Jugando",
         "contexto": []
     },
