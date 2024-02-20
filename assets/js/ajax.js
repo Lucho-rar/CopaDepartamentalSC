@@ -461,7 +461,7 @@ window.addEventListener('load', function (){
             }
         }
     }
-    traerDatos_vuelta(btnFaseDos)
+    //traerDatos_vuelta(btnFaseDos)
     function traerDatos_fase2(btnOrEvent) {
         toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
         
@@ -475,5 +475,5 @@ window.addEventListener('load', function (){
             }
         }
     }
-    //traerDatos_fase2(btnFaseTres)
+    traerDatos_fase2(btnFaseTres)
 })
