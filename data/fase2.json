@@ -2,6 +2,65 @@
     {
         "local": {
             "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "TIRO FEDERAL MOISES VILLE",
+                "corto": "TFMV"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "tiro.png"
+        },
+        "fecha": "Jueves 22/02/2024 - 21:30hs",
+        "estado": "Por Jugar",
+        "contexto": []
+    },
+    {
+        "local": {
+            "nombre": {
+                "completo": "CLUB SPORTIVO SUARDI",
+                "corto": "CCS"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "sportivo.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ASOCIACION DEPORTIVA JUNIORS CLUB",
+                "corto": "ADJC"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "juniors.png"
+        },
+        "fecha": "Viernes 23/02/2024 - 21:30hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
@@ -29,66 +88,9 @@
         "contexto": []
     },
 
-    {
-        "local": {
-            "nombre": {
-                "completo": "CLUB SPORTIVO SUARDI",
-                "corto": "CCS"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "sportivo.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "ASOCIACION DEPORTIVA JUNIORS CLUB",
-                "corto": "ADJC"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "juniors.png"
-        },
-        "fecha": "Viernes 23/02/2024 - 21:30hs",
-        "estado": "Por Jugar",
-        "contexto": []
-    },
+    
 
     
-    {
-        "local": {
-            "nombre": {
-                "completo": "CENTRAL ARG. OLÍMPICO",
-                "corto": "CCAO"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ccao.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "TIRO FEDERAL MOISES VILLE",
-                "corto": "TFMV"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "tiro.png"
-        },
-        "fecha": "Fecha a definir",
-        "estado": "Por Jugar",
-        "contexto": []
-    },
 
 
     {
