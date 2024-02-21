@@ -57,7 +57,7 @@ let pageContent = function (data, titulo = '', subtitulo = '') {
   };
 
 function imprimirDescargarTabla({ download = false } = {}){
-  const tablaHTML = document.getElementById('tabla_fixture_impresion');
+  const tablaHTML = document.getElementById('tabla_prueba_impresion');
   tablaHTML.querySelectorAll('tr.row-contexto').forEach(tr=> tr.remove())
   console.log(tablaHTML);
 
@@ -69,19 +69,19 @@ function imprimirDescargarTabla({ download = false } = {}){
     { emoji: '🟥', label: '(TR)' }
   ]
 
-  for (let index = 0; index < tablaJSON.data.length; index++) {
-    let row = tablaJSON.data[index];
+  // for (let index = 0; index < tablaJSON.data.length; index++) {
+  //   let row = tablaJSON.data[index];
     
-    if(row.filter(Boolean).length === 3){
-      const cellEmpty = document.createElement('td')
-      cellEmpty.classList.add('cell-empty')
+  //   if(row.filter(Boolean).length === 3){
+  //     const cellEmpty = document.createElement('td')
+  //     cellEmpty.classList.add('cell-empty')
  
-      row.splice(2, 0, cellEmpty);
-    };
+  //     row.splice(2, 0, cellEmpty);
+  //   };
     
-  }
+  // }
 
-  // const columnsWidth = (pdfConfigHorizontal.format[0] / 4)
+  const columnsWidth = (pdfConfigHorizontal.format[0] / 3) - 10
 
   const configuracion = {
     html: tablaHTML,
@@ -89,9 +89,9 @@ function imprimirDescargarTabla({ download = false } = {}){
     headerStyles : {
       fillColor : [25, 135, 84],
     },
-    // alternateRowStyles: {
-    //   fillColor : [242, 250, 247]
-    // },
+    alternateRowStyles: {
+      fillColor : [242, 250, 247]
+    },
     addPageContent: function (data) {
       pageContent(data, 'Copa Departamental San Cristóbal', 'Fixture actual')
     },
@@ -101,32 +101,39 @@ function imprimirDescargarTabla({ download = false } = {}){
       0: { 
         overflow: 'linebreak',
         halign: 'center',
-        // columnWidth: columnsWidth
+        columnWidth: columnsWidth,
+        lineWidth: 0,
       },
       1: { 
         overflow: 'linebreak',
         halign: 'center',
-        // columnWidth: columnsWidth
+        columnWidth: columnsWidth,
+        lineWidth: 0,
       },
       2: {  
         overflow: 'linebreak',
         halign: 'center',
-        // columnWidth: columnsWidth
+        columnWidth: columnsWidth,
+        lineWidth: 0,
       },
-      3: {  
-        overflow: 'linebreak',
-        halign: 'center',
+      // 3: {  
+      //   overflow: 'linebreak',
+      //   halign: 'center',
 
-        // columnWidth: columnsWidth
-      }
+      //   // columnWidth: columnsWidth
+      // }
     },
     createdCell: function (cell, data) {
-      if(cell?.raw?.parentElement?.classList.contains('row-info') || cell?.raw?.classList.contains('cell-empty')){
-        cell.styles.lineWidth = 0;
-      } else {
-        cell.styles.lineWidth = 0;
-        cell.styles.fillColor = [242, 250, 247];
-      }
+      // if(cell?.raw?.parentElement?.classList.contains('row-info') || cell?.raw?.classList.contains('cell-empty')){
+      //   if(cell.raw.getAttribute('colspan') === '2'){
+      //     cell.styles.halign = 'center';
+      //   }
+
+      //   cell.styles.lineWidth = 0;
+      // } else {
+      //   cell.styles.lineWidth = 0;
+      //   cell.styles.fillColor = [242, 250, 247];
+      // }
 
       if(cell.text){
         emojis.forEach(({ emoji, label })=> {
