@@ -541,7 +541,8 @@ img {
   text-transform: capitalize;
 }
 
-#tabla_estadisticas tbody tr:nth-child(even) {
+#tabla_estadisticas tbody tr:nth-child(even),
+#tabla_goleadores tbody tr:nth-child(even) {
   /* background-color: #0000000b; */
   background-color: #f1f1f2fe;
 }

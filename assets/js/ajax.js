@@ -336,7 +336,9 @@ window.addEventListener('load', function (){
     // LEE DATOS DE LOS JSON Y LLENA LA TABLA DE POSICIONES/PARTIDOS
     function llenarTablaHTMLPartidos (partidos){
         let res = document.querySelector('#res');
+        let tbody_fixture_impresion = document.querySelector('#tbody_fixture_impresion');
         res.innerHTML = '';
+        tbody_fixture_impresion.innerHTML = '';
 
         const bgEstados = {
             "por jugar": 'bg-pendiente',
@@ -358,9 +360,11 @@ window.addEventListener('load', function (){
         }
     
         const formatearTAJugadores = (tarjetasAmarillas)=> {
-        return tarjetasAmarillas
-            .map(ta=> `${'🟨'.repeat(ta.cantidad)} ${ta.cantidad == 2 ? '🟥' : ''} ${ta.jugador}\n `)
-            .join(';')
+            return tarjetasAmarillas && tarjetasAmarillas.length 
+                ? tarjetasAmarillas
+                    .map(ta=> `${'🟨'.repeat(ta.cantidad)} ${ta.cantidad == 2 ? '🟥' : ''} ${ta.jugador}\n `)
+                    .join(';')
+                : ''
         }
         
         const formatearTRJugadores = tarjetasRojas => {
@@ -368,6 +372,31 @@ window.addEventListener('load', function (){
         }
 
         for (let partido of partidos) {
+
+            tbody_fixture_impresion.innerHTML += `
+                <tr>
+                    <td> ${partido.local.nombre.completo} </td>
+                    <td> 
+                        ${formatearCantidadGoles(partido.estado, partido.local.goles.length).toString().trim()}  /   ${formatearCantidadGoles(partido.estado, partido.visitante.goles.length).toString().trim()}
+                    </td>
+                    <td> ${partido.visitante.nombre.completo} </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p> ${formatearGolesJugadores(partido.local.goles)} </p>
+                        <p> ${formatearTRJugadores(partido.local.info.rojas_directas).toString().trim()} </p>
+                        <p> ${formatearTAJugadores(partido.local.info.amarillas)} </p>
+                    </td>
+                    <td>
+                        ${partido.estado.toUpperCase()} / ${partido.fecha.toString()}
+                    </td>
+                    <td>
+                        <p> ${formatearGolesJugadores(partido.visitante.goles)} </p>
+                        <p> ${formatearTRJugadores(partido.visitante.info.rojas_directas).toString().trim()} </p>
+                        <p> ${formatearTAJugadores(partido.visitante.info.amarillas)} </p>
+                    </td>
+                </tr>
+            ` 
 
             res.innerHTML += `
             <tr class="row-match match-result">
