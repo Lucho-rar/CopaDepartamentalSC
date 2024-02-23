@@ -28,35 +28,6 @@
         "estado": "Finalizado",
         "contexto": []
     },
-    {
-        "local": {
-            "nombre": {
-                "completo": "CLUB SPORTIVO SUARDI",
-                "corto": "CCS"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "sportivo.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "ASOCIACION DEPORTIVA JUNIORS CLUB",
-                "corto": "ADJC"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "juniors.png"
-        },
-        "fecha": "Domingo 25/02/2024 - 20:00hs",
-        "estado": "Por jugar",
-        "contexto": []
-    },
 
     {
         "local": {
@@ -121,7 +92,37 @@
         "fecha": "Viernes 23/02/2024 - 22:00hs",
         "estado": "Por jugar",
         "contexto": []
+    },
+    {
+        "local": {
+            "nombre": {
+                "completo": "CLUB SPORTIVO SUARDI",
+                "corto": "CCS"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "sportivo.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ASOCIACION DEPORTIVA JUNIORS CLUB",
+                "corto": "ADJC"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "juniors.png"
+        },
+        "fecha": "Domingo 25/02/2024 - 20:00hs",
+        "estado": "Por jugar",
+        "contexto": []
     }
+
 
 
 ]
