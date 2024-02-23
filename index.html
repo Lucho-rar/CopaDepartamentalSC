@@ -14,14 +14,14 @@
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="assets/css/index.css">
 
-        <title>Copa Departamental SC</title>
+        <title>A que hora juega?</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
         <header class="header">
             <nav class="nav container">
                 <a href="#" class="nav__logo">
-                    COPA DEPARTAMENTAL SAN CRISTÓBAL
+                    A QUE HORA JUEGA?
                 </a>
 
                 <div class="nav__menu" id="nav-menu">
@@ -68,8 +68,8 @@
             <section class="home">
                 <div class="home__container container">
                     <div class="home__data">
-                        <span class="home__subtitle">Página no oficial</span>
-                        <h1 class="home__title">Copa Departamental</h1>
+                        <span class="home__subtitle">Página oficial</span>
+                        <h1 class="home__title">A qué hora juega?</h1>
                         <p class="home__description">
                             Estadísticas y partidos del torneo. <br> Si desea colaborar con la información, comuníquese.
                         </p>
@@ -85,83 +85,7 @@
                 </div>
             </section>
 
-            <section class="tabla" id="equipos_seccion">
-                
-                <div class="card">
-                    <div class="card-content">
-                      <img src="assets/img/cacu.png" loading="lazy" alt="Logo Club Atletico Ceres Union">
-                      <h2 class="card-title">Club Atlético Ceres Unión</h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                      <img src="assets/img/ccao.png" loading="lazy" alt="Logo Club Central Argentino Olímpico">
-                      <h2 class="card-title">Club Central Argentino Olímpico</h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                      <img src="assets/img/ferro.png" loading="lazy" alt="Logo Club Ferro Dho">
-                      <h2 class="card-title">Club Ferro Dho</h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                      <img src="assets/img/ambro.png" loading="lazy" alt="Logo Club Atlético San Lorenzo de Ambrosetti">
-                      <h2 class="card-title">Club Atlético San Lorenzo de Ambrosetti</h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                      <img src="assets/img/cuda.png" loading="lazy" alt="Club Unión Deportiva Arrufó">
-                      <h2 class="card-title">Club Unión Deportiva Arrufó</h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                      <img src="assets/img/calt.png" loading="lazy" alt="Logo Club Atlético Libertad Trinidad">
-                      <h2 class="card-title">Club Atlético Libertad Trinidad</h2>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-content">
-                      <img src="assets/img/ucyd.png" loading="lazy" alt="Logo Club Unión Cultural y Deportivo San Guillermo">
-                      <h2 class="card-title">Club Unión Cultural y Deportivo San Guillermo</h2>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <div class="card-content">
-                      <img src="assets/img/tiro.png" loading="lazy" alt="Logo Club Tiro Federal Moisés Ville">
-                      <h2 class="card-title">Club Tiro Federal Moisés Ville</h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                      <img src="assets/img/indsc.png" loading="lazy" alt="Logo Club Independiente de San Cristóbal">
-                      <h2 class="card-title">Club Independiente de San Cristóbal</h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                      <img src="assets/img/juniors.png" loading="lazy" alt="Logo Asociación Deportiva Juniors Club">
-                      <h2 class="card-title">Asociación Deportiva Juniors Club</h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                      <img src="assets/img/sportivo.png" loading="lazy" alt="Logo Club Sportivo Suardi">
-                      <h2 class="card-title">Club Sportivo Suardi</h2>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-content">
-                      <img src="assets/img/hersilia.png" loading="lazy" alt="Logo Club Unión Soc. y Dep. hersilia">
-                      <h2 class="card-title">Club Unión Soc. y Dep. hersilia</h2>
-                    </div>
-                </div>
-            </section>
+            
 
             
 
@@ -201,13 +125,57 @@
                 </header>
         
                 <div class="fases_eliminatorias">
+                    <button type="button" class="btn" id="select_copa_sc">Copa departamental SC</button>
+                    <button type="button" class="btn" id="select_lc_apertura">Liga Ceresina - apertura 24</button>
+
+                </div>
+                <div class="fases_eliminatorias" id="fases">
                     <button type="button" class="btn" id="fase1">Fase 1 IDA</button>
                     <button type="button" class="btn" id="fase2">Fase 1 VUELTA</button>
                     <button type="button" class="btn" id="fase3">Fase 2</button>
                     <button type="button" class="btn" id="fase3">SEMIFINALES</button>
                     <button type="button" class="btn" id="fase3">FINAL Y 3ER PUESTO</button>
                 </div>
-                 
+
+                <div class="fases_eliminatorias" id="fechas_lrfc">
+                    <button type="button" class="btn" id="fase1">1</button>
+                    <button type="button" class="btn" id="fase1">2</button>
+                    <button type="button" class="btn" id="fase1">3</button>
+                    <button type="button" class="btn" id="fase1">4</button>
+                    <button type="button" class="btn" id="fase1">5</button>
+                    <button type="button" class="btn" id="fase1">6</button>
+                    <button type="button" class="btn" id="fase1">7</button>
+                    <button type="button" class="btn" id="fase1">8</button>
+                    <button type="button" class="btn" id="fase1">9</button>
+                    <button type="button" class="btn" id="fase1">10</button>
+                    <button type="button" class="btn" id="fase1">11</button>
+                    <button type="button" class="btn" id="fase1">cuartos</button>
+                    <button type="button" class="btn" id="fase1">semis</button>
+                    <button type="button" class="btn" id="fase1">final</button>
+                </div>
+
+
+                <!-- script de select-->
+                
+                <script>
+                    document.getElementById("select_copa_sc").addEventListener("click", function() {
+                        var selectValue = this.value;
+                        var fasesDiv = document.getElementById("fases");
+                        var fasesLRFC = document.getElementById("fechas_lrfc");
+                        fasesLRFC.classList.add("hidden");
+                        fasesDiv.classList.remove("hidden");
+                        
+
+                    });
+                    document.getElementById("select_lc_apertura").addEventListener("click", function() {
+                        var selectValue = this.value;
+                        var fasesDiv = document.getElementById("fases");
+                        var fasesLRFC = document.getElementById("fechas_lrfc");
+                        fasesDiv.classList.add("hidden");
+                        fasesLRFC.classList.remove("hidden");
+                    });
+                </script>
+
                 <!-- TABLA PARTIDOS -->
                 <section class="table_fixture">
     
@@ -328,20 +296,80 @@
 
 
         </main>
-        <section class="reglas" id="reglamento">
-            <div class="wrapper">
-                <img id="trofeo" src="assets/img/trofeo.png" loading="lazy" alt="trofeo en mano">
-                <div class="text-box">
-                    <h2 id="titulo_reglamento" class="titulo_secciones">Reglamento</h2>
-                    <ul>
-                        <li> 12 equipos del departamento.</li>
-                        <li> Habrá un premio mayor de $ 900000 al campeón, el subcampeón, tercero y cuarto de la competencia se alzaran con premios de 600 mil, 500 mil y 400 mil. Ya por participar los 12 clubes recibirán un aporte de $ 300 mil.</li>
-                        <li> Lista de buena fe 35 jugadores </li>
-                        <li> Los ganadores de la primera fase y los dos mejores perdedores clasifican a la segunda ronda. </li>
-                        <li> La primera ronda es ida y vuelta.</li>
-                        <li> Todos los demas partidos son a un solo partido (2da ronda, 3er ronda, 3er/4to puesto, semifinales, final).</li>
+        <section class="tabla" id="equipos_seccion">
+                
+            <div class="card">
+                <div class="card-content">
+                  <img src="assets/img/cacu.png" loading="lazy" alt="Logo Club Atletico Ceres Union">
+                  <h2 class="card-title">Club Atlético Ceres Unión</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                  <img src="assets/img/ccao.png" loading="lazy" alt="Logo Club Central Argentino Olímpico">
+                  <h2 class="card-title">Club Central Argentino Olímpico</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                  <img src="assets/img/ferro.png" loading="lazy" alt="Logo Club Ferro Dho">
+                  <h2 class="card-title">Club Ferro Dho</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                  <img src="assets/img/ambro.png" loading="lazy" alt="Logo Club Atlético San Lorenzo de Ambrosetti">
+                  <h2 class="card-title">Club Atlético San Lorenzo de Ambrosetti</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                  <img src="assets/img/cuda.png" loading="lazy" alt="Club Unión Deportiva Arrufó">
+                  <h2 class="card-title">Club Unión Deportiva Arrufó</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                  <img src="assets/img/calt.png" loading="lazy" alt="Logo Club Atlético Libertad Trinidad">
+                  <h2 class="card-title">Club Atlético Libertad Trinidad</h2>
+                </div>
+            </div>
 
-                    </ul>
+            <div class="card">
+                <div class="card-content">
+                  <img src="assets/img/ucyd.png" loading="lazy" alt="Logo Club Unión Cultural y Deportivo San Guillermo">
+                  <h2 class="card-title">Club Unión Cultural y Deportivo San Guillermo</h2>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-content">
+                  <img src="assets/img/tiro.png" loading="lazy" alt="Logo Club Tiro Federal Moisés Ville">
+                  <h2 class="card-title">Club Tiro Federal Moisés Ville</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                  <img src="assets/img/indsc.png" loading="lazy" alt="Logo Club Independiente de San Cristóbal">
+                  <h2 class="card-title">Club Independiente de San Cristóbal</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                  <img src="assets/img/juniors.png" loading="lazy" alt="Logo Asociación Deportiva Juniors Club">
+                  <h2 class="card-title">Asociación Deportiva Juniors Club</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                  <img src="assets/img/sportivo.png" loading="lazy" alt="Logo Club Sportivo Suardi">
+                  <h2 class="card-title">Club Sportivo Suardi</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                  <img src="assets/img/hersilia.png" loading="lazy" alt="Logo Club Unión Soc. y Dep. hersilia">
+                  <h2 class="card-title">Club Unión Soc. y Dep. hersilia</h2>
                 </div>
             </div>
         </section>
