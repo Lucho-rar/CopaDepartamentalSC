@@ -212,9 +212,10 @@ window.addEventListener('load', function (){
                         if(datosEquipos[idLocal] && datosEquipos[idVistante] && item.estado!= "Por jugar") {   
     
                             // si tiene el caracter no se jugó el partido aun
+                            //console.log(idLocal);
                             datosEquipos[idLocal].pj += 1; //suma a ambos equipos el partido jugado
                             datosEquipos[idVistante].pj += 1;
-                            
+                            //console.log(idVistante);
                             //aumento gf del local y le sumo gc con los goles del visitante 
                             datosEquipos[idLocal].gf += cantidadGolesLocal;
                             datosEquipos[idLocal].gc += cantidadGolesVisitante;
@@ -242,7 +243,7 @@ window.addEventListener('load', function (){
     }
 
     function llenarStats() {
-        Promise.all([cargarStats('fase1.json'), cargarStats('fase1_vuelta.json')])
+        Promise.all([cargarStats('fase1.json'), cargarStats('fase1_vuelta.json'),cargarStats('fase2.json')])
             .then(() => {
                 let res = document.querySelector('#res_stats');
                 let resGoleadores = document.querySelector('#res_goleadores');

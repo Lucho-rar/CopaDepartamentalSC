@@ -25,7 +25,7 @@
             "logo": "tiro.png"
         },
         "fecha": "Jueves 22/02/2024 - 21:30hs",
-        "estado": "Jugando",
+        "estado": "jugando",
         "contexto": []
     },
     {
@@ -84,7 +84,7 @@
             "logo": "ambro.png"
         },
         "fecha": "Viernes 23/02/2024 - 22:00hs",
-        "estado": "Por Jugar",
+        "estado": "Por jugar",
         "contexto": []
     },
 
