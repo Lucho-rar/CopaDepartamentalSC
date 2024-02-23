@@ -607,6 +607,16 @@ img {
   width: 100%;
 }
 
+#fases.hidden {
+  display: none;
+}
+
+
+
+#fechas_lrfc.hidden{
+  display: none;
+}
+
 /* ---------------- FIXTURE --------- */
 
   .text-center {
