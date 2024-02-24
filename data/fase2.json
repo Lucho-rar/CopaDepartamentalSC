@@ -45,9 +45,7 @@
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
-                    {
-                        "jugador":"Mauro Lopez"
-                    }
+
                 ]
             },
             "logo": "cuda.png"
@@ -66,7 +64,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Mauro Lopez"
+                    }
+                ]
             },
             "logo": "ambro.png"
         },
