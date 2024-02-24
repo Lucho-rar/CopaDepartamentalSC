@@ -5,15 +5,26 @@ window.addEventListener('load', function (){
     const btnFaseDos = document.querySelector('#fase2');//Fase 2 -> Fase 1 vuelta real.
     const btnFaseTres = document.querySelector('#fase3'); //Fase 3-> Fase 2 real
     const btnCSCselect = this.document.querySelector('#select_copa_sc');
-    const btnLCselect = this.document.querySelector('#select_lc_apertura')
+    const btnLCselect = this.document.querySelector('#select_lc_apertura');
 
-
+    // Botones de fechas 
+    const btnf1_a24 = this.document.querySelector('#f1_a24');
+    const btnf2_a24 = this.document.querySelector('#f2_a24');
+    const btnf3_a24 = this.document.querySelector('#f3_a24');
+    const btnf4_a24 = this.document.querySelector('#f4_a24');
+    const btnf5_a24 = this.document.querySelector('#f5_a24');
+    const btnf6_a24 = this.document.querySelector('#f6_a24');
+    const btnf7_a24 = this.document.querySelector('#f7_a24');
+    const btnf8_a24 = this.document.querySelector('#f8_a24');
+    const btnf9_a24 = this.document.querySelector('#f9_a24');
+    const btnf10_a24 = this.document.querySelector('#f10_a24');
+    const btnf11_a24 = this.document.querySelector('#f11_a24');
     
     btnFaseUno.addEventListener('click', traerDatos_ida);
     btnFaseDos.addEventListener('click', traerDatos_vuelta);
     btnFaseTres.addEventListener('click',traerDatos_fase2);
-    btnLCselect.addEventListener('click',traerDatos_fecha1_LRFC);
-
+    btnLCselect.addEventListener('click',traerDatos_fecha1);
+    btnf1_a24.addEventListener('click',traerDatos_fecha1);
     
 
 
@@ -517,9 +528,9 @@ window.addEventListener('load', function (){
             }
         }
     }
-    traerDatos_fase2(btnFaseTres)
+    traerDatos_fase2(btnFaseTres);
 
-    function traerDatos_fecha1_LRFC() {
+    function traerDatos_fecha1() {
         //toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
         
         const xh = new XMLHttpRequest();
