@@ -55,14 +55,9 @@
             "logo": "ambro.png"
         },
         "fecha": "Viernes 23/02/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "Jugando",
         "contexto": []
     },
-
-    
-
-    
-
 
     {
         "local": {
@@ -90,7 +85,7 @@
             "logo": "cacu.png"
         },
         "fecha": "Viernes 23/02/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "Jugando",
         "contexto": []
     },
     {
@@ -118,7 +113,7 @@
             },
             "logo": "juniors.png"
         },
-        "fecha": "Domingo 25/02/2024 - 20:00hs",
+        "fecha": "Domingo 03/03/2024 - 18:00hs",
         "estado": "Por jugar",
         "contexto": []
     }
