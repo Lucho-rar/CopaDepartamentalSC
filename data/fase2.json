@@ -35,7 +35,13 @@
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Facundo Tolosa",
+                    "penal":true
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
