@@ -25,7 +25,7 @@ window.addEventListener('load', function (){
     btnFaseTres.addEventListener('click',traerDatos_fase2);
     btnLCselect.addEventListener('click',traerDatos_fecha1);
     btnf1_a24.addEventListener('click',traerDatos_fecha1);
-    
+    btnf2_a24.addEventListener('click',traerDatos_fecha2);
 
 
     let datosEquipos = {
@@ -153,9 +153,175 @@ window.addEventListener('load', function (){
 
     let datosJugadores = {};
 
+    let datosJugadores_lca24 = {};
     const nombreEquipo = "UNION SAN GUILLERMO"; // Por ejemplo
     const nombreJugador = "Juan Pérez"; // Nombre del jugador que deseas agregar
 
+
+    let datosEquipos_lca24 = {
+        "UNION SAN GUILLERMO": {
+            nombre: "UNION SAN GUILLERMO",
+            gf: 0,
+            gc: 0,
+            pj: 0,
+            pg: 0,
+            pe: 0,
+            pp: 0,
+            path: "ucyd.png"
+        },
+        "CLUB SPORTIVO SUARDI": {
+            nombre: "UNION Y JUVENTUD (B)",
+            gf: 0,
+            gc: 0,
+            pj: 0,
+            pg: 0,
+            pe: 0,
+            pp: 0,
+            path: "bandera.png"
+        },
+        "ATL. TOSTADO": {
+            nombre: "ATL. TOSTADO",
+            gf: 0,
+            gc: 0,
+            pj: 0,
+            pg: 0,
+            pe: 0,
+            pp: 0,
+            path: "cat.png"
+        },
+        "ATL. LIBERTAD TRINIDAD": {
+            nombre: "ATL. LIBERTAD TRINIDAD",
+            gf: 0,
+            gc: 0,
+            pj: 0,
+            pg: 0,
+            pe: 0,
+            pp: 0,
+            path: "calt.png"
+        },
+        "SAN LORENZO (A)": {
+            nombre: "SAN LORENZO (A)",
+            gf: 0,
+            gc: 0,
+            pj: 0,
+            pg: 0,
+            pe: 0,
+            pp: 0,
+            path: "ambro.png"
+        },
+        "UNIÓN SOCIAL DE HERSILIA": {
+            nombre: "UNIÓN SOCIAL DE HERSILIA",
+            gf: 0,
+            gc: 0,
+            pj: 0,
+            pg: 0,
+            pe: 0,
+            pp: 0,
+            path: "hersilia.png"
+        },
+        "UNION ARRUFO": {
+            nombre: "UNION ARRUFO",
+            gf: 0,
+            gc: 0,
+            pj: 0,
+            pg: 0,
+            pe: 0,
+            pp: 0,
+            path: "cuda.png"
+        },
+        "FERRO DHO (SC)": {
+            nombre: "FERRO DHO (SC)",
+            gf: 0,
+            gc: 0,
+            pj: 0,
+            pg: 0,
+            pe: 0,
+            pp: 0,
+            path: "ferro.png"
+        },
+        "SAN LORENZO (T)": {
+            nombre: "SAN LORENZO (T)",
+            gf: 0,
+            gc: 0,
+            pj: 0,
+            pg: 0,
+            pe: 0,
+            pp: 0,
+            path: "slt.png"
+        },
+        "ATL. UNIÓN DE CERES": {
+            nombre: "ATL. UNIÓN DE CERES",
+            gf: 0,
+            gc: 0,
+            pj: 0,
+            pg: 0,
+            pe: 0,
+            pp: 0,
+            path: "cacu.png"
+        },
+        "CENTRAL ARG. OLÍMPICO": {
+            nombre: "CENTRAL ARG. OLÍMPICO",
+            gf: 0,
+            gc: 0,
+            pj: 0,
+            pg: 0,
+            pe: 0,
+            pp: 0,
+            path: "ccao.png"
+        },
+        "ATL. SELVA": {
+            nombre: "ATL. SELVA",
+            gf: 0,
+            gc: 0,
+            pj: 0,
+            pg: 0,
+            pe: 0,
+            pp: 0,
+            path: "cas.png"
+        }
+    };
+
+    function cargarTarjetaRoja_lca24(nombreEquipo, nombreJugador) {
+        // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
+        if (!datosJugadores_lca24[nombreEquipo]) {
+            datosJugadores_lca24[nombreEquipo] = {};
+        }
+
+        // Verificar si el jugador ya está en el equipo
+        if (!datosJugadores_lca24[nombreEquipo][nombreJugador]) {
+            // Si el jugador no está inicializado, inicializarlo con tarjetas rojas en 1
+            datosJugadores_lca24[nombreEquipo][nombreJugador] = {
+                goles: 0,
+                tarjetasAmarillas: 0,
+                tarjetasRojas: 1,
+                asistencias: 0,
+                // Otros datos que desees agregar inicialmente
+            };
+        } else {
+            // Si el jugador ya está inicializado, sumar 1 a la cantidad de tarjetas rojas
+            datosJugadores_lca24[nombreEquipo][nombreJugador].tarjetasRojas++;
+        }
+    }
+
+    function cargarGoles_lca24(nombreEquipo, nombreJugador) {
+        // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
+        if (!datosJugadores_lca24[nombreEquipo]) {
+            datosJugadores_lca24[nombreEquipo] = {};
+        }
+
+        // Verificar si el jugador ya está en el equipo
+        if (!datosJugadores_lca24[nombreEquipo][nombreJugador]) {
+            // Si el jugador no está inicializado, inicializarlo con goles en 1
+            datosJugadores_lca24[nombreEquipo][nombreJugador] = {
+                goles: 1,
+                tarjetasRojas: 0
+                // Otros datos que desees agregar inicialmente
+            };
+        } else {
+            // Si el jugador ya está inicializado, sumar 1 a la cantidad de goles
+            datosJugadores_lca24[nombreEquipo][nombreJugador].goles++;
+        }
+    }
     function cargarTarjetaRoja(nombreEquipo, nombreJugador) {
         // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
         if (!datosJugadores[nombreEquipo]) {
@@ -198,7 +364,7 @@ window.addEventListener('load', function (){
         }
     }
 
-    function cargarStats(archivo) {
+    function cargarStats_csc(archivo) {
         return new Promise((resolve, reject) => {
             const xh = new XMLHttpRequest();
             xh.open('GET', `data/${archivo}`, true);
@@ -262,8 +428,133 @@ window.addEventListener('load', function (){
         });
     }
 
-    function llenarStats() {
-        Promise.all([cargarStats('fase1.json'), cargarStats('fase1_vuelta.json'),cargarStats('fase2.json')])
+    function cargarStats_lca24(archivo) {
+        return new Promise((resolve, reject) => {
+            const xh = new XMLHttpRequest();
+            xh.open('GET', `data/lrfc/${archivo}`, true);
+            xh.send();
+            xh.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    let datos = JSON.parse(this.responseText);
+                    for (let item of datos) {
+
+                        const idLocal = item.local.nombre.completo;
+                        const idVistante = item.visitante.nombre.completo;
+
+                        const cantidadGolesLocal = Number(item.local.goles.length)
+                        const cantidadGolesVisitante = Number(item.visitante.goles.length)
+            
+                        for (let gol of item.local.goles) {
+                            cargarGoles_lca24(idLocal,gol.jugador)
+                            //console.log(idLocal, gol.jugador);
+                        }
+                        for (let gol of item.visitante.goles) {
+                            cargarGoles_lca24(idVistante,gol.jugador)
+                            //console.log(idLocal, gol.jugador);
+                        }
+                        for (let tarjetaRoja of item.local.info.rojas_directas) {
+                            cargarTarjetaRoja_lca24(idLocal, tarjetaRoja.jugador);
+                        }
+                        for (let tarjetaRoja of item.visitante.info.rojas_directas) {
+                            cargarTarjetaRoja_lca24(idVistante, tarjetaRoja.jugador);
+                        }
+
+                        if(datosEquipos_lca24[idLocal] && datosEquipos_lca24[idVistante] && item.estado!= "Por jugar") {   
+    
+                            // si tiene el caracter no se jugó el partido aun
+                            //console.log(idLocal);
+                            datosEquipos_lca24[idLocal].pj += 1; //suma a ambos equipos el partido jugado
+                            datosEquipos_lca24[idVistante].pj += 1;
+                            //console.log(idVistante);
+                            //aumento gf del local y le sumo gc con los goles del visitante 
+                            datosEquipos_lca24[idLocal].gf += cantidadGolesLocal;
+                            datosEquipos_lca24[idLocal].gc += cantidadGolesVisitante;
+                            
+                            // idem pero para visitante
+                            datosEquipos_lca24[idVistante].gf += cantidadGolesVisitante; 
+                            datosEquipos_lca24[idVistante].gc += cantidadGolesLocal;
+
+                            datosEquipos_lca24[idVistante].pg += cantidadGolesVisitante > cantidadGolesLocal ? 1 : 0; 
+                            datosEquipos_lca24[idVistante].pp += cantidadGolesVisitante < cantidadGolesLocal ? 1 : 0;
+                            datosEquipos_lca24[idVistante].pe += cantidadGolesVisitante === cantidadGolesLocal ? 1 : 0;
+                        
+                            datosEquipos_lca24[idLocal].pg += cantidadGolesLocal > cantidadGolesVisitante ? 1 : 0; 
+                            datosEquipos_lca24[idLocal].pp += cantidadGolesLocal < cantidadGolesVisitante ? 1 : 0;
+                            datosEquipos_lca24[idLocal].pe += cantidadGolesLocal === cantidadGolesVisitante ? 1 : 0;
+                        }
+                    }
+
+                    resolve(); // Resuelve la promesa una vez que los datos están procesados
+                }
+            
+            }
+            
+        });
+    }
+
+    function llenarStats_lca24() {
+        Promise.all([cargarStats_lca24('fecha1.json')])
+            .then(() => {
+                let res = document.querySelector('#res_stats');
+                let resGoleadores = document.querySelector('#res_goleadores');
+                res.innerHTML = '';
+                console.log(datosEquipos_lca24)
+                const ordenadoPorPG = Object.entries(datosEquipos_lca24) // -> ['SPORTIVO, { nombre, fecha... }]
+                    .sort((a,b)=> b[1].pp - a[1].pp) // de mayor a menor por partidos perdidos
+                    .sort((a,b)=> b[1].pe - a[1].pe) // de mayor a menor por partidos empatadas
+                    .sort((a,b)=> b[1].pg - a[1].pg) // de mayor a menor por partidos ganados
+                    .sort((a,b)=> {
+                        const diffGolesB = b[1].gf - b[1].gc
+                        const diffGolesA = a[1].gf - a[1].gc
+                        return diffGolesB - diffGolesA
+                    }) // de mayor a menor por diff de goles
+
+                for (let [_equipo, datosEquipos_lca24] of ordenadoPorPG) {
+                    // console.log(datosEquipos[equipo].pj);
+                    res.innerHTML += `
+                        <tr>
+                            <td><img src="assets/minis/${datosEquipos_lca24.path}" alt="logo ${datosEquipos_lca24.nombre}" class="table-image">${datosEquipos_lca24.nombre}</td>
+                            <td>${datosEquipos_lca24.pj}</td>
+                            <td>${datosEquipos_lca24.pg}</td>
+                            <td>${datosEquipos_lca24.pe}</td>
+                            <td>${datosEquipos_lca24.pp}</td>
+                            <td>${datosEquipos_lca24.gf}</td>
+                            <td>${datosEquipos_lca24.gc}</td>
+                            <td>${datosEquipos_lca24.gf - datosEquipos_lca24.gc}</td>
+                        </tr>
+                    `;
+                }
+
+                const array_data_jugadores = Object.entries(datosJugadores_lca24)
+                    // .map -> crea un nuevo arreglo con los datos del jugador su equipo y demas datos
+                    .map(([equipo, datosJugadores_lca24])=> {
+                        const jugadores = Object.entries(datosJugadores_lca24).map(([jugador, datos])=> {
+                            return { jugador, equipo, ...datos }
+                        })
+
+                        return jugadores
+                    })
+                    // aplana el arreglo a una dimension, para que sea mas facil recorrer, armar la tabla y 
+                    .flat() 
+                    // ordenarlo de mayor a menor
+                    .sort((a,b)=> b.goles - a.goles)
+    
+                for (const data of array_data_jugadores) {
+                    if (data.goles > 0) {
+                        resGoleadores.innerHTML += `
+                            <tr>
+                                <td>${data.jugador}</td>
+                                <td>${data.equipo}</td>
+                                <td>${data.goles}</td>
+                            </tr>
+                        `;
+                    }
+                }
+            });
+    }
+
+    function llenarStats_csc() {
+        Promise.all([cargarStats_csc('fase1.json'), cargarStats_csc('fase1_vuelta.json'),cargarStats_csc('fase2.json')])
             .then(() => {
                 let res = document.querySelector('#res_stats');
                 let resGoleadores = document.querySelector('#res_goleadores');
@@ -320,39 +611,11 @@ window.addEventListener('load', function (){
                         `;
                     }
                 }
-                // for (let equipo in datosJugadores) {
-                //     for (let jugador in datosJugadores[equipo]) {
-                //         if (datosJugadores[equipo][jugador].goles > 0) {
-                //             resGoleadores.innerHTML += `
-                //                 <tr>
-                //                     <td>${jugador}</td>
-                //                     <td>${equipo}</td>
-                //                     <td>${datosJugadores[equipo][jugador].goles}</td>
-                //                 </tr>
-                //             `;
-                //         }
-                //     }
-                // }
-
-                // for (let equipo in datosEquipos) {
-                //     // console.log(datosEquipos[equipo].pj);
-                //     res.innerHTML += `
-                //         <tr>
-                //             <td><img src="assets/minis/${datosEquipos[equipo].path}" alt="Imagen" class="table-image">${datosEquipos[equipo].nombre}</td>
-                //             <td>${datosEquipos[equipo].pj}</td>
-                //             <td>${datosEquipos[equipo].pg}</td>
-                //             <td>${datosEquipos[equipo].pe}</td>
-                //             <td>${datosEquipos[equipo].pp}</td>
-                //             <td>${datosEquipos[equipo].gf}</td>
-                //             <td>${datosEquipos[equipo].gc}</td>
-                //             <td>${datosEquipos[equipo].gf - datosEquipos[equipo].gc}</td>
-                //         </tr>
-                //     `;
-                // }
+                
             });
     }
 
-    llenarStats()
+    llenarStats_lca24()
 
     // LEE DATOS DE LOS JSON Y LLENA LA TABLA DE POSICIONES/PARTIDOS
     function llenarTablaHTMLPartidos (partidos){
@@ -530,8 +793,9 @@ window.addEventListener('load', function (){
     }
     traerDatos_fase2(btnFaseTres);
 
-    function traerDatos_fecha1() {
-        //toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+    function traerDatos_fecha1(btnOrEvent) {
+        document.body.style.backgroundColor = "#000033";
+        toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
         
         const xh = new XMLHttpRequest();
         xh.open('GET', 'data/lrfc/fecha1.json', true);
@@ -543,6 +807,21 @@ window.addEventListener('load', function (){
             }
         }
     }
+    function traerDatos_fecha2() {
+        //toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+        
+        const xh = new XMLHttpRequest();
+        xh.open('GET', 'data/lrfc/fecha2.json', true);
+        xh.send();
+        xh.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                let partidos = JSON.parse(this.responseText);
+                llenarTablaHTMLPartidos(partidos)
+            }
+        }
+    }
+
+
     //traerDatos_fecha1_LRFC()
     //
     function inicio_home(){
