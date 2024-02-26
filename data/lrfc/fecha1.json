@@ -5,7 +5,13 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Luchich",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -118,7 +124,7 @@
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "tiro.png"
+            "logo": "bandera.png"
         },
         "fecha": "03/03/2024",
         "estado": "Por jugar",

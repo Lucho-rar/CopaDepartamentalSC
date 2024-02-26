@@ -126,8 +126,8 @@
         
                 <div class="fases_eliminatorias">
                     <button type="button" class="btn" id="select_copa_sc">Copa departamental SC</button>
-                    <button type="button" class="btn" id="select_lc_apertura">Liga Ceresina - apertura 24</button>
-
+                    <button type="button" class="btn" id="select_lc_apertura">Liga Ceresina - primera </button>
+                    <button type="button" class="btn" id="select_lc_apertura">Liga Ceresina - sub23</button>
                 </div>
                 <div class="fases_eliminatorias" id="fases">
                     <button type="button" class="btn" id="fase1">Fase 1 IDA</button>
@@ -158,7 +158,14 @@
                 <!-- script de select-->
                 
                 <script>
-                    document.getElementById("select_copa_sc").addEventListener("click", function() {
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var selectValue = document.getElementById("select_lc_apertura").value;
+                        var fasesDiv = document.getElementById("fases");
+                        var fasesLRFC = document.getElementById("fechas_lrfc");
+                        fasesDiv.classList.remove("hidden");
+                        fasesLRFC.classList.add("hidden");
+                    });
+                    document.getElementById("select_copa_sc").addEventListener('click', function() {
                         var selectValue = this.value;
                         var fasesDiv = document.getElementById("fases");
                         var fasesLRFC = document.getElementById("fechas_lrfc");
@@ -167,7 +174,7 @@
                         
 
                     });
-                    document.getElementById("select_lc_apertura").addEventListener("click", function() {
+                    document.getElementById("select_lc_apertura").addEventListener('click', function() {
                         var selectValue = this.value;
                         var fasesDiv = document.getElementById("fases");
                         var fasesLRFC = document.getElementById("fechas_lrfc");
@@ -296,83 +303,7 @@
 
 
         </main>
-        <section class="tabla" id="equipos_seccion">
-                
-            <div class="card">
-                <div class="card-content">
-                  <img src="assets/img/cacu.png" loading="lazy" alt="Logo Club Atletico Ceres Union">
-                  <h2 class="card-title">Club Atlético Ceres Unión</h2>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                  <img src="assets/img/ccao.png" loading="lazy" alt="Logo Club Central Argentino Olímpico">
-                  <h2 class="card-title">Club Central Argentino Olímpico</h2>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                  <img src="assets/img/ferro.png" loading="lazy" alt="Logo Club Ferro Dho">
-                  <h2 class="card-title">Club Ferro Dho</h2>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                  <img src="assets/img/ambro.png" loading="lazy" alt="Logo Club Atlético San Lorenzo de Ambrosetti">
-                  <h2 class="card-title">Club Atlético San Lorenzo de Ambrosetti</h2>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                  <img src="assets/img/cuda.png" loading="lazy" alt="Club Unión Deportiva Arrufó">
-                  <h2 class="card-title">Club Unión Deportiva Arrufó</h2>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                  <img src="assets/img/calt.png" loading="lazy" alt="Logo Club Atlético Libertad Trinidad">
-                  <h2 class="card-title">Club Atlético Libertad Trinidad</h2>
-                </div>
-            </div>
 
-            <div class="card">
-                <div class="card-content">
-                  <img src="assets/img/ucyd.png" loading="lazy" alt="Logo Club Unión Cultural y Deportivo San Guillermo">
-                  <h2 class="card-title">Club Unión Cultural y Deportivo San Guillermo</h2>
-                </div>
-            </div>
-            
-            <div class="card">
-                <div class="card-content">
-                  <img src="assets/img/tiro.png" loading="lazy" alt="Logo Club Tiro Federal Moisés Ville">
-                  <h2 class="card-title">Club Tiro Federal Moisés Ville</h2>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                  <img src="assets/img/indsc.png" loading="lazy" alt="Logo Club Independiente de San Cristóbal">
-                  <h2 class="card-title">Club Independiente de San Cristóbal</h2>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                  <img src="assets/img/juniors.png" loading="lazy" alt="Logo Asociación Deportiva Juniors Club">
-                  <h2 class="card-title">Asociación Deportiva Juniors Club</h2>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                  <img src="assets/img/sportivo.png" loading="lazy" alt="Logo Club Sportivo Suardi">
-                  <h2 class="card-title">Club Sportivo Suardi</h2>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                  <img src="assets/img/hersilia.png" loading="lazy" alt="Logo Club Unión Soc. y Dep. hersilia">
-                  <h2 class="card-title">Club Unión Soc. y Dep. hersilia</h2>
-                </div>
-            </div>
-        </section>
 
         <button class="btn-up" id="btn-up" >
 
