@@ -5,7 +5,13 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Luchich",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -14,8 +20,8 @@
         },
         "visitante": {
             "nombre": {
-                "completo": "ATL. LIBERTAD TRINIDAD",
-                "corto": "CALT"
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
             },
             "goles": [],
             "info": {
@@ -24,7 +30,7 @@
             },
             "logo": "calt.png"
         },
-        "fecha": "03/03/2024 - 20:00hs",
+        "fecha": "03/03/2024",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -32,8 +38,8 @@
     {
         "local": {
             "nombre": {
-                "completo": "CENTRAL ARG. OLÍMPICO",
-                "corto": "CCAO"
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
             },
             "goles": [],
             "info": {
@@ -42,47 +48,16 @@
 
                 ]
             },
-            "logo": "ccao.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "SAN LORENZO (T)",
-                "corto": "CSLT"
-            },
-            "goles": [
-
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "slt.png"
-        },
-        "fecha": "03/03/2024",
-        "estado": "Por jugar",
-        "contexto": []
-    },
-
-    
-    {
-        "local": {
-            "nombre": {
-                "completo": "UNIÓN SOCIAL DE HERSILIA",
-                "corto": "USdH"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "hersilia.png"
+            "logo": "calt.png"
         },
         "visitante": {
             "nombre": {
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [],
+            "goles": [
+
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -94,19 +69,19 @@
         "contexto": []
     },
 
-
+    
     {
         "local": {
             "nombre": {
-                "completo": "SAN LORENZO (A)",
-                "corto": "CSLA"
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
             },
             "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ambro.png"
+            "logo": "ccao.png"
         },
         "visitante": {
             "nombre": {
@@ -125,18 +100,19 @@
         "contexto": []
     },
 
+
     {
         "local": {
             "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
+                "completo": "UNIÓN SOCIAL DE HERSILIA",
+                "corto": "USdH"
             },
             "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "cat.png"
+            "logo": "hersilia.png"
         },
         "visitante": {
             "nombre": {
@@ -154,20 +130,19 @@
         "estado": "Por jugar",
         "contexto": []
     },
-    
-    
+
     {
         "local": {
             "nombre": {
-                "completo": "UNION SAN GUILLERMO",
-                "corto": "UCYD"
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
             },
             "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ucyd.png"
+            "logo": "ambro.png"
         },
         "visitante": {
             "nombre": {
@@ -180,6 +155,37 @@
                 "rojas_directas": []
             },
             "logo": "cas.png"
+        },
+        "fecha": "03/03/2024",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+    
+    
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ucyd.png"
         },
         "fecha": "03/03/2024",
         "estado": "Por jugar",
