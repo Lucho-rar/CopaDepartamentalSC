@@ -18,7 +18,7 @@ window.addEventListener('load', function (){
     const btnf8_a24 = this.document.querySelector('#f8_a24');
     const btnf9_a24 = this.document.querySelector('#f9_a24');
     const btnf10_a24 = this.document.querySelector('#f10_a24');
-    const btnf11_a24 = this.document.querySelector('#f11_a24');
+    const btnf11_a24 = this.document.querySelector('#f11_a24'); 
     
     btnFaseUno.addEventListener('click', traerDatos_ida);
     btnFaseDos.addEventListener('click', traerDatos_vuelta);
@@ -794,8 +794,10 @@ window.addEventListener('load', function (){
     traerDatos_fase2(btnFaseTres);
 
     function traerDatos_fecha1(btnOrEvent) {
-        document.body.style.backgroundColor = "#000033";
         toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+        btnLCselect.classList.add('btn-active')
+        document.body.style.backgroundColor = "#000033";
+        //toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
         
         const xh = new XMLHttpRequest();
         xh.open('GET', 'data/lrfc/fecha1.json', true);
@@ -807,9 +809,9 @@ window.addEventListener('load', function (){
             }
         }
     }
-    function traerDatos_fecha2() {
-        //toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
-        
+    function traerDatos_fecha2(btnOrEvent) {
+        toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+        btnLCselect.classList.add('btn-active')
         const xh = new XMLHttpRequest();
         xh.open('GET', 'data/lrfc/fecha2.json', true);
         xh.send();
