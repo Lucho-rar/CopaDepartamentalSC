@@ -4,7 +4,10 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(129, 45%, 39%);
+  --first-color: #379044;
+  --secondary-color: #2d803a;
+  --terciary-color: #367841;
+  
   --text-color: hsl(0, 0%, 100%);
 
   /*========== Font and typography ==========*/
@@ -194,7 +197,7 @@ img {
   margin-top: 2rem;
   display: inline-block;
   background-color: var(--text-color);
-  color: #005504;
+  color: var(--first-color);
   padding: .80rem 1.5rem;
   border-radius: 3rem;
   transition: .4s;
@@ -565,8 +568,7 @@ img {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: hsl(129, 45%, 39%);
-  /* border: 2px solid rgb(28, 137, 51); */
+  background-color: var(--first-color);
   border: 2px solid currentColor;
   border-radius: .3rem;
   padding: 8px 27px;
@@ -584,7 +586,7 @@ img {
   left: -50px;
   width: 0;
   height: 100%;
-  background: hsl(129, 48%, 34%);
+  background: var(--secondary-color);
   transform: skewX(35deg);
   z-index: -1;
   transition: 1s;
@@ -593,7 +595,7 @@ img {
 .fases_eliminatorias .btn-active::before {
   left: 0;
   transform: skewX(0deg);
-  background: hsl(130, 38%, 34%);
+  background: var(--terciary-color);
 }
 
 .fases_eliminatorias .btn:hover
@@ -613,7 +615,7 @@ img {
 
 
 
-#fechas_lrfc.hidden{
+.fases_eliminatorias.hidden{
   display: none;
 }
 

@@ -6,8 +6,9 @@ window.addEventListener('load', function (){
     const btnFaseTres = document.querySelector('#fase3'); //Fase 3-> Fase 2 real
     const btnCSCselect = this.document.querySelector('#select_copa_sc');
     const btnLCselect = this.document.querySelector('#select_lc_apertura');
+    const btnLC23select = this.document.querySelector('#select_lc_apertura_23');
 
-    // Botones de fechas 
+    // Botones de fechas (primera)
     const btnf1_a24 = this.document.querySelector('#f1_a24');
     const btnf2_a24 = this.document.querySelector('#f2_a24');
     const btnf3_a24 = this.document.querySelector('#f3_a24');
@@ -20,14 +21,34 @@ window.addEventListener('load', function (){
     const btnf10_a24 = this.document.querySelector('#f10_a24');
     const btnf11_a24 = this.document.querySelector('#f11_a24'); 
     
+    // Botones de fechas (sub 23)
+    const btnf1_a24_23 = this.document.querySelector('#f1_a24_23')
+    const btnf2_a24_23 = this.document.querySelector('#f2_a24_23')
+    const btnf3_a24_23 = this.document.querySelector('#f3_a24_23')
+    const btnf4_a24_23 = this.document.querySelector('#f4_a24_23')
+    const btnf5_a24_23 = this.document.querySelector('#f5_a24_23')
+    const btnf6_a24_23 = this.document.querySelector('#f6_a24_23')
+    const btnf7_a24_23 = this.document.querySelector('#f7_a24_23')
+    const btnf8_a24_23 = this.document.querySelector('#f8_a24_23')
+    const btnf9_a24_23 = this.document.querySelector('#f9_a24_23')
+    const btnf10_a24_23 = this.document.querySelector('#f10_a24_23')
+    const btnf11_a24_23 = this.document.querySelector('#f11_a24_23')
+    const btncuartos_a24_23 = this.document.querySelector('#cuartos_a24_23')
+    const btnsemis_a24_23 = this.document.querySelector('#semis_a24_23')
+    const btnfinal_a24_23 = this.document.querySelector('#final_a24_23')
+  
     btnFaseUno.addEventListener('click', traerDatos_ida);
     btnFaseDos.addEventListener('click', traerDatos_vuelta);
-    btnFaseTres.addEventListener('click',traerDatos_fase2);
-    btnLCselect.addEventListener('click',traerDatos_fecha1);
-    btnf1_a24.addEventListener('click',traerDatos_fecha1);
-    btnf2_a24.addEventListener('click',traerDatos_fecha2);
+    btnFaseTres.addEventListener('click', traerDatos_fase2);
 
+    btnf1_a24.addEventListener('click', traerDatos_fecha('lrfc/fecha1.json'));
+    btnf2_a24.addEventListener('click', traerDatos_fecha('lrfc/fecha2.json'));
 
+    btnf1_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha1.json'));
+    btnf2_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha2.json'));
+
+    // COPA DEPARTAMENTO SC
+    let datosJugadores = {};
     let datosEquipos = {
         "UNION SAN GUILLERMO": {
             nombre: "UNION SAN GUILLERMO",
@@ -151,34 +172,10 @@ window.addEventListener('load', function (){
         }
     };
 
-    let datosJugadores = {};
-
+    // LIGA CERESINA
+    const no_juegan_liga_ceresina = ['CLUB SPORTIVO SUARDI', 'ASOCIACION DEPORTIVA JUNIORS CLUB', 'TIRO FEDERAL MOISES VILLE', 'CLUB ATLÉTICO INDEPENDIENTE (SC)']
     let datosJugadores_lca24 = {};
-    const nombreEquipo = "UNION SAN GUILLERMO"; // Por ejemplo
-    const nombreJugador = "Juan Pérez"; // Nombre del jugador que deseas agregar
-
-
     let datosEquipos_lca24 = {
-        "UNION SAN GUILLERMO": {
-            nombre: "UNION SAN GUILLERMO",
-            gf: 0,
-            gc: 0,
-            pj: 0,
-            pg: 0,
-            pe: 0,
-            pp: 0,
-            path: "ucyd.png"
-        },
-        "CLUB SPORTIVO SUARDI": {
-            nombre: "UNION Y JUVENTUD (B)",
-            gf: 0,
-            gc: 0,
-            pj: 0,
-            pg: 0,
-            pe: 0,
-            pp: 0,
-            path: "bandera.png"
-        },
         "ATL. TOSTADO": {
             nombre: "ATL. TOSTADO",
             gf: 0,
@@ -188,56 +185,6 @@ window.addEventListener('load', function (){
             pe: 0,
             pp: 0,
             path: "cat.png"
-        },
-        "ATL. LIBERTAD TRINIDAD": {
-            nombre: "ATL. LIBERTAD TRINIDAD",
-            gf: 0,
-            gc: 0,
-            pj: 0,
-            pg: 0,
-            pe: 0,
-            pp: 0,
-            path: "calt.png"
-        },
-        "SAN LORENZO (A)": {
-            nombre: "SAN LORENZO (A)",
-            gf: 0,
-            gc: 0,
-            pj: 0,
-            pg: 0,
-            pe: 0,
-            pp: 0,
-            path: "ambro.png"
-        },
-        "UNIÓN SOCIAL DE HERSILIA": {
-            nombre: "UNIÓN SOCIAL DE HERSILIA",
-            gf: 0,
-            gc: 0,
-            pj: 0,
-            pg: 0,
-            pe: 0,
-            pp: 0,
-            path: "hersilia.png"
-        },
-        "UNION ARRUFO": {
-            nombre: "UNION ARRUFO",
-            gf: 0,
-            gc: 0,
-            pj: 0,
-            pg: 0,
-            pe: 0,
-            pp: 0,
-            path: "cuda.png"
-        },
-        "FERRO DHO (SC)": {
-            nombre: "FERRO DHO (SC)",
-            gf: 0,
-            gc: 0,
-            pj: 0,
-            pg: 0,
-            pe: 0,
-            pp: 0,
-            path: "ferro.png"
         },
         "SAN LORENZO (T)": {
             nombre: "SAN LORENZO (T)",
@@ -249,25 +196,15 @@ window.addEventListener('load', function (){
             pp: 0,
             path: "slt.png"
         },
-        "ATL. UNIÓN DE CERES": {
-            nombre: "ATL. UNIÓN DE CERES",
+        "UNION Y JUVENTUD": {
+            nombre: "UNION Y JUVENTUD (B)",
             gf: 0,
             gc: 0,
             pj: 0,
             pg: 0,
             pe: 0,
             pp: 0,
-            path: "cacu.png"
-        },
-        "CENTRAL ARG. OLÍMPICO": {
-            nombre: "CENTRAL ARG. OLÍMPICO",
-            gf: 0,
-            gc: 0,
-            pj: 0,
-            pg: 0,
-            pe: 0,
-            pp: 0,
-            path: "ccao.png"
+            path: "bandera.png"
         },
         "ATL. SELVA": {
             nombre: "ATL. SELVA",
@@ -279,91 +216,227 @@ window.addEventListener('load', function (){
             pp: 0,
             path: "cas.png"
         }
-    };
-
-    function cargarTarjetaRoja_lca24(nombreEquipo, nombreJugador) {
-        // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
-        if (!datosJugadores_lca24[nombreEquipo]) {
-            datosJugadores_lca24[nombreEquipo] = {};
-        }
-
-        // Verificar si el jugador ya está en el equipo
-        if (!datosJugadores_lca24[nombreEquipo][nombreJugador]) {
-            // Si el jugador no está inicializado, inicializarlo con tarjetas rojas en 1
-            datosJugadores_lca24[nombreEquipo][nombreJugador] = {
-                goles: 0,
-                tarjetasAmarillas: 0,
-                tarjetasRojas: 1,
-                asistencias: 0,
-                // Otros datos que desees agregar inicialmente
-            };
-        } else {
-            // Si el jugador ya está inicializado, sumar 1 a la cantidad de tarjetas rojas
-            datosJugadores_lca24[nombreEquipo][nombreJugador].tarjetasRojas++;
+    }
+    // REUTILIZA LOS QUE YA EXISTEN Y FILTRA LOS QUE NO VAN
+    let deep_copy_datos_equipos = this.structuredClone(datosEquipos) // COPIA DE FORMA PROFUNDA EL OBJETO
+    for (const key in deep_copy_datos_equipos) {
+        if(!no_juegan_liga_ceresina.includes(key)){
+            datosEquipos_lca24[key] = deep_copy_datos_equipos[key]
         }
     }
 
-    function cargarGoles_lca24(nombreEquipo, nombreJugador) {
+    let datosJugadores_lca24_sub23 = {};
+    let datosEquipos_lca24_sub23 = this.structuredClone(datosEquipos_lca24)
+
+    // function cargarTarjetaRoja_lca24(nombreEquipo, nombreJugador) {
+    //     // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
+    //     if (!datosJugadores_lca24[nombreEquipo]) {
+    //         datosJugadores_lca24[nombreEquipo] = {};
+    //     }
+
+    //     // Verificar si el jugador ya está en el equipo
+    //     if (!datosJugadores_lca24[nombreEquipo][nombreJugador]) {
+    //         // Si el jugador no está inicializado, inicializarlo con tarjetas rojas en 1
+    //         datosJugadores_lca24[nombreEquipo][nombreJugador] = {
+    //             goles: 0,
+    //             tarjetasAmarillas: 0,
+    //             tarjetasRojas: 1,
+    //             asistencias: 0,
+    //             // Otros datos que desees agregar inicialmente
+    //         };
+    //     } else {
+    //         // Si el jugador ya está inicializado, sumar 1 a la cantidad de tarjetas rojas
+    //         datosJugadores_lca24[nombreEquipo][nombreJugador].tarjetasRojas++;
+    //     }
+    // }
+
+
+    // function cargarGoles_lca24(nombreEquipo, nombreJugador) {
+    //     // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
+    //     if (!datosJugadores_lca24[nombreEquipo]) {
+    //         datosJugadores_lca24[nombreEquipo] = {};
+    //     }
+
+    //     // Verificar si el jugador ya está en el equipo
+    //     if (!datosJugadores_lca24[nombreEquipo][nombreJugador]) {
+    //         // Si el jugador no está inicializado, inicializarlo con goles en 1
+    //         datosJugadores_lca24[nombreEquipo][nombreJugador] = {
+    //             goles: 1,
+    //             tarjetasRojas: 0
+    //             // Otros datos que desees agregar inicialmente
+    //         };
+    //     } else {
+    //         // Si el jugador ya está inicializado, sumar 1 a la cantidad de goles
+    //         datosJugadores_lca24[nombreEquipo][nombreJugador].goles++;
+    //     }
+    // }
+
+    // function cargarTarjetaRoja(nombreEquipo, nombreJugador) {
+    //     // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
+    //     if (!datosJugadores[nombreEquipo]) {
+    //         datosJugadores[nombreEquipo] = {};
+    //     }
+
+    //     // Verificar si el jugador ya está en el equipo
+    //     if (!datosJugadores[nombreEquipo][nombreJugador]) {
+    //         // Si el jugador no está inicializado, inicializarlo con tarjetas rojas en 1
+    //         datosJugadores[nombreEquipo][nombreJugador] = {
+    //             goles: 0,
+    //             tarjetasAmarillas: 0,
+    //             tarjetasRojas: 1,
+    //             asistencias: 0,
+    //             // Otros datos que desees agregar inicialmente
+    //         };
+    //     } else {
+    //         // Si el jugador ya está inicializado, sumar 1 a la cantidad de tarjetas rojas
+    //         datosJugadores[nombreEquipo][nombreJugador].tarjetasRojas++;
+    //     }
+    // }
+
+    // FUNCIONES GENERALES
+    function cargarGoles(datosJugadorParam, nombreEquipo, nombreJugador) {
         // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
-        if (!datosJugadores_lca24[nombreEquipo]) {
-            datosJugadores_lca24[nombreEquipo] = {};
+        if (!datosJugadorParam[nombreEquipo]) {
+            datosJugadorParam[nombreEquipo] = {};
         }
 
         // Verificar si el jugador ya está en el equipo
-        if (!datosJugadores_lca24[nombreEquipo][nombreJugador]) {
+        if (!datosJugadorParam[nombreEquipo][nombreJugador]) {
             // Si el jugador no está inicializado, inicializarlo con goles en 1
-            datosJugadores_lca24[nombreEquipo][nombreJugador] = {
+            datosJugadorParam[nombreEquipo][nombreJugador] = {
                 goles: 1,
-                tarjetasRojas: 0
+                // tarjetasRojas: 0
                 // Otros datos que desees agregar inicialmente
             };
         } else {
             // Si el jugador ya está inicializado, sumar 1 a la cantidad de goles
-            datosJugadores_lca24[nombreEquipo][nombreJugador].goles++;
+            datosJugadorParam[nombreEquipo][nombreJugador].goles++;
         }
     }
-    function cargarTarjetaRoja(nombreEquipo, nombreJugador) {
-        // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
-        if (!datosJugadores[nombreEquipo]) {
-            datosJugadores[nombreEquipo] = {};
+
+    function cargarStats (datos, datosEquipoParam, datosJugadoresParam){
+
+        for (let item of datos) {
+
+            const idLocal = item.local.nombre.completo;
+            const idVistante = item.visitante.nombre.completo;
+
+            const cantidadGolesLocal = Number(item.local.goles.length)
+            const cantidadGolesVisitante = Number(item.visitante.goles.length)
+
+            for (let gol of item.local.goles) {
+                cargarGoles(datosJugadoresParam, idLocal, gol.jugador)
+                //console.log(idLocal, gol.jugador);
+            }
+            for (let gol of item.visitante.goles) {
+                cargarGoles(datosJugadoresParam, idVistante, gol.jugador)
+                //console.log(idLocal, gol.jugador);
+            }
+            // for (let tarjetaRoja of item.local.info.rojas_directas) {
+            //     cargarTarjetaRoja_lca24(idLocal, tarjetaRoja.jugador);
+            // }
+            // for (let tarjetaRoja of item.visitante.info.rojas_directas) {
+            //     cargarTarjetaRoja_lca24(idVistante, tarjetaRoja.jugador);
+            // }
+
+            // TABLA POSICIONES
+            if(datosEquipoParam[idLocal] && datosEquipoParam[idVistante] && item.estado!= "Por jugar") {   
+
+                // si tiene el caracter no se jugó el partido aun
+                //console.log(idLocal);
+                datosEquipoParam[idLocal].pj += 1; //suma a ambos equipos el partido jugado
+                datosEquipoParam[idVistante].pj += 1;
+                //console.log(idVistante);
+                //aumento gf del local y le sumo gc con los goles del visitante 
+                datosEquipoParam[idLocal].gf += cantidadGolesLocal;
+                datosEquipoParam[idLocal].gc += cantidadGolesVisitante;
+                
+                // idem pero para visitante
+                datosEquipoParam[idVistante].gf += cantidadGolesVisitante; 
+                datosEquipoParam[idVistante].gc += cantidadGolesLocal;
+
+                datosEquipoParam[idVistante].pg += cantidadGolesVisitante > cantidadGolesLocal ? 1 : 0; 
+                datosEquipoParam[idVistante].pp += cantidadGolesVisitante < cantidadGolesLocal ? 1 : 0;
+                datosEquipoParam[idVistante].pe += cantidadGolesVisitante === cantidadGolesLocal ? 1 : 0;
+            
+                datosEquipoParam[idLocal].pg += cantidadGolesLocal > cantidadGolesVisitante ? 1 : 0; 
+                datosEquipoParam[idLocal].pp += cantidadGolesLocal < cantidadGolesVisitante ? 1 : 0;
+                datosEquipoParam[idLocal].pe += cantidadGolesLocal === cantidadGolesVisitante ? 1 : 0;
+            }
         }
 
-        // Verificar si el jugador ya está en el equipo
-        if (!datosJugadores[nombreEquipo][nombreJugador]) {
-            // Si el jugador no está inicializado, inicializarlo con tarjetas rojas en 1
-            datosJugadores[nombreEquipo][nombreJugador] = {
-                goles: 0,
-                tarjetasAmarillas: 0,
-                tarjetasRojas: 1,
-                asistencias: 0,
-                // Otros datos que desees agregar inicialmente
-            };
+        return datosEquipoParam;
+    }
+
+    function llenarStats(datosVariable, datosJugadoresVariable) {
+    
+        let res = document.querySelector('#res_stats');
+        let resGoleadores = document.querySelector('#res_goleadores');
+        res.innerHTML = '';
+        resGoleadores.innerHTML = '';
+        // console.log(datosJugadores)
+        const ordenadoPorPG = Object.entries(datosVariable) // -> ['SPORTIVO, { nombre, fecha... }]
+            .sort((a,b)=> b[1].pp - a[1].pp) // de mayor a menor por partidos perdidos
+            .sort((a,b)=> b[1].pe - a[1].pe) // de mayor a menor por partidos empatadas
+            .sort((a,b)=> b[1].pg - a[1].pg) // de mayor a menor por partidos ganados
+            .sort((a,b)=> {
+                const diffGolesB = b[1].gf - b[1].gc
+                const diffGolesA = a[1].gf - a[1].gc
+                return diffGolesB - diffGolesA
+            }) // de mayor a menor por diff de goles
+
+        for (let [_equipo, datosVariable] of ordenadoPorPG) {
+            // console.log(datosVariable[equipo].pj);
+            res.innerHTML += `
+                <tr>
+                    <td><img src="assets/minis/${datosVariable.path}" alt="logo ${datosVariable.nombre}" class="table-image">${datosVariable.nombre}</td>
+                    <td>${datosVariable.pj}</td>
+                    <td>${datosVariable.pg}</td>
+                    <td>${datosVariable.pe}</td>
+                    <td>${datosVariable.pp}</td>
+                    <td>${datosVariable.gf}</td>
+                    <td>${datosVariable.gc}</td>
+                    <td>${datosVariable.gf - datosVariable.gc}</td>
+                </tr>
+            `;
+        }
+
+        const array_data_jugadores = Object.entries(datosJugadoresVariable)
+            // .map -> crea un nuevo arreglo con los datos del jugador su equipo y demas datos
+            .map(([equipo, datos_jugadores])=> {
+                const jugadores = Object.entries(datos_jugadores).map(([jugador, datos])=> {
+                    if(jugador){
+                        return { jugador, equipo, ...datos }
+                    }
+                })
+
+                return jugadores
+            })
+            // aplana el arreglo a una dimension, para que sea mas facil recorrer, armar la tabla y 
+            .flat() 
+            // ordenarlo de mayor a menor
+            .sort((a,b)=> b.goles - a.goles)
+
+        if(array_data_jugadores.length){
+            for (const data of array_data_jugadores) {
+                if (data.goles > 0) {
+    
+                    resGoleadores.innerHTML += `
+                        <tr>
+                            <td>${data.jugador}</td>
+                            <td>${data.equipo}</td>
+                            <td>${data.goles}</td>
+                        </tr>
+                    `;
+                } 
+            }
         } else {
-            // Si el jugador ya está inicializado, sumar 1 a la cantidad de tarjetas rojas
-            datosJugadores[nombreEquipo][nombreJugador].tarjetasRojas++;
+            resGoleadores.innerHTML = `<tr> <td colspan="3"> No hay datos aun </td> </tr>`
         }
+
     }
 
-    function cargarGoles(nombreEquipo, nombreJugador) {
-        // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
-        if (!datosJugadores[nombreEquipo]) {
-            datosJugadores[nombreEquipo] = {};
-        }
-
-        // Verificar si el jugador ya está en el equipo
-        if (!datosJugadores[nombreEquipo][nombreJugador]) {
-            // Si el jugador no está inicializado, inicializarlo con goles en 1
-            datosJugadores[nombreEquipo][nombreJugador] = {
-                goles: 1,
-                tarjetasRojas: 0
-                // Otros datos que desees agregar inicialmente
-            };
-        } else {
-            // Si el jugador ya está inicializado, sumar 1 a la cantidad de goles
-            datosJugadores[nombreEquipo][nombreJugador].goles++;
-        }
-    }
-
+    // STATS COPA SAN CRISTOBAL 
     function cargarStats_csc(archivo) {
         return new Promise((resolve, reject) => {
             const xh = new XMLHttpRequest();
@@ -372,62 +445,21 @@ window.addEventListener('load', function (){
             xh.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     let datos = JSON.parse(this.responseText);
-                    for (let item of datos) {
-
-                        const idLocal = item.local.nombre.completo;
-                        const idVistante = item.visitante.nombre.completo;
-
-                        const cantidadGolesLocal = Number(item.local.goles.length)
-                        const cantidadGolesVisitante = Number(item.visitante.goles.length)
+                    datosEquipos = cargarStats(datos, datosEquipos, datosJugadores)
             
-                        for (let gol of item.local.goles) {
-                            cargarGoles(idLocal,gol.jugador)
-                            //console.log(idLocal, gol.jugador);
-                        }
-                        for (let gol of item.visitante.goles) {
-                            cargarGoles(idVistante,gol.jugador)
-                            //console.log(idLocal, gol.jugador);
-                        }
-                        for (let tarjetaRoja of item.local.info.rojas_directas) {
-                            cargarTarjetaRoja(idLocal, tarjetaRoja.jugador);
-                        }
-                        for (let tarjetaRoja of item.visitante.info.rojas_directas) {
-                            cargarTarjetaRoja(idVistante, tarjetaRoja.jugador);
-                        }
-
-                        if(datosEquipos[idLocal] && datosEquipos[idVistante] && item.estado!= "Por jugar") {   
-    
-                            // si tiene el caracter no se jugó el partido aun
-                            //console.log(idLocal);
-                            datosEquipos[idLocal].pj += 1; //suma a ambos equipos el partido jugado
-                            datosEquipos[idVistante].pj += 1;
-                            //console.log(idVistante);
-                            //aumento gf del local y le sumo gc con los goles del visitante 
-                            datosEquipos[idLocal].gf += cantidadGolesLocal;
-                            datosEquipos[idLocal].gc += cantidadGolesVisitante;
-                            
-                            // idem pero para visitante
-                            datosEquipos[idVistante].gf += cantidadGolesVisitante; 
-                            datosEquipos[idVistante].gc += cantidadGolesLocal;
-
-                            datosEquipos[idVistante].pg += cantidadGolesVisitante > cantidadGolesLocal ? 1 : 0; 
-                            datosEquipos[idVistante].pp += cantidadGolesVisitante < cantidadGolesLocal ? 1 : 0;
-                            datosEquipos[idVistante].pe += cantidadGolesVisitante === cantidadGolesLocal ? 1 : 0;
-                        
-                            datosEquipos[idLocal].pg += cantidadGolesLocal > cantidadGolesVisitante ? 1 : 0; 
-                            datosEquipos[idLocal].pp += cantidadGolesLocal < cantidadGolesVisitante ? 1 : 0;
-                            datosEquipos[idLocal].pe += cantidadGolesLocal === cantidadGolesVisitante ? 1 : 0;
-                        }
-                    }
-
                     resolve(); // Resuelve la promesa una vez que los datos están procesados
                 }
             
             }
-            
         });
     }
 
+    function llenarStats_csc() {
+        // console.log({datosEquipos, datosJugadores});
+        llenarStats(datosEquipos, datosJugadores)
+    }
+ 
+    // STATS LIGA CERESINA 
     function cargarStats_lca24(archivo) {
         return new Promise((resolve, reject) => {
             const xh = new XMLHttpRequest();
@@ -436,186 +468,39 @@ window.addEventListener('load', function (){
             xh.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     let datos = JSON.parse(this.responseText);
-                    for (let item of datos) {
-
-                        const idLocal = item.local.nombre.completo;
-                        const idVistante = item.visitante.nombre.completo;
-
-                        const cantidadGolesLocal = Number(item.local.goles.length)
-                        const cantidadGolesVisitante = Number(item.visitante.goles.length)
-            
-                        for (let gol of item.local.goles) {
-                            cargarGoles_lca24(idLocal,gol.jugador)
-                            //console.log(idLocal, gol.jugador);
-                        }
-                        for (let gol of item.visitante.goles) {
-                            cargarGoles_lca24(idVistante,gol.jugador)
-                            //console.log(idLocal, gol.jugador);
-                        }
-                        for (let tarjetaRoja of item.local.info.rojas_directas) {
-                            cargarTarjetaRoja_lca24(idLocal, tarjetaRoja.jugador);
-                        }
-                        for (let tarjetaRoja of item.visitante.info.rojas_directas) {
-                            cargarTarjetaRoja_lca24(idVistante, tarjetaRoja.jugador);
-                        }
-
-                        if(datosEquipos_lca24[idLocal] && datosEquipos_lca24[idVistante] && item.estado!= "Por jugar") {   
-    
-                            // si tiene el caracter no se jugó el partido aun
-                            //console.log(idLocal);
-                            datosEquipos_lca24[idLocal].pj += 1; //suma a ambos equipos el partido jugado
-                            datosEquipos_lca24[idVistante].pj += 1;
-                            //console.log(idVistante);
-                            //aumento gf del local y le sumo gc con los goles del visitante 
-                            datosEquipos_lca24[idLocal].gf += cantidadGolesLocal;
-                            datosEquipos_lca24[idLocal].gc += cantidadGolesVisitante;
-                            
-                            // idem pero para visitante
-                            datosEquipos_lca24[idVistante].gf += cantidadGolesVisitante; 
-                            datosEquipos_lca24[idVistante].gc += cantidadGolesLocal;
-
-                            datosEquipos_lca24[idVistante].pg += cantidadGolesVisitante > cantidadGolesLocal ? 1 : 0; 
-                            datosEquipos_lca24[idVistante].pp += cantidadGolesVisitante < cantidadGolesLocal ? 1 : 0;
-                            datosEquipos_lca24[idVistante].pe += cantidadGolesVisitante === cantidadGolesLocal ? 1 : 0;
-                        
-                            datosEquipos_lca24[idLocal].pg += cantidadGolesLocal > cantidadGolesVisitante ? 1 : 0; 
-                            datosEquipos_lca24[idLocal].pp += cantidadGolesLocal < cantidadGolesVisitante ? 1 : 0;
-                            datosEquipos_lca24[idLocal].pe += cantidadGolesLocal === cantidadGolesVisitante ? 1 : 0;
-                        }
-                    }
-
+                    datosEquipos_lca24 = cargarStats(datos, datosEquipos_lca24, datosJugadores_lca24)
                     resolve(); // Resuelve la promesa una vez que los datos están procesados
                 }
             
             }
-            
         });
     }
 
+    function cargarStats_lca24_s23(archivo) {
+        return new Promise((resolve, reject) => {
+            const xh = new XMLHttpRequest();
+            xh.open('GET', `data/lrfcs23/${archivo}`, true);
+            xh.send();
+            xh.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    let datos = JSON.parse(this.responseText);
+                    cargarStats(datos, datosEquipos_lca24_sub23, datosJugadores_lca24_sub23)
+                    resolve(); // Resuelve la promesa una vez que los datos están procesados
+                }
+            
+            }
+        });
+    }
+
+
     function llenarStats_lca24() {
-        Promise.all([cargarStats_lca24('fecha1.json')])
-            .then(() => {
-                let res = document.querySelector('#res_stats');
-                let resGoleadores = document.querySelector('#res_goleadores');
-                res.innerHTML = '';
-                console.log(datosEquipos_lca24)
-                const ordenadoPorPG = Object.entries(datosEquipos_lca24) // -> ['SPORTIVO, { nombre, fecha... }]
-                    .sort((a,b)=> b[1].pp - a[1].pp) // de mayor a menor por partidos perdidos
-                    .sort((a,b)=> b[1].pe - a[1].pe) // de mayor a menor por partidos empatadas
-                    .sort((a,b)=> b[1].pg - a[1].pg) // de mayor a menor por partidos ganados
-                    .sort((a,b)=> {
-                        const diffGolesB = b[1].gf - b[1].gc
-                        const diffGolesA = a[1].gf - a[1].gc
-                        return diffGolesB - diffGolesA
-                    }) // de mayor a menor por diff de goles
-
-                for (let [_equipo, datosEquipos_lca24] of ordenadoPorPG) {
-                    // console.log(datosEquipos[equipo].pj);
-                    res.innerHTML += `
-                        <tr>
-                            <td><img src="assets/minis/${datosEquipos_lca24.path}" alt="logo ${datosEquipos_lca24.nombre}" class="table-image">${datosEquipos_lca24.nombre}</td>
-                            <td>${datosEquipos_lca24.pj}</td>
-                            <td>${datosEquipos_lca24.pg}</td>
-                            <td>${datosEquipos_lca24.pe}</td>
-                            <td>${datosEquipos_lca24.pp}</td>
-                            <td>${datosEquipos_lca24.gf}</td>
-                            <td>${datosEquipos_lca24.gc}</td>
-                            <td>${datosEquipos_lca24.gf - datosEquipos_lca24.gc}</td>
-                        </tr>
-                    `;
-                }
-
-                const array_data_jugadores = Object.entries(datosJugadores_lca24)
-                    // .map -> crea un nuevo arreglo con los datos del jugador su equipo y demas datos
-                    .map(([equipo, datosJugadores_lca24])=> {
-                        const jugadores = Object.entries(datosJugadores_lca24).map(([jugador, datos])=> {
-                            return { jugador, equipo, ...datos }
-                        })
-
-                        return jugadores
-                    })
-                    // aplana el arreglo a una dimension, para que sea mas facil recorrer, armar la tabla y 
-                    .flat() 
-                    // ordenarlo de mayor a menor
-                    .sort((a,b)=> b.goles - a.goles)
-    
-                for (const data of array_data_jugadores) {
-                    if (data.goles > 0) {
-                        resGoleadores.innerHTML += `
-                            <tr>
-                                <td>${data.jugador}</td>
-                                <td>${data.equipo}</td>
-                                <td>${data.goles}</td>
-                            </tr>
-                        `;
-                    }
-                }
-            });
+        // console.log({ datosEquipos_lca24, datosJugadores_lca24 });
+        llenarStats(datosEquipos_lca24, datosJugadores_lca24)
     }
-
-    function llenarStats_csc() {
-        Promise.all([cargarStats_csc('fase1.json'), cargarStats_csc('fase1_vuelta.json'),cargarStats_csc('fase2.json')])
-            .then(() => {
-                let res = document.querySelector('#res_stats');
-                let resGoleadores = document.querySelector('#res_goleadores');
-                res.innerHTML = '';
-                // console.log(datosJugadores)
-                const ordenadoPorPG = Object.entries(datosEquipos) // -> ['SPORTIVO, { nombre, fecha... }]
-                    .sort((a,b)=> b[1].pp - a[1].pp) // de mayor a menor por partidos perdidos
-                    .sort((a,b)=> b[1].pe - a[1].pe) // de mayor a menor por partidos empatadas
-                    .sort((a,b)=> b[1].pg - a[1].pg) // de mayor a menor por partidos ganados
-                    .sort((a,b)=> {
-                        const diffGolesB = b[1].gf - b[1].gc
-                        const diffGolesA = a[1].gf - a[1].gc
-                        return diffGolesB - diffGolesA
-                    }) // de mayor a menor por diff de goles
-
-                for (let [_equipo, datosEquipos] of ordenadoPorPG) {
-                    // console.log(datosEquipos[equipo].pj);
-                    res.innerHTML += `
-                        <tr>
-                            <td><img src="assets/minis/${datosEquipos.path}" alt="logo ${datosEquipos.nombre}" class="table-image">${datosEquipos.nombre}</td>
-                            <td>${datosEquipos.pj}</td>
-                            <td>${datosEquipos.pg}</td>
-                            <td>${datosEquipos.pe}</td>
-                            <td>${datosEquipos.pp}</td>
-                            <td>${datosEquipos.gf}</td>
-                            <td>${datosEquipos.gc}</td>
-                            <td>${datosEquipos.gf - datosEquipos.gc}</td>
-                        </tr>
-                    `;
-                }
-
-                const array_data_jugadores = Object.entries(datosJugadores)
-                    // .map -> crea un nuevo arreglo con los datos del jugador su equipo y demas datos
-                    .map(([equipo, datos_jugadores])=> {
-                        const jugadores = Object.entries(datos_jugadores).map(([jugador, datos])=> {
-                            return { jugador, equipo, ...datos }
-                        })
-
-                        return jugadores
-                    })
-                    // aplana el arreglo a una dimension, para que sea mas facil recorrer, armar la tabla y 
-                    .flat() 
-                    // ordenarlo de mayor a menor
-                    .sort((a,b)=> b.goles - a.goles)
-    
-                for (const data of array_data_jugadores) {
-                    if (data.goles > 0) {
-                        resGoleadores.innerHTML += `
-                            <tr>
-                                <td>${data.jugador}</td>
-                                <td>${data.equipo}</td>
-                                <td>${data.goles}</td>
-                            </tr>
-                        `;
-                    }
-                }
-                
-            });
+   
+    function llenarStats_lca24_s23() {
+        llenarStats(datosEquipos_lca24_sub23, datosJugadores_lca24_sub23)
     }
-
-    llenarStats_lca24()
 
     // LEE DATOS DE LOS JSON Y LLENA LA TABLA DE POSICIONES/PARTIDOS
     function llenarTablaHTMLPartidos (partidos){
@@ -747,6 +632,7 @@ window.addEventListener('load', function (){
         btnActive.classList.add('btn-active')
     }
 
+    // COPA SC
     function traerDatos_ida(btnOrEvent) {
         toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
 
@@ -775,7 +661,6 @@ window.addEventListener('load', function (){
         }
     }
     
-    //traerDatos_vuelta(btnFaseDos)
     function traerDatos_fase2(btnOrEvent) {
         //inicio_home();
         toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
@@ -791,46 +676,88 @@ window.addEventListener('load', function (){
             }
         }
     }
-    traerDatos_fase2(btnFaseTres);
 
-    function traerDatos_fecha1(btnOrEvent) {
-        toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
-        btnLCselect.classList.add('btn-active')
-        document.body.style.backgroundColor = "#000033";
-        //toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
-        
-        const xh = new XMLHttpRequest();
-        xh.open('GET', 'data/lrfc/fecha1.json', true);
-        xh.send();
-        xh.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                let partidos = JSON.parse(this.responseText);
-                llenarTablaHTMLPartidos(partidos)
+    const liga_ceresina_colors = ()=> {
+        document.documentElement.style.setProperty("--first-color", "#253c99");
+        document.documentElement.style.setProperty("--secondary-color", "#263985");
+        document.documentElement.style.setProperty("--terciary-color", "#1b2f80");
+    }
+    const copa_colors = ()=> {
+        document.documentElement.style.setProperty("--first-color", "#379044");
+        document.documentElement.style.setProperty("--secondary-color", "#2d803a");
+        document.documentElement.style.setProperty("--terciary-color", "#367841");
+    }
+
+    // LIGA CERESINA
+    function traerDatos_fecha(carpetaArchivo) {
+       return function (btnOrEvent) {
+            toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+  
+            const xh = new XMLHttpRequest();
+            xh.open('GET', `data/${carpetaArchivo}`, true);
+            xh.send();
+            xh.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    let partidos = JSON.parse(this.responseText);
+                    llenarTablaHTMLPartidos(partidos)
+                }
             }
+       }
+    }
+
+    function toggleMenus (activeMenuId){
+        const menus = Array.from(document.querySelectorAll('#fases, #fechas_lrfc, #fechas_lrfc_23'))
+        menus.forEach(menu=> menu.classList.add('hidden'))
+
+        const menuActivo = menus.find(menu=> menu.id === activeMenuId);
+        if(menuActivo){
+            menuActivo.classList.remove("hidden")
         }
     }
-    function traerDatos_fecha2(btnOrEvent) {
-        toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+
+    toggleMenus("fases")
+
+    async function llenarObjetoStats (){
+        const filesPromises = [
+            cargarStats_csc('fase1.json'), cargarStats_csc('fase1_vuelta.json'),cargarStats_csc('fase2.json'), cargarStats_lca24('fecha1.json'), cargarStats_lca24_s23('fecha1.json') 
+        ] 
+        return Promise.all(filesPromises)
+    }
+
+    // Llena todos los objetos una vez al inicio (de lo contrario sumaria los resultados)
+    llenarObjetoStats() 
+        .then(()=> {
+            // Aca se llama a la copa que queramos 
+            traerDatos_fase2(btnFaseTres);
+            llenarStats_csc()
+        })
+
+    btnCSCselect.addEventListener('click', function(e) {
+        copa_colors()
+        toggleMenus("fases")
+
+        traerDatos_fase2(btnFaseTres);
+        llenarStats_csc()
+        btnCSCselect.classList.add('btn-active')
+    });
+
+    btnLCselect.addEventListener('click', function() {
+        liga_ceresina_colors()
+        toggleMenus("fechas_lrfc")
+
+        traerDatos_fecha('lrfc/fecha1.json')(btnf1_a24)
+        llenarStats_lca24()
         btnLCselect.classList.add('btn-active')
-        const xh = new XMLHttpRequest();
-        xh.open('GET', 'data/lrfc/fecha2.json', true);
-        xh.send();
-        xh.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                let partidos = JSON.parse(this.responseText);
-                llenarTablaHTMLPartidos(partidos)
-            }
-        }
-    }
+    });
+   
+    btnLC23select.addEventListener('click', function() {
+        liga_ceresina_colors()
 
+        toggleMenus("fechas_lrfc_23")
 
-    //traerDatos_fecha1_LRFC()
-    //
-    function inicio_home(){
-        var fasesDiv = document.getElementsById("#fases");
-        var fechasDiv = document.getElementById("#fechas_lrfc");
-        fechasDiv.classList.add("hidden");
-        fasesDiv.classList.remove("hidden");
-    }
-    
+        traerDatos_fecha('lrfcs23/fecha1.json')(btnf1_a24_23)
+        llenarStats_lca24_s23()
+        btnLC23select.classList.add('btn-active')
+    });
+
 })
