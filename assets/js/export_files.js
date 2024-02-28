@@ -87,13 +87,13 @@ function imprimirDescargarTabla({ download = false } = {}){
     html: tablaHTML,
     theme: 'grid',
     headerStyles : {
-      fillColor : [25, 135, 84],
+      fillColor : [38, 38, 38],
     },
     alternateRowStyles: {
-      fillColor : [242, 250, 247]
+      fillColor : [242, 242, 242]
     },
     addPageContent: function (data) {
-      pageContent(data, 'Copa Departamental San Cristóbal', 'Fixture actual')
+      pageContent(data, 'Fixture', '')
     },
     // useCss: true,
     margin: { top: 20 },
@@ -157,10 +157,10 @@ function imprimirDescargarTabla({ download = false } = {}){
     theme: 'grid',
     // startY: 10,
     headerStyles : {
-      fillColor : [25, 135, 84],
+      fillColor : [38, 38, 38],
     },
     alternateRowStyles: {
-      fillColor : [242, 250, 247]
+      fillColor : [242, 242, 242]
     },
     createdCell: function (cell, data) {
       cell.styles.lineWidth = 0
@@ -186,10 +186,10 @@ function imprimirDescargarTabla({ download = false } = {}){
     // startY: 10,
     margin: { top: 20 },
     headerStyles : {
-      fillColor : [25, 135, 84],
+      fillColor : [38, 38, 38],
     },
     alternateRowStyles: {
-      fillColor : [242, 250, 247]
+      fillColor : [242, 242, 242]
     },
     createdCell: function (cell, data) {
       cell.styles.lineWidth = 0
