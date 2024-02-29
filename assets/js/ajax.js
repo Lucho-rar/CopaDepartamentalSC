@@ -43,9 +43,13 @@ window.addEventListener('load', function (){
 
     btnf1_a24.addEventListener('click', traerDatos_fecha('lrfc/fecha1.json'));
     btnf2_a24.addEventListener('click', traerDatos_fecha('lrfc/fecha2.json'));
+    btnf3_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha3.json'));
+
+
 
     btnf1_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha1.json'));
     btnf2_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha2.json'));
+    btnf3_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha3.json'));
 
     // COPA DEPARTAMENTO SC
     let datosJugadores = {};

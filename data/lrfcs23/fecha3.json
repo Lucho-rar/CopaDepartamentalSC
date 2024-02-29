@@ -5,13 +5,7 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Luchich",
-                    "penal":false
-                }
-            ],
+            "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -28,9 +22,9 @@
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "calt.png"
+            "logo": "slt.png"
         },
-        "fecha": "03/03/2024",
+        "fecha": "17/03/2024",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -64,7 +58,7 @@
             },
             "logo": "cuda.png"
         },
-        "fecha": "03/03/2024",
+        "fecha": "17/03/2024",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -95,7 +89,7 @@
             },
             "logo": "bandera.png"
         },
-        "fecha": "03/03/2024",
+        "fecha": "17/03/2024",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -126,7 +120,7 @@
             },
             "logo": "cacu.png"
         },
-        "fecha": "03/03/2024",
+        "fecha": "17/03/2024",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -156,7 +150,7 @@
             },
             "logo": "cas.png"
         },
-        "fecha": "03/03/2024",
+        "fecha": "17/03/2024",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -187,7 +181,7 @@
             },
             "logo": "ucyd.png"
         },
-        "fecha": "03/03/2024",
+        "fecha": "17/03/2024",
         "estado": "Por jugar",
         "contexto": []
     }
