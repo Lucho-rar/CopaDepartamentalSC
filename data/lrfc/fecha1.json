@@ -2,6 +2,66 @@
     {
         "local": {
             "nombre": {
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ucyd.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cas.png"
+        },
+        "fecha": "03/03/2024 - 19:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+        
+    {
+        "local": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNION Y JUVENTUD (B)",
+                "corto": "UJB"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "bandera.png"
+        },
+        "fecha": "03/03/2024 - 19:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+    
+    {
+        "local": {
+            "nombre": {
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
@@ -22,12 +82,13 @@
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "calt.png"
+            "logo": "cacu.png"
         },
         "fecha": "03/03/2024 - 20:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
+
 
     {
         "local": {
@@ -58,7 +119,7 @@
             },
             "logo": "slt.png"
         },
-        "fecha": "03/03/2024",
+        "fecha": "03/03/2024 - 20:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -89,41 +150,12 @@
             },
             "logo": "cuda.png"
         },
-        "fecha": "03/03/2024",
+        "fecha": "03/03/2024 - 20:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
 
 
-    {
-        "local": {
-            "nombre": {
-                "completo": "SAN LORENZO (A)",
-                "corto": "CSLA"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ambro.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "UNION Y JUVENTUD (B)",
-                "corto": "UJB"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "bandera.png"
-        },
-        "fecha": "03/03/2024",
-        "estado": "Por jugar",
-        "contexto": []
-    },
 
     {
         "local": {
@@ -150,40 +182,12 @@
             },
             "logo": "cacu.png"
         },
-        "fecha": "03/03/2024",
-        "estado": "Por jugar",
-        "contexto": []
-    },
-    
-    
-    {
-        "local": {
-            "nombre": {
-                "completo": "UNION SAN GUILLERMO",
-                "corto": "UCYD"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ucyd.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "ATL. SELVA",
-                "corto": "CAS"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cas.png"
-        },
-        "fecha": "03/03/2024",
+        "fecha": "06/03/2024 - 22:00hs",
         "estado": "Por jugar",
         "contexto": []
     }
+    
+    
+   
 
 ]
