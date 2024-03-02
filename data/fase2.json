@@ -122,7 +122,14 @@
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Semino"
+                    },
+                    {
+                        "jugador":"Racca"
+                    }
+                ]
             },
             "logo": "sportivo.png"
         },
@@ -134,7 +141,14 @@
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador": "Osorio"
+                    },
+                    {
+                        "jugador": "Francisco Molina"
+                    }
+                ]
             },
             "logo": "juniors.png"
         },
