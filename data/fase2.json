@@ -138,7 +138,13 @@
                 "completo": "ASOCIACION DEPORTIVA JUNIORS CLUB",
                 "corto": "ADJC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Vega",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
