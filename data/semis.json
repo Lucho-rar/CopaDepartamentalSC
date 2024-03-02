@@ -1,0 +1,63 @@
+[
+    {
+        "local": {
+            "nombre": {
+                "completo": "ASOCIACION DEPORTIVA JUNIORS CLUB",
+                "corto": "ADJC"
+
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "juniors.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "fecha": "Fecha a definir",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "fecha": "Fecha a definir",
+        "estado": "Por jugar",
+        "contexto": []
+    }
+
+]

@@ -4,6 +4,9 @@ window.addEventListener('load', function (){
     const btnFaseUno = document.querySelector('#fase1');
     const btnFaseDos = document.querySelector('#fase2');//Fase 2 -> Fase 1 vuelta real.
     const btnFaseTres = document.querySelector('#fase3'); //Fase 3-> Fase 2 real
+    const btnSemisCSC = document.querySelector('#semis_csc')
+
+
     const btnCSCselect = this.document.querySelector('#select_copa_sc');
     const btnLCselect = this.document.querySelector('#select_lc_apertura');
     const btnLC23select = this.document.querySelector('#select_lc_apertura_23');
@@ -40,6 +43,7 @@ window.addEventListener('load', function (){
     btnFaseUno.addEventListener('click', traerDatos_ida);
     btnFaseDos.addEventListener('click', traerDatos_vuelta);
     btnFaseTres.addEventListener('click', traerDatos_fase2);
+    btnSemisCSC.addEventListener('click',traerDatos_semiscsc);
 
     btnf1_a24.addEventListener('click', traerDatos_fecha('lrfc/fecha1.json'));
     btnf2_a24.addEventListener('click', traerDatos_fecha('lrfc/fecha2.json'));
@@ -672,6 +676,22 @@ window.addEventListener('load', function (){
         //toggleActiveBtn(btnCSCselect)
         const xh = new XMLHttpRequest();
         xh.open('GET', 'data/fase2.json', true);
+        xh.send();
+        xh.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                let partidos = JSON.parse(this.responseText);
+                llenarTablaHTMLPartidos(partidos)
+            }
+        }
+    }
+    
+    function traerDatos_semiscsc(btnOrEvent) {
+        //inicio_home();
+        toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+        btnCSCselect.classList.add('btn-active')
+        //toggleActiveBtn(btnCSCselect)
+        const xh = new XMLHttpRequest();
+        xh.open('GET', 'data/semis.json', true);
         xh.send();
         xh.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
