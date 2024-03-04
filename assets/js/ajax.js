@@ -675,7 +675,7 @@ window.addEventListener('load', function (){
         }
     }
 
-    toggleMenus("fases")
+    //toggleMenus("fases")
 
     async function llenarObjetoStats (){
         const filesPromises = [
@@ -694,7 +694,7 @@ window.addEventListener('load', function (){
             //llenarStats_csc()
 
             // Para la liga
-            liga_ceresina_colors()
+            //liga_ceresina_colors()
             toggleMenus("fechas_lrfc")
             traerDatos_fecha('lrfc/fecha1.json')(btnf1_a24)
             llenarStats_lca24()

@@ -4,9 +4,9 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: #379044;
-  --secondary-color: #2d803a;
-  --terciary-color: #367841;
+  --first-color: #253c99;
+  --secondary-color: #263985;
+  --terciary-color: #1b2f80;
   
   --text-color: hsl(0, 0%, 100%);
 
