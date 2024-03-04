@@ -236,70 +236,6 @@ window.addEventListener('load', function (){
     let datosJugadores_lca24_sub23 = {};
     let datosEquipos_lca24_sub23 = this.structuredClone(datosEquipos_lca24)
 
-    // function cargarTarjetaRoja_lca24(nombreEquipo, nombreJugador) {
-    //     // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
-    //     if (!datosJugadores_lca24[nombreEquipo]) {
-    //         datosJugadores_lca24[nombreEquipo] = {};
-    //     }
-
-    //     // Verificar si el jugador ya está en el equipo
-    //     if (!datosJugadores_lca24[nombreEquipo][nombreJugador]) {
-    //         // Si el jugador no está inicializado, inicializarlo con tarjetas rojas en 1
-    //         datosJugadores_lca24[nombreEquipo][nombreJugador] = {
-    //             goles: 0,
-    //             tarjetasAmarillas: 0,
-    //             tarjetasRojas: 1,
-    //             asistencias: 0,
-    //             // Otros datos que desees agregar inicialmente
-    //         };
-    //     } else {
-    //         // Si el jugador ya está inicializado, sumar 1 a la cantidad de tarjetas rojas
-    //         datosJugadores_lca24[nombreEquipo][nombreJugador].tarjetasRojas++;
-    //     }
-    // }
-
-
-    // function cargarGoles_lca24(nombreEquipo, nombreJugador) {
-    //     // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
-    //     if (!datosJugadores_lca24[nombreEquipo]) {
-    //         datosJugadores_lca24[nombreEquipo] = {};
-    //     }
-
-    //     // Verificar si el jugador ya está en el equipo
-    //     if (!datosJugadores_lca24[nombreEquipo][nombreJugador]) {
-    //         // Si el jugador no está inicializado, inicializarlo con goles en 1
-    //         datosJugadores_lca24[nombreEquipo][nombreJugador] = {
-    //             goles: 1,
-    //             tarjetasRojas: 0
-    //             // Otros datos que desees agregar inicialmente
-    //         };
-    //     } else {
-    //         // Si el jugador ya está inicializado, sumar 1 a la cantidad de goles
-    //         datosJugadores_lca24[nombreEquipo][nombreJugador].goles++;
-    //     }
-    // }
-
-    // function cargarTarjetaRoja(nombreEquipo, nombreJugador) {
-    //     // Verificar si el equipo ya está en datosJugadores, si no, inicializarlo
-    //     if (!datosJugadores[nombreEquipo]) {
-    //         datosJugadores[nombreEquipo] = {};
-    //     }
-
-    //     // Verificar si el jugador ya está en el equipo
-    //     if (!datosJugadores[nombreEquipo][nombreJugador]) {
-    //         // Si el jugador no está inicializado, inicializarlo con tarjetas rojas en 1
-    //         datosJugadores[nombreEquipo][nombreJugador] = {
-    //             goles: 0,
-    //             tarjetasAmarillas: 0,
-    //             tarjetasRojas: 1,
-    //             asistencias: 0,
-    //             // Otros datos que desees agregar inicialmente
-    //         };
-    //     } else {
-    //         // Si el jugador ya está inicializado, sumar 1 a la cantidad de tarjetas rojas
-    //         datosJugadores[nombreEquipo][nombreJugador].tarjetasRojas++;
-    //     }
-    // }
 
     // FUNCIONES GENERALES
     function cargarGoles(datosJugadorParam, nombreEquipo, nombreJugador) {
@@ -752,8 +688,17 @@ window.addEventListener('load', function (){
     llenarObjetoStats() 
         .then(()=> {
             // Aca se llama a la copa que queramos 
-            traerDatos_fase2(btnFaseTres);
-            llenarStats_csc()
+            
+            // Para la copa dpt
+            //traerDatos_fase2(btnFaseTres);
+            //llenarStats_csc()
+
+            // Para la liga
+            liga_ceresina_colors()
+            toggleMenus("fechas_lrfc")
+            traerDatos_fecha('lrfc/fecha1.json')(btnf1_a24)
+            llenarStats_lca24()
+            btnLCselect.classList.add('btn-active')
         })
 
     btnCSCselect.addEventListener('click', function(e) {
