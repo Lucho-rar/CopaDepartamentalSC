@@ -168,7 +168,11 @@
                 "corto": "CSLT"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"Joaquin Zapata",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
