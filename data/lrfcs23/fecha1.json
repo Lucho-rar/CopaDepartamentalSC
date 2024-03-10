@@ -175,12 +175,12 @@
                 },
                 {
                     "min":"",
-                    "jugador":"Palavecino",
+                    "jugador":"Alan Palavecino",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"Palavecino",
+                    "jugador":"AlanPalavecino",
                     "penal":false
                 }
             ],
@@ -191,7 +191,7 @@
             "logo": "slt.png"
         },
         "fecha": "10/03/2024 - 18:00hs",
-        "estado": "jugando",
+        "estado": "Finalizado",
         "contexto": []
     },
 
