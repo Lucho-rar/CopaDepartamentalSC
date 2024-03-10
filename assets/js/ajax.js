@@ -60,6 +60,7 @@ window.addEventListener('load', function (){
     let datosEquipos = {
         "UNION SAN GUILLERMO": {
             nombre: "UNION SAN GUILLERMO",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -70,6 +71,7 @@ window.addEventListener('load', function (){
         },
         "CLUB SPORTIVO SUARDI": {
             nombre: "CLUB SPORTIVO SUARDI",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -80,6 +82,7 @@ window.addEventListener('load', function (){
         },
         "ASOCIACION DEPORTIVA JUNIORS CLUB": {
             nombre: "ASOCIACION DEPORTIVA JUNIORS CLUB",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -90,6 +93,7 @@ window.addEventListener('load', function (){
         },
         "ATL. LIBERTAD TRINIDAD": {
             nombre: "ATL. LIBERTAD TRINIDAD",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -100,6 +104,7 @@ window.addEventListener('load', function (){
         },
         "SAN LORENZO (A)": {
             nombre: "SAN LORENZO (A)",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -110,6 +115,7 @@ window.addEventListener('load', function (){
         },
         "UNIÓN SOCIAL DE HERSILIA": {
             nombre: "UNIÓN SOCIAL DE HERSILIA",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -120,6 +126,7 @@ window.addEventListener('load', function (){
         },
         "UNION ARRUFO": {
             nombre: "UNION ARRUFO",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -130,6 +137,7 @@ window.addEventListener('load', function (){
         },
         "FERRO DHO (SC)": {
             nombre: "FERRO DHO (SC)",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -140,6 +148,7 @@ window.addEventListener('load', function (){
         },
         "CLUB ATLÉTICO INDEPENDIENTE (SC)": {
             nombre: "CLUB ATLÉTICO INDEPENDIENTE (SC)",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -150,6 +159,7 @@ window.addEventListener('load', function (){
         },
         "ATL. UNIÓN DE CERES": {
             nombre: "ATL. UNIÓN DE CERES",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -160,6 +170,7 @@ window.addEventListener('load', function (){
         },
         "CENTRAL ARG. OLÍMPICO": {
             nombre: "CENTRAL ARG. OLÍMPICO",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -170,6 +181,7 @@ window.addEventListener('load', function (){
         },
         "TIRO FEDERAL MOISES VILLE": {
             nombre: "TIRO FEDERAL MOISES VILLE",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -186,6 +198,7 @@ window.addEventListener('load', function (){
     let datosEquipos_lca24 = {
         "ATL. TOSTADO": {
             nombre: "ATL. TOSTADO",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -196,6 +209,7 @@ window.addEventListener('load', function (){
         },
         "SAN LORENZO (T)": {
             nombre: "SAN LORENZO (T)",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -206,6 +220,7 @@ window.addEventListener('load', function (){
         },
         "UNION Y JUVENTUD (B)": {
             nombre: "UNION Y JUVENTUD (B)",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
@@ -216,6 +231,7 @@ window.addEventListener('load', function (){
         },
         "ATL. SELVA": {
             nombre: "ATL. SELVA",
+            pts:0,
             gf: 0,
             gc: 0,
             pj: 0,
