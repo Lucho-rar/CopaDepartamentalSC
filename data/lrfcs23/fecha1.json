@@ -17,7 +17,13 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Hugo Rodriguez",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -25,7 +31,7 @@
             "logo": "cas.png"
         },
         "fecha": "10/03/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "Jugando",
         "contexto": []
     },
         
@@ -55,7 +61,7 @@
             "logo": "bandera.png"
         },
         "fecha": "10/03/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "Jugando",
         "contexto": []
     },
     
