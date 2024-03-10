@@ -108,7 +108,13 @@
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Leandro Bellino",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
