@@ -5,7 +5,13 @@
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Mateo Rufinatto",
+                    "penal":true
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
@@ -81,7 +87,18 @@
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -171,7 +188,13 @@
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
