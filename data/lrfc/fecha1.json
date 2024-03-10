@@ -113,7 +113,7 @@
             "logo": "calt.png"
         },
         "fecha": "10/03/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -148,7 +148,7 @@
             "logo": "slt.png"
         },
         "fecha": "10/03/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -179,7 +179,7 @@
             "logo": "cuda.png"
         },
         "fecha": "10/03/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
