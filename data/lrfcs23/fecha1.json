@@ -10,7 +10,7 @@
                 "amarillas": [],
                 "rojas_directas": [
                     {
-                        "jugador":""
+                        "jugador":"Franck"
                     }
                 ]
             },
@@ -34,7 +34,7 @@
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Anaya",
                     "penal":true
                 }
             ],
