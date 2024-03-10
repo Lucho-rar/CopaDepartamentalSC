@@ -195,9 +195,20 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Francisco Tamargo",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Francisco Tamargo",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Natanahel Córdoba",
                     "penal":false
                 }
+
             ],
             "info": {
                 "amarillas": [],
@@ -218,7 +229,7 @@
             "logo": "cuda.png"
         },
         "fecha": "10/03/2024 - 18:00hs",
-        "estado": "jugando",
+        "estado": "Finalizado",
         "contexto": []
     },
 
