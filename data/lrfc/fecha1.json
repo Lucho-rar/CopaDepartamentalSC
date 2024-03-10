@@ -193,7 +193,13 @@
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alexis Gonzalez",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
