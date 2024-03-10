@@ -5,7 +5,13 @@
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Santiago Baldissone",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -132,12 +138,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Romero",
+                    "jugador":"Fernando Romero",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"Romero",
+                    "jugador":"Fernando Romero",
                     "penal":false
                 }
             ],
