@@ -43,7 +43,7 @@
                 },
                 {
                     "min":"",
-                    "jugador":"Anaya",
+                    "jugador":"Santiago Anaya",
                     "penal":true
                 },
                 {
@@ -106,7 +106,7 @@
             "logo": "bandera.png"
         },
         "fecha": "10/03/2024 - 17:00hs",
-        "estado": "jugando",
+        "estado": "Finalizado",
         "contexto": []
     },
     
