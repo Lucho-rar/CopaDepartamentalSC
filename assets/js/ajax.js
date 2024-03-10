@@ -204,7 +204,7 @@ window.addEventListener('load', function (){
             pp: 0,
             path: "slt.png"
         },
-        "UNION Y JUVENTUD": {
+        "UNION Y JUVENTUD (B)": {
             nombre: "UNION Y JUVENTUD (B)",
             gf: 0,
             gc: 0,

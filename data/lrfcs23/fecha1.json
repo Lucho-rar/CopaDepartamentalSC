@@ -31,7 +31,7 @@
             "logo": "cas.png"
         },
         "fecha": "10/03/2024 - 17:00hs",
-        "estado": "Jugando",
+        "estado": "jugando",
         "contexto": []
     },
         
@@ -61,7 +61,7 @@
             "logo": "bandera.png"
         },
         "fecha": "10/03/2024 - 17:00hs",
-        "estado": "Jugando",
+        "estado": "jugando",
         "contexto": []
     },
     
