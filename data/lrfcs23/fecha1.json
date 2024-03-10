@@ -36,6 +36,11 @@
                     "min":"",
                     "jugador":"Anaya",
                     "penal":true
+                },
+                {
+                    "min":"",
+                    "jugador":"Ignacio Chazarreta",
+                    "penal":false
                 }
             ],
             "info": {
