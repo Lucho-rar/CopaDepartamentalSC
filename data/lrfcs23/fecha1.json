@@ -8,7 +8,11 @@
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":""
+                    }
+                ]
             },
             "logo": "ucyd.png"
         },
@@ -27,6 +31,11 @@
                     "min":"",
                     "jugador":"Martin Gómez",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":true
                 }
             ],
             "info": {
