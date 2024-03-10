@@ -322,6 +322,16 @@ window.addEventListener('load', function (){
                 datosEquipoParam[idLocal].pg += cantidadGolesLocal > cantidadGolesVisitante ? 1 : 0; 
                 datosEquipoParam[idLocal].pp += cantidadGolesLocal < cantidadGolesVisitante ? 1 : 0;
                 datosEquipoParam[idLocal].pe += cantidadGolesLocal === cantidadGolesVisitante ? 1 : 0;
+                
+                
+                //feature puntos
+                datosEquipoParam[idVistante].pts += cantidadGolesVisitante > cantidadGolesLocal ? 3 : 0; 
+                datosEquipoParam[idVistante].pts += cantidadGolesVisitante < cantidadGolesLocal ? 0 : 0;
+                datosEquipoParam[idVistante].pts += cantidadGolesVisitante === cantidadGolesLocal ? 1 : 0;
+            
+                datosEquipoParam[idLocal].pts += cantidadGolesLocal > cantidadGolesVisitante ? 3 : 0; 
+                datosEquipoParam[idLocal].pts += cantidadGolesLocal < cantidadGolesVisitante ? 0 : 0;
+                datosEquipoParam[idLocal].pts += cantidadGolesLocal === cantidadGolesVisitante ? 1 : 0;
             }
         }
 
@@ -350,6 +360,7 @@ window.addEventListener('load', function (){
             res.innerHTML += `
                 <tr>
                     <td><img src="assets/minis/${datosVariable.path}" alt="logo ${datosVariable.nombre}" class="table-image">${datosVariable.nombre}</td>
+                    <td>${datosVariable.pts}</td>
                     <td>${datosVariable.pj}</td>
                     <td>${datosVariable.pg}</td>
                     <td>${datosVariable.pe}</td>
