@@ -219,6 +219,11 @@
                     "min":"",
                     "jugador": "Escalada",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador": "Vallejos",
+                    "penal":true
                 }
             ],
             "info": {
