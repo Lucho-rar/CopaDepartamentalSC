@@ -205,7 +205,11 @@
                 "corto": "CSLT"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"Ortiz",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
