@@ -253,7 +253,7 @@
                 {
                     "min":"",
                     "jugador": "Vallejos",
-                    "penal":true
+                    "penal":false
                 }
             ],
             "info": {
