@@ -131,7 +131,13 @@
                     "min":"",
                     "jugador":"Rodrigo Puebla",
                     "penal":true
+                },
+                {
+                    "min":"",
+                    "jugador":"Kevin Muñoz",
+                    "penal":true
                 }
+
             ],
             "info": {
                 "amarillas": [],
