@@ -109,7 +109,18 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Carrizo",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Baudio",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
