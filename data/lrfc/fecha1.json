@@ -65,7 +65,7 @@
                 },
                 {
                     "min":"",
-                    "jugador":"Barreto",
+                    "jugador":"Leonel Barreto",
                     "penal":false
                 },
                 {
@@ -112,12 +112,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Carrizo",
+                    "jugador":"Jonathan Carrizo",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"Baudino",
+                    "jugador":"Ivan Baudino",
                     "penal":false
                 }
             ],
@@ -212,12 +212,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Ortiz",
+                    "jugador":"José Ortiz",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"Carabajal",
+                    "jugador":"Gabriel Carabajal",
                     "penal":false
                 }
             ],
@@ -242,17 +242,17 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador": "Escalada",
+                    "jugador": "Elías Escalada",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador": "Vallejos",
+                    "jugador": "Jesús Ángel Vallejos",
                     "penal":true
                 },
                 {
                     "min":"",
-                    "jugador": "Vallejos",
+                    "jugador": "Jesús Ángel Vallejos",
                     "penal":false
                 }
             ],
