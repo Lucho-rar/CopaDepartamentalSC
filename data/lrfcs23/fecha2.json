@@ -24,75 +24,11 @@
             },
             "logo": "ferro.png"
         },
-        "fecha": "17/03/2024",
+        "fecha": "17/03/2024 - 17:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
-
-    {
-        "local": {
-            "nombre": {
-                "completo": "ATL. SELVA",
-                "corto": "CAS"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": [
-
-                ]
-            },
-            "logo": "cas.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cat.png"
-        },
-        "fecha": "17/03/2024",
-        "estado": "Por jugar",
-        "contexto": []
-    },
-
     
-    {
-        "local": {
-            "nombre": {
-                "completo": "ATL. UNIÓN DE CERES",
-                "corto": "CACU"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cacu.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "SAN LORENZO (A)",
-                "corto": "CSLA"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ambro.png"
-        },
-        "fecha": "17/03/2024",
-        "estado": "Por jugar",
-        "contexto": []
-    },
-
-
     {
         "local": {
             "nombre": {
@@ -104,7 +40,7 @@
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ambro.png"
+            "logo": "bandera.png"
         },
         "visitante": {
             "nombre": {
@@ -118,10 +54,11 @@
             },
             "logo": "hersilia.png"
         },
-        "fecha": "17/03/2024",
+        "fecha": "17/03/2024 - 18:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
+   
 
     {
         "local": {
@@ -148,7 +85,7 @@
             },
             "logo": "ccao.png"
         },
-        "fecha": "17/03/2024",
+        "fecha": "17/03/2024 - 18:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -179,7 +116,67 @@
             },
             "logo": "calt.png"
         },
-        "fecha": "17/03/2024",
+        "fecha": "17/03/2024 - 18:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "fecha": "17/03/2024 - 19:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+
+                ]
+            },
+            "logo": "cas.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "fecha": "20/03/2024 - 20:00hs",
         "estado": "Por jugar",
         "contexto": []
     }
