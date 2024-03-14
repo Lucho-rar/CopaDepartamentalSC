@@ -679,7 +679,6 @@ window.addEventListener('load', function (){
     function traerDatos_fecha(carpetaArchivo) {
        return function (btnOrEvent) {
             toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
-  
             const xh = new XMLHttpRequest();
             xh.open('GET', `data/${carpetaArchivo}`, true);
             xh.send();
@@ -723,7 +722,7 @@ window.addEventListener('load', function (){
             // Para la liga
             //liga_ceresina_colors()
             toggleMenus("fechas_lrfc")
-            traerDatos_fecha('lrfc/fecha1.json')(btnf1_a24)
+            traerDatos_fecha('lrfc/fecha2.json')(btnf2_a24)
             llenarStats_lca24()
             btnLCselect.classList.add('btn-active')
         })
@@ -741,7 +740,7 @@ window.addEventListener('load', function (){
         liga_ceresina_colors()
         toggleMenus("fechas_lrfc")
 
-        traerDatos_fecha('lrfc/fecha1.json')(btnf1_a24)
+        traerDatos_fecha('lrfc/fecha2.json')(btnf2_a24)
         llenarStats_lca24()
         btnLCselect.classList.add('btn-active')
     });
@@ -751,7 +750,7 @@ window.addEventListener('load', function (){
 
         toggleMenus("fechas_lrfc_23")
 
-        traerDatos_fecha('lrfcs23/fecha1.json')(btnf1_a24_23)
+        traerDatos_fecha('lrfcs23/fecha2.json')(btnf2_a24_23)
         llenarStats_lca24_s23()
         btnLC23select.classList.add('btn-active')
     });
