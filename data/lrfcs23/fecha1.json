@@ -16,7 +16,7 @@
                 "amarillas": [],
                 "rojas_directas": [
                     {
-                        "jugador":"Franck"
+                        "jugador":"Valentin Franck"
                     },
                     {
                         "jugador":"Ignacio Bianciotto"
@@ -78,7 +78,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Mauro Lopez"
+                    }
+                ]
             },
             "logo": "ambro.png"
         },
