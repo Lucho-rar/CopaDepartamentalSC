@@ -305,7 +305,13 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Fabián Acosta",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -313,7 +319,7 @@
             "logo": "cacu.png"
         },
         "fecha": "13/03/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
     

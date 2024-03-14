@@ -263,7 +263,13 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Felipe Marozzi",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -271,7 +277,7 @@
             "logo": "cacu.png"
         },
         "fecha": "13/03/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "Finalizado",
         "contexto": []
     }
     
