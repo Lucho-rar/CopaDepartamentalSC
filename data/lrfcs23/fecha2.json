@@ -112,6 +112,11 @@
                     "min":"",
                     "jugador":"",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Vera",
+                    "penal":false
                 }
             ],
             "info": {
