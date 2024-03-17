@@ -208,7 +208,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Lautaro Vallejos",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Martin Rodriguez",
                     "penal":false
                 }
             ],
