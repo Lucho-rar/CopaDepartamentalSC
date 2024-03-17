@@ -83,6 +83,11 @@
                     "min":"",
                     "jugador":"Cattaneo",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
                 }
             ],
             "info": {
@@ -101,6 +106,11 @@
                     "min":"",
                     "jugador":"Gastón Roch",
                     "penal":true
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
                 }
             ],
             "info": {
