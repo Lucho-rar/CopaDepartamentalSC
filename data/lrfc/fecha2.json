@@ -46,7 +46,17 @@
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
-            "goles": [],
+            "goles": [
+                {
+
+                },
+                {
+
+                },
+                {
+
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -58,7 +68,13 @@
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Elías Escalada",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -157,7 +173,13 @@
             },
             "goles": [],
             "info": {
-                "amarillas": [],
+                "amarillas": [
+                    {
+                        "min":"",
+                        "jugador":"Almaráz",
+                        "penal":false
+                    }
+                ],
                 "rojas_directas": []
             },
             "logo": "ambro.png"
