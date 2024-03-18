@@ -66,6 +66,11 @@
                     "min":"",
                     "jugador":"",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
                 }
             ],
             "info": {
