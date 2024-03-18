@@ -98,7 +98,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "17/03/2024 - 20:00hs",
-        "estado": "Jugando",
+        "estado": "Finalizado",
         "contexto": []
     },
    
@@ -141,7 +141,7 @@
             "logo": "ccao.png"
         },
         "fecha": "17/03/2024 - 20:00hs",
-        "estado": "Jugando",
+        "estado": "Finalizado",
         "contexto": []
     },
     
@@ -202,7 +202,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Almaráz",
+                    "jugador":"Leonel Barreto",
                     "penal":false
                 }
             ],
