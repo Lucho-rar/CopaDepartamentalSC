@@ -171,15 +171,15 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Almaráz",
+                    "penal":false
+                }
+            ],
             "info": {
-                "amarillas": [
-                    {
-                        "min":"",
-                        "jugador":"Almaráz",
-                        "penal":false
-                    }
-                ],
+                "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "ambro.png"
