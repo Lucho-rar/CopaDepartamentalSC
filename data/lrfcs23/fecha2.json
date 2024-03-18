@@ -8,7 +8,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Nicolas Benitez",
+                    "jugador":"Nicolas Benítez",
                     "penal":false
                 }
             ],
@@ -62,7 +62,7 @@
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Néstor Gauto",
                     "penal":false
                 }
             ],
@@ -87,12 +87,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Cattaneo",
+                    "jugador":"Efraín Cattaneo",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Mauricio Cabodevilla",
                     "penal":false
                 }
             ],
@@ -115,12 +115,12 @@
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Juan Vera",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"Vera",
+                    "jugador":"Felipe Veliz",
                     "penal":false
                 }
             ],
@@ -145,7 +145,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Edelmiro Zapata",
                     "penal":false
                 }
             ],
@@ -163,17 +163,17 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Bustamante",
+                    "jugador":"Mateo Bustamante",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"Martinet",
+                    "jugador":"Damián Martinet",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"Poletto",
+                    "jugador":"Mateo Poletto",
                     "penal":false
                 }
             ],
