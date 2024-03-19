@@ -75,7 +75,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Belizán"
+                    }
+                ]
             },
             "logo": "bandera.png"
         },
@@ -93,7 +97,14 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Elías Escalada"
+                    },
+                    {
+                        "jugador":"Simón"
+                    }
+                ]
             },
             "logo": "hersilia.png"
         },
@@ -118,7 +129,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Cabrera"
+                    }
+                ]
             },
             "logo": "cuda.png"
         },
@@ -136,7 +151,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Sayago"
+                    }
+                ]
             },
             "logo": "ccao.png"
         },
@@ -190,7 +209,11 @@
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Juan Barrios"
+                    }
+                ]
             },
             "logo": "cacu.png"
         },
@@ -213,7 +236,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Martin Almaráz"
+                    }
+                ]
             },
             "logo": "ambro.png"
         },

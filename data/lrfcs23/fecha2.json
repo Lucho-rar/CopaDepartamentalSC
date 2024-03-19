@@ -45,7 +45,14 @@
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Pogonza"
+                    },
+                    {
+                        "jugador":"Mugica"
+                    }
+                ]
             },
             "logo": "bandera.png"
         },
@@ -68,7 +75,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Castro"
+                    }
+                ]
             },
             "logo": "hersilia.png"
         },
@@ -179,7 +190,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Turquetti"
+                    }
+                ]
             },
             "logo": "calt.png"
         },
@@ -219,7 +234,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador": "Ferreyra"
+                    }
+                ]
             },
             "logo": "ambro.png"
         },
