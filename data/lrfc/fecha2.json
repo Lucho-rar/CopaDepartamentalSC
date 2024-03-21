@@ -289,17 +289,25 @@
                     "min":"",
                     "jugador":"Mantovani",
                     "penal":false
-                }
-                
+                },
+                {
+                    "min":"",
+                    "jugador":"Cantadori",
+                    "penal":false
+                }               
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Diego Díaz"
+                    }
+                ]
             },
             "logo": "cat.png"
         },
         "fecha": "20/03/2024 - 22:00hs",
-        "estado": "Jugando",
+        "estado": "Finalizado",
         "contexto": []
     }
 
