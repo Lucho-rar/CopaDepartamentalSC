@@ -255,7 +255,12 @@
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Joel López"
+                    }
+
+                ]
             },
             "logo": "cas.png"
         },
@@ -273,7 +278,14 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Giuliano Sosa"
+                    },
+                    {
+                        "jugador":"Micael Diaz"
+                    }
+                ]
             },
             "logo": "cat.png"
         },
