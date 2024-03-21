@@ -255,9 +255,7 @@
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": [
-
-                ]
+                "rojas_directas": []
             },
             "logo": "cas.png"
         },
@@ -266,7 +264,13 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Micael Diaz",
+                    "penal":true
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -274,7 +278,7 @@
             "logo": "cat.png"
         },
         "fecha": "20/03/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "Finalizado",
         "contexto": []
     }
 
