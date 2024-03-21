@@ -273,7 +273,18 @@
                     "min":"",
                     "jugador":"Mantovani",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Mantovani",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Mantovani",
+                    "penal":false
                 }
+                
             ],
             "info": {
                 "amarillas": [],
