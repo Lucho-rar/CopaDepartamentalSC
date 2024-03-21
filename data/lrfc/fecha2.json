@@ -268,7 +268,13 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Mantovani",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -276,7 +282,7 @@
             "logo": "cat.png"
         },
         "fecha": "20/03/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "Jugando",
         "contexto": []
     }
 
