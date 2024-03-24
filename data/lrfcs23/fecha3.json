@@ -131,7 +131,13 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Calderón",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
