@@ -706,7 +706,8 @@ window.addEventListener('load', function (){
 
     async function llenarObjetoStats (){
         const filesPromises = [
-            cargarStats_csc('fase1.json'), cargarStats_csc('fase1_vuelta.json'),cargarStats_csc('fase2.json'), cargarStats_lca24('fecha1.json'), cargarStats_lca24_s23('fecha1.json'), cargarStats_lca24_s23('fecha2.json'), cargarStats_lca24('fecha2.json')
+            cargarStats_csc('fase1.json'), cargarStats_csc('fase1_vuelta.json'),cargarStats_csc('fase2.json'), cargarStats_lca24('fecha1.json'), cargarStats_lca24_s23('fecha1.json'), cargarStats_lca24_s23('fecha2.json'), cargarStats_lca24('fecha2.json'),
+            cargarStats_lca24_s23('fecha3.json'), cargarStats_lca24('fecha3.json')
         ] 
         return Promise.all(filesPromises)
     }
