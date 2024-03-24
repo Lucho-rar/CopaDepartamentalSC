@@ -180,6 +180,11 @@
                     "min":"",
                     "jugador":"Lautaro Vallejos",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
                 }
             ],
             "info": {
@@ -193,7 +198,13 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
