@@ -76,7 +76,7 @@
             "logo": "cuda.png"
         },
         "fecha": "24/03/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "Jugando",
         "contexto": []
     },
 
@@ -107,7 +107,7 @@
             "logo": "bandera.png"
         },
         "fecha": "24/03/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "Jugando",
         "contexto": []
     },
 
@@ -138,7 +138,7 @@
             "logo": "cacu.png"
         },
         "fecha": "24/03/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "Jugando",
         "contexto": []
     },
 
