@@ -54,7 +54,7 @@
                 },
                 {
                     "min":"",
-                    "jugador":"Moyano",
+                    "jugador":"Diego Moyano",
                     "penal":false
                 }
             ],
@@ -74,7 +74,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Alves",
+                    "jugador":"Rodrigo Alves",
                     "penal":false
                 }
             ],
@@ -85,7 +85,7 @@
             "logo": "cuda.png"
         },
         "fecha": "24/03/2024 - 18:00hs",
-        "estado": "Jugando",
+        "estado": "Finalizado",
         "contexto": []
     },
 
@@ -128,7 +128,7 @@
             "logo": "bandera.png"
         },
         "fecha": "24/03/2024 - 18:00hs",
-        "estado": "Jugando",
+        "estado": "Finalizado",
         "contexto": []
     },
 
@@ -154,7 +154,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Calderón",
+                    "jugador":"Alan Calderón",
                     "penal":false
                 }
             ],
@@ -165,7 +165,7 @@
             "logo": "cacu.png"
         },
         "fecha": "24/03/2024 - 18:00hs",
-        "estado": "Jugando",
+        "estado": "Finalizado",
         "contexto": []
     },
 
