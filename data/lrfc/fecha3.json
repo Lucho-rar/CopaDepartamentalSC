@@ -77,7 +77,11 @@
                 "corto": "CUDA"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"Alexander Leguizamón",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
