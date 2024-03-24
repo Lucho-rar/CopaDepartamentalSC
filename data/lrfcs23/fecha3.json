@@ -41,7 +41,23 @@
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Damián Martinet",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Damián Martinet",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Moyano",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
@@ -56,7 +72,11 @@
                 "corto": "CUDA"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"Alves",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
