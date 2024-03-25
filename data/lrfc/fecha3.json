@@ -34,7 +34,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"José Maria Fernández"
+                    }
+                ]
             },
             "logo": "ferro.png"
         },
@@ -106,7 +110,13 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Fernando Romero",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
