@@ -199,6 +199,11 @@
                     "min":"",
                     "jugador":"Juan Pato",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Colombara",
+                    "penal":false
                 }
             ],
             "info": {
