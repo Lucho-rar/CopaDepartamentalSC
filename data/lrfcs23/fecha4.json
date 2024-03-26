@@ -2,63 +2,29 @@
     {
         "local": {
             "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
+                "completo": "UNION ARRUFO",
+                "corto": "CUDA"
             },
             "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "cat.png"
+            "logo": "cuda.png"
         },
         "visitante": {
             "nombre": {
-                "completo": "FERRO DHO (SC)",
-                "corto": "FDSC"
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
             },
             "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ferro.png"
+            "logo": "slt.png"
         },
-        "fecha": "24/03/2024",
-        "estado": "Por jugar",
-        "contexto": []
-    },
-
-    {
-        "local": {
-            "nombre": {
-                "completo": "UNION SAN GUILLERMO",
-                "corto": "UCYD"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": [
-
-                ]
-            },
-            "logo": "ucyd.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "SAN LORENZO (A)",
-                "corto": "CSLA"
-            },
-            "goles": [
-
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ambro.png"
-        },
-        "fecha": "24/03/2024",
+        "fecha": "29/03/2024 - 19:30hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -89,7 +55,7 @@
             },
             "logo": "hersilia.png"
         },
-        "fecha": "24/03/2024",
+        "fecha": "31/03/2024 - 17:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -120,7 +86,7 @@
             },
             "logo": "ccao.png"
         },
-        "fecha": "24/03/2024",
+        "fecha": "31/03/2024 - 17:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -150,40 +116,70 @@
             },
             "logo": "calt.png"
         },
-        "fecha": "24/03/2024",
+        "fecha": "31/03/2024 - 17:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
-    
-    
     {
         "local": {
             "nombre": {
-                "completo": "UNION ARRUFO",
-                "corto": "CUDA"
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
             },
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+
+                ]
             },
-            "logo": "cuda.png"
+            "logo": "ucyd.png"
         },
         "visitante": {
             "nombre": {
-                "completo": "SAN LORENZO (T)",
-                "corto": "CSLT"
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [
+
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "fecha": "01/04/2024 - 17:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
             },
             "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "slt.png"
+            "logo": "cat.png"
         },
-        "fecha": "24/03/2024",
+        "visitante": {
+            "nombre": {
+                "completo": "FERRO DHO (SC)",
+                "corto": "FDSC"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ferro.png"
+        },
+        "fecha": "31/03/2024",
         "estado": "Por jugar",
         "contexto": []
     }
-
 ]
