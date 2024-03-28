@@ -247,7 +247,13 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Kevin Velázquez",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
