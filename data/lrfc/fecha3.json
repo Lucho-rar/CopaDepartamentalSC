@@ -270,7 +270,13 @@
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Cristian Wagner",
+                    "penal:":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -278,7 +284,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "27/03/2024 - 22:00hs",
-        "estado": "Jugando",
+        "estado": "Finalizado",
         "contexto": []
     }
 
