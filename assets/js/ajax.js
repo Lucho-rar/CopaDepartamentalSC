@@ -719,22 +719,28 @@ window.addEventListener('load', function (){
             // Aca se llama a la copa que queramos 
             
             // Para la copa dpt
-            //traerDatos_fase2(btnFaseTres);
-            //llenarStats_csc()
+            copa_colors()
+            toggleMenus("fases")
+            traerDatos_semiscsc(btnSemisCSC);
+            llenarStats_csc()
+            btnCSCselect.classList.add('btn-active')
 
             // Para la liga
             //liga_ceresina_colors()
+            
+            /*
             toggleMenus("fechas_lrfc")
             traerDatos_fecha('lrfc/fecha3.json')(btnf3_a24)
             llenarStats_lca24()
             btnLCselect.classList.add('btn-active')
+            */
         })
 
     btnCSCselect.addEventListener('click', function(e) {
         copa_colors()
         toggleMenus("fases")
 
-        traerDatos_fase2(btnFaseTres);
+        traerDatos_semiscsc(btnSemisCSC);
         llenarStats_csc()
         btnCSCselect.classList.add('btn-active')
     });
