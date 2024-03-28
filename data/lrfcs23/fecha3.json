@@ -223,7 +223,23 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Vallejos",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Vallejos",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Mendez",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -235,7 +251,13 @@
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Franck",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -243,7 +265,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "27/03/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "Finalizado",
         "contexto": []
     }
 
