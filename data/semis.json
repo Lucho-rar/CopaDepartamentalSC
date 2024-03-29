@@ -47,7 +47,13 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Camandona",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
