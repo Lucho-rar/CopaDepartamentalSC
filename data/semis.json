@@ -6,7 +6,13 @@
                 "corto": "ADJC"
 
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Ruiz",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
