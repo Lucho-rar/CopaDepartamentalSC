@@ -730,7 +730,7 @@ window.addEventListener('load', function (){
             
             
             toggleMenus("fechas_lrfc")
-            traerDatos_fecha('lrfc/fecha3.json')(btnf3_a24)
+            traerDatos_fecha('lrfc/fecha4.json')(btnf4_a24)
             llenarStats_lca24()
             btnLCselect.classList.add('btn-active')
             
@@ -749,7 +749,7 @@ window.addEventListener('load', function (){
         liga_ceresina_colors()
         toggleMenus("fechas_lrfc")
 
-        traerDatos_fecha('lrfc/fecha3.json')(btnf3_a24)
+        traerDatos_fecha('lrfc/fecha4.json')(btnf4_a24)
         llenarStats_lca24()
         btnLCselect.classList.add('btn-active')
     });
@@ -759,7 +759,7 @@ window.addEventListener('load', function (){
 
         toggleMenus("fechas_lrfc_23")
 
-        traerDatos_fecha('lrfcs23/fecha3.json')(btnf3_a24_23)
+        traerDatos_fecha('lrfcs23/fecha4.json')(btnf4_a24_23)
         llenarStats_lca24_s23()
         btnLC23select.classList.add('btn-active')
     });
