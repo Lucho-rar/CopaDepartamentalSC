@@ -75,6 +75,11 @@
                     "min":"",
                     "jugador":"Jesús Ángel Vallejos",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Tamargo",
+                    "penal":false
                 }
             ],
             "info": {
@@ -107,7 +112,13 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Yulka",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -137,7 +148,13 @@
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"e.c",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
