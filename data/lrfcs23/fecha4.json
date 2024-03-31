@@ -58,6 +58,11 @@
                     "min":"",
                     "jugador":"Agustin Chazarreta",
                     "penal": false
+                },
+                {
+                    "min":"",
+                    "jugador":"Matías Gómez",
+                    "penal": false
                 }
             ],
             "info": {
@@ -79,7 +84,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "31/03/2024 - 17:00hs",
-        "estado": "Jugando",
+        "estado": "Finalizado",
         "contexto": []
     },
 
@@ -112,6 +117,11 @@
                     "min":"",
                     "jugador":"Velázquez",
                     "penal": false
+                },
+                {
+                    "min":"",
+                    "jugador":"Maciel",
+                    "penal": false
                 }
             ],
             "info": {
@@ -121,7 +131,7 @@
             "logo": "ccao.png"
         },
         "fecha": "31/03/2024 - 17:00hs",
-        "estado": "Jugando",
+        "estado": "Finalizado",
         "contexto": []
     },
 
