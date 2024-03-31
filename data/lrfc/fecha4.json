@@ -61,7 +61,7 @@
                 {
                     "min":"",
                     "jugador":"Conrado Mandrille López",
-                    "penal":false
+                    "penal":true
                 }
             ],
             "info": {
