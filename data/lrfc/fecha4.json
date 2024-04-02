@@ -192,6 +192,11 @@
                     "min":"",
                     "jugador":"Agustín Castoldi",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Santiago Baldissone",
+                    "penal":true
                 }
             ],
             "info": {
