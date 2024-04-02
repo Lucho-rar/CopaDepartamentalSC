@@ -181,7 +181,12 @@
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Mateo "
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
@@ -196,7 +201,11 @@
                 "corto": "CSLA"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador": "Bruno Díaz",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
