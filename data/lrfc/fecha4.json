@@ -212,6 +212,11 @@
                     "min":"",
                     "jugador":"Juan Pato",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Juan Pablo Basualdo",
+                    "penal":true
                 }
             ],
             "info": {
