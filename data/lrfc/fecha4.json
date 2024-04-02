@@ -201,6 +201,11 @@
                     "min":"",
                     "jugador":"Arévalo",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Juan Pato",
+                    "penal":false
                 }
             ],
             "info": {
