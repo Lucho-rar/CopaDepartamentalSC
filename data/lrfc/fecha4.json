@@ -8,7 +8,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Sanabria",
+                    "jugador":"Facundo Sanabria",
                     "penal":false
                 },
                 {
@@ -83,7 +83,7 @@
                 },
                 {
                     "min":"",
-                    "jugador":"Tamargo",
+                    "jugador":"",
                     "penal":false
                 }
             ],
@@ -120,7 +120,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Yulka",
+                    "jugador":"Brian Yulka",
                     "penal":false
                 }
             ],
@@ -144,7 +144,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Gaitán",
+                    "jugador":"Brian Gaitán",
                     "penal":false
                 }
             ],
@@ -162,7 +162,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"e.c",
+                    "jugador":"Daniel Diaz",
                     "penal":false
                 }
             ],
@@ -190,7 +190,7 @@
                 },
                 {
                     "min":"",
-                    "jugador":"Agustín Castoldi",
+                    "jugador":"Agustin Castoldi",
                     "penal":false
                 },
                 {
@@ -245,7 +245,23 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Brian Ocampo",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Diego Diaz",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Kevin Velázquez",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -265,7 +281,7 @@
             "logo": "ferro.png"
         },
         "fecha": "03/04/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "Finalizado",
         "contexto": []
     }
 ]

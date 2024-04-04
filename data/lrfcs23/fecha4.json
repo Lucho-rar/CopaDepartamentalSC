@@ -8,7 +8,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Agustín Bravo",
                     "penal":false
                 }
             ],
@@ -26,12 +26,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Rodrigo Costich",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Santiago Quiroz",
                     "penal":false
                 }
             ],
@@ -110,17 +110,17 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Colombo",
+                    "jugador":"Juan Ignacio Colombo",
                     "penal": false
                 },
                 {
                     "min":"",
-                    "jugador":"Velázquez",
+                    "jugador":"Enzo Velázquez",
                     "penal": false
                 },
                 {
                     "min":"",
-                    "jugador":"Maciel",
+                    "jugador":"Tomas Maciel",
                     "penal": false
                 }
             ],
@@ -156,7 +156,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Saucedo",
+                    "jugador":"Jeremias Saucedo",
                     "penal":false
                 },
                 {
@@ -223,7 +223,28 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Micael Diaz",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Nicolas Anweg",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Diego Vivas",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Ivo Vallejos",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -243,7 +264,7 @@
             "logo": "ferro.png"
         },
         "fecha": "03/04/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "Finalizado",
         "contexto": []
     }
 ]
