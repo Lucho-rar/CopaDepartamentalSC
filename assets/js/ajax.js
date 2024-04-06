@@ -731,8 +731,9 @@ window.addEventListener('load', function (){
             
             toggleMenus("fechas_lrfc")
             traerDatos_fecha('lrfc/fecha5.json')(btnf5_a24)
-            llenarStats_lca24()
             btnLCselect.classList.add('btn-active')
+            llenarStats_lca24()
+            
             
         })
 
