@@ -15,6 +15,11 @@
                     "min":"",
                     "jugador": "Córdoba",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador": "Jesús Ángel Vallejos",
+                    "penal":false
                 }
             ],
             "info": {
