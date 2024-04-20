@@ -99,7 +99,13 @@
                 "completo": "SAN LORENZO (T)",
                 "corto": "CSLT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Gerardo Acosta",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
@@ -141,7 +147,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Vignolo",
+                    "jugador":"Walter Vignolo",
                     "penal":false
                 }
             ],
@@ -156,7 +162,14 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+                    
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
