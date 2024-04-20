@@ -17,7 +17,13 @@
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Mateo Tutera",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -25,7 +31,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "19/04/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
     
@@ -55,7 +61,7 @@
             "logo": "cuda.png"
         },
         "fecha": "19/04/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -87,7 +93,7 @@
             "logo": "bandera.png"
         },
         "fecha": "19/04/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -98,7 +104,18 @@
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador": "",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -110,15 +127,21 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "cacu.png"
         },
-        "fecha": "19/04/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "fecha": "19/04/2024 - 20:00hs - Demorado por corte de luz",
+        "estado": "jugando",
         "contexto": []
     },
 
