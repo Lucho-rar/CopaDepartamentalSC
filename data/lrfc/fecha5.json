@@ -200,7 +200,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Elias",
                     "penal":false
                 }
                     
@@ -212,7 +212,7 @@
             "logo": "cacu.png"
         },
         "fecha": "19/04/2024 - 22:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
