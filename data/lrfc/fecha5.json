@@ -116,7 +116,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Claudio Rosso",
                     "penal":false
                 }
             ],
@@ -138,7 +138,13 @@
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Vignolo",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
