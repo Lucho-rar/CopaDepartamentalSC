@@ -5,7 +5,13 @@
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Jesús Ángel Vallejos",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
