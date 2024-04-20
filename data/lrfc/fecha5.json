@@ -56,9 +56,15 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador": "",
+                    "jugador": "Alexander Leguizamón",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador": "Alexander Leguizamón",
                     "penal":false
                 }
+                
             ],
             "info": {
                 "amarillas": [],
