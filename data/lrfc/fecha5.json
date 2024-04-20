@@ -25,7 +25,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "19/04/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
     
@@ -55,7 +55,7 @@
             "logo": "cuda.png"
         },
         "fecha": "19/04/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -87,7 +87,7 @@
             "logo": "bandera.png"
         },
         "fecha": "19/04/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -118,7 +118,7 @@
             "logo": "cacu.png"
         },
         "fecha": "19/04/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
