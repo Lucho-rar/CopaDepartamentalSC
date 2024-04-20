@@ -42,7 +42,12 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "min":"",
+                        "jugador":"Daniel Benitez"
+                    }
+                ]
             },
             "logo": "ucyd.png"
         },
