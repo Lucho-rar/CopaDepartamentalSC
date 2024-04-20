@@ -52,7 +52,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "19/04/2024 - 22:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
     
@@ -76,7 +76,16 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "min":"",
+                        "jugador":"Carrizo"
+                    },
+                    {
+                        "min":"",
+                        "jugador":"Sotomayor"
+                    }
+                ]
             },
             "logo": "ferro.png"
         },
@@ -100,6 +109,11 @@
                     "min":"",
                     "jugador": "Alberto Laso",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador": "",
+                    "penal":false
                 }
                 
             ],
@@ -110,7 +124,7 @@
             "logo": "cuda.png"
         },
         "fecha": "19/04/2024 - 22:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
