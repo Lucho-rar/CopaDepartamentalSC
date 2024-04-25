@@ -44,17 +44,17 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador": "",
+                    "jugador": "Ricardo Andrada",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador": "",
+                    "jugador": "Facundo Cortés",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador": "",
+                    "jugador": "Alexis Páez",
                     "penal":false
                 }
                 
@@ -124,12 +124,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador": "",
+                    "jugador": "Tomas Turquetti",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador": "",
+                    "jugador": "Mateo Gutiérrez",
                     "penal":false
                 }
             ],
@@ -147,7 +147,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador": "",
+                    "jugador": "Alan Calderón",
                     "penal":false
                 }
             ],
@@ -188,7 +188,7 @@
             },
             "logo": "cas.png"
         },
-        "fecha": "21/04/2024 - 17:00hs",
+        "fecha": "Suspendido",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -202,7 +202,13 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Bruno Diaz",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -214,15 +220,21 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Julian Gorostegui",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "cat.png"
         },
-        "fecha": "24/04/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "fecha": "24/04/2024 - 19:00hs",
+        "estado": "finalizado",
         "contexto": []
     }
 
