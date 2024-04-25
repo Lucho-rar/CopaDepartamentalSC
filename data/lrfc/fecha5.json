@@ -13,7 +13,7 @@
                 },
                 {
                     "min":"",
-                    "jugador": "Córdoba",
+                    "jugador": "Sergio Córdoba",
                     "penal":false
                 },
                 {
@@ -36,7 +36,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Ferreyra",
+                    "jugador":"Augusto Ferreyra",
                     "penal":false
                 }
             ],
@@ -107,7 +107,7 @@
                 },
                 {
                     "min":"",
-                    "jugador": "Alberto Laso",
+                    "jugador": "Alberto Lazo",
                     "penal":false
                 },
                 {
@@ -200,7 +200,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Elias",
+                    "jugador":"Jorge Elia",
                     "penal":false
                 }
                     
@@ -256,7 +256,23 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Juan Pablo Basualdo",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Leonel Barreto",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Gonzalo Colombara",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -276,7 +292,7 @@
             "logo": "cat.png"
         },
         "fecha": "24/04/2024 - 21:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 
