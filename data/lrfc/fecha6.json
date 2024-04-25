@@ -2,6 +2,66 @@
     {
         "local": {
             "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "slt.png"
+        },
+        "fecha": "26/04/2024 - 22:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+     
+    {
+        "local": {
+            "nombre": {
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ucyd.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "fecha": "28/04/2024 - 16:30hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
@@ -24,7 +84,7 @@
             },
             "logo": "ferro.png"
         },
-        "fecha": "07/04/2024",
+        "fecha": "28/04/2024 - 17:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -56,41 +116,12 @@
             },
             "logo": "hersilia.png"
         },
-        "fecha": "07/04/2024",
+        "fecha": "28/04/2024 - 17:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
 
-    
-    {
-        "local": {
-            "nombre": {
-                "completo": "UNION SAN GUILLERMO",
-                "corto": "UCYD"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ucyd.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "CENTRAL ARG. OLÍMPICO",
-                "corto": "CCAO"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ccao.png"
-        },
-        "fecha": "07/04/2024",
-        "estado": "Por jugar",
-        "contexto": []
-    },
+   
 
 
     {
@@ -118,40 +149,12 @@
             },
             "logo": "calt.png"
         },
-        "fecha": "07/04/2024",
+        "fecha": "28/04/2024 - 17:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
 
-    {
-        "local": {
-            "nombre": {
-                "completo": "ATL. UNIÓN DE CERES",
-                "corto": "CACU"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cacu.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "SAN LORENZO (T)",
-                "corto": "CSLT"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "slt.png"
-        },
-        "fecha": "07/04/2024",
-        "estado": "Por jugar",
-        "contexto": []
-    },
+
     
     
     {
@@ -179,7 +182,7 @@
             },
             "logo": "cuda.png"
         },
-        "fecha": "07/04/2024",
+        "fecha": "28/04/2024 - 18:00hs",
         "estado": "Por jugar",
         "contexto": []
     }
