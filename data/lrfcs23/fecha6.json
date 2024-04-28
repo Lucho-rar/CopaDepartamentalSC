@@ -21,7 +21,7 @@
                 {
                     "min":"",
                     "jugador":"Baglione",
-                    "penal":false
+                    "penal":true
                 }
             ],
             "info": {
@@ -186,6 +186,11 @@
                     "min":"",
                     "jugador":"Damián Martinet",
                     "penal":true
+                },
+                {
+                    "min":"",
+                    "jugador":"Mateo Gutiérrez",
+                    "penal":false
                 }
             ],
             "info": {
