@@ -151,6 +151,11 @@
                     "min":"",
                     "jugador":"Velázquez",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Diego Diaz",
+                    "penal":false
                 }
             ],
             "info": {
