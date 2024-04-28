@@ -26,7 +26,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Mansilla",
+                    "jugador":"Brian Mansilla",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Gabriel Carabajal",
                     "penal":false
                 }
             ],
