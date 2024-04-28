@@ -64,7 +64,18 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Yoel Holhman",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Fernando Romero",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
