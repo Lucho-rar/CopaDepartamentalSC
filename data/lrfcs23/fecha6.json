@@ -17,7 +17,13 @@
                 "completo": "SAN LORENZO (T)",
                 "corto": "CSLT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Baglione",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -25,7 +31,7 @@
             "logo": "slt.png"
         },
         "fecha": "28/04/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
      
@@ -35,7 +41,23 @@
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Mateo Tutera",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Mateo Tutera",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Guillermo Coronel",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -85,7 +107,7 @@
             "logo": "ferro.png"
         },
         "fecha": "28/04/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
