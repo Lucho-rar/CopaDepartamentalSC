@@ -104,7 +104,7 @@
             "logo": "ferro.png"
         },
         "fecha": "28/04/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -136,7 +136,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "28/04/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -169,7 +169,7 @@
             "logo": "calt.png"
         },
         "fecha": "28/04/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
