@@ -210,6 +210,11 @@
                     "min":"",
                     "jugador":"Muñóz",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Rodrigo Puebla",
+                    "penal":true
                 }
             ],
             "info": {
