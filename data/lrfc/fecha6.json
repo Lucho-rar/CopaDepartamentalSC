@@ -282,6 +282,11 @@
                     "min":"",
                     "jugador":"Facundo Sanabria",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Facundo Tolosa",
+                    "penal":true
                 }
             ],
             "info": {
