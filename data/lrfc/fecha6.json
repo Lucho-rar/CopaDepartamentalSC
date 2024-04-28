@@ -150,7 +150,13 @@
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Nicolás Martinez",
+                    "penal":true
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
