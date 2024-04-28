@@ -5,7 +5,13 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Facundo Bellino",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -55,7 +61,7 @@
             "logo": "ccao.png"
         },
         "fecha": "28/04/2024 - 16:30hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
