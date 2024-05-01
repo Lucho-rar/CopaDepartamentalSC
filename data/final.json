@@ -1,0 +1,69 @@
+[
+    {
+        "local": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                ]
+            },
+            "logo": "ambro.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ASOCIACION DEPORTIVA JUNIORS CLUB",
+                "corto": "ADJC"
+
+            },
+            "goles": [
+                
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                ]
+            },
+            "logo": "juniors.png"
+        },
+        "fecha": "01/05/2024 - 15:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "fecha": "01/05/2024 - 15:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    }
+
+]

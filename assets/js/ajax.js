@@ -4,7 +4,8 @@ window.addEventListener('load', function (){
     const btnFaseUno = document.querySelector('#fase1');
     const btnFaseDos = document.querySelector('#fase2');//Fase 2 -> Fase 1 vuelta real.
     const btnFaseTres = document.querySelector('#fase3'); //Fase 3-> Fase 2 real
-    const btnSemisCSC = document.querySelector('#semis_csc')
+    const btnSemisCSC = document.querySelector('#semis_csc');
+    const btnFinalCSC = document.querySelector('#final_csc');
 
 
     const btnCSCselect = this.document.querySelector('#select_copa_sc');
@@ -44,6 +45,8 @@ window.addEventListener('load', function (){
     btnFaseDos.addEventListener('click', traerDatos_vuelta);
     btnFaseTres.addEventListener('click', traerDatos_fase2);
     btnSemisCSC.addEventListener('click',traerDatos_semiscsc);
+    btnFinalCSC.addEventListener('click',traerDatos_finalcsc);
+
 
     btnf1_a24.addEventListener('click', traerDatos_fecha('lrfc/fecha1.json'));
     btnf2_a24.addEventListener('click', traerDatos_fecha('lrfc/fecha2.json'));
@@ -667,6 +670,21 @@ window.addEventListener('load', function (){
             }
         }
     }
+    function traerDatos_finalcsc(btnOrEvent) {
+        //inicio_home();
+        toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+        btnCSCselect.classList.add('btn-active')
+        //toggleActiveBtn(btnCSCselect)
+        const xh = new XMLHttpRequest();
+        xh.open('GET', 'data/final.json', true);
+        xh.send();
+        xh.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                let partidos = JSON.parse(this.responseText);
+                llenarTablaHTMLPartidos(partidos)
+            }
+        }
+    }
 
     const liga_ceresina_colors = ()=> {
         document.documentElement.style.setProperty("--first-color", "#253c99");
@@ -709,7 +727,7 @@ window.addEventListener('load', function (){
 
     async function llenarObjetoStats (){
         const filesPromises = [
-            cargarStats_csc('fase1.json'), cargarStats_csc('fase1_vuelta.json'),cargarStats_csc('fase2.json'), cargarStats_csc('semis.json'), cargarStats_lca24('fecha1.json'), cargarStats_lca24_s23('fecha1.json'), cargarStats_lca24_s23('fecha2.json'), cargarStats_lca24('fecha2.json'),
+            cargarStats_csc('fase1.json'), cargarStats_csc('fase1_vuelta.json'),cargarStats_csc('fase2.json'), cargarStats_csc('semis.json'),cargarStats_csc('final.json'), cargarStats_lca24('fecha1.json'), cargarStats_lca24_s23('fecha1.json'), cargarStats_lca24_s23('fecha2.json'), cargarStats_lca24('fecha2.json'),
             cargarStats_lca24_s23('fecha3.json'), cargarStats_lca24('fecha3.json'), cargarStats_lca24('fecha4.json'),
             cargarStats_lca24_s23('fecha4.json'), cargarStats_lca24('fecha5.json'), cargarStats_lca24_s23('fecha5.json'),
             cargarStats_lca24('fecha6.json'), cargarStats_lca24_s23('fecha6.json')
@@ -723,21 +741,21 @@ window.addEventListener('load', function (){
             // Aca se llama a la copa que queramos 
             
             // Para la copa dpt
-            //copa_colors()
-         //   toggleMenus("fases")
-           // traerDatos_semiscsc(btnSemisCSC);
-        //    llenarStats_csc()
-        //    btnCSCselect.classList.add('btn-active')
+            copa_colors()
+            toggleMenus("fases")
+            traerDatos_finalcsc(btnFinalCSC);
+            llenarStats_csc()
+            btnCSCselect.classList.add('btn-active')
 
             // Para la liga
             //liga_ceresina_colors()
             
-            
+            /*      commentend 01/05 
             toggleMenus("fechas_lrfc")
             traerDatos_fecha('lrfc/fecha6.json')(btnf6_a24)
             btnLCselect.classList.add('btn-active')
             llenarStats_lca24()
-            
+            */
             
         })
 
@@ -745,7 +763,7 @@ window.addEventListener('load', function (){
         copa_colors()
         toggleMenus("fases")
 
-        traerDatos_semiscsc(btnSemisCSC);
+        traerDatos_finalcsc(btnFinalCSC);
         llenarStats_csc()
         btnCSCselect.classList.add('btn-active')
     });
