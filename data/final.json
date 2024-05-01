@@ -21,7 +21,11 @@
 
             },
             "goles": [
-                
+                {
+                    "min":"",
+                    "jugador":"Pavón",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -54,7 +58,13 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Elias",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
