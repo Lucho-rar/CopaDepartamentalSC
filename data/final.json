@@ -46,6 +46,11 @@
                 "corto": "CCAO"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Yoel Holhman",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
