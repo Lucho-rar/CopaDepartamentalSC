@@ -54,6 +54,7 @@ window.addEventListener('load', function (){
     btnf4_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha4.json'));
     btnf5_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha5.json'));
     btnf6_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha6.json'));
+    btnf7_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha7.json'));
 
     btnf1_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha1.json'));
     btnf2_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha2.json'));
@@ -61,6 +62,7 @@ window.addEventListener('load', function (){
     btnf4_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha4.json'));
     btnf5_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha5.json'));
     btnf6_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha6.json'));
+    btnf7_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha7.json'));
     // COPA DEPARTAMENTO SC
     let datosJugadores = {};
     let datosEquipos = {
@@ -741,21 +743,21 @@ window.addEventListener('load', function (){
             // Aca se llama a la copa que queramos 
             
             // Para la copa dpt
-            copa_colors()
+            /*copa_colors()
             toggleMenus("fases")
             traerDatos_finalcsc(btnFinalCSC);
             llenarStats_csc()
             btnCSCselect.classList.add('btn-active')
-
+            */
             // Para la liga
             //liga_ceresina_colors()
             
-            /*      commentend 01/05 
+            //commentend 01/05 
             toggleMenus("fechas_lrfc")
-            traerDatos_fecha('lrfc/fecha6.json')(btnf6_a24)
+            traerDatos_fecha('lrfc/fecha7.json')(btnf7_a24)
             btnLCselect.classList.add('btn-active')
             llenarStats_lca24()
-            */
+            
             
         })
 
@@ -772,7 +774,7 @@ window.addEventListener('load', function (){
         liga_ceresina_colors()
         toggleMenus("fechas_lrfc")
 
-        traerDatos_fecha('lrfc/fecha6.json')(btnf6_a24)
+        traerDatos_fecha('lrfc/fecha7.json')(btnf7_a24)
         btnLCselect.classList.add('btn-active')
         llenarStats_lca24()
         
@@ -783,7 +785,7 @@ window.addEventListener('load', function (){
 
         toggleMenus("fechas_lrfc_23")
 
-        traerDatos_fecha('lrfcs23/fecha6.json')(btnf6_a24_23)
+        traerDatos_fecha('lrfcs23/fecha7.json')(btnf7_a24_23)
         llenarStats_lca24_s23()
         btnLC23select.classList.add('btn-active')
     });
