@@ -13,6 +13,11 @@
                 },
                 {
                     "min":"",
+                    "jugador":"Tomas Cardozo",
+                    "penal":false
+                },
+                {
+                    "min":"",
                     "jugador":"",
                     "penal":false
                 }
