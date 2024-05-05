@@ -134,7 +134,7 @@
             "logo": "cas.png"
         },
         "fecha": "05/05/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -167,7 +167,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "05/05/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -197,7 +197,7 @@
             "logo": "ambro.png"
         },
         "fecha": "05/05/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     }
 
