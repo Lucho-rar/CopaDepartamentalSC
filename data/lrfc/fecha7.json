@@ -13,12 +13,12 @@
                 },
                 {
                     "min":"",
-                    "jugador":"Tomas Cardozo",
+                    "jugador":"Joan Blessio",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Lencina",
                     "penal":false
                 }
             ],
@@ -94,7 +94,13 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Brian Yulka",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
