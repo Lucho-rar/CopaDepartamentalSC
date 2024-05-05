@@ -5,7 +5,13 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -26,7 +32,7 @@
             "logo": "bandera.png"
         },
         "fecha": "05/05/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
      
@@ -48,7 +54,13 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -56,7 +68,7 @@
             "logo": "cacu.png"
         },
         "fecha": "05/05/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -66,7 +78,13 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -78,7 +96,13 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -86,7 +110,7 @@
             "logo": "cat.png"
         },
         "fecha": "05/05/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -141,7 +165,13 @@
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -168,8 +198,8 @@
         },
         "visitante": {
             "nombre": {
-                "completo": "UNIÓN SOCIAL DE HERSILIA",
-                "corto": "USdH"
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
             },
             "goles": [],
             "info": {
