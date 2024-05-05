@@ -24,7 +24,13 @@
                 "corto": "UJB"
 
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Tomas Cardozo",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
