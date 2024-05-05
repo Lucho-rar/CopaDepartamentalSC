@@ -27,7 +27,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Tomas Cardozo",
+                    "jugador":"",
                     "penal":false
                 }
             ],
@@ -48,7 +48,13 @@
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alexander Leguizamón",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
