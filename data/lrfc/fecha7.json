@@ -198,7 +198,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Arevalo",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Nicolas Vianco",
                     "penal":false
                 }
             ],
