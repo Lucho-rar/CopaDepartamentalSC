@@ -174,7 +174,13 @@
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Agustín Affaticatti",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -187,11 +193,7 @@
                 "corto": "UCYD"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Agustín Affaticatti",
-                    "penal":false
-                }
+
             ],
             "info": {
                 "amarillas": [],
