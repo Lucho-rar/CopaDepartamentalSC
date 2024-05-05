@@ -156,7 +156,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Gomez",
+                    "jugador":"Adrián Gómez",
                     "penal":false
                 }
             ],
@@ -208,7 +208,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "05/05/2024 - 17:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -260,7 +260,7 @@
             "logo": "ambro.png"
         },
         "fecha": "05/05/2024 - 17:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     }
 
