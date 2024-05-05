@@ -39,6 +39,11 @@
                     "min":"",
                     "jugador":"",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
                 }
             ],
             "info": {
@@ -48,7 +53,7 @@
             "logo": "bandera.png"
         },
         "fecha": "05/05/2024 - 16:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
      
@@ -84,7 +89,7 @@
             "logo": "cacu.png"
         },
         "fecha": "05/05/2024 - 16:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -199,7 +204,13 @@
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
