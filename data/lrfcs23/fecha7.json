@@ -26,7 +26,7 @@
             "logo": "bandera.png"
         },
         "fecha": "05/05/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
      
@@ -56,7 +56,7 @@
             "logo": "cacu.png"
         },
         "fecha": "05/05/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -86,7 +86,7 @@
             "logo": "cat.png"
         },
         "fecha": "05/05/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -116,7 +116,7 @@
             "logo": "cas.png"
         },
         "fecha": "05/05/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -149,7 +149,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "05/05/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -179,7 +179,7 @@
             "logo": "ambro.png"
         },
         "fecha": "05/05/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     }
 
