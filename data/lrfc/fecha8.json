@@ -1,0 +1,186 @@
+[
+    {
+        "local": {
+            "nombre": {
+                "completo": "UNION SOCIAL DE HERSILIA",
+                "corto": "USdH"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "hersilia.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "FERRO DHO (SC)",
+                "corto": "FDSC"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ferro.png"
+        },
+        "fecha": "12/05/2024 - 16:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+     
+    {
+        "local": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "fecha": "12/05/2024 - 16:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "calt.png"
+        },
+        "fecha": "12/05/2024 - 16:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "slt.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+            },
+            "goles": [
+
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ucyd.png"
+        },
+        "fecha": "12/05/2024 - 16:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+
+   
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNION Y JUVENTUD (B)",
+                "corto": "UJB"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "bandera.png"
+        },
+        "fecha": "12/05/2024 - 16:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cas.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNION ARRUFO",
+                "corto": "CUDA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cuda.png"
+        },
+        "fecha": "15/05/2024 - 22:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    }
+
+]

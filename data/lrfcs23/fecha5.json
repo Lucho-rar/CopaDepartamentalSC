@@ -158,7 +158,7 @@
             "logo": "cacu.png"
         },
         "fecha": "19/04/2024 - 20:00hs - Suspendido por corte de luz",
-        "estado": "jugando",
+        "estado": "Por jugar",
         "contexto": []
     },
 
@@ -169,7 +169,18 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Martin Mendoza",
+                    "penal":true
+                },
+                {
+                    "min":"",
+                    "jugador": "Martin Mendoza",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -188,8 +199,8 @@
             },
             "logo": "cas.png"
         },
-        "fecha": "Suspendido",
-        "estado": "Por jugar",
+        "fecha": "Suspendido - 08/05/24",
+        "estado": "finalizado",
         "contexto": []
     },
 

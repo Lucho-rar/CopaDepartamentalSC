@@ -223,7 +223,28 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Marx Meternich",
+                    "penal":true
+                },
+                {
+                    "min":"",
+                    "jugador": "Ponce",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador": "Yoel Holhman",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador": "Rojas",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -235,18 +256,40 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Santiago Córdoba",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador": "Santiago Córdoba",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador": "Adrián Gómez",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador": "Adrián Gómez",
+                    "penal":false
+                }
+                
+                
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "cas.png"
         },
-        "fecha": "Suspendido",
-        "estado": "Por jugar",
+        "fecha": "Suspendido - 08/05/24",
+        "estado": "finalizado",
         "contexto": []
     },
-
 
     
     

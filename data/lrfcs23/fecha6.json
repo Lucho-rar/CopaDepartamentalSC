@@ -20,7 +20,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Baglione",
+                    "jugador":"Jonathan Baglione",
                     "penal":true
                 }
             ],
@@ -141,12 +141,12 @@
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Matías González",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Ramiro Ojeda",
                     "penal":false
                 }
                 
@@ -188,7 +188,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Agustin Chazarreta",
                     "penal":false
                 }
             ],
@@ -243,22 +243,22 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Enrique Pogonza",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Enrique Pogonza",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Pablo Segovia",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Rodrigo González",
                     "penal":false
                 }
 
