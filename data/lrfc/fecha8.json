@@ -81,7 +81,13 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min": "",
+                    "jugador": "Brian Ocampo",
+                    "penal": false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
