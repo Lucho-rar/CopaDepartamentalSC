@@ -72,7 +72,7 @@
             "logo": "ccao.png"
         },
         "fecha": "12/05/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -140,6 +140,11 @@
                     "min": "",
                     "jugador": "Juan Cruz Ruffinato",
                     "penal": false
+                },
+                {
+                    "min": "",
+                    "jugador": "",
+                    "penal": false
                 }
             ],
             "info": {
@@ -149,7 +154,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "12/05/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
