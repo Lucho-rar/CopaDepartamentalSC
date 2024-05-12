@@ -25,7 +25,7 @@
             "logo": "ferro.png"
         },
         "fecha": "12/05/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
      
@@ -55,7 +55,7 @@
             "logo": "ccao.png"
         },
         "fecha": "12/05/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -85,7 +85,7 @@
             "logo": "calt.png"
         },
         "fecha": "12/05/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -108,7 +108,16 @@
                 "corto": "UCYD"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min": "",
+                    "jugador": "Juan Cruz Ruffinato",
+                    "penal": false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -117,7 +126,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "12/05/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -128,7 +137,13 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min": "",
+                    "jugador": "Dos Santos",
+                    "penal": false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -149,7 +164,7 @@
             "logo": "bandera.png"
         },
         "fecha": "12/05/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
