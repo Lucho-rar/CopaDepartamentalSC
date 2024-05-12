@@ -735,7 +735,8 @@ window.addEventListener('load', function (){
             cargarStats_lca24_s23('fecha3.json'), cargarStats_lca24('fecha3.json'), cargarStats_lca24('fecha4.json'),
             cargarStats_lca24_s23('fecha4.json'), cargarStats_lca24('fecha5.json'), cargarStats_lca24_s23('fecha5.json'),
             cargarStats_lca24('fecha6.json'), cargarStats_lca24_s23('fecha6.json'),
-            cargarStats_lca24('fecha7.json'), cargarStats_lca24_s23('fecha7.json')
+            cargarStats_lca24('fecha7.json'), cargarStats_lca24_s23('fecha7.json'),
+            cargarStats_lca24('fecha8.json'), cargarStats_lca24_s23('fecha8.json')
         ] 
         return Promise.all(filesPromises)
     }
