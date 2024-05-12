@@ -185,6 +185,11 @@
                 "corto": "UJB"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Gabriel Belizán",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
