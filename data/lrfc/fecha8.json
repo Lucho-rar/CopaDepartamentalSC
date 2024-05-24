@@ -208,7 +208,23 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Santiago Córdoba",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Conrado Mandrille López",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Agustin Córdoba",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -228,7 +244,7 @@
             "logo": "cuda.png"
         },
         "fecha": "15/05/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 

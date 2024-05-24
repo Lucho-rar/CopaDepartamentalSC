@@ -213,7 +213,23 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min": "",
+                    "jugador": "Matias Gómez",
+                    "penal": false
+                },
+                {
+                    "min": "",
+                    "jugador": "Matias Gómez",
+                    "penal": false
+                },
+                {
+                    "min": "",
+                    "jugador": "Benjamin Flores",
+                    "penal": false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -233,7 +249,7 @@
             "logo": "cuda.png"
         },
         "fecha": "15/05/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 
