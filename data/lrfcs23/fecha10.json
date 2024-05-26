@@ -40,6 +40,11 @@
                     "min":"",
                     "jugador":"Mateo Tutera",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Isaias Ramallo",
+                    "penal":false
                 }
             ],
             "info": {
@@ -53,7 +58,13 @@
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -80,6 +91,11 @@
                 {
                     "min":"",
                     "jugador":"Agustin Córdoba",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Matias Gómez",
                     "penal":false
                 }
             ],
