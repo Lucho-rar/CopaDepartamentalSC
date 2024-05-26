@@ -25,7 +25,7 @@
             "logo": "cuda.png"
         },
         "fecha": "26/05/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
      
@@ -55,7 +55,7 @@
             "logo": "bandera.png"
         },
         "fecha":"26/05/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -85,7 +85,7 @@
             "logo": "cacu.png"
         },
         "fecha": "26/05/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -115,7 +115,7 @@
             "logo": "ambro.png"
         },
         "fecha": "26/05/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
