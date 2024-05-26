@@ -83,7 +83,13 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Toloza",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
