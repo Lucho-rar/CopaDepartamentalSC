@@ -82,7 +82,13 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Matias Gómez",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
