@@ -83,7 +83,7 @@
             "logo": "bandera.png"
         },
         "fecha":"26/05/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -140,7 +140,7 @@
             "logo": "cacu.png"
         },
         "fecha": "26/05/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
