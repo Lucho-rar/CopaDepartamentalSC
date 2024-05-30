@@ -5,7 +5,23 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Kevin Velázquez",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Edgar Moreno",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Edgar Moreno",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -25,7 +41,7 @@
             "logo": "cuda.png"
         },
         "fecha": "26/05/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
      
@@ -35,7 +51,13 @@
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Andrés Benitez",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -47,7 +69,18 @@
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Walter Peralta",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Santiago Marquetti",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -55,7 +88,7 @@
             "logo": "bandera.png"
         },
         "fecha":"26/05/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -65,7 +98,18 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Matias Gómez",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Leandro Marozzi",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -77,7 +121,13 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Toloza",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -85,7 +135,7 @@
             "logo": "cacu.png"
         },
         "fecha": "26/05/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -95,7 +145,13 @@
                 "completo": "SAN LORENZO (T)",
                 "corto": "CSLT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Bustos",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -107,7 +163,13 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Gino Simonati",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -115,7 +177,7 @@
             "logo": "ambro.png"
         },
         "fecha": "26/05/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 

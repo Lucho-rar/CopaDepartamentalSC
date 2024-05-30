@@ -741,7 +741,8 @@ window.addEventListener('load', function (){
             cargarStats_lca24('fecha6.json'), cargarStats_lca24_s23('fecha6.json'),
             cargarStats_lca24('fecha7.json'), cargarStats_lca24_s23('fecha7.json'),
             cargarStats_lca24('fecha8.json'), cargarStats_lca24_s23('fecha8.json'),
-            cargarStats_lca24('fecha9.json'), cargarStats_lca24_s23('fecha9.json')
+            cargarStats_lca24('fecha9.json'), cargarStats_lca24_s23('fecha9.json'),
+            cargarStats_lca24('fecha10.json'), cargarStats_lca24_s23('fecha10.json')
         ] 
         return Promise.all(filesPromises)
     }
