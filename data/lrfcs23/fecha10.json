@@ -126,7 +126,18 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -146,7 +157,7 @@
             "logo": "ferro.png"
         },
         "fecha": "29/05/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -156,7 +167,13 @@
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -176,7 +193,7 @@
             "logo": "calt.png"
         },
         "fecha": "29/05/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 
