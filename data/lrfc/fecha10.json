@@ -72,7 +72,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Walter Peralta",
+                    "jugador":"",
                     "penal":false
                 },
                 {
@@ -124,7 +124,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Toloza",
+                    "jugador":"Ezequiel Toloza",
                     "penal":false
                 }
             ],
@@ -148,7 +148,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Bustos",
+                    "jugador":"Kevin Bustos",
                     "penal":false
                 }
             ],
@@ -207,6 +207,11 @@
                 {
                     "min":"",
                     "jugador":"Gabriel Ponce",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Yoel Holhman",
                     "penal":false
                 }
             ],
