@@ -58,6 +58,7 @@ window.addEventListener('load', function (){
     btnf8_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha8.json'));
     btnf9_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha9.json'));
     btnf10_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha10.json'));
+    btnf11_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha11.json'));
 
     btnf1_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha1.json'));
     btnf2_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha2.json'));
@@ -69,6 +70,7 @@ window.addEventListener('load', function (){
     btnf8_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha8.json'));
     btnf9_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha9.json'));
     btnf10_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha10.json'));
+    btnf11_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha11.json'));
     // COPA DEPARTAMENTO SC
     let datosJugadores = {};
     let datosEquipos = {
@@ -764,7 +766,7 @@ window.addEventListener('load', function (){
             
             //commentend 01/05 
             toggleMenus("fechas_lrfc")
-            traerDatos_fecha('lrfc/fecha10.json')(btnf10_a24)
+            traerDatos_fecha('lrfc/fecha11.json')(btnf11_a24)
             btnLCselect.classList.add('btn-active')
             llenarStats_lca24()
             
@@ -784,7 +786,7 @@ window.addEventListener('load', function (){
         liga_ceresina_colors()
         toggleMenus("fechas_lrfc")
 
-        traerDatos_fecha('lrfc/fecha10.json')(btnf10_a24)
+        traerDatos_fecha('lrfc/fecha11.json')(btnf11_a24)
         btnLCselect.classList.add('btn-active')
         llenarStats_lca24()
         
@@ -795,7 +797,7 @@ window.addEventListener('load', function (){
 
         toggleMenus("fechas_lrfc_23")
 
-        traerDatos_fecha('lrfcs23/fecha10.json')(btnf10_a24_23)
+        traerDatos_fecha('lrfcs23/fecha11.json')(btnf11_a24_23)
         llenarStats_lca24_s23()
         btnLC23select.classList.add('btn-active')
     });
