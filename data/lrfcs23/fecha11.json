@@ -187,6 +187,16 @@
                     "min":"",
                     "jugador":"Mariano Cisnero",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
                 }
             ],
             "info": {
@@ -200,7 +210,13 @@
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
