@@ -125,6 +125,11 @@
                 "corto": "CUDA"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -191,6 +196,11 @@
                 {
                     "min":"",
                     "jugador":"Mariano Cisnero",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
                     "penal":false
                 },
                 {
