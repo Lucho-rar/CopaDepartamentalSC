@@ -69,7 +69,7 @@
                 {
                     "min":"",
                     "jugador":"Santiago Marquetti",
-                    "penal":false
+                    "penal":true
                 }
             ],
             "info": {
@@ -112,7 +112,13 @@
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alexander Leguizamón",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
