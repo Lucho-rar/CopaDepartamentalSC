@@ -83,7 +83,13 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                 {
+                    "min":"",
+                    "jugador":"Micael Diaz",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -157,6 +163,11 @@
                 {
                     "min":"",
                     "jugador":"Rodrigo Costich",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Mariano Cisnero",
                     "penal":false
                 }
             ],
