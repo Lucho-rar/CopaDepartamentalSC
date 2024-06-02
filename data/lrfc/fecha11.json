@@ -159,7 +159,13 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Kevin Muñoz"
+                    "jugador":"Kevin Muñoz",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Kevin Muñoz",
+                    "penal":false
                 }
             ],
             "info": {
