@@ -130,7 +130,13 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Sosa",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
