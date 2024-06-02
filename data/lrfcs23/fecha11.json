@@ -126,7 +126,18 @@
                 "completo": "SAN LORENZO (T)",
                 "corto": "CSLT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Rodrigo Costich",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Rodrigo Costich",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
