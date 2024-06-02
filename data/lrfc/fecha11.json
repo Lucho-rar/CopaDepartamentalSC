@@ -65,7 +65,13 @@
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Santiago Marquetti",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
