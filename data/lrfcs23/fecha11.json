@@ -73,7 +73,7 @@
             "logo": "ucyd.png"
         },
         "fecha":"02/06/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -109,7 +109,7 @@
             "logo": "cat.png"
         },
         "fecha": "02/06/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "",
         "contexto": []
     },
 
@@ -224,7 +224,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "02/06/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -254,7 +254,7 @@
             "logo": "ccao.png"
         },
         "fecha": "02/06/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     }
 
