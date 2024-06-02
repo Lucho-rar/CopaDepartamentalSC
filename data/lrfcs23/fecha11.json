@@ -5,7 +5,13 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -113,7 +119,13 @@
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -128,12 +140,22 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Barreto",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Edgar Perez",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Barreto",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Bruno diaz",
                     "penal":false
                 },
                 {
