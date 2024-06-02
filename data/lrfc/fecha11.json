@@ -133,7 +133,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Sosa",
+                    "jugador":"Lucas Sosa",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Juan Pato",
                     "penal":false
                 }
             ],
