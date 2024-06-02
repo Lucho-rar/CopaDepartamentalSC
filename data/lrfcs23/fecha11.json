@@ -96,9 +96,14 @@
                 "corto": "CAT"
             },
             "goles": [
-                 {
+                {
                     "min":"",
                     "jugador":"Micael Diaz",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
                     "penal":false
                 }
             ],
