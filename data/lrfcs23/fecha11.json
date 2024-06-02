@@ -17,7 +17,13 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alejo Betique",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -38,7 +44,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Jonathan Dos Santos",
                     "penal":false
                 }
             ],
