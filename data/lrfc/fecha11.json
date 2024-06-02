@@ -156,7 +156,12 @@
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Kevin Muñoz"
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
