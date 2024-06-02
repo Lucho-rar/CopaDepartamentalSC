@@ -25,7 +25,7 @@
             "logo": "cas.png"
         },
         "fecha": "02/06/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
      
@@ -55,7 +55,7 @@
             "logo": "ucyd.png"
         },
         "fecha":"02/06/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -85,7 +85,7 @@
             "logo": "cat.png"
         },
         "fecha": "02/06/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -115,7 +115,7 @@
             "logo": "ambro.png"
         },
         "fecha": "02/06/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -146,7 +146,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "02/06/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -176,7 +176,7 @@
             "logo": "ccao.png"
         },
         "fecha": "02/06/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     }
 
