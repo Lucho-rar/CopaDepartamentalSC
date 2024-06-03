@@ -50,7 +50,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Jonathan Dos Santos",
+                    "jugador":"Alan Calderón",
                     "penal":false
                 }
             ],
@@ -145,22 +145,22 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Barreto",
+                    "jugador":"Leonel Barreto",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"Edgar Perez",
+                    "jugador":"Edgar Pérez",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"Barreto",
+                    "jugador":"Leonel Barreto",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"Bruno diaz",
+                    "jugador":"Bruno Diaz",
                     "penal":false
                 }
             ],
@@ -200,17 +200,17 @@
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Mariano Cisnero",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Joaquin Zapata",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Emanuel Acosta",
                     "penal":false
                 }
             ],
@@ -228,7 +228,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Matias González",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Ariel Arias",
                     "penal":false
                 }
             ],
