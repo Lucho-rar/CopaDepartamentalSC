@@ -24,7 +24,8 @@ window.addEventListener('load', function (){
     const btnf9_a24 = this.document.querySelector('#f9_a24');
     const btnf10_a24 = this.document.querySelector('#f10_a24');
     const btnf11_a24 = this.document.querySelector('#f11_a24'); 
-    
+    const btncuartos_ida_a24 = this.document.querySelector('#cuartos_ida_a24'); 
+
     // Botones de fechas (sub 23)
     const btnf1_a24_23 = this.document.querySelector('#f1_a24_23')
     const btnf2_a24_23 = this.document.querySelector('#f2_a24_23')
@@ -37,7 +38,7 @@ window.addEventListener('load', function (){
     const btnf9_a24_23 = this.document.querySelector('#f9_a24_23')
     const btnf10_a24_23 = this.document.querySelector('#f10_a24_23')
     const btnf11_a24_23 = this.document.querySelector('#f11_a24_23')
-    const btncuartos_a24_23 = this.document.querySelector('#cuartos_a24_23')
+    const btncuartos_ida_a24_23 = this.document.querySelector('#cuartos_ida_a24_23'); 
     const btnsemis_a24_23 = this.document.querySelector('#semis_a24_23')
     const btnfinal_a24_23 = this.document.querySelector('#final_a24_23')
   
@@ -59,6 +60,7 @@ window.addEventListener('load', function (){
     btnf9_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha9.json'));
     btnf10_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha10.json'));
     btnf11_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha11.json'));
+    btncuartos_ida_a24.addEventListener('click',traerDatos_fecha('lrfc/cuartos_ida.json'));
 
     btnf1_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha1.json'));
     btnf2_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha2.json'));
@@ -71,6 +73,7 @@ window.addEventListener('load', function (){
     btnf9_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha9.json'));
     btnf10_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha10.json'));
     btnf11_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha11.json'));
+    btncuartos_ida_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/cuartos_ida.json'));
     // COPA DEPARTAMENTO SC
     let datosJugadores = {};
     let datosEquipos = {
@@ -767,7 +770,7 @@ window.addEventListener('load', function (){
             
             //commentend 01/05 
             toggleMenus("fechas_lrfc")
-            traerDatos_fecha('lrfc/fecha11.json')(btnf11_a24)
+            traerDatos_fecha('lrfc/cuartos_ida.json')(btncuartos_ida_a24)
             btnLCselect.classList.add('btn-active')
             llenarStats_lca24()
             
@@ -787,7 +790,7 @@ window.addEventListener('load', function (){
         liga_ceresina_colors()
         toggleMenus("fechas_lrfc")
 
-        traerDatos_fecha('lrfc/fecha11.json')(btnf11_a24)
+        traerDatos_fecha('lrfc/cuartos_ida.json')(btncuartos_ida_a24)
         btnLCselect.classList.add('btn-active')
         llenarStats_lca24()
         
@@ -798,7 +801,7 @@ window.addEventListener('load', function (){
 
         toggleMenus("fechas_lrfc_23")
 
-        traerDatos_fecha('lrfcs23/fecha11.json')(btnf11_a24_23)
+        traerDatos_fecha('lrfcs23/cuartos_ida.json')(btncuartos_ida_a24_23)
         llenarStats_lca24_s23()
         btnLC23select.classList.add('btn-active')
     });
