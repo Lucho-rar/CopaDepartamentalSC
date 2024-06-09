@@ -293,69 +293,55 @@ window.addEventListener('load', function (){
         }
     }
 
-    function cargarStats (datos, datosEquipoParam, datosJugadoresParam){
-
+    function cargarStats(datos, datosEquipoParam, datosJugadoresParam, modo) {
         for (let item of datos) {
-
             const idLocal = item.local.nombre.completo;
             const idVistante = item.visitante.nombre.completo;
-
-            const cantidadGolesLocal = Number(item.local.goles.length)
-            const cantidadGolesVisitante = Number(item.visitante.goles.length)
-
-            for (let gol of item.local.goles) {
-                cargarGoles(datosJugadoresParam, idLocal, gol.jugador)
-                //console.log(idLocal, gol.jugador);
+    
+            const cantidadGolesLocal = Number(item.local.goles.length);
+            const cantidadGolesVisitante = Number(item.visitante.goles.length);
+    
+            // Procesar goleadores
+            if (modo === "completo" || modo === "goleadores") {
+                for (let gol of item.local.goles) {
+                    cargarGoles(datosJugadoresParam, idLocal, gol.jugador);
+                }
+                for (let gol of item.visitante.goles) {
+                    cargarGoles(datosJugadoresParam, idVistante, gol.jugador);
+                }
             }
-            for (let gol of item.visitante.goles) {
-                cargarGoles(datosJugadoresParam, idVistante, gol.jugador)
-                //console.log(idLocal, gol.jugador);
-            }
-            // for (let tarjetaRoja of item.local.info.rojas_directas) {
-            //     cargarTarjetaRoja_lca24(idLocal, tarjetaRoja.jugador);
-            // }
-            // for (let tarjetaRoja of item.visitante.info.rojas_directas) {
-            //     cargarTarjetaRoja_lca24(idVistante, tarjetaRoja.jugador);
-            // }
-
-            // TABLA POSICIONES
-            if(datosEquipoParam[idLocal] && datosEquipoParam[idVistante] && item.estado!= "Por jugar") {   
-
-                // si tiene el caracter no se jugó el partido aun
-                //console.log(idLocal);
-                datosEquipoParam[idLocal].pj += 1; //suma a ambos equipos el partido jugado
-                datosEquipoParam[idVistante].pj += 1;
-                //console.log(idVistante);
-                //aumento gf del local y le sumo gc con los goles del visitante 
-                datosEquipoParam[idLocal].gf += cantidadGolesLocal;
-                datosEquipoParam[idLocal].gc += cantidadGolesVisitante;
-                
-                // idem pero para visitante
-                datosEquipoParam[idVistante].gf += cantidadGolesVisitante; 
-                datosEquipoParam[idVistante].gc += cantidadGolesLocal;
-
-                datosEquipoParam[idVistante].pg += cantidadGolesVisitante > cantidadGolesLocal ? 1 : 0; 
-                datosEquipoParam[idVistante].pp += cantidadGolesVisitante < cantidadGolesLocal ? 1 : 0;
-                datosEquipoParam[idVistante].pe += cantidadGolesVisitante === cantidadGolesLocal ? 1 : 0;
-            
-                datosEquipoParam[idLocal].pg += cantidadGolesLocal > cantidadGolesVisitante ? 1 : 0; 
-                datosEquipoParam[idLocal].pp += cantidadGolesLocal < cantidadGolesVisitante ? 1 : 0;
-                datosEquipoParam[idLocal].pe += cantidadGolesLocal === cantidadGolesVisitante ? 1 : 0;
-                
-                
-                //feature puntos
-                datosEquipoParam[idVistante].pts += cantidadGolesVisitante > cantidadGolesLocal ? 3 : 0; 
-                datosEquipoParam[idVistante].pts += cantidadGolesVisitante < cantidadGolesLocal ? 0 : 0;
-                datosEquipoParam[idVistante].pts += cantidadGolesVisitante === cantidadGolesLocal ? 1 : 0;
-            
-                datosEquipoParam[idLocal].pts += cantidadGolesLocal > cantidadGolesVisitante ? 3 : 0; 
-                datosEquipoParam[idLocal].pts += cantidadGolesLocal < cantidadGolesVisitante ? 0 : 0;
-                datosEquipoParam[idLocal].pts += cantidadGolesLocal === cantidadGolesVisitante ? 1 : 0;
+    
+            // Procesar estadísticas de equipo
+            if (modo === "completo") {
+                if (datosEquipoParam[idLocal] && datosEquipoParam[idVistante] && item.estado != "Por jugar") {
+                    datosEquipoParam[idLocal].pj += 1;
+                    datosEquipoParam[idVistante].pj += 1;
+    
+                    datosEquipoParam[idLocal].gf += cantidadGolesLocal;
+                    datosEquipoParam[idLocal].gc += cantidadGolesVisitante;
+    
+                    datosEquipoParam[idVistante].gf += cantidadGolesVisitante;
+                    datosEquipoParam[idVistante].gc += cantidadGolesLocal;
+    
+                    datosEquipoParam[idVistante].pg += cantidadGolesVisitante > cantidadGolesLocal ? 1 : 0;
+                    datosEquipoParam[idVistante].pp += cantidadGolesVisitante < cantidadGolesLocal ? 1 : 0;
+                    datosEquipoParam[idVistante].pe += cantidadGolesVisitante === cantidadGolesLocal ? 1 : 0;
+    
+                    datosEquipoParam[idLocal].pg += cantidadGolesLocal > cantidadGolesVisitante ? 1 : 0;
+                    datosEquipoParam[idLocal].pp += cantidadGolesLocal < cantidadGolesVisitante ? 1 : 0;
+                    datosEquipoParam[idLocal].pe += cantidadGolesLocal === cantidadGolesVisitante ? 1 : 0;
+    
+                    datosEquipoParam[idVistante].pts += cantidadGolesVisitante > cantidadGolesLocal ? 3 : 0;
+                    datosEquipoParam[idVistante].pts += cantidadGolesVisitante === cantidadGolesLocal ? 1 : 0;
+    
+                    datosEquipoParam[idLocal].pts += cantidadGolesLocal > cantidadGolesVisitante ? 3 : 0;
+                    datosEquipoParam[idLocal].pts += cantidadGolesLocal === cantidadGolesVisitante ? 1 : 0;
+                }
             }
         }
-
         return datosEquipoParam;
     }
+    
 
     function llenarStats(datosVariable, datosJugadoresVariable) {
     
@@ -451,7 +437,7 @@ window.addEventListener('load', function (){
     }
  
     // STATS LIGA CERESINA 
-    function cargarStats_lca24(archivo) {
+    function cargarStats_lca24(archivo, modo = "completo") {
         return new Promise((resolve, reject) => {
             const xh = new XMLHttpRequest();
             xh.open('GET', `data/lrfc/${archivo}`, true);
@@ -459,15 +445,16 @@ window.addEventListener('load', function (){
             xh.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     let datos = JSON.parse(this.responseText);
-                    datosEquipos_lca24 = cargarStats(datos, datosEquipos_lca24, datosJugadores_lca24)
+                    datosEquipos_lca24 = cargarStats(datos, datosEquipos_lca24, datosJugadores_lca24, modo)
                     resolve(); // Resuelve la promesa una vez que los datos están procesados
+                } else if (this.readyState == 4 && this.status !== 200) {
+                    reject(new Error("No se pudo cargar el archivo"));
                 }
-            
             }
         });
     }
 
-    function cargarStats_lca24_s23(archivo) {
+    function cargarStats_lca24_s23(archivo, modo = "completo") {
         return new Promise((resolve, reject) => {
             const xh = new XMLHttpRequest();
             xh.open('GET', `data/lrfcs23/${archivo}`, true);
@@ -475,7 +462,7 @@ window.addEventListener('load', function (){
             xh.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
                     let datos = JSON.parse(this.responseText);
-                    cargarStats(datos, datosEquipos_lca24_sub23, datosJugadores_lca24_sub23)
+                    cargarStats(datos, datosEquipos_lca24_sub23, datosJugadores_lca24_sub23, modo)
                     resolve(); // Resuelve la promesa una vez que los datos están procesados
                 }
             
@@ -749,6 +736,7 @@ window.addEventListener('load', function (){
             cargarStats_lca24('fecha9.json'), cargarStats_lca24_s23('fecha9.json'),
             cargarStats_lca24('fecha10.json'), cargarStats_lca24_s23('fecha10.json'),
             cargarStats_lca24('fecha11.json'), cargarStats_lca24_s23('fecha11.json'),
+            cargarStats_lca24('cuartos_ida.json', "goleadores"),cargarStats_lca24_s23('cuartos_ida.json', "goleadores")
         ] 
         return Promise.all(filesPromises)
     }

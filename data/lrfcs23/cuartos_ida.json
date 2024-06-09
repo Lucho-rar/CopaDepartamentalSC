@@ -5,7 +5,13 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Tomas Ruiz Diaz",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -25,7 +31,7 @@
             "logo": "cat.png"
         },
         "fecha": "07/06/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
      
@@ -55,7 +61,7 @@
             "logo": "ccao.png"
         },
         "fecha": "07/06/2024 - 20:45hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -85,7 +91,7 @@
             "logo": "ucyd.png"
         },
         "fecha":"07/06/2024 - 21:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -97,7 +103,13 @@
                 "completo": "SAN LORENZO (T)",
                 "corto": "CSLT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Jonathan Baglione",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -109,7 +121,18 @@
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Damián Martinet",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Juan Sebastian Olivero",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -117,7 +140,7 @@
             "logo": "calt.png"
         },
         "fecha": "08/06/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 ]
