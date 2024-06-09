@@ -8,7 +8,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Facundo Sanabria",
                     "penal":false
                 }
             ],
@@ -26,7 +26,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Diego Diaz",
                     "penal":false
                 }
             ],
@@ -84,7 +84,7 @@
             "logo": "calt.png"
         },
         "fecha":"09/06/2024 - 15:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -97,7 +97,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Peralta",
                     "penal":false
                 }
             ],
