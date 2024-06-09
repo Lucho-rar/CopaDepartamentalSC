@@ -70,6 +70,11 @@
                     "min":"",
                     "jugador":"Vignolo",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Kevin Muñoz",
+                    "penal":true
                 }
             ],
             "info": {
