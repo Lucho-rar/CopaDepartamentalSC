@@ -5,7 +5,13 @@
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -17,7 +23,13 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -71,7 +83,13 @@
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
