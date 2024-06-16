@@ -95,7 +95,18 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Ismael Morre",
+                    "penal" : false
+                },
+                {
+                    "min":"",
+                    "jugador": "Joaquin Diez",
+                    "penal" : false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -107,7 +118,18 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Juan Pablo Basualdo",
+                    "penal" : false
+                },
+                {
+                    "min":"",
+                    "jugador": "Nicolas Vianco",
+                    "penal" : false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -115,7 +137,7 @@
             "logo": "ambro.png"
         },
         "fecha": "12/06/2024 - 21:30hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 ]
