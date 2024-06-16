@@ -129,6 +129,11 @@
                 "corto": "UJB"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Brian Gaitán",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
