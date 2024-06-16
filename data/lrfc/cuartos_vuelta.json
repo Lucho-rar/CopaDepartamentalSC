@@ -37,7 +37,7 @@
             },
             "logo": "cuda.png"
         },
-        "fecha": "16/06/2024 - 15:00hs",
+        "fecha": "16/06/2024",
         "estado": "finalizado",
         "contexto": [
             "Resultado global: 3 - 1"
@@ -92,9 +92,11 @@
             },
             "logo": "cas.png"
         },
-        "fecha":"09/06/2024 - 15:00hs",
-        "estado": "jugando",
-        "contexto": []
+        "fecha":"16/06/2024",
+        "estado": "finalizado",
+        "contexto": [
+            "Resultado global: 4 - 3"
+        ]
     },
 
     {
@@ -129,7 +131,7 @@
             },
             "logo": "bandera.png"
         },
-        "fecha": "09/06/2024 - 15:00hs",
+        "fecha": "16/06/2024",
         "estado": "jugando",
         "contexto": []
     },

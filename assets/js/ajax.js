@@ -741,6 +741,7 @@ window.addEventListener('load', function (){
             cargarStats_lca24('fecha10.json'), cargarStats_lca24_s23('fecha10.json'),
             cargarStats_lca24('fecha11.json'), cargarStats_lca24_s23('fecha11.json'),
             cargarStats_lca24('cuartos_ida.json', "goleadores"),cargarStats_lca24_s23('cuartos_ida.json', "goleadores"),
+            cargarStats_lca24('cuartos_vuelta.json', "goleadores"),cargarStats_lca24_s23('cuartos_vuelta.json', "goleadores"),
             
         ] 
         return Promise.all(filesPromises)
@@ -794,7 +795,7 @@ window.addEventListener('load', function (){
 
         toggleMenus("fechas_lrfc_23")
 
-        traerDatos_fecha('lrfcs23/cuartos_ida.json')(btncuartos_ida_a24_23)
+        traerDatos_fecha('lrfcs23/cuartos_vuelta.json')(btncuartos_vuelta_a24_23)
         llenarStats_lca24_s23()
         btnLC23select.classList.add('btn-active')
     });
