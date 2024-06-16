@@ -5,7 +5,13 @@
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Facundo Sanabria",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -17,7 +23,13 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Diego Diaz",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -25,7 +37,7 @@
             "logo": "cat.png"
         },
         "fecha": "09/06/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
      
@@ -35,7 +47,13 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Facundo Mena",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -47,7 +65,18 @@
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Vignolo",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Kevin Muñoz",
+                    "penal":true
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -55,7 +84,7 @@
             "logo": "calt.png"
         },
         "fecha":"09/06/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -65,7 +94,13 @@
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Peralta",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -77,7 +112,23 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Sayago",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Fernando Romero",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Brian Yulka",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -85,7 +136,7 @@
             "logo": "ccao.png"
         },
         "fecha": "09/06/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
