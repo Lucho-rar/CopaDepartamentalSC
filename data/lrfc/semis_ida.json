@@ -1,0 +1,87 @@
+[
+    {
+        "local": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Fernando Romero",
+                    "penal": false
+                },
+                {
+                    "min":"",
+                    "jugador": "Fernando Romero",
+                    "penal": false
+                }
+
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Juan Pablo Basualdo",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "fecha": "07/07/2024",
+        "estado": "finalizado",
+        "contexto": [
+        ]
+    },
+     
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "calt.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "Brian Ocampo",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "fecha":"10/10/2024 - 21:30hs",
+        "estado": "finalizado",
+        "contexto": []
+    }
+]

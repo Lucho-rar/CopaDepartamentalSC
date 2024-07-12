@@ -58,7 +58,7 @@
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Rodrigo Puebla",
                     "penal":false
                 }
             ],
@@ -159,7 +159,23 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Antonio Roldán",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Juan Pablo Basualdo",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Leonel Barreto",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -179,7 +195,9 @@
             "logo": "ferro.png"
         },
         "fecha": "19/06/2024 - 21:30hs",
-        "estado": "Por jugar",
-        "contexto": []
+        "estado": "finalizado",
+        "contexto": [
+            "Resultado global: 5 - 2"
+        ]
     }
 ]

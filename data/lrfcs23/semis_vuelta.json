@@ -1,0 +1,82 @@
+[
+    {
+        "local": {
+            "nombre": {
+
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+            },
+            "goles": [
+
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ucyd.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [
+
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cas.png"
+        },
+        "fecha": "30/06/2024",
+        "estado": "finalizado",
+        "contexto": [
+            "Resultado global: 0 - 1"
+        ]
+    },
+     
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
+
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "calt.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alan Calderón",
+                    "penal": false
+                },
+                {
+                    "min":"",
+                    "jugador":"Tomás Robledo",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "fecha":"21/06/2024 - 21:30hs",
+        "estado": "finalizado",
+        "contexto": [
+            "Resultado global: 0 - 3"
+        ]
+    }
+]

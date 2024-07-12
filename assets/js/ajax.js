@@ -26,6 +26,8 @@ window.addEventListener('load', function (){
     const btnf11_a24 = this.document.querySelector('#f11_a24'); 
     const btncuartos_ida_a24 = this.document.querySelector('#cuartos_ida_a24'); 
     const btncuartos_vuelta_a24 = this.document.querySelector('#cuartos_vuelta_a24'); 
+    const btnsemis_ida_a24 = this.document.querySelector('#semis_ida_a24')
+    const btnsemis_vuelta_a24 = this.document.querySelector('#semis_vuelta_a24')
 
     // Botones de fechas (sub 23)
     const btnf1_a24_23 = this.document.querySelector('#f1_a24_23')
@@ -41,9 +43,11 @@ window.addEventListener('load', function (){
     const btnf11_a24_23 = this.document.querySelector('#f11_a24_23')
     const btncuartos_ida_a24_23 = this.document.querySelector('#cuartos_ida_a24_23'); 
     const btncuartos_vuelta_a24_23 = this.document.querySelector('#cuartos_vuelta_a24_23'); 
-    const btnsemis_a24_23 = this.document.querySelector('#semis_a24_23')
+    const btnsemis_ida_a24_23 = this.document.querySelector('#semis_ida_a24_23')
+    const btnsemis_vuelta_a24_23 = this.document.querySelector('#semis_vuelta_a24_23')
     const btnfinal_a24_23 = this.document.querySelector('#final_a24_23')
-  
+    
+    
     btnFaseUno.addEventListener('click', traerDatos_ida);
     btnFaseDos.addEventListener('click', traerDatos_vuelta);
     btnFaseTres.addEventListener('click', traerDatos_fase2);
@@ -64,6 +68,7 @@ window.addEventListener('load', function (){
     btnf11_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha11.json'));
     btncuartos_ida_a24.addEventListener('click',traerDatos_fecha('lrfc/cuartos_ida.json'));
     btncuartos_vuelta_a24.addEventListener('click',traerDatos_fecha('lrfc/cuartos_vuelta.json'));
+    btnsemis_ida_a24.addEventListener('click',traerDatos_fecha('lrfc/semis_ida.json'));
 
     btnf1_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha1.json'));
     btnf2_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha2.json'));
@@ -78,6 +83,10 @@ window.addEventListener('load', function (){
     btnf11_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha11.json'));
     btncuartos_ida_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/cuartos_ida.json'));
     btncuartos_vuelta_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/cuartos_vuelta.json'));
+    btnsemis_ida_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/semis_ida.json'));
+    btnsemis_vuelta_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/semis_vuelta.json'));
+    btnfinal_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/final.json'));
+    
     // COPA DEPARTAMENTO SC
     let datosJugadores = {};
     let datosEquipos = {
@@ -742,6 +751,8 @@ window.addEventListener('load', function (){
             cargarStats_lca24('fecha11.json'), cargarStats_lca24_s23('fecha11.json'),
             cargarStats_lca24('cuartos_ida.json', "goleadores"),cargarStats_lca24_s23('cuartos_ida.json', "goleadores"),
             cargarStats_lca24('cuartos_vuelta.json', "goleadores"),cargarStats_lca24_s23('cuartos_vuelta.json', "goleadores"),
+            cargarStats_lca24('semis_ida.json',"goleadores"),cargarStats_lca24_s23('semis_ida.json', "goleadores"),
+            cargarStats_lca24_s23('semis_vuelta.json', "goleadores"), cargarStats_lca24_s23('final.json', "goleadores"),  
             
         ] 
         return Promise.all(filesPromises)
@@ -764,7 +775,7 @@ window.addEventListener('load', function (){
             
             //commentend 01/05 
             toggleMenus("fechas_lrfc")
-            traerDatos_fecha('lrfc/cuartos_vuelta.json')(btncuartos_vuelta_a24)
+            traerDatos_fecha('lrfc/semis_ida.json')(btnsemis_ida_a24)
             btnLCselect.classList.add('btn-active')
             llenarStats_lca24()
             
@@ -784,7 +795,7 @@ window.addEventListener('load', function (){
         liga_ceresina_colors()
         toggleMenus("fechas_lrfc")
 
-        traerDatos_fecha('lrfc/cuartos_vuelta.json')(btncuartos_vuelta_a24)
+        traerDatos_fecha('lrfc/semis_ida.json')(btnsemis_ida_a24)
         btnLCselect.classList.add('btn-active')
         llenarStats_lca24()
         
@@ -795,7 +806,7 @@ window.addEventListener('load', function (){
 
         toggleMenus("fechas_lrfc_23")
 
-        traerDatos_fecha('lrfcs23/cuartos_vuelta.json')(btncuartos_vuelta_a24_23)
+        traerDatos_fecha('lrfcs23/final.json')(btnfinal_a24_23)
         llenarStats_lca24_s23()
         btnLC23select.classList.add('btn-active')
     });

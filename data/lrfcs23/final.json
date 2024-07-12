@@ -1,0 +1,79 @@
+[
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Leider Ullua",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cas.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Tomás Robledo",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "fecha": "07/07/2024",
+        "estado": "finalizado",
+        "contexto": [
+            "Partido de ida"
+        ]
+    },
+     
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cas.png"
+        },
+        "fecha":"14/07/2024 - 15:00hs",
+        "estado": "Por jugar",
+        "contexto": [
+            "Partido de vuelta"
+        ]
+    }
+]
