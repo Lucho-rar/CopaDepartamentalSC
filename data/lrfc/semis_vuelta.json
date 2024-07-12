@@ -1,0 +1,70 @@
+[
+    {
+        "local": {
+            "nombre": {
+
+                                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [
+
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [
+
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "fecha": "14/07/2024 - 15:00hs",
+        "estado": "Por jugar",
+        "contexto": [
+        ]
+    },
+     
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
+
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "calt.png"
+        },
+        "fecha":"14/07/2024 - 15:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    }
+]
