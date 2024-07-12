@@ -69,6 +69,7 @@ window.addEventListener('load', function (){
     btncuartos_ida_a24.addEventListener('click',traerDatos_fecha('lrfc/cuartos_ida.json'));
     btncuartos_vuelta_a24.addEventListener('click',traerDatos_fecha('lrfc/cuartos_vuelta.json'));
     btnsemis_ida_a24.addEventListener('click',traerDatos_fecha('lrfc/semis_ida.json'));
+    btnsemis_vuelta_a24.addEventListener('click',traerDatos_fecha('lrfc/semis_vuelta.json'));
 
     btnf1_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha1.json'));
     btnf2_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha2.json'));
