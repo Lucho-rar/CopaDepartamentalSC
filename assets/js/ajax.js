@@ -775,7 +775,7 @@ window.addEventListener('load', function (){
             
             //commentend 01/05 
             toggleMenus("fechas_lrfc")
-            traerDatos_fecha('lrfc/semis_ida.json')(btnsemis_ida_a24)
+            traerDatos_fecha('lrfc/semis_vuelta.json')(btnsemis_vuelta_a24)
             btnLCselect.classList.add('btn-active')
             llenarStats_lca24()
             
@@ -795,7 +795,7 @@ window.addEventListener('load', function (){
         liga_ceresina_colors()
         toggleMenus("fechas_lrfc")
 
-        traerDatos_fecha('lrfc/semis_ida.json')(btnsemis_ida_a24)
+        traerDatos_fecha('lrfc/semis_vuelta.json')(btnsemis_vuelta_a24)
         btnLCselect.classList.add('btn-active')
         llenarStats_lca24()
         
