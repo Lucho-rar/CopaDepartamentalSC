@@ -30,7 +30,7 @@
             "logo": "ccao.png"
         },
         "fecha": "14/07/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": [
         ]
     },
@@ -64,7 +64,7 @@
             "logo": "calt.png"
         },
         "fecha":"14/07/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     }
 ]
