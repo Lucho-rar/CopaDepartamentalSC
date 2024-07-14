@@ -60,6 +60,11 @@
                     "min": "",
                     "jugador": "Gonzalo Algarbe",
                     "penal": false
+                },
+                {
+                    "min": "",
+                    "jugador": "Brian Ocampo",
+                    "penal": false
                 }
             ],
             "info": {
@@ -90,7 +95,7 @@
         "fecha":"14/07/2024 - 15:00hs",
         "estado": "jugando",
         "contexto": [
-            "Resultado global: 2 - 1"
+            "Resultado global: 3 - 1"
         ]
     }
 ]
