@@ -56,6 +56,11 @@
 
             },
             "goles": [
+                {
+                    "min": "",
+                    "jugador": "Facundo Monzón",
+                    "penal": false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -65,6 +70,8 @@
         },
         "fecha":"14/07/2024 - 15:00hs",
         "estado": "jugando",
-        "contexto": []
+        "contexto": [
+            "Resultado global: 1 - 1"
+        ]
     }
 ]
