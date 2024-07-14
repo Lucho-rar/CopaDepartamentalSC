@@ -94,6 +94,11 @@
                     "min": "",
                     "jugador": "Facundo Monzón",
                     "penal": false
+                },
+                {
+                    "min": "",
+                    "jugador": "",
+                    "penal": false
                 }
             ],
             "info": {
@@ -103,9 +108,9 @@
             "logo": "calt.png"
         },
         "fecha":"14/07/2024 - 15:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": [
-            "Resultado global: 4 - 1"
+            "Resultado global: 4 - 2"
         ]
     }
 ]
