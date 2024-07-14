@@ -48,6 +48,11 @@
                 "corto": "CAT"
             },
             "goles": [
+                {
+                    "min": "",
+                    "jugador": "Gonzalo Algarbe",
+                    "penal": false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -77,7 +82,7 @@
         "fecha":"14/07/2024 - 15:00hs",
         "estado": "jugando",
         "contexto": [
-            "Resultado global: 1 - 1"
+            "Resultado global: 2 - 1"
         ]
     }
 ]
