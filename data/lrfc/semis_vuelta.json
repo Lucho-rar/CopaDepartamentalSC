@@ -11,6 +11,11 @@
                     "min": "",
                     "jugador": "Antonio Roldán",
                     "penal": false
+                },
+                {
+                    "min": "",
+                    "jugador": "Facundo Farías",
+                    "penal": false
                 }
             ],
             "info": {
@@ -45,7 +50,7 @@
         "fecha": "14/07/2024 - 15:00hs",
         "estado": "jugando",
         "contexto": [
-            "Resultado global: 2 - 3"
+            "Resultado global: 3 - 3"
         ]
     },
      
