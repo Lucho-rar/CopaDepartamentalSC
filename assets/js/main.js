@@ -1,3 +1,6 @@
+import { inject } from '@vercel/analytics';
+
+inject();
 
 /*=============== SHOW MENU ===============*/
 const navMenu = document.getElementById('nav-menu'),

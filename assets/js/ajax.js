@@ -28,6 +28,7 @@ window.addEventListener('load', function (){
     const btncuartos_vuelta_a24 = this.document.querySelector('#cuartos_vuelta_a24'); 
     const btnsemis_ida_a24 = this.document.querySelector('#semis_ida_a24')
     const btnsemis_vuelta_a24 = this.document.querySelector('#semis_vuelta_a24')
+    const btnfinal_a24 = this.document.querySelector('#final_a24')
 
     // Botones de fechas (sub 23)
     const btnf1_a24_23 = this.document.querySelector('#f1_a24_23')
@@ -70,6 +71,7 @@ window.addEventListener('load', function (){
     btncuartos_vuelta_a24.addEventListener('click',traerDatos_fecha('lrfc/cuartos_vuelta.json'));
     btnsemis_ida_a24.addEventListener('click',traerDatos_fecha('lrfc/semis_ida.json'));
     btnsemis_vuelta_a24.addEventListener('click',traerDatos_fecha('lrfc/semis_vuelta.json'));
+    btnfinal_a24.addEventListener('click',traerDatos_fecha('lrfc/final.json'));
 
     btnf1_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha1.json'));
     btnf2_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha2.json'));
@@ -776,7 +778,7 @@ window.addEventListener('load', function (){
             
             //commentend 01/05 
             toggleMenus("fechas_lrfc")
-            traerDatos_fecha('lrfc/semis_vuelta.json')(btnsemis_vuelta_a24)
+            traerDatos_fecha('lrfc/final.json')(btnfinal_a24)
             btnLCselect.classList.add('btn-active')
             llenarStats_lca24()
             
@@ -796,7 +798,7 @@ window.addEventListener('load', function (){
         liga_ceresina_colors()
         toggleMenus("fechas_lrfc")
 
-        traerDatos_fecha('lrfc/semis_vuelta.json')(btnsemis_vuelta_a24)
+        traerDatos_fecha('lrfc/final.json')(btnfinal_a24)
         btnLCselect.classList.add('btn-active')
         llenarStats_lca24()
         
