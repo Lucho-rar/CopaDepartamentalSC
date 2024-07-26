@@ -23,7 +23,13 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":""
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
