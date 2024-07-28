@@ -50,12 +50,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
-                    "penal":false
+                    "jugador":"Nicolas Vianco",
+                    "penal":true
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Nicolas Vianco",
                     "penal":false
                 }
                 
@@ -74,7 +74,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Brian Ocampo",
                     "penal":false
                 }
             ],

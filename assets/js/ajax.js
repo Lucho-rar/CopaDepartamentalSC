@@ -756,7 +756,7 @@ window.addEventListener('load', function (){
             cargarStats_lca24('cuartos_vuelta.json', "goleadores"),cargarStats_lca24_s23('cuartos_vuelta.json', "goleadores"),
             cargarStats_lca24('semis_ida.json',"goleadores"),cargarStats_lca24_s23('semis_ida.json', "goleadores"),
             cargarStats_lca24_s23('semis_vuelta.json', "goleadores"), cargarStats_lca24_s23('final.json', "goleadores"),  
-            cargarStats_lca24('semis_vuelta.json',"goleadores")
+            cargarStats_lca24('semis_vuelta.json',"goleadores"), cargarStats_lca24('final.json',"goleadores")
         ] 
         return Promise.all(filesPromises)
     }
