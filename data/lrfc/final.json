@@ -48,6 +48,17 @@
                 "corto": "CSLA"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+                
             ],
             "info": {
                 "amarillas": [],
@@ -60,7 +71,13 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -68,7 +85,7 @@
             "logo": "cat.png"
         },
         "fecha":"28/07/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     }
 ]
