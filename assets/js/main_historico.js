@@ -751,7 +751,7 @@ window.addEventListener('load', function (){
             cargarStats_csc('fase1.json'), cargarStats_csc('fase1_vuelta.json'),cargarStats_csc('fase2.json'), cargarStats_csc('semis.json'),cargarStats_csc('final.json'), 
             cargarStats_lca24('fecha1.json'), cargarStats_lca24_s23('fecha1.json'), cargarStats_lca24_s23('fecha2.json'), cargarStats_lca24('fecha2.json'),
             cargarStats_lca24_s23('fecha3.json'), cargarStats_lca24('fecha3.json'), cargarStats_lca24('fecha4.json'),
-            cargarStats_lca24_s23('fecha4.json'), cargarStats_lca24('fecha5.json'),// cargarStats_lca24_s23('fecha5.json'),
+            cargarStats_lca24_s23('fecha4.json'), cargarStats_lca24('fecha5.json'), cargarStats_lca24_s23('fecha5.json'),
             cargarStats_lca24('fecha6.json'), cargarStats_lca24_s23('fecha6.json'),
             cargarStats_lca24('fecha7.json'), cargarStats_lca24_s23('fecha7.json'),
             cargarStats_lca24('fecha8.json'), cargarStats_lca24_s23('fecha8.json'),
