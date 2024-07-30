@@ -1,0 +1,251 @@
+[
+    {
+        "local": {
+            "nombre": {
+                "completo": "UNIÓN SOCIAL DE HERSILIA",
+                "corto": "USdH"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "hersilia.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "FERRO DHO (SC)",
+                "corto": "FDSC"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ferro.png"
+        },
+        "fecha": "12/05/2024 - 16:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+     
+    {
+        "local": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Juan Pato",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Juan Pato",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Juan Pato",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "fecha": "12/05/2024 - 16:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [
+                {
+                    "min": "",
+                    "jugador": "Brian Ocampo",
+                    "penal": false
+                },
+                {
+                    "min": "",
+                    "jugador": "Edgar Moreno",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
+            },
+            "goles": [
+                {
+                    "min": "",
+                    "jugador": "Kevin Muñoz",
+                    "penal": false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "calt.png"
+        },
+        "fecha": "12/05/2024 - 16:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Santiago Quiróz",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Nicolás Costich",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "slt.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+            },
+            "goles": [
+
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ucyd.png"
+        },
+        "fecha": "12/05/2024 - 16:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+   
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNION Y JUVENTUD (B)",
+                "corto": "UJB"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Gabriel Belizán",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "bandera.png"
+        },
+        "fecha": "12/05/2024 - 16:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Santiago Córdoba",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Conrado Mandrille López",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Agustin Córdoba",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cas.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNION ARRUFO",
+                "corto": "CUDA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cuda.png"
+        },
+        "fecha": "15/05/2024 - 22:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    }
+
+]

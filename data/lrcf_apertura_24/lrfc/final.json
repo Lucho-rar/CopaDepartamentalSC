@@ -1,0 +1,106 @@
+[
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Kevin Velázquez",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":""
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "fecha": "25/07/2024 - 21:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+     
+    {
+        "local": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Nicolas Vianco",
+                    "penal":true
+                },
+                {
+                    "min":"",
+                    "jugador":"Nicolas Vianco",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Fabian Ilan Arévalo Linares",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+                
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Brian Ocampo",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Gonzalo Algarbe",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "fecha":"28/07/2024 - 15:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    }
+]

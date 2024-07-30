@@ -1,16 +1,20 @@
 window.addEventListener('load', function (){
     console.log('[CORRECTO]');
 
-    // const btnFaseUno = document.querySelector('#fase1');
-    // const btnFaseDos = document.querySelector('#fase2');//Fase 2 -> Fase 1 vuelta real.
-    // const btnFaseTres = document.querySelector('#fase3'); //Fase 3-> Fase 2 real
-    // const btnSemisCSC = document.querySelector('#semis_csc');
-    // const btnFinalCSC = document.querySelector('#final_csc');
+    const btnFaseUno = document.querySelector('#fase1');
+    const btnFaseDos = document.querySelector('#fase2');//Fase 2 -> Fase 1 vuelta real.
+    const btnFaseTres = document.querySelector('#fase3'); //Fase 3-> Fase 2 real
+    const btnSemisCSC = document.querySelector('#semis_csc');
+    const btnFinalCSC = document.querySelector('#final_csc');
 
 
     // const btnCSCselect = this.document.querySelector('#select_copa_sc');
+    const btnCSCselect = this.document.querySelector('#select_copa_sc')
     const btnLCselect = this.document.querySelector('#select_lc_apertura');
     const btnLC23select = this.document.querySelector('#select_lc_apertura_23');
+
+
+
 
     // Botones de fechas (primera)
     const btnf1_a24 = this.document.querySelector('#f1_a24');
@@ -24,11 +28,11 @@ window.addEventListener('load', function (){
     const btnf9_a24 = this.document.querySelector('#f9_a24');
     const btnf10_a24 = this.document.querySelector('#f10_a24');
     const btnf11_a24 = this.document.querySelector('#f11_a24'); 
-    // const btncuartos_ida_a24 = this.document.querySelector('#cuartos_ida_a24'); 
-    // const btncuartos_vuelta_a24 = this.document.querySelector('#cuartos_vuelta_a24'); 
-    // const btnsemis_ida_a24 = this.document.querySelector('#semis_ida_a24')
-    // const btnsemis_vuelta_a24 = this.document.querySelector('#semis_vuelta_a24')
-    // const btnfinal_a24 = this.document.querySelector('#final_a24')
+    const btncuartos_ida_a24 = this.document.querySelector('#cuartos_ida_a24'); 
+    const btncuartos_vuelta_a24 = this.document.querySelector('#cuartos_vuelta_a24'); 
+    const btnsemis_ida_a24 = this.document.querySelector('#semis_ida_a24')
+    const btnsemis_vuelta_a24 = this.document.querySelector('#semis_vuelta_a24')
+    const btnfinal_a24 = this.document.querySelector('#final_a24')
 
     // Botones de fechas (sub 23)
     const btnf1_a24_23 = this.document.querySelector('#f1_a24_23')
@@ -42,54 +46,54 @@ window.addEventListener('load', function (){
     const btnf9_a24_23 = this.document.querySelector('#f9_a24_23')
     const btnf10_a24_23 = this.document.querySelector('#f10_a24_23')
     const btnf11_a24_23 = this.document.querySelector('#f11_a24_23')
-    // const btncuartos_ida_a24_23 = this.document.querySelector('#cuartos_ida_a24_23'); 
-    // const btncuartos_vuelta_a24_23 = this.document.querySelector('#cuartos_vuelta_a24_23'); 
-    // const btnsemis_ida_a24_23 = this.document.querySelector('#semis_ida_a24_23')
-    // const btnsemis_vuelta_a24_23 = this.document.querySelector('#semis_vuelta_a24_23')
-    // const btnfinal_a24_23 = this.document.querySelector('#final_a24_23')
+    const btncuartos_ida_a24_23 = this.document.querySelector('#cuartos_ida_a24_23'); 
+    const btncuartos_vuelta_a24_23 = this.document.querySelector('#cuartos_vuelta_a24_23'); 
+    const btnsemis_ida_a24_23 = this.document.querySelector('#semis_ida_a24_23')
+    const btnsemis_vuelta_a24_23 = this.document.querySelector('#semis_vuelta_a24_23')
+    const btnfinal_a24_23 = this.document.querySelector('#final_a24_23')
     
     
-    // btnFaseUno.addEventListener('click', traerDatos_ida);
-    // btnFaseDos.addEventListener('click', traerDatos_vuelta);
-    // btnFaseTres.addEventListener('click', traerDatos_fase2);
-    // btnSemisCSC.addEventListener('click',traerDatos_semiscsc);
-    // btnFinalCSC.addEventListener('click',traerDatos_finalcsc);
+    btnFaseUno.addEventListener('click', traerDatos_ida);
+    btnFaseDos.addEventListener('click', traerDatos_vuelta);
+    btnFaseTres.addEventListener('click', traerDatos_fase2);
+    btnSemisCSC.addEventListener('click',traerDatos_semiscsc);
+    btnFinalCSC.addEventListener('click',traerDatos_finalcsc);
 
 
-    btnf1_a24.addEventListener('click', traerDatos_fecha('lrfc/fecha1.json'));
-    btnf2_a24.addEventListener('click', traerDatos_fecha('lrfc/fecha2.json'));
-    btnf3_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha3.json'));
-    btnf4_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha4.json'));
-    btnf5_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha5.json'));
-    btnf6_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha6.json'));
-    btnf7_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha7.json'));
-    btnf8_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha8.json'));
-    btnf9_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha9.json'));
-    btnf10_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha10.json'));
-    btnf11_a24.addEventListener('click',traerDatos_fecha('lrfc/fecha11.json'));
-    // btncuartos_ida_a24.addEventListener('click',traerDatos_fecha('lrfc/cuartos_ida.json'));
-    // btncuartos_vuelta_a24.addEventListener('click',traerDatos_fecha('lrfc/cuartos_vuelta.json'));
-    // btnsemis_ida_a24.addEventListener('click',traerDatos_fecha('lrfc/semis_ida.json'));
-    // btnsemis_vuelta_a24.addEventListener('click',traerDatos_fecha('lrfc/semis_vuelta.json'));
-    // btnfinal_a24.addEventListener('click',traerDatos_fecha('lrfc/final.json'));
+    btnf1_a24.addEventListener('click', traerDatos_fecha('lrcf_apertura_24/lrfc/fecha1.json'));
+    btnf2_a24.addEventListener('click', traerDatos_fecha('lrcf_apertura_24/lrfc/fecha2.json'));
+    btnf3_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/fecha3.json'));
+    btnf4_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/fecha4.json'));
+    btnf5_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/fecha5.json'));
+    btnf6_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/fecha6.json'));
+    btnf7_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/fecha7.json'));
+    btnf8_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/fecha8.json'));
+    btnf9_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/fecha9.json'));
+    btnf10_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/fecha10.json'));
+    btnf11_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/fecha11.json'));
+    btncuartos_ida_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/cuartos_ida.json'));
+    btncuartos_vuelta_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/cuartos_vuelta.json'));
+    btnsemis_ida_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/semis_ida.json'));
+    btnsemis_vuelta_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/semis_vuelta.json'));
+    btnfinal_a24.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfc/final.json'));
 
-    btnf1_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha1.json'));
-    btnf2_a24_23.addEventListener('click', traerDatos_fecha('lrfcs23/fecha2.json'));
-    btnf3_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha3.json'));
-    btnf4_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha4.json'));
-    btnf5_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha5.json'));
-    btnf6_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha6.json'));
-    btnf7_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha7.json'));
-    btnf8_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha8.json'));
-    btnf9_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha9.json'));
-    btnf10_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha10.json'));
-    btnf11_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/fecha11.json'));
-    // btncuartos_ida_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/cuartos_ida.json'));
-    // btncuartos_vuelta_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/cuartos_vuelta.json'));
-    // btnsemis_ida_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/semis_ida.json'));
-    // btnsemis_vuelta_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/semis_vuelta.json'));
-    // btnfinal_a24_23.addEventListener('click',traerDatos_fecha('lrfcs23/final.json'));
-    
+    btnf1_a24_23.addEventListener('click', traerDatos_fecha('lrcf_apertura_24/lrfcs23/fecha1.json'));
+    btnf2_a24_23.addEventListener('click', traerDatos_fecha('lrcf_apertura_24/lrfcs23/fecha2.json'));
+    btnf3_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/fecha3.json'));
+    btnf4_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/fecha4.json'));
+    btnf5_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/fecha5.json'));
+    btnf6_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/fecha6.json'));
+    btnf7_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/fecha7.json'));
+    btnf8_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/fecha8.json'));
+    btnf9_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/fecha9.json'));
+    btnf10_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/fecha10.json'));
+    btnf11_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/fecha11.json'));
+    btncuartos_ida_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/cuartos_ida.json'));
+    btncuartos_vuelta_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/cuartos_vuelta.json'));
+    btnsemis_ida_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/semis_ida.json'));
+    btnsemis_vuelta_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/semis_vuelta.json'));
+    btnfinal_a24_23.addEventListener('click',traerDatos_fecha('lrcf_apertura_24/lrfcs23/final.json'));
+
     // COPA DEPARTAMENTO SC
     let datosJugadores = {};
     let datosEquipos = {
@@ -433,7 +437,7 @@ window.addEventListener('load', function (){
     function cargarStats_csc(archivo) {
         return new Promise((resolve, reject) => {
             const xh = new XMLHttpRequest();
-            xh.open('GET', `data/${archivo}`, true);
+            xh.open('GET', `data/copa_dep_sc_24/${archivo}`, true);
             xh.send();
             xh.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
@@ -448,15 +452,16 @@ window.addEventListener('load', function (){
     }
 
     function llenarStats_csc() {
-        // console.log({datosEquipos, datosJugadores});
-        llenarStats(datosEquipos, datosJugadores)
+        // console.log("eeeeeeeeeees")
+        console.log({datosEquipos, datosJugadores});
+       llenarStats(datosEquipos, datosJugadores)
     }
  
     // STATS LIGA CERESINA 
     function cargarStats_lca24(archivo, modo = "completo") {
         return new Promise((resolve, reject) => {
             const xh = new XMLHttpRequest();
-            xh.open('GET', `data/lrfc/${archivo}`, true);
+            xh.open('GET', `data/lrcf_apertura_24/lrfc/${archivo}`, true);
             xh.send();
             xh.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
@@ -473,7 +478,7 @@ window.addEventListener('load', function (){
     function cargarStats_lca24_s23(archivo, modo = "completo") {
         return new Promise((resolve, reject) => {
             const xh = new XMLHttpRequest();
-            xh.open('GET', `data/lrfcs23/${archivo}`, true);
+            xh.open('GET', `data/lrcf_apertura_24/lrfcs23/${archivo}`, true);
             xh.send();
             xh.onreadystatechange = function () {
                 if (this.readyState == 4 && this.status == 200) {
@@ -627,80 +632,80 @@ window.addEventListener('load', function (){
     }
 
     // COPA SC
-    // function traerDatos_ida(btnOrEvent) {
-    //     toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+    function traerDatos_ida(btnOrEvent) {
+        toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
 
-    //     const xh = new XMLHttpRequest();
-    //     xh.open('GET', 'data/fase1.json', true);
-    //     xh.send();
-    //     xh.onreadystatechange = function () {
-    //         if (this.readyState == 4 && this.status == 200) {
-    //             let partidos = JSON.parse(this.responseText);
-    //             llenarTablaHTMLPartidos(partidos)
-    //         }
-    //     }
-    // }
+        const xh = new XMLHttpRequest();
+        xh.open('GET', 'data/copa_dep_sc_24/fase1.json', true);
+        xh.send();
+        xh.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                let partidos = JSON.parse(this.responseText);
+                llenarTablaHTMLPartidos(partidos)
+            }
+        }
+    }
 
-    // function traerDatos_vuelta(btnOrEvent) {
-    //     toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+    function traerDatos_vuelta(btnOrEvent) {
+        toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
         
-    //     const xh = new XMLHttpRequest();
-    //     xh.open('GET', 'data/fase1_vuelta.json', true);
-    //     xh.send();
-    //     xh.onreadystatechange = function () {
-    //         if (this.readyState == 4 && this.status == 200) {
-    //             let partidos = JSON.parse(this.responseText);
-    //             llenarTablaHTMLPartidos(partidos)
-    //         }
-    //     }
-    // }
+        const xh = new XMLHttpRequest();
+        xh.open('GET', 'data/copa_dep_sc_24/fase1_vuelta.json', true);
+        xh.send();
+        xh.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                let partidos = JSON.parse(this.responseText);
+                llenarTablaHTMLPartidos(partidos)
+            }
+        }
+    }
     
-    // function traerDatos_fase2(btnOrEvent) {
-    //     //inicio_home();
-    //     toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
-    //     btnCSCselect.classList.add('btn-active')
-    //     //toggleActiveBtn(btnCSCselect)
-    //     const xh = new XMLHttpRequest();
-    //     xh.open('GET', 'data/fase2.json', true);
-    //     xh.send();
-    //     xh.onreadystatechange = function () {
-    //         if (this.readyState == 4 && this.status == 200) {
-    //             let partidos = JSON.parse(this.responseText);
-    //             llenarTablaHTMLPartidos(partidos)
-    //         }
-    //     }
-    // }
+    function traerDatos_fase2(btnOrEvent) {
+        //inicio_home();
+        toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+        btnCSCselect.classList.add('btn-active')
+        //toggleActiveBtn(btnCSCselect)
+        const xh = new XMLHttpRequest();
+        xh.open('GET', 'data/copa_dep_sc_24/fase2.json', true);
+        xh.send();
+        xh.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                let partidos = JSON.parse(this.responseText);
+                llenarTablaHTMLPartidos(partidos)
+            }
+        }
+    }
     
-    // function traerDatos_semiscsc(btnOrEvent) {
-    //     //inicio_home();
-    //     toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
-    //     btnCSCselect.classList.add('btn-active')
-    //     //toggleActiveBtn(btnCSCselect)
-    //     const xh = new XMLHttpRequest();
-    //     xh.open('GET', 'data/semis.json', true);
-    //     xh.send();
-    //     xh.onreadystatechange = function () {
-    //         if (this.readyState == 4 && this.status == 200) {
-    //             let partidos = JSON.parse(this.responseText);
-    //             llenarTablaHTMLPartidos(partidos)
-    //         }
-    //     }
-    // }
-    // function traerDatos_finalcsc(btnOrEvent) {
-    //     //inicio_home();
-    //     toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
-    //     btnCSCselect.classList.add('btn-active')
-    //     //toggleActiveBtn(btnCSCselect)
-    //     const xh = new XMLHttpRequest();
-    //     xh.open('GET', 'data/final.json', true);
-    //     xh.send();
-    //     xh.onreadystatechange = function () {
-    //         if (this.readyState == 4 && this.status == 200) {
-    //             let partidos = JSON.parse(this.responseText);
-    //             llenarTablaHTMLPartidos(partidos)
-    //         }
-    //     }
-    // }
+    function traerDatos_semiscsc(btnOrEvent) {
+        //inicio_home();
+        toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+        btnCSCselect.classList.add('btn-active')
+        //toggleActiveBtn(btnCSCselect)
+        const xh = new XMLHttpRequest();
+        xh.open('GET', 'data/copa_dep_sc_24/semis.json', true);
+        xh.send();
+        xh.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                let partidos = JSON.parse(this.responseText);
+                llenarTablaHTMLPartidos(partidos)
+            }
+        }
+    }
+    function traerDatos_finalcsc(btnOrEvent) {
+        //inicio_home();
+        toggleActiveBtn(btnOrEvent?.target || btnOrEvent)
+        btnCSCselect.classList.add('btn-active')
+        //toggleActiveBtn(btnCSCselect)
+        const xh = new XMLHttpRequest();
+        xh.open('GET', 'data/copa_dep_sc_24/final.json', true);
+        xh.send();
+        xh.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                let partidos = JSON.parse(this.responseText);
+                llenarTablaHTMLPartidos(partidos)
+            }
+        }
+    }
 
     const liga_ceresina_colors = ()=> {
         document.documentElement.style.setProperty("--first-color", "#253c99");
@@ -743,21 +748,21 @@ window.addEventListener('load', function (){
 
     async function llenarObjetoStats (){
         const filesPromises = [
-            // cargarStats_csc('fase1.json'), cargarStats_csc('fase1_vuelta.json'),cargarStats_csc('fase2.json'), cargarStats_csc('semis.json'),cargarStats_csc('final.json'), 
+            cargarStats_csc('fase1.json'), cargarStats_csc('fase1_vuelta.json'),cargarStats_csc('fase2.json'), cargarStats_csc('semis.json'),cargarStats_csc('final.json'), 
             cargarStats_lca24('fecha1.json'), cargarStats_lca24_s23('fecha1.json'), cargarStats_lca24_s23('fecha2.json'), cargarStats_lca24('fecha2.json'),
             cargarStats_lca24_s23('fecha3.json'), cargarStats_lca24('fecha3.json'), cargarStats_lca24('fecha4.json'),
-            cargarStats_lca24_s23('fecha4.json'), cargarStats_lca24('fecha5.json'), cargarStats_lca24_s23('fecha5.json'),
+            cargarStats_lca24_s23('fecha4.json'), cargarStats_lca24('fecha5.json'),// cargarStats_lca24_s23('fecha5.json'),
             cargarStats_lca24('fecha6.json'), cargarStats_lca24_s23('fecha6.json'),
             cargarStats_lca24('fecha7.json'), cargarStats_lca24_s23('fecha7.json'),
             cargarStats_lca24('fecha8.json'), cargarStats_lca24_s23('fecha8.json'),
             cargarStats_lca24('fecha9.json'), cargarStats_lca24_s23('fecha9.json'),
             cargarStats_lca24('fecha10.json'), cargarStats_lca24_s23('fecha10.json'),
             cargarStats_lca24('fecha11.json'), cargarStats_lca24_s23('fecha11.json'),
-            // cargarStats_lca24('cuartos_ida.json', "goleadores"),cargarStats_lca24_s23('cuartos_ida.json', "goleadores"),
-            // cargarStats_lca24('cuartos_vuelta.json', "goleadores"),cargarStats_lca24_s23('cuartos_vuelta.json', "goleadores"),
-            // cargarStats_lca24('semis_ida.json',"goleadores"),cargarStats_lca24_s23('semis_ida.json', "goleadores"),
-            // cargarStats_lca24_s23('semis_vuelta.json', "goleadores"), cargarStats_lca24_s23('final.json', "goleadores"),  
-            // cargarStats_lca24('semis_vuelta.json',"goleadores")
+            cargarStats_lca24('cuartos_ida.json', "goleadores"),cargarStats_lca24_s23('cuartos_ida.json', "goleadores"),
+            cargarStats_lca24('cuartos_vuelta.json', "goleadores"),cargarStats_lca24_s23('cuartos_vuelta.json', "goleadores"),
+            cargarStats_lca24('semis_ida.json',"goleadores"),cargarStats_lca24_s23('semis_ida.json', "goleadores"),
+            cargarStats_lca24_s23('semis_vuelta.json', "goleadores"), cargarStats_lca24_s23('final.json', "goleadores"),  
+            cargarStats_lca24('semis_vuelta.json',"goleadores")
         ] 
         return Promise.all(filesPromises)
     }
@@ -779,27 +784,27 @@ window.addEventListener('load', function (){
             
             //commentend 01/05 
             toggleMenus("fechas_lrfc")
-            traerDatos_fecha('lrfc/fecha1.json')(btnf1_a24)
+            traerDatos_fecha('lrcf_apertura_24/lrfc/final.json')(btnfinal_a24)
             btnLCselect.classList.add('btn-active')
             llenarStats_lca24()
             
             
         })
 
-    // btnCSCselect.addEventListener('click', function(e) {
-    //     copa_colors()
-    //     toggleMenus("fases")
+    btnCSCselect.addEventListener('click', function(e) {
+        copa_colors()
+        toggleMenus("fases")
 
-    //     traerDatos_finalcsc(btnFinalCSC);
-    //     llenarStats_csc()
-    //     btnCSCselect.classList.add('btn-active')
-    // });
+        traerDatos_finalcsc(btnFinalCSC);
+        llenarStats_csc()
+        btnCSCselect.classList.add('btn-active')
+    });
 
     btnLCselect.addEventListener('click', function() {
         liga_ceresina_colors()
         toggleMenus("fechas_lrfc")
 
-        traerDatos_fecha('lrfc/fecha1.json')(btnf1_a24)
+        traerDatos_fecha('lrcf_apertura_24/lrfc/final.json')(btnfinal_a24)
         btnLCselect.classList.add('btn-active')
         llenarStats_lca24()
         
@@ -810,7 +815,7 @@ window.addEventListener('load', function (){
 
         toggleMenus("fechas_lrfc_23")
 
-        traerDatos_fecha('lrfcs23/fecha1.json')(btnf1_a24_23)
+        traerDatos_fecha('lrcf_apertura_24/lrfcs23/final.json')(btnfinal_a24_23)
         llenarStats_lca24_s23()
         btnLC23select.classList.add('btn-active')
     });

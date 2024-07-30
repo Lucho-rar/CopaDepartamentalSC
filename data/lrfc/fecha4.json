@@ -2,46 +2,31 @@
     {
         "local": {
             "nombre": {
-                "completo": "UNION ARRUFO",
-                "corto": "CUDA"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Facundo Sanabria",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Facundo Tolosa",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Alexander Leguizamón",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cuda.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "SAN LORENZO (T)",
                 "corto": "CSLT"
             },
-            "goles": [],
+            "goles": [
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "slt.png"
         },
-        "fecha": "29/03/2024 - 21:30hs",
-        "estado": "Finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "UNION ARRUFO",
+                "corto": "CUDA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cuda.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
@@ -49,43 +34,10 @@
     {
         "local": {
             "nombre": {
-                "completo": "ATL. SELVA",
-                "corto": "CAS"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Franco Galiano",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Conrado Mandrille López",
-                    "penal":true
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cas.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Jesús Ángel Vallejos",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -93,8 +45,21 @@
             },
             "logo": "hersilia.png"
         },
-        "fecha": "31/03/2024 - 19:00hs",
-        "estado": "Finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cas.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
@@ -102,69 +67,41 @@
     {
         "local": {
             "nombre": {
-                "completo": "ATL. UNIÓN DE CERES",
-                "corto": "CACU"
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
             },
             "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "cacu.png"
+            "logo": "ccao.png"
         },
         "visitante": {
             "nombre": {
-                "completo": "CENTRAL ARG. OLÍMPICO",
-                "corto": "CCAO"
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Brian Yulka",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ccao.png"
+            "logo": "cacu.png"
         },
-        "fecha": "31/03/2024 - 19:00hs",
-        "estado": "Finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
     {
         "local": {
             "nombre": {
-                "completo": "UNION Y JUVENTUD (B)",
-                "corto": "UJB"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Brian Gaitán",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "bandera.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Daniel Diaz",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -172,32 +109,30 @@
             },
             "logo": "calt.png"
         },
-        "fecha": "31/03/2024 - 19:00hs",
-        "estado": "Finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "UNION Y JUVENTUD (B)",
+                "corto": "UJB"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "bandera.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
     {
         "local": {
             "nombre": {
-                "completo": "UNION SAN GUILLERMO",
-                "corto": "UCYD"
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Joaquin Balsamo",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Agustin Castoldi",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Santiago Baldissone",
-                    "penal":true
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -205,83 +140,52 @@
 
                 ]
             },
-            "logo": "ucyd.png"
+            "logo": "ambro.png"
         },
         "visitante": {
             "nombre": {
-                "completo": "SAN LORENZO (A)",
-                "corto": "CSLA"
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Fabian Ilan Arévalo Linares",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Juan Pato",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Juan Pablo Basualdo",
-                    "penal":true
-                }
             ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ambro.png"
+            "logo": "ucyd.png"
         },
-        "fecha": "02/04/2024 - 18:00hs",
-        "estado": "Finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
     {
         "local": {
             "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Brian Ocampo",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Diego Diaz",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Kevin Velázquez",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cat.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "ferro.png"
         },
-        "fecha": "03/04/2024 - 22:00hs",
-        "estado": "Finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     }
 ]

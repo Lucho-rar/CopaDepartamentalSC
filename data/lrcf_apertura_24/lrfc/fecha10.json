@@ -1,0 +1,277 @@
+[
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Kevin Velázquez",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Edgar Moreno",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Edgar Moreno",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNION ARRUFO",
+                "corto": "CUDA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cuda.png"
+        },
+        "fecha": "26/05/2024 - 16:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+     
+    {
+        "local": {
+            "nombre": {
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Andrés Benitez",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ucyd.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNION Y JUVENTUD (B)",
+                "corto": "UJB"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Santiago Marquetti",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "bandera.png"
+        },
+        "fecha":"26/05/2024 - 16:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Matias Gómez",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Leandro Marozzi",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cas.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Ezequiel Toloza",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "fecha": "26/05/2024 - 16:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Kevin Bustos",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "slt.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Gino Simonati",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "fecha": "26/05/2024 - 16:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+   
+    {
+        "local": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Brian Yulka",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Fernando Romero",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Fernando Romero",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Gabriel Ponce",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Yoel Holhman",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "FERRO DHO (SC)",
+                "corto": "FDSC"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ferro.png"
+        },
+        "fecha": "29/05/2024 - 22:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "UNIÓN SOCIAL DE HERSILIA",
+                "corto": "USdH"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "hersilia.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Kevin Muñoz",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "calt.png"
+        },
+        "fecha": "29/05/2024 - 22:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    }
+
+]
