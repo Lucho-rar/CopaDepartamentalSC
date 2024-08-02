@@ -2,84 +2,41 @@
     {
         "local": {
             "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Julian Gorostegui",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Valentino Altamirano",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cat.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [],
+            "goles": [
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "cuda.png"
         },
-        "fecha": "26/05/2024 - 14:00hs",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
      
     {
         "local": {
             "nombre": {
-                "completo": "UNION SAN GUILLERMO",
-                "corto": "UCYD"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Mateo Tutera",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Isaias Ramallo",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Isaias Ramallo",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ucyd.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Santiago Zappa",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -87,56 +44,31 @@
             },
             "logo": "bandera.png"
         },
-        "fecha":"26/05/2024 - 14:00hs",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ucyd.png"
+        },
+        "fecha":"",
+        "estado": "Por jugar",
         "contexto": []
     },
 
     {
         "local": {
             "nombre": {
-                "completo": "ATL. SELVA",
-                "corto": "CAS"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Agustin Chazarreta",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Agustin Córdoba",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Matias Gómez",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Alejo Betique",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cas.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Cesar Bravo",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -144,23 +76,44 @@
             },
             "logo": "cacu.png"
         },
-        "fecha": "26/05/2024 - 14:00hs",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cas.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
     {
         "local": {
             "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "visitante": {
+            "nombre": {
                 "completo": "SAN LORENZO (T)",
                 "corto": "CSLT"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Eric Salvagiotti",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -168,20 +121,8 @@
             },
             "logo": "slt.png"
         },
-        "visitante": {
-            "nombre": {
-                "completo": "SAN LORENZO (A)",
-                "corto": "CSLA"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ambro.png"
-        },
-        "fecha": "26/05/2024 - 14:00hs",
-        "estado": "finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
@@ -189,64 +130,37 @@
     {
         "local": {
             "nombre": {
-                "completo": "CENTRAL ARG. OLÍMPICO",
-                "corto": "CCAO"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Tomas Maciel",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Enzo Velásquez",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ccao.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [
+
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "ferro.png"
         },
-        "fecha": "29/05/2024 - 20:00hs",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
     {
         "local": {
-            "nombre": {
-                "completo": "UNIÓN SOCIAL DE HERSILIA",
-                "corto": "USdH"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Guido Prida",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "hersilia.png"
-        },
-        "visitante": {
             "nombre": {
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
@@ -256,10 +170,23 @@
                 "amarillas": [],
                 "rojas_directas": []
             },
+            "logo": "hersilia.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNIÓN SOCIAL DE HERSILIA",
+                "corto": "USdH"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
             "logo": "calt.png"
         },
-        "fecha": "29/05/2024 - 20:00hs",
-        "estado": "finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     }
 

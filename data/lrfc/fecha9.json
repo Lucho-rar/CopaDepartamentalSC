@@ -2,33 +2,10 @@
     {
         "local": {
             "nombre": {
-                "completo": "CENTRAL ARG. OLÍMPICO",
-                "corto": "CCAO"
-            },
-            "goles": [
-                {
-                    "min": "",
-                    "jugador": "Luciano Ricarte",
-                    "penal": false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ccao.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
             "goles": [
-                {
-                    "min": "",
-                    "jugador": "Nestor Llul",
-                    "penal": false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -36,25 +13,26 @@
             },
             "logo": "hersilia.png"
         },
-        "fecha": "19/05/2024",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
      
     {
         "local": {
-            "nombre": {
-                "completo": "UNION ARRUFO",
-                "corto": "CUDA"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cuda.png"
-        },
-        "visitante": {
             "nombre": {
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
@@ -66,56 +44,30 @@
             },
             "logo": "ucyd.png"
         },
-        "fecha": "19/05/2024",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "UNION ARRUFO",
+                "corto": "CUDA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cuda.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
     {
         "local": {
             "nombre": {
-                "completo": "UNION Y JUVENTUD (B)",
-                "corto": "UJB"
-            },
-            "goles": [
-                {
-                    "min": "",
-                    "jugador": "Jonathan Godoy",
-                    "penal": false
-                },
-                {
-                    "min": "",
-                    "jugador": "Santiago Marquetti",
-                    "penal": false
-                },
-                {
-                    "min": "",
-                    "jugador": "Brian Gaitán",
-                    "penal": false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "bandera.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
             "goles": [
-                {
-                    "min": "",
-                    "jugador": "Jonathan Cordero",
-                    "penal": false
-                },
-                {
-                    "min": "",
-                    "jugador": "Facundo Mena",
-                    "penal": false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -123,49 +75,52 @@
             },
             "logo": "cas.png"
         },
-        "fecha": "19/05/2024",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "UNION Y JUVENTUD (B)",
+                "corto": "UJB"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "bandera.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
     {
         "local": {
             "nombre": {
-                "completo": "SAN LORENZO (T)",
-                "corto": "CSLT"
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
             },
             "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "slt.png"
+            "logo": "cat.png"
         },
         "visitante": {
             "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Esteban Demaria",
-                    "penal":false
-                },
-                {
-                    "min": "",
-                    "jugador": "Edgar Moreno",
-                    "penal": false
-                }
             ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "cat.png"
+            "logo": "slt.png"
         },
-        "fecha": "12/05/2024 - 14:00hs",
-        "estado": "finalizado",
+        "fecha": " - 14:00hs",
+        "estado": "Por jugar",
         "contexto": []
     },
 
@@ -173,38 +128,10 @@
     {
         "local": {
             "nombre": {
-                "completo": "FERRO DHO (SC)",
-                "corto": "FDSC"
-            },
-            "goles": [
-                {
-                    "min": "",
-                    "jugador": "Exequiel Torres",
-                    "penal": false
-                },
-                {
-                    "min": "",
-                    "jugador": "Mario Sotomayor",
-                    "penal": false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ferro.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
             "goles": [
-                {
-                    "min": "",
-                    "jugador": "Alan Calderón",
-                    "penal": false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -212,49 +139,52 @@
             },
             "logo": "cacu.png"
         },
-        "fecha": "22/05/2024",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "FERRO DHO (SC)",
+                "corto": "FDSC"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ferro.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
     {
         "local": {
             "nombre": {
-                "completo": "ATL. LIBERTAD TRINIDAD",
-                "corto": "CALT"
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
             },
             "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "calt.png"
+            "logo": "ambro.png"
         },
         "visitante": {
             "nombre": {
-                "completo": "SAN LORENZO (A)",
-                "corto": "CSLA"
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
             },
             "goles": [
-                {
-                    "min": "",
-                    "jugador": "Adrián Nietto",
-                    "penal": false
-                },
-                {
-                    "min": "",
-                    "jugador": "Juan Pablo Basualdo",
-                    "penal": false
-                }
             ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ambro.png"
+            "logo": "calt.png"
         },
-        "fecha": "22/05/2024",
-        "estado": "finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     }
 

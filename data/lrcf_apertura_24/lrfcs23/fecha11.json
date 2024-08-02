@@ -1,0 +1,281 @@
+[
+    {
+        "local": {
+            "nombre": {
+                "completo": "FERRO DHO (SC)",
+                "corto": "FDSC"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Facundo Cortés",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ferro.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alejo Betique",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cas.png"
+        },
+        "fecha": "02/06/2024 - 14:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+     
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alan Calderón",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ucyd.png"
+        },
+        "fecha":"02/06/2024 - 14:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "UNION Y JUVENTUD (B)",
+                "corto": "UJB"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "bandera.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Micael Diaz",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Ulises Aranda",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "fecha": "02/06/2024 - 14:00hs",
+        "estado": "",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "UNION ARRUFO",
+                "corto": "CUDA"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Agustín Bravo",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cuda.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Leonel Barreto",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Edgar Pérez",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Leonel Barreto",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Bruno Diaz",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "fecha": "02/06/2024 - 14:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+   
+    {
+        "local": {
+            "nombre": {
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Rodrigo Costich",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Rodrigo Costich",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Mariano Cisnero",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Mariano Cisnero",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Joaquin Zapata",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Emanuel Acosta",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "slt.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNIÓN SOCIAL DE HERSILIA",
+                "corto": "USdH"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Matias González",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Ariel Arias",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "hersilia.png"
+        },
+        "fecha": "02/06/2024 - 14:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "calt.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "fecha": "02/06/2024 - 14:00hs",
+        "estado": "finalizado",
+        "contexto": []
+    }
+
+]

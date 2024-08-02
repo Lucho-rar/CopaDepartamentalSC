@@ -2,285 +2,142 @@
     {
         "local": {
             "nombre": {
-                "completo": "UNION SAN GUILLERMO",
-                "corto": "UCYD"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Santiago Baldissone",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ucyd.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Santiago Córdoba",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Santiago Córdoba",
-                    "penal":false
-                }
-            ],
+            "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "cas.png"
         },
-        "fecha": "10/03/2024 - 19:00hs",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ucyd.png"
+        },
+        "fecha": "04/04/2024 - 16:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
+            },
+            "goles": [
+
+
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+
+                ]
+            },
+            "logo": "slt.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "fecha": "04/04/2024 - 16:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [
+
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "fecha": "04/04/2024 - 16:00hs",
+        "estado": "Por jugar",
         "contexto": []
     },
         
     {
         "local": {
             "nombre": {
-                "completo": "SAN LORENZO (A)",
-                "corto": "CSLA"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Juan Pato",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Juan Pablo Basualdo",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Leonel Barreto",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Juan Pablo Basualdo",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": [
-                    {
-                        "jugador": "Gino Simonatti"
-                    }
-                ]
-            },
-            "logo": "ambro.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Juan Barros",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                ]
             },
             "logo": "bandera.png"
         },
-        "fecha": "10/03/2024 - 19:00hs",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "fecha": "06/08/2024 - 21:00hs",
+        "estado": "Por jugar",
         "contexto": []
     },
     
     {
         "local": {
-            "nombre": {
-                "completo": "FERRO DHO (SC)",
-                "corto": "FDSC"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Jonathan Carrizo",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Iván Baudino",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": [
-                    {
-                        "jugador":"Ivo Lencina"
-                    }
-                ]
-            },
-            "logo": "ferro.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "ATL. LIBERTAD TRINIDAD",
-                "corto": "CALT"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Rodrigo Puebla",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Rodrigo Puebla",
-                    "penal":true
-                },
-                {
-                    "min":"",
-                    "jugador":"Kevin Muñoz",
-                    "penal":true
-                },
-                {
-                    "min":"",
-                    "jugador":"Mateo Roldán",
-                    "penal":false
-                }
-
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "calt.png"
-        },
-        "fecha": "10/03/2024 - 20:00hs",
-        "estado": "finalizado",
-        "contexto": []
-    },
-
-
-    {
-        "local": {
-            "nombre": {
-                "completo": "CENTRAL ARG. OLÍMPICO",
-                "corto": "CCAO"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Fernando Romero",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Fernando Romero",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Franco Gigena",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Fernando Romero",
-                    "penal":false
-                }
-
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": [
-
-                ]
-            },
-            "logo": "ccao.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "SAN LORENZO (T)",
-                "corto": "CSLT"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"José Ortiz",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Gabriel Carabajal",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "slt.png"
-        },
-        "fecha": "10/03/2024 - 20:00hs",
-        "estado": "finalizado",
-        "contexto": []
-    },
-
-    
-    {
-        "local": {
-            "nombre": {
-                "completo": "UNIÓN SOCIAL DE HERSILIA",
-                "corto": "USdH"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador": "Elías Escalada",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador": "Jesús Ángel Vallejos",
-                    "penal":true
-                },
-                {
-                    "min":"",
-                    "jugador": "Jesús Ángel Vallejos",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "hersilia.png"
-        },
-        "visitante": {
             "nombre": {
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Alexis Gonzalez",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -288,50 +145,55 @@
             },
             "logo": "cuda.png"
         },
-        "fecha": "10/03/2024 - 20:00hs",
-        "estado": "finalizado",
-        "contexto": []
-    },
-
-
-
-    {
-        "local": {
-            "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cat.png"
-        },
         "visitante": {
             "nombre": {
-                "completo": "ATL. UNIÓN DE CERES",
-                "corto": "CACU"
+                "completo": "UNIÓN SOCIAL DE HERSILIA",
+                "corto": "USdH"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Fabián Acosta",
-                    "penal":false
-                }
+
             ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "cacu.png"
+            "logo": "hersilia.png"
         },
-        "fecha": "13/03/2024 - 22:00hs",
-        "estado": "finalizado",
+        "fecha": "06/08/2024 - 22:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                ]
+            },
+            "logo": "calt.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "FERRO DHO (SC)",
+                "corto": "FDSC"
+
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ferro.png"
+        },
+        "fecha": "Postergado 04/09/2024",
+        "estado": "Por jugar",
         "contexto": []
     }
-    
-    
-   
-
 ]

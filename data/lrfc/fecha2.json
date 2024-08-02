@@ -2,114 +2,63 @@
     {
         "local": {
             "nombre": {
-                "completo": "UNION SAN GUILLERMO",
-                "corto": "UCYD"
+                "completo": "FERRO DHO (SC)",
+                "corto": "FDSC"
+
             },
             "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ucyd.png"
+            "logo": "ferro.png"
         },
         "visitante": {  
             "nombre": {
-                "completo": "FERRO DHO (SC)",
-                "corto": "FDSC"
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Exequiel Torres",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Exequiel Torres",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ferro.png"
+            "logo": "ucyd.png"
         },
-        "fecha": "17/03/2024 - 19:00hs",
-        "estado": "Finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
     
     {
         "local": {
             "nombre": {
-                "completo": "UNION Y JUVENTUD (B)",
-                "corto": "UJB"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Santiago Marquetti",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Santiago Marquetti",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Claudio Rosso",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Claudio Rosso",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Walter Peralta",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": [
-                    {
-                        "jugador":"Belizán"
-                    }
-                ]
-            },
-            "logo": "bandera.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Elías Escalada",
-                    "penal":false
-                }
-            ],
+            "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
-                    {
-                        "jugador":"Elías Escalada"
-                    },
-                    {
-                        "jugador":"Simón"
-                    }
                 ]
             },
             "logo": "hersilia.png"
         },
-        "fecha": "17/03/2024 - 20:00hs",
-        "estado": "Finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "UNION Y JUVENTUD (B)",
+                "corto": "UJB"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [                ]
+            },
+            "logo": "bandera.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
    
@@ -117,50 +66,35 @@
     {
         "local": {
             "nombre": {
-                "completo": "UNION ARRUFO",
-                "corto": "CUDA"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Facundo Tolosa",
-                    "penal":true
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": [
-                    {
-                        "jugador":"Cabrera"
-                    }
-                ]
-            },
-            "logo": "cuda.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Marx Meternich",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
-                    {
-                        "jugador":"Sayago"
-                    }
                 ]
             },
             "logo": "ccao.png"
         },
-        "fecha": "17/03/2024 - 20:00hs",
-        "estado": "Finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "UNION ARRUFO",
+                "corto": "CUDA"
+
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                ]
+            },
+            "logo": "cuda.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
     
@@ -168,146 +102,93 @@
     {
         "local": {
             "nombre": {
-                "completo": "SAN LORENZO (T)",
-                "corto": "CSLT"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Alejandro Fernández",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "slt.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [],
+            "goles": [            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "calt.png"
         },
-        "fecha": "17/03/2024 - 20:00hs",
-        "estado": "Finalizado",
-        "contexto": []
-    },
-    {
-        "local": {
+        "visitante": {
             "nombre": {
-                "completo": "ATL. UNIÓN DE CERES",
-                "corto": "CACU"
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
             },
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": [
-                    {
-                        "jugador":"Juan Barrios"
-                    }
-                ]
+                "rojas_directas": []
             },
-            "logo": "cacu.png"
+            "logo": "slt.png"
         },
-        "visitante": {
-            "nombre": {
-                "completo": "SAN LORENZO (A)",
-                "corto": "CSLA"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Leonel Barreto",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Antonio Roldán",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": [
-                    {
-                        "jugador":"Martin Almaráz"
-                    }
-                ]
-            },
-            "logo": "ambro.png"
-        },
-        "fecha": "17/03/2024 - 21:00hs",
-        "estado": "Finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
     {
         "local": {
             "nombre": {
-                "completo": "ATL. SELVA",
-                "corto": "CAS"
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [                ]
+            },
+            "logo": "ambro.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Adrián Gómez",
-                    "penal":false
-                }
             ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                ]
+            },
+            "logo": "cacu.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
 
                 ]
             },
-            "logo": "cas.png"
+            "logo": "cat.png"
         },
         "visitante": {
             "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
             },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Marcos Mantovani",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Marcos Mantovani",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Marcos Mantovani",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Matias Cantadori",
-                    "penal":false
-                }               
-            ],
+            "goles": [            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
-                    {
-                        "jugador":"Diego Díaz"
-                    }
                 ]
             },
-            "logo": "cat.png"
+            "logo": "cas.png"
         },
-        "fecha": "20/03/2024 - 22:00hs",
-        "estado": "Finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     }
 

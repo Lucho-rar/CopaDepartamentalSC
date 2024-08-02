@@ -2,15 +2,23 @@
     {
         "local": {
             "nombre": {
+                "completo": "UNION Y JUVENTUD (B)",
+                "corto": "UJB"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "bandera.png"
+        },
+        "visitante": {
+            "nombre": {
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Lautaro Zilli",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -18,26 +26,26 @@
             },
             "logo": "ferro.png"
         },
-        "visitante": {
-            "nombre": {
-                "completo": "UNION Y JUVENTUD (B)",
-                "corto": "UJB"
-
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "bandera.png"
-        },
-        "fecha": "05/05/2024 - 14:00hs",
-        "estado": "finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
      
     {
         "local": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "visitante": {
             "nombre": {
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
@@ -49,59 +57,18 @@
             },
             "logo": "cuda.png"
         },
-        "visitante": {
-            "nombre": {
-                "completo": "ATL. UNIÓN DE CERES",
-                "corto": "CACU"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Tomas Toloza",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cacu.png"
-        },
-        "fecha": "05/05/2024 - 14:00hs",
-        "estado": "finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
     {
         "local": {
             "nombre": {
-                "completo": "CENTRAL ARG. OLÍMPICO",
-                "corto": "CCAO"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Martin Mendoza",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ccao.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Diego Vivas",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -109,23 +76,43 @@
             },
             "logo": "cat.png"
         },
-        "fecha": "05/05/2024 - 14:00hs",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
     {
         "local": {
             "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cas.png"
+        },
+        "visitante": {
+            "nombre": {
                 "completo": "SAN LORENZO (T)",
                 "corto": "CSLT"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Mariano Cisnero",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -133,26 +120,8 @@
             },
             "logo": "slt.png"
         },
-        "visitante": {
-            "nombre": {
-                "completo": "ATL. SELVA",
-                "corto": "CAS"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Matias Gómez",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cas.png"
-        },
-        "fecha": "05/05/2024 - 15:00hs",
-        "estado": "finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
@@ -162,27 +131,10 @@
     {
         "local": {
             "nombre": {
-                "completo": "ATL. LIBERTAD TRINIDAD",
-                "corto": "CALT"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "calt.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Juan Zanicheli",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -190,38 +142,54 @@
             },
             "logo": "ucyd.png"
         },
-        "fecha": "05/05/2024 - 15:00hs",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
+            },
+            "goles": [
+
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "calt.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
     {
         "local": {
             "nombre": {
-                "completo": "UNIÓN SOCIAL DE HERSILIA",
-                "corto": "USdH"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "hersilia.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
             "logo": "ambro.png"
         },
-        "fecha": "05/05/2024 - 15:00hs",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "UNIÓN SOCIAL DE HERSILIA",
+                "corto": "USdH"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "hersilia.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     }
 

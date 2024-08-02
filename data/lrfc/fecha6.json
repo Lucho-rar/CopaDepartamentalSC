@@ -2,20 +2,22 @@
     {
         "local": {
             "nombre": {
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
+            },
+            "goles": [            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "slt.png"
+        },
+        "visitante": {
+            "nombre": {
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Facundo Bellino",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Facundo Bellino",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -23,44 +25,16 @@
             },
             "logo": "cacu.png"
         },
-        "visitante": {
-            "nombre": {
-                "completo": "SAN LORENZO (T)",
-                "corto": "CSLT"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Brian Mansilla",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Gabriel Carabajal",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Amilcar Monzón",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "slt.png"
-        },
-        "fecha": "28/04/2024 - 16:00hs",
-        "estado": "finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
      
     {
         "local": {
             "nombre": {
-                "completo": "UNION SAN GUILLERMO",
-                "corto": "UCYD"
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
             },
             "goles": [
                 
@@ -68,63 +42,45 @@
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
-                    {
-                        "jugador":"Porporato"
-                    }
                 ]
             },
-            "logo": "ucyd.png"
+            "logo": "ccao.png"
         },
         "visitante": {
             "nombre": {
-                "completo": "CENTRAL ARG. OLÍMPICO",
-                "corto": "CCAO"
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Yoel Holhman",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Fernando Romero",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Fernando Romero",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ccao.png"
+            "logo": "ucyd.png"
         },
-        "fecha": "28/04/2024 - 16:30hs",
-        "estado": "finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
     {
         "local": {
             "nombre": {
-                "completo": "SAN LORENZO (A)",
-                "corto": "CSLA"
+                "completo": "FERRO DHO (SC)",
+                "corto": "FDSC"
             },
             "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ambro.png"
+            "logo": "ferro.png"
         },
         "visitante": {
             "nombre": {
-                "completo": "FERRO DHO (SC)",
-                "corto": "FDSC"
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
             },
             "goles": [
 
@@ -133,30 +89,20 @@
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ferro.png"
+            "logo": "ambro.png"
         },
-        "fecha": "28/04/2024 - 17:00hs",
-        "estado": "finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
     {
         "local": {
             "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
+                "completo": "UNIÓN SOCIAL DE HERSILIA",
+                "corto": "USdH"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Kevin Velázquez",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Diego Diaz",
-                    "penal":false
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -164,28 +110,24 @@
 
                 ]
             },
-            "logo": "cat.png"
+            "logo": "hersilia.png"
         },
         "visitante": {
             "nombre": {
-                "completo": "UNIÓN SOCIAL DE HERSILIA",
-                "corto": "USdH"
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Nicolás Martinez",
-                    "penal":true
-                }
             ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "hersilia.png"
+            "logo": "cat.png"
         },
-        "fecha": "28/04/2024 - 17:00hs",
-        "estado": "finalizado",
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
@@ -195,58 +137,34 @@
     {
         "local": {
             "nombre": {
-                "completo": "ATL. SELVA",
-                "corto": "CAS"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Adrián Gómez",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": [
-                    {
-                        "jugador":"Franco Galiano"
-                    },
-                    {
-                        "jugador":"Miguel Zurrian"
-                    }
-                ]
-            },
-            "logo": "cas.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Kevin Muñoz",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Rodrigo Puebla",
-                    "penal":true
-                }
             ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
-                    {
-                        "jugador":"Arce"
-                    }
                 ]
             },
             "logo": "calt.png"
         },
-        "fecha": "28/04/2024 - 17:00hs",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                ]
+            },
+            "logo": "cas.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     },
 
@@ -256,38 +174,10 @@
     {
         "local": {
             "nombre": {
-                "completo": "UNION Y JUVENTUD (B)",
-                "corto": "UJB"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Santiago Marquetti",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "bandera.png"
-        },
-        "visitante": {
-            "nombre": {
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
             "goles": [
-                {
-                    "min":"",
-                    "jugador":"Facundo Sanabria",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Facundo Tolosa",
-                    "penal":true
-                }
             ],
             "info": {
                 "amarillas": [],
@@ -295,8 +185,21 @@
             },
             "logo": "cuda.png"
         },
-        "fecha": "28/04/2024 - 18:00hs",
-        "estado": "finalizado",
+        "visitante": {
+            "nombre": {
+                "completo": "UNION Y JUVENTUD (B)",
+                "corto": "UJB"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "bandera.png"
+        },
+        "fecha": "",
+        "estado": "Por jugar",
         "contexto": []
     }
 
