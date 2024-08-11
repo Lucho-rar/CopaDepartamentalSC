@@ -33,6 +33,11 @@
                     "min":"",
                     "jugador":"Baldissone",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
                 }
             ],
             "info": {
@@ -42,7 +47,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "11/08/2024 - 16:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
     
