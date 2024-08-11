@@ -28,6 +28,11 @@
                     "min":"",
                     "jugador":"Baldissone",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Baldissone",
+                    "penal":false
                 }
             ],
             "info": {
@@ -99,6 +104,11 @@
                     "min":"",
                     "jugador":"Pedrotti",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Cabrera",
+                    "penal":false
                 }
             ],
             "info": {
@@ -143,7 +153,13 @@
                 "completo": "SAN LORENZO (T)",
                 "corto": "CSLT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"González",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
