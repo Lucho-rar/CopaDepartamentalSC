@@ -26,7 +26,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "11/08/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
     
@@ -57,7 +57,7 @@
             "logo": "bandera.png"
         },
         "fecha": "11/08/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
    
@@ -93,7 +93,7 @@
             "logo": "cuda.png"
         },
         "fecha": "11/08/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
     
@@ -124,7 +124,7 @@
             "logo": "slt.png"
         },
         "fecha": "11/08/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
     {
@@ -155,7 +155,7 @@
             "logo": "cacu.png"
         },
         "fecha": "11/08/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
     {
@@ -187,7 +187,7 @@
             "logo": "cas.png"
         },
         "fecha": "11/08/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     }
 
