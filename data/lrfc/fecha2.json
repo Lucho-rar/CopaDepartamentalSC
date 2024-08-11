@@ -95,6 +95,11 @@
 
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Pedrotti",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
