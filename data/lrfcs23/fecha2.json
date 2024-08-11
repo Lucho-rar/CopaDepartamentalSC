@@ -5,7 +5,13 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Juan Perez",
+                    "penal":true
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -26,7 +32,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "11/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     
@@ -241,7 +247,7 @@
             "logo": "cas.png"
         },
         "fecha": "11/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 
