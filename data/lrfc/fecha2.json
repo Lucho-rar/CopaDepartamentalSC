@@ -221,7 +221,7 @@
                 {
                     "min":"",
                     "jugador":"Ocampo",
-                    "penal":false
+                    "penal":true
                 }
             ],
             "info": {
@@ -237,7 +237,13 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [            ],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Galiano",
+                    "penal":true
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
@@ -246,7 +252,7 @@
             "logo": "cas.png"
         },
         "fecha": "11/08/2024 - 16:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     }
 
