@@ -69,6 +69,21 @@
                 "corto": "CCAO"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -84,6 +99,11 @@
 
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -93,7 +113,7 @@
             "logo": "cuda.png"
         },
         "fecha": "11/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
     
@@ -104,7 +124,13 @@
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [            ],
+            "goles": [ 
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -116,7 +142,13 @@
                 "completo": "SAN LORENZO (T)",
                 "corto": "CSLT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -124,7 +156,7 @@
             "logo": "slt.png"
         },
         "fecha": "11/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     {
@@ -146,6 +178,11 @@
                 "corto": "CACU"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Mariano Milani",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -155,7 +192,7 @@
             "logo": "cacu.png"
         },
         "fecha": "11/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     {
