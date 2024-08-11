@@ -18,6 +18,11 @@
                 "corto": "UCYD"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Baldissone",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -146,6 +151,11 @@
                 "corto": "CACU"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
