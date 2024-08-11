@@ -4,7 +4,6 @@
             "nombre": {
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
-
             },
             "goles": [],
             "info": {
@@ -26,7 +25,7 @@
             },
             "logo": "ucyd.png"
         },
-        "fecha": "",
+        "fecha": "11/08/2024 - 16:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -53,11 +52,11 @@
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": [                ]
+                "rojas_directas": []
             },
             "logo": "bandera.png"
         },
-        "fecha": "",
+        "fecha": "11/08/2024 - 16:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -93,7 +92,7 @@
             },
             "logo": "cuda.png"
         },
-        "fecha": "",
+        "fecha": "11/08/2024 - 16:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -124,7 +123,7 @@
             },
             "logo": "slt.png"
         },
-        "fecha": "",
+        "fecha": "11/08/2024 - 16:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -155,7 +154,7 @@
             },
             "logo": "cacu.png"
         },
-        "fecha": "",
+        "fecha": "11/08/2024 - 16:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -187,7 +186,7 @@
             },
             "logo": "cas.png"
         },
-        "fecha": "",
+        "fecha": "11/08/2024 - 16:00hs",
         "estado": "Por jugar",
         "contexto": []
     }

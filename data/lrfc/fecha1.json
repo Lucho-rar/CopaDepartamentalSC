@@ -5,7 +5,13 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Conrado Mandrille López",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -18,7 +24,13 @@
                 "corto": "UCYD"
 
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Augusto Ferreyra",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -26,7 +38,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "04/04/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -37,8 +49,26 @@
                 "corto": "CSLT"
             },
             "goles": [
-
-
+                {
+                    "min":"",
+                    "jugador":"Nicolas Costich",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Nicolas Costich",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Nicolas Costich",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Alexis Monzón",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -52,9 +82,18 @@
             "nombre": {
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
-
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Bladimir Jostic",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Marx Meternich",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -63,7 +102,7 @@
             "logo": "ccao.png"
         },
         "fecha": "04/04/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -73,7 +112,13 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Samuel Grismado",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -86,7 +131,26 @@
                 "corto": "CAT"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"Brian Ocampo",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Brian Ocampo",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Kevin Velásquez",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Marcos Mantovani",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -95,7 +159,7 @@
             "logo": "cat.png"
         },
         "fecha": "04/04/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
         
@@ -106,6 +170,21 @@
                 "corto": "UJB"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Jonathan Godoy",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Brahian Gaitan",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Leandro Farias",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -119,7 +198,18 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Juan Pablo Basualdo",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Mauro López",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -127,7 +217,7 @@
             "logo": "ambro.png"
         },
         "fecha": "06/08/2024 - 21:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     
@@ -138,6 +228,26 @@
                 "corto": "CUDA"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Facundo Sanabria",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Facundo Sanabria",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Lisandro Villarruel",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Ramón Gomez",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -160,7 +270,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "06/08/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     {
