@@ -8,7 +8,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Juan Perez",
+                    "jugador":"Guillermo Taborda",
                     "penal":true
                 }
             ],
@@ -55,7 +55,23 @@
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Lucas Prieto",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Joshue Villalba",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Santiago Zappa",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -63,7 +79,7 @@
             "logo": "bandera.png"
         },
         "fecha": "11/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
    
@@ -77,17 +93,17 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Leandro Montenegro",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Enzo Velásquez",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Martin Mendoza",
                     "penal":false
                 }
             ],
@@ -107,7 +123,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Jonathan Varela",
                     "penal":false
                 }
             ],
@@ -133,7 +149,7 @@
             "goles": [ 
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Diego Coronel",
                     "penal":false
                 }
             ],
@@ -151,7 +167,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Emanuel Acosta",
                     "penal":false
                 }
             ],
@@ -210,12 +226,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"César Moreno",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Nicolás Torres",
                     "penal":false
                 }
             ],
@@ -235,7 +251,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Tomás Ruiz Diaz",
                     "penal":false
                 }
             ],
