@@ -200,7 +200,14 @@
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
-            "goles": [            ],
+            "goles": [
+                {
+                    "min": "",
+                    "jugador": "Godoy",
+                    "penal": false
+                }
+
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
