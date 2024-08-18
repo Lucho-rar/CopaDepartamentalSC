@@ -134,6 +134,11 @@
                 "corto": "CAT"
             },
             "goles": [
+                {
+                    "min": "",
+                    "jugador": "Demaria",
+                    "penal": false
+                }
             ],
             "info": {
                 "amarillas": [],
