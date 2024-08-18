@@ -52,6 +52,11 @@
 
             },
             "goles": [
+                {
+                    "min": "",
+                    "jugador": "Rodrigo Puebla",
+                    "penal": false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -71,7 +76,7 @@
             },
             "goles": [
                 {
-                    "min": "10",
+                    "min": "",
                     "jugador": "Andrés Saavedra",
                     "penal": false
                 }
