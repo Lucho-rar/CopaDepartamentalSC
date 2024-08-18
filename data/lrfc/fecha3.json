@@ -8,7 +8,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador": "",
+                    "jugador": "Iñiguez",
                     "penal": false
                 }
             ],
@@ -32,7 +32,7 @@
             "logo": "ferro.png"
         },
         "fecha": "18/08/2024 - 16:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
