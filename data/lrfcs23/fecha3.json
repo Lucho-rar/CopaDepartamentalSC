@@ -5,7 +5,23 @@
                 "completo": "SAN LORENZO (T)",
                 "corto": "CSLT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador": "",
+                    "penal": false
+                },
+                {
+                    "min":"",
+                    "jugador": "",
+                    "penal": true
+                },
+                {
+                    "min":"",
+                    "jugador": "",
+                    "penal": false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -26,7 +42,7 @@
             "logo": "ferro.png"
         },
         "fecha": "18/08/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -196,7 +212,7 @@
             "logo": "ambro.png"
         },
         "fecha": "18/08/2024 - 17:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
     
