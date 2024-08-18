@@ -152,8 +152,13 @@
                 },
                 {
                     "min": "",
-                    "jugador": "",
+                    "jugador": "Marcos Mantovani",
                     "penal": false
+                },
+                {
+                    "min": "",
+                    "jugador": "Brian Ocampo",
+                    "penal": true
                 }
             ],
             "info": {
