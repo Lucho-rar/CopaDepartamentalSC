@@ -132,7 +132,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "18/08/2024 - 16:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
         
@@ -189,7 +189,7 @@
             "logo": "cat.png"
         },
         "fecha": "18/08/2024 - 16:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
