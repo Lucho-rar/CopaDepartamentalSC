@@ -69,7 +69,13 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min": "10",
+                    "jugador": "Andrés Saavedra",
+                    "penal": false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
