@@ -101,6 +101,11 @@
                     "min": "",
                     "jugador": "Andrés Saavedra",
                     "penal": false
+                },
+                {
+                    "min": "",
+                    "jugador": "",
+                    "penal": false
                 }
             ],
             "info": {
