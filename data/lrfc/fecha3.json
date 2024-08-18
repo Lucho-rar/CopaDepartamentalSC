@@ -63,6 +63,67 @@
         "estado": "jugando",
         "contexto": []
     },
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNIÓN SOCIAL DE HERSILIA",
+                "corto": "USdH"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "hersilia.png"
+        },
+        "fecha": "18/08/2024 - 16:00hs",
+        "estado": "jugando",
+        "contexto": []
+    },
+        
+    {
+        "local": {
+            "nombre": {
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ucyd.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "fecha": "18/08/2024 - 16:00hs",
+        "estado": "jugando",
+        "contexto": []
+    },
 
     
     {
@@ -98,35 +159,6 @@
     },
 
 
-    {
-        "local": {
-            "nombre": {
-                "completo": "ATL. UNIÓN DE CERES",
-                "corto": "CACU"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cacu.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "UNIÓN SOCIAL DE HERSILIA",
-                "corto": "USdH"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "hersilia.png"
-        },
-        "fecha": "18/08/2024 - 16:00hs",
-        "estado": "jugando",
-        "contexto": []
-    },
 
     {
         "local": {
@@ -157,39 +189,8 @@
         "fecha": "18/08/2024 - 19:00hs",
         "estado": "Por jugar",
         "contexto": []
-    },
-    
-    
-    {
-        "local": {
-            "nombre": {
-                "completo": "UNION SAN GUILLERMO",
-                "corto": "UCYD"
-            },
-            "goles": [
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ucyd.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
-            },
-            "goles": [
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cat.png"
-        },
-        "fecha": "18/08/2024 - 16:00hs",
-        "estado": "jugando",
-        "contexto": []
     }
+    
+
 
 ]
