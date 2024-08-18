@@ -164,7 +164,18 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [            ],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Ivo Acosta",
+                    "penal" : false
+                },
+                {
+                    "min":"",
+                    "jugador":"Julián Córdoba",
+                    "penal" : false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -185,7 +196,7 @@
             "logo": "ambro.png"
         },
         "fecha": "18/08/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
     
