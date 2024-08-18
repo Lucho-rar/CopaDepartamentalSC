@@ -766,7 +766,7 @@ window.addEventListener('load', function (){
     llenarObjetoStats() 
         .then(()=> {
             // Aca se llama a la copa que queramos 
-            
+            // 
             // Para la copa dpt
             /*copa_colors()
             toggleMenus("fases")

@@ -26,7 +26,7 @@
             "logo": "ferro.png"
         },
         "fecha": "18/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -36,7 +36,13 @@
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [            ],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Bravo",
+                    "penal" : false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
@@ -60,7 +66,7 @@
             "logo": "calt.png"
         },
         "fecha": "18/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -93,7 +99,7 @@
             "logo": "ccao.png"
         },
         "fecha": "18/08/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -104,9 +110,22 @@
                 "completo": "ATL. UNIÓN DE CERES",
                 "corto": "CACU"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Facundo Vivas",
+                    "penal" : false
+                },
+                {
+                    "min":"",
+                    "jugador":"César Bravo",
+                    "penal" : false
+                }
+            ],
             "info": {
-                "amarillas": [],
+                "amarillas": [
+                    
+                ],
                 "rojas_directas": []
             },
             "logo": "cacu.png"
@@ -116,7 +135,13 @@
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Cejas",
+                    "penal" : false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -124,7 +149,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "18/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -167,6 +192,11 @@
                 "corto": "UCYD"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Juan Cruz Rufinatto",
+                    "penal" : true
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -180,6 +210,21 @@
                 "corto": "CAT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Saravia",
+                    "penal" : false
+                },
+                {
+                    "min":"",
+                    "jugador":"César Moreno",
+                    "penal" : false
+                },
+                {
+                    "min":"",
+                    "jugador":"Altamiranda",
+                    "penal" : false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -188,7 +233,7 @@
             "logo": "cat.png"
         },
         "fecha": "18/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 
