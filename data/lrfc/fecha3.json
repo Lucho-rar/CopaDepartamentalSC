@@ -26,7 +26,7 @@
             "logo": "ferro.png"
         },
         "fecha": "18/08/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -60,7 +60,7 @@
             "logo": "calt.png"
         },
         "fecha": "18/08/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -124,7 +124,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "18/08/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -188,7 +188,7 @@
             "logo": "cat.png"
         },
         "fecha": "18/08/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     }
 
