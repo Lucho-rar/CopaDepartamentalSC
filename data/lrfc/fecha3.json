@@ -111,6 +111,11 @@
                 "corto": "UCYD"
             },
             "goles": [
+                {
+                    "min": "",
+                    "jugador": "Rafael Nicola",
+                    "penal": false
+                }
             ],
             "info": {
                 "amarillas": [],
