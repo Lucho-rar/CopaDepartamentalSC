@@ -61,7 +61,13 @@
                     "min": "",
                     "jugador": "Kevin Muñoz",
                     "penal": false
-                }
+                },
+                {
+                    "min": "",
+                    "jugador": "",
+                    "penal": false
+                },
+
             ],
             "info": {
                 "amarillas": [],
