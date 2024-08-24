@@ -8,17 +8,17 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador": "",
+                    "jugador": "Joaquín Zapata",
                     "penal": false
                 },
                 {
                     "min":"",
-                    "jugador": "",
+                    "jugador": "Luis Manuel Roldán",
                     "penal": true
                 },
                 {
                     "min":"",
-                    "jugador": "",
+                    "jugador": "Lucas Lemos",
                     "penal": false
                 }
             ],
@@ -55,7 +55,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Bravo",
+                    "jugador":"Agustín Bravo",
                     "penal" : false
                 }
             ],
@@ -108,7 +108,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Bruno Gimenez",
+                    "jugador":"Bruno Giménez",
                     "penal" : false
                 }
 
@@ -159,7 +159,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Cejas",
+                    "jugador":"Ernesto Sejas",
                     "penal" : false
                 }
             ],
