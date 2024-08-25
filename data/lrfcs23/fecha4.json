@@ -8,7 +8,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Danilo Banegas",
                     "penal":false
                 }
             ],
@@ -26,7 +26,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Maximo Flores",
                     "penal":false
                 }
             ],
@@ -64,7 +64,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Escalada",
+                    "jugador":"Lucas Escalada",
                     "penal":false
                 },
                 {
@@ -94,12 +94,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Bruno Giménez",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Bruno Giménez",
                     "penal":false
                 }
             ],
@@ -117,17 +117,17 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Jonatan Dos Santos",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Tiziano Castellano",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Tomas Toloza",
                     "penal":false
                 }
 
@@ -165,17 +165,17 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Francisco Torres",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Lucas Prietto",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Lucas Prietto",
                     "penal":false
                 }
             ],
@@ -229,7 +229,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "25/08/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
     {
@@ -264,7 +264,7 @@
             "logo": "cat.png"
         },
         "fecha": "25/08/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     }
 ]
