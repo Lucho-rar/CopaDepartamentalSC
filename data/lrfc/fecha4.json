@@ -51,6 +51,22 @@
                 "corto": "CAS"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+
             ],
             "info": {
                 "amarillas": [],
@@ -114,7 +130,11 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Galeano"
+                    }
+                ]
             },
             "logo": "calt.png"
         },
