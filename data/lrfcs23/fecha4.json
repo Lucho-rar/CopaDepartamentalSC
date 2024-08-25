@@ -163,6 +163,21 @@
                 "corto": "UJB"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -171,7 +186,7 @@
             "logo": "bandera.png"
         },
         "fecha": "25/08/2024 - 14:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
     {
