@@ -6,6 +6,11 @@
                 "corto": "CSLT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -18,7 +23,13 @@
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -212,7 +223,13 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [            ],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alexis Paez",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
