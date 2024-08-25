@@ -172,7 +172,9 @@
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
-
+                    {
+                        "jugador":"Barreto"
+                    }
                 ]
             },
             "logo": "ambro.png"
