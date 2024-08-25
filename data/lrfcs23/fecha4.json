@@ -26,7 +26,7 @@
             "logo": "cuda.png"
         },
         "fecha": "25/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -51,6 +51,16 @@
                 "corto": "CAS"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Escalada",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Tomás Ruiz Diaz",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -59,7 +69,7 @@
             "logo": "cas.png"
         },
         "fecha": "25/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -70,7 +80,18 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -83,6 +104,22 @@
                 "corto": "CACU"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+
             ],
             "info": {
                 "amarillas": [],
@@ -91,7 +128,7 @@
             "logo": "cacu.png"
         },
         "fecha": "25/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -123,7 +160,7 @@
             "logo": "bandera.png"
         },
         "fecha": "25/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
     {
@@ -148,6 +185,16 @@
                 "corto": "UCYD"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Coronel",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Ramallo",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -156,7 +203,7 @@
             "logo": "ucyd.png"
         },
         "fecha": "25/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
     {
@@ -185,7 +232,7 @@
             "logo": "cat.png"
         },
         "fecha": "25/08/2024 - 14:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     }
 ]
