@@ -73,7 +73,11 @@
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Marchisio"
+                    }
+                ]
             },
             "logo": "ccao.png"
         },
