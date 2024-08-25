@@ -182,6 +182,11 @@
                 "corto": "CSLA"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Facundo Farias",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
