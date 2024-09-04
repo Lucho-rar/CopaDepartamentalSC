@@ -20,7 +20,11 @@
 
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"Elías Escalada",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -30,7 +34,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     
@@ -41,6 +45,11 @@
                 "corto": "CUDA"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Andrés Pedrotti",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -53,7 +62,12 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [                
+            "goles": [        
+                {
+                    "min":"",
+                    "jugador":"Lucio Aldrian",
+                    "penal":false
+                }        
             ],
             "info": {
                 "amarillas": [],
@@ -62,7 +76,7 @@
             "logo": "ferro.png"
         },
         "fecha": "",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -72,7 +86,18 @@
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
-            "goles": [            ],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Joshue Villalba",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Santiago Marquetti",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
@@ -96,7 +121,7 @@
             "logo": "slt.png"
         },
         "fecha": "",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -129,7 +154,7 @@
             "logo": "calt.png"
         },
         "fecha": "",
-        "estado": "Por jugar",
+        "estado":"finalizado",
         "contexto": []
     },
 
@@ -141,6 +166,21 @@
                 "corto": "CAS"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alexis Avalos",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Santiago Córdoba",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Conrado Mandrille López",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -154,6 +194,11 @@
                 "corto": "CCAO"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Yoel Hollmann",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -162,7 +207,7 @@
             "logo": "ccao.png"
         },
         "fecha": "",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -175,6 +220,11 @@
                 "corto": "CAT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Matías Cantadori",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -187,7 +237,13 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alexis Camargo",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -195,7 +251,7 @@
             "logo": "ambro.png"
         },
         "fecha": "",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 

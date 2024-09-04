@@ -6,6 +6,11 @@
                 "corto": "UCYD"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Emiliano Quiroga",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -20,6 +25,11 @@
 
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Nestor Gauto",
+                    "penal":false
+                }
 
             ],
             "info": {
@@ -30,7 +40,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     
@@ -62,7 +72,7 @@
             "logo": "ferro.png"
         },
         "fecha": "",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -72,7 +82,14 @@
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
-            "goles": [            ],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Ulises Omancini",
+                    "penal":false
+                }
+
+                        ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
@@ -88,6 +105,11 @@
 
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Exequias Cisneros",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -96,7 +118,7 @@
             "logo": "slt.png"
         },
         "fecha": "",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -121,6 +143,11 @@
                 "corto": "CALT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Juan Sebastian Olivero",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -129,7 +156,7 @@
             "logo": "calt.png"
         },
         "fecha": "",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -162,7 +189,7 @@
             "logo": "ccao.png"
         },
         "fecha": "",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -175,6 +202,11 @@
                 "corto": "CAT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Diego Vivas",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -187,7 +219,13 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Sergio Suárez",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -195,7 +233,7 @@
             "logo": "ambro.png"
         },
         "fecha": "",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 
