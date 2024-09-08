@@ -237,6 +237,11 @@
                 "corto": "UJB"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":true
+                }
             ],
             "info": {
                 "amarillas": [],
