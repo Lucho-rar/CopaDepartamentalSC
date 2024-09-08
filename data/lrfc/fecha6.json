@@ -99,6 +99,11 @@
                 "corto": "CSLA"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Vianco",
+                    "penal":false
+                }
 
             ],
             "info": {
@@ -108,7 +113,7 @@
             "logo": "ambro.png"
         },
         "fecha": "08/09/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -143,7 +148,7 @@
             "logo": "cat.png"
         },
         "fecha": "08/09/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -180,7 +185,7 @@
             "logo": "cas.png"
         },
         "fecha": "08/09/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -215,7 +220,7 @@
             "logo": "bandera.png"
         },
         "fecha": "08/09/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     }
 
