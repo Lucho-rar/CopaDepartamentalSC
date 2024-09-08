@@ -214,6 +214,11 @@
                 "corto": "CUDA"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Lazo",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
