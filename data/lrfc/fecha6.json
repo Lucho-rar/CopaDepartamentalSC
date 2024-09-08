@@ -134,6 +134,11 @@
                 "corto": "USdH"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
