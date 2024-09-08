@@ -204,6 +204,21 @@
                 "corto": "CALT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Lisandro Mendoza",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Juan Sebastian Olivero",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Juan Sebastian Olivero",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -219,6 +234,16 @@
 
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alexis Páez",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Bruno Maldonado",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -227,7 +252,7 @@
             "logo": "ferro.png"
         },
         "fecha": "Postergado 04/09/2024",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 ]

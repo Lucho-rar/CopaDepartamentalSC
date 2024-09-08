@@ -280,6 +280,21 @@
                 "corto": "CALT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Kevin Muñoz",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Rodrigo Puebla",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Jeremias Guzmán",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -303,7 +318,7 @@
             "logo": "ferro.png"
         },
         "fecha": "Postergado 04/09/2024",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 ]
