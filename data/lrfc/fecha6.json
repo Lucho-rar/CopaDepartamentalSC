@@ -196,6 +196,11 @@
                 "corto": "CAS"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Conrado Mandrille López",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
