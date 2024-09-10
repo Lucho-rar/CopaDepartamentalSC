@@ -8,22 +8,22 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Emanuel Acosta",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Emanuel Acosta",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Joaquín Zapata",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Joaquín Zapata",
                     "penal":false
                 }
             
@@ -42,17 +42,17 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Gaston Barreto",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Jonathan Dos Santos",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Lautaro Barreto",
                     "penal":false
                 }
             ],
@@ -91,12 +91,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Ramallo",
+                    "jugador":"Isaias Ramallo",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"Tutera",
+                    "jugador":"Mateo Tutera",
                     "penal":false
                 }
             ],
@@ -117,7 +117,18 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Bruno Maldonado",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Facundo Cortés",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -130,7 +141,16 @@
                 "corto": "CSLA"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"Román Perren",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Edgar Pérez",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -150,6 +170,11 @@
                 "corto": "USdH"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"José Bustos",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -188,6 +213,16 @@
                 "corto": "CALT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Juan Sebastian Olivero",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Juan Sebastian Olivero",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -202,6 +237,11 @@
                 "corto": "CAS"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Juan Sebastian Olivero",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -238,6 +278,11 @@
                 "corto": "UJB"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Francisco Torres",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
