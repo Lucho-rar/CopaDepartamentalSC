@@ -54,8 +54,13 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Sayago",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Fernando Romero",
+                    "penal":true
                 }
             ],
             "info": {
