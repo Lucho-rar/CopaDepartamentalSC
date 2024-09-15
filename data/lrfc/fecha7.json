@@ -19,6 +19,7 @@
                 "corto": "FDSC"
             },
             "goles": [
+                
             ],
             "info": {
                 "amarillas": [],
@@ -51,6 +52,11 @@
                 "corto": "CCAO"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
