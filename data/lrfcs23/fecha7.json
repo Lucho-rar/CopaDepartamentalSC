@@ -6,6 +6,11 @@
                 "corto": "UJB"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Segovia",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -19,6 +24,11 @@
                 "corto": "FDSC"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alexis Páez",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -27,7 +37,7 @@
             "logo": "ferro.png"
         },
         "fecha": "13/09/2024 - 20:30hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     
@@ -183,7 +193,7 @@
             "logo": "calt.png"
         },
         "fecha": "15/09/2024 - 15:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
