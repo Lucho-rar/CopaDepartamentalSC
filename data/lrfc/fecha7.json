@@ -207,7 +207,11 @@
                 "corto": "CALT"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"Rodrigo Puebla",
+                    "penal":true
+                }
             ],
             "info": {
                 "amarillas": [],
