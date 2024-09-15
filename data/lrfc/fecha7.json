@@ -66,6 +66,11 @@
                     "min":"",
                     "jugador":"Fernando Romero",
                     "penal":true
+                },
+                {
+                    "min":"",
+                    "jugador":"Brian Yulka",
+                    "penal":false
                 }
             ],
             "info": {
