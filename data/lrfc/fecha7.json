@@ -176,7 +176,7 @@
             "logo": "slt.png"
         },
         "fecha": "15/09/2024 - 17:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -272,7 +272,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "15/09/2024 - 17:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     }
 
