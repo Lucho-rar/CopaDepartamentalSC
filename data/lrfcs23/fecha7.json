@@ -170,7 +170,11 @@
                 "corto": "CALT"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"Beltramino",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
