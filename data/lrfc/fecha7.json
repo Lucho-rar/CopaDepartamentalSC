@@ -101,7 +101,7 @@
             "logo": "cuda.png"
         },
         "fecha": "15/09/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -134,7 +134,7 @@
             "logo": "slt.png"
         },
         "fecha": "15/09/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -170,7 +170,7 @@
             "logo": "calt.png"
         },
         "fecha": "15/09/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -202,7 +202,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "15/09/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     }
 
