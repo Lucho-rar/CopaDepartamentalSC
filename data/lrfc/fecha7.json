@@ -42,7 +42,7 @@
                 {
                     "min":"",
                     "jugador":"",
-                    "penal":true
+                    "penal":false
                 }
             ],
             "info": {
@@ -102,7 +102,7 @@
                 {
                     "min":"",
                     "jugador":"",
-                    "penal":true
+                    "penal":false
                 }
             ],
             "info": {
