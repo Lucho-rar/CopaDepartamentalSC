@@ -236,6 +236,16 @@
                     "min":"",
                     "jugador":"Juan Pablo Basualdo",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
                 }
             ],
             "info": {
