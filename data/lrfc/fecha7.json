@@ -111,7 +111,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Facundo Sanabria",
                     "penal":false
                 }
             ],
@@ -202,6 +202,11 @@
                 "corto": "CSLA"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Alexis Camargo",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
