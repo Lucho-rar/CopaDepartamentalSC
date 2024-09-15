@@ -134,7 +134,13 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Adrián Gómez",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -147,6 +153,11 @@
                 "corto": "CSLT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Amilcar Monzón",
+                    "penal":true
+                }
             ],
             "info": {
                 "amarillas": [],
