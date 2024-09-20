@@ -8,7 +8,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Segovia",
+                    "jugador":"Pablo Segovia",
                     "penal":false
                 }
             ],
@@ -87,7 +87,22 @@
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Joaquín Barreto",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Alan Calderón",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Facundo Vivas",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Ezequiel Toloza",
                     "penal":false
                 }
             ],
@@ -110,7 +125,7 @@
             "logo": "cuda.png"
         },
         "fecha": "15/09/2024 - 15:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -164,7 +179,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Isaias Ramallo",
+                    "jugador":"Valentino Franck",
                     "penal":false
                 }
             ],
@@ -182,7 +197,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Gabriel Beltramino",
+                    "jugador":"Juan Sebastian Olivero",
                     "penal":false
                 }
             ],
@@ -206,7 +221,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Astudillo",
+                    "jugador":"Joel Astudillo",
                     "penal":false
                 }
             ],
@@ -222,6 +237,11 @@
                 "corto": "USdH"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Gabriel Gutiérrez",
+                    "penal":false
+                }
                 
             ],
             "info": {
