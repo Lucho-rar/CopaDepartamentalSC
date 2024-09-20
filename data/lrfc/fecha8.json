@@ -24,7 +24,38 @@
             },
             "logo": "hersilia.png"
         },
-        "fecha": "",
+        "fecha": "20/09/2024 - 22:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "UNION Y JUVENTUD (B)",
+                "corto": "UJB"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "bandera.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "fecha": "20/09/2024 - 22:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -55,16 +86,21 @@
             },
             "logo": "ambro.png"
         },
-        "fecha": "",
+        "fecha": "22/09/2024 - 17:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
 
+
+
+   
+
+
     {
         "local": {
             "nombre": {
-                "completo": "ATL. LIBERTAD TRINIDAD",
-                "corto": "CALT"
+                "completo": "UNION ARRUFO",
+                "corto": "CUDA"
             },
             "goles": [
             ],
@@ -72,25 +108,26 @@
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "calt.png"
+            "logo": "cuda.png"
         },
         "visitante": {
             "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
             },
-            "goles": [
-            ],
+            "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "cat.png"
+            "logo": "cas.png"
         },
-        "fecha": "",
+        "fecha": "22/09/2024 - 17:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
+
+      
 
     {
         "local": {
@@ -120,29 +157,15 @@
             },
             "logo": "slt.png"
         },
-        "fecha": "",
+        "fecha": "22/09/2024 - 17:30hs",
         "estado": "Por jugar",
         "contexto": []
     },
-
-   
     {
         "local": {
             "nombre": {
-                "completo": "UNION Y JUVENTUD (B)",
-                "corto": "UJB"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "bandera.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "ATL. UNIÓN DE CERES",
-                "corto": "CACU"
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
             },
             "goles": [
             ],
@@ -150,18 +173,12 @@
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "cacu.png"
+            "logo": "calt.png"
         },
-        "fecha": "",
-        "estado": "Por jugar",
-        "contexto": []
-    },
-
-    {
-        "local": {
+        "visitante": {
             "nombre": {
-                "completo": "UNION ARRUFO",
-                "corto": "CUDA"
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
             },
             "goles": [
             ],
@@ -169,23 +186,10 @@
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "cuda.png"
+            "logo": "cat.png"
         },
-        "visitante": {
-            "nombre": {
-                "completo": "ATL. SELVA",
-                "corto": "CAS"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cas.png"
-        },
-        "fecha": "",
+        "fecha": "22/09/2024 - 18:00hs",
         "estado": "Por jugar",
         "contexto": []
     }
-
 ]
