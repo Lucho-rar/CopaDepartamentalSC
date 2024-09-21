@@ -5,7 +5,18 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Lucio Aldrian",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Mario Oliva",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -17,7 +28,13 @@
                 "completo": "UNIÓN SOCIAL DE HERSILIA",
                 "corto": "USdH"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Francisco Vicens",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -25,7 +42,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "20/09/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -35,7 +52,13 @@
                 "completo": "UNION Y JUVENTUD (B)",
                 "corto": "UJB"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Claudio Rosso",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -48,6 +71,16 @@
                 "corto": "CACU"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Jonathan Dos Santos",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Brian Medero",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -56,7 +89,7 @@
             "logo": "cacu.png"
         },
         "fecha": "20/09/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
      

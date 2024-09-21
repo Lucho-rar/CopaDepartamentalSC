@@ -5,7 +5,13 @@
                 "completo": "FERRO DHO (SC)",
                 "corto": "FDSC"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Adrián García",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -24,8 +30,8 @@
             },
             "logo": "hersilia.png"
         },
-        "fecha": "20/09/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "fecha": "20/09/2024 - 20:00hs",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -55,8 +61,8 @@
             },
             "logo": "cacu.png"
         },
-        "fecha": "20/09/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "fecha": "20/09/2024 - 20:00hs",
+        "estado": "finalizado",
         "contexto": []
     },
      
@@ -86,7 +92,7 @@
             },
             "logo": "ambro.png"
         },
-        "fecha": "22/09/2024 - 17:00hs",
+        "fecha": "22/09/2024 - 15:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -122,7 +128,7 @@
             },
             "logo": "cas.png"
         },
-        "fecha": "22/09/2024 - 17:00hs",
+        "fecha": "22/09/2024 - 15:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -157,7 +163,7 @@
             },
             "logo": "slt.png"
         },
-        "fecha": "22/09/2024 - 17:30hs",
+        "fecha": "22/09/2024 - 15:30hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -188,7 +194,7 @@
             },
             "logo": "cat.png"
         },
-        "fecha": "22/09/2024 - 18:00hs",
+        "fecha": "22/09/2024 - 16:00hs",
         "estado": "Por jugar",
         "contexto": []
     }
