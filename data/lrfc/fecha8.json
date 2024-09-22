@@ -108,7 +108,7 @@
                 {
                     "min":"",
                     "jugador":"Yoel Hollmann",
-                    "penal":false
+                    "penal":true
                 }
             ],
             "info": {
@@ -154,6 +154,11 @@
                 {
                     "min":"",
                     "jugador":"Ponce",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Facundo Sanabria",
                     "penal":false
                 }
             ],
