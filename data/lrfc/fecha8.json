@@ -100,6 +100,11 @@
                 "corto": "CCAO"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Fernando Romero",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
