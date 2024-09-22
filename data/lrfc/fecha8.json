@@ -258,6 +258,11 @@
                 "corto": "CAT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Kevin Velásquez",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
