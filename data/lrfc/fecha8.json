@@ -212,7 +212,11 @@
                 "corto": "CSLT"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"Amilcar Monzón",
+                    "penal":false
+                }	
             ],
             "info": {
                 "amarillas": [],
