@@ -141,6 +141,11 @@
                 "corto": "CUDA"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Tolosa",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
