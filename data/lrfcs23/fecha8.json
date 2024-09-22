@@ -73,6 +73,11 @@
                 "corto": "CCAO"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -85,7 +90,13 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -93,7 +104,7 @@
             "logo": "ambro.png"
         },
         "fecha": "22/09/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -121,7 +132,13 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Agustín Córdoba",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -129,7 +146,7 @@
             "logo": "cas.png"
         },
         "fecha": "22/09/2024 - 15:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -155,7 +172,11 @@
                 "corto": "CSLT"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"Joaquín Zapata",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -164,7 +185,7 @@
             "logo": "slt.png"
         },
         "fecha": "22/09/2024 - 15:30hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
     {
@@ -195,7 +216,7 @@
             "logo": "cat.png"
         },
         "fecha": "22/09/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     }
 ]
