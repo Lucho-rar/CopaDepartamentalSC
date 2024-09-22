@@ -145,6 +145,11 @@
                     "min":"",
                     "jugador":"Tolosa",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Ponce",
+                    "penal":false
                 }
             ],
             "info": {
