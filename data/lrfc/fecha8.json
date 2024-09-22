@@ -109,6 +109,11 @@
                     "min":"",
                     "jugador":"Yoel Hollmann",
                     "penal":true
+                },
+                {
+                    "min":"",
+                    "jugador":"Marx Meternich",
+                    "penal":false
                 }
             ],
             "info": {
