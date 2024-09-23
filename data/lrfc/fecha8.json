@@ -73,7 +73,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Jonathan Dos Santos",
+                    "jugador":"",
                     "penal":false
                 },
                 {
@@ -90,7 +90,9 @@
         },
         "fecha": "20/09/2024 - 22:00hs",
         "estado": "finalizado",
-        "contexto": []
+        "contexto": [
+            "Gol de CACU sin autor: fue en contra."
+        ]
     },
      
     {
@@ -153,12 +155,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Tolosa",
+                    "jugador":"Facundo Tolosa",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"Ponce",
+                    "jugador":"Milton Ponce",
                     "penal":false
                 },
                 {
