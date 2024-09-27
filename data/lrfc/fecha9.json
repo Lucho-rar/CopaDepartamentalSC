@@ -2,21 +2,20 @@
     {
         "local": {
             "nombre": {
-                "completo": "UNIÓN SOCIAL DE HERSILIA",
-                "corto": "USdH"
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
             },
-            "goles": [
-            ],
+            "goles": [],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "hersilia.png"
+            "logo": "cat.png"
         },
         "visitante": {
             "nombre": {
-                "completo": "CENTRAL ARG. OLÍMPICO",
-                "corto": "CCAO"
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
             },
             "goles": [
             ],
@@ -24,13 +23,14 @@
                 "amarillas": [],
                 "rojas_directas": []
             },
-            "logo": "ccao.png"
+            "logo": "slt.png"
         },
-        "fecha": "",
+        "fecha": "27/09/2024 - 22:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
-     
+
+        
     {
         "local": {
             "nombre": {
@@ -56,7 +56,101 @@
             },
             "logo": "cuda.png"
         },
-        "fecha": "",
+        "fecha": "29/09/2024 - 18:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "UNIÓN SOCIAL DE HERSILIA",
+                "corto": "USdH"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "hersilia.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "fecha": "29/09/2024 - 19:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "FERRO DHO (SC)",
+                "corto": "FDSC"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ferro.png"
+        },
+        "fecha": "29/09/2024 - 19:00hs",
+        "estado": "Por jugar",
+        "contexto": []
+    },
+    
+    {
+        "local": {
+            "nombre": {
+                "completo": "SAN LORENZO (A)",
+                "corto": "CSLA"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ambro.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. LIBERTAD TRINIDAD",
+                "corto": "CALT"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "calt.png"
+        },
+        "fecha": "29/09/2024 - 19:00hs",
         "estado": "Por jugar",
         "contexto": []
     },
@@ -88,102 +182,7 @@
             },
             "logo": "bandera.png"
         },
-        "fecha": "",
-        "estado": "Por jugar",
-        "contexto": []
-    },
-
-    {
-        "local": {
-            "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cat.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "SAN LORENZO (T)",
-                "corto": "CSLT"
-            },
-            "goles": [
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "slt.png"
-        },
-        "fecha": " - 14:00hs",
-        "estado": "Por jugar",
-        "contexto": []
-    },
-
-   
-    {
-        "local": {
-            "nombre": {
-                "completo": "ATL. UNIÓN DE CERES",
-                "corto": "CACU"
-            },
-            "goles": [
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cacu.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "FERRO DHO (SC)",
-                "corto": "FDSC"
-            },
-            "goles": [
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ferro.png"
-        },
-        "fecha": "",
-        "estado": "Por jugar",
-        "contexto": []
-    },
-
-    {
-        "local": {
-            "nombre": {
-                "completo": "SAN LORENZO (A)",
-                "corto": "CSLA"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ambro.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "ATL. LIBERTAD TRINIDAD",
-                "corto": "CALT"
-            },
-            "goles": [
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "calt.png"
-        },
-        "fecha": "",
+        "fecha": "29/09/2024 - 20:00hs",
         "estado": "Por jugar",
         "contexto": []
     }
