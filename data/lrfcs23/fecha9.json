@@ -5,10 +5,33 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Rodrigo Roldan",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"César Moreno",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"César Moreno",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Federico Cejas"
+                    },
+                    {
+                        "jugador":"Valentino Aranda"
+                    }
+                ]
             },
             "logo": "cat.png"
         },
@@ -18,6 +41,16 @@
                 "corto": "CSLT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Luciano Landriel",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Ezequiel Cisneros",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -26,7 +59,7 @@
             "logo": "slt.png"
         },
         "fecha": "27/09/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 

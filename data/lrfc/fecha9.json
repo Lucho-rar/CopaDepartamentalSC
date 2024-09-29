@@ -8,7 +8,11 @@
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador": "Milton Diaz"
+                    }
+                ]
             },
             "logo": "cat.png"
         },
@@ -21,12 +25,16 @@
             ],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador": "Alejandro Leiva"
+                    }
+                ]
             },
             "logo": "slt.png"
         },
         "fecha": "27/09/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
