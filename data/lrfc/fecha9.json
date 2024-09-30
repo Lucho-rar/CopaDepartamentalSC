@@ -45,7 +45,18 @@
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Santiago Baldissone",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Nicolás Pecorini",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -57,7 +68,18 @@
                 "completo": "UNION ARRUFO",
                 "corto": "CUDA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Facundo Sanabria",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Facundo Sanabria",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -89,6 +111,16 @@
                 "corto": "CCAO"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Marx Meternich",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Gabriel Ponce",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -120,6 +152,11 @@
                 "corto": "FDSC"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Jose María Fernández",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -138,7 +175,23 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Juan Pablo Basualdo",
+                    "penal":true
+                },
+                {
+                    "min":"",
+                    "jugador":"David Nuñez",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Bruno Díaz",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -183,6 +236,11 @@
                 "corto": "UJB"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Santiago Marquetti",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
