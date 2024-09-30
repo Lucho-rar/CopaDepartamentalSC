@@ -70,7 +70,13 @@
                 "completo": "UNION SAN GUILLERMO",
                 "corto": "UCYD"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Emiliano Nicolaev",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -90,7 +96,7 @@
             "logo": "cuda.png"
         },
         "fecha": "29/09/2024 - 16:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -114,6 +120,12 @@
                 "corto": "CCAO"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Martin Mendoza",
+                    "penal":false
+                }
+
             ],
             "info": {
                 "amarillas": [],
@@ -122,7 +134,7 @@
             "logo": "ccao.png"
         },
         "fecha": "29/09/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     {
@@ -132,6 +144,11 @@
                 "corto": "CACU"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Ezequiel Toloza",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -153,7 +170,7 @@
             "logo": "ferro.png"
         },
         "fecha": "29/09/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     
@@ -163,7 +180,18 @@
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Enzo Acosta",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Joel Astudillo",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -184,7 +212,7 @@
             "logo": "calt.png"
         },
         "fecha": "29/09/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -208,6 +236,11 @@
                 "corto": "UJB"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Santiago Zappa",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -216,7 +249,7 @@
             "logo": "bandera.png"
         },
         "fecha": "29/09/2024 - 18:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 

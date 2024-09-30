@@ -87,7 +87,7 @@
             "logo": "cuda.png"
         },
         "fecha": "29/09/2024 - 18:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -129,7 +129,7 @@
             "logo": "ccao.png"
         },
         "fecha": "29/09/2024 - 19:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     {
@@ -165,7 +165,7 @@
             "logo": "ferro.png"
         },
         "fecha": "29/09/2024 - 19:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     
@@ -212,7 +212,7 @@
             "logo": "calt.png"
         },
         "fecha": "29/09/2024 - 19:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -249,7 +249,7 @@
             "logo": "bandera.png"
         },
         "fecha": "29/09/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 
