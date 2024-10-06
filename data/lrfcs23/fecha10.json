@@ -131,6 +131,11 @@
                 "corto": "CSLT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Oliva",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -151,7 +156,16 @@
                 "corto": "FDSC"
             },
             "goles": [
-
+                {
+                    "min":"",
+                    "jugador":"Andrada",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Adrián García",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
