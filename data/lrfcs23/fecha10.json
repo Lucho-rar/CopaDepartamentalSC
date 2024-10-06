@@ -84,6 +84,11 @@
                 "corto": "UJB"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Santiago Zappa",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
