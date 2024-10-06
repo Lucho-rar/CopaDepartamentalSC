@@ -165,6 +165,11 @@
                     "min":"",
                     "jugador":"Adrián García",
                     "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Matias Loto",
+                    "penal":false
                 }
             ],
             "info": {
@@ -178,7 +183,13 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
