@@ -19,6 +19,11 @@
                 "corto": "CAS"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Julián Córdoba",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],

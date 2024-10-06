@@ -19,6 +19,16 @@
                 "corto": "CAS"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Facundo Mena",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Facundo Mena",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -27,7 +37,7 @@
             "logo": "cas.png"
         },
         "fecha": "04/10/2024 - 22:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     {
