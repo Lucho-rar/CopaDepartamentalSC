@@ -91,6 +91,11 @@
                 "corto": "UCYD"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Nicolás Pecorini",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
