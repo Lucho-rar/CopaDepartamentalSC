@@ -225,6 +225,11 @@
                 "corto": "USdH"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Castoldi",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -233,7 +238,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "06/10/2024 - 18:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     }
 
