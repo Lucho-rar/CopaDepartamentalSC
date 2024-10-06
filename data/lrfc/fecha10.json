@@ -145,6 +145,11 @@
                 "corto": "FDSC"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Lucio Aldrian",
+                    "penal":false
+                }
 
             ],
             "info": {
@@ -176,7 +181,13 @@
                 "completo": "ATL. LIBERTAD TRINIDAD",
                 "corto": "CALT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Agustin Affaticati",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
