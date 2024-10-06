@@ -32,7 +32,7 @@
             "logo": "cas.png"
         },
         "fecha": "04/10/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
     {
@@ -54,7 +54,18 @@
                 "completo": "ATL. TOSTADO",
                 "corto": "CAT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Rodrigo Roldan",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Nicolas Rojas",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -62,7 +73,7 @@
             "logo": "cat.png"
         },
         "fecha": "06/10/2024 - 17:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
      
@@ -128,7 +139,7 @@
             "logo": "slt.png"
         },
         "fecha": "06/10/2024 - 18:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -161,7 +172,7 @@
             "logo": "ccao.png"
         },
         "fecha": "06/10/2024 - 18:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     },
 
@@ -192,7 +203,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "06/10/2024 - 18:00hs",
-        "estado": "Por jugar",
+        "estado": "jugando",
         "contexto": []
     }
 
