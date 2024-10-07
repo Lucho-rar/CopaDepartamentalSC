@@ -224,6 +224,10 @@
                     "min":"",
                     "jugador":"Rodrigo Puebla",
                     "penal":false
+                },{
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
                 }
 
             ],
