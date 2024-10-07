@@ -67,7 +67,7 @@
             "logo": "cat.png"
         },
         "fecha": "06/10/2024 - 19:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
      
@@ -140,6 +140,11 @@
                 "corto": "CSLT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
