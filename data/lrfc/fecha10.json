@@ -119,7 +119,7 @@
             "logo": "ucyd.png"
         },
         "fecha":"06/10/2024 - 20:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -132,6 +132,16 @@
                 "corto": "CSLA"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
                 {
                     "min":"",
                     "jugador":"",
@@ -163,7 +173,7 @@
             "logo": "slt.png"
         },
         "fecha": "06/10/2024 - 20:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -193,7 +203,13 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+               {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                } 
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -201,7 +217,7 @@
             "logo": "ccao.png"
         },
         "fecha": "06/10/2024 - 20:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -256,7 +272,7 @@
             "logo": "hersilia.png"
         },
         "fecha": "06/10/2024 - 20:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     }
 
