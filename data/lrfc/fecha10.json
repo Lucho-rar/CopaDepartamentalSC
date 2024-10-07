@@ -206,7 +206,12 @@
                     "min":"",
                     "jugador":"Agustin Affaticati",
                     "penal":false
+                },{
+                    "min":"",
+                    "jugador":"Puebla",
+                    "penal":true
                 }
+
             ],
             "info": {
                 "amarillas": [],
