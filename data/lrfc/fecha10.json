@@ -80,12 +80,12 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Juan Barros",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Santiago Marquetti",
                     "penal":false
                 }
             ],
@@ -108,7 +108,7 @@
                 },
                 {
                     "min":"",
-                    "jugador":"Ibarra",
+                    "jugador":"Cuauhtemoc Ibarra",
                     "penal":false
                 }
             ],
@@ -134,17 +134,17 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Nicolas Vianco",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Nicolas Vianco",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Bruno Díaz",
                     "penal":false
                 }
             ],
@@ -162,7 +162,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Dario Castaño",
                     "penal":false
                 }
             ],
@@ -206,7 +206,7 @@
             "goles": [
                {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Juan Sayago",
                     "penal":false
                 } 
             ],
@@ -230,7 +230,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Agustin Affaticati",
+                    "jugador":"Agustin Affaticatti",
                     "penal":false
                 },{
                     "min":"",
@@ -247,7 +247,7 @@
                     "penal":false
                 },{
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Jeremias Saucedo",
                     "penal":false
                 }
 

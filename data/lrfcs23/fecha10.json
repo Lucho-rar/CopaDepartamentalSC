@@ -21,7 +21,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Julián Córdoba",
+                    "jugador":"Ivo Acosta",
                     "penal":false
                 }
             ],
@@ -138,12 +138,17 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Oliva",
+                    "jugador":"Leandro Oliva",
                     "penal":false
                 },
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Joaquín Zapata",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Joaquín Zapata",
                     "penal":false
                 }
             ],
@@ -168,7 +173,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"Andrada",
+                    "jugador":"Ricardo Andrada",
                     "penal":false
                 },
                 {
@@ -196,7 +201,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Martin Mendoza",
                     "penal":false
                 }
             ],
