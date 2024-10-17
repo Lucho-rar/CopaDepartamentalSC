@@ -195,6 +195,11 @@
                 "corto": "CCAO"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Martin Mendoza",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
