@@ -72,6 +72,11 @@
                 "corto": "CAT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Santiago Velozo",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
