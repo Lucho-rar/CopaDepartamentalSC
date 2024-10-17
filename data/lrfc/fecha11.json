@@ -38,7 +38,11 @@
             "goles": [],
             "info": {
                 "amarillas": [],
-                "rojas_directas": []
+                "rojas_directas": [
+                    {
+                        "jugador":"Rafael Nicola"
+                    }
+                ]
             },
             "logo": "ucyd.png"
         },
