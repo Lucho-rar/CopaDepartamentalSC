@@ -142,7 +142,13 @@
                 "completo": "SAN LORENZO (T)",
                 "corto": "CSLT"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
