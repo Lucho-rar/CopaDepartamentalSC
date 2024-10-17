@@ -37,7 +37,7 @@
             "logo": "ferro.png"
         },
         "fecha": "16/10/2024 - 20:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
      
@@ -139,7 +139,7 @@
             "goles": [
                 {
                     "min":"",
-                    "jugador":"",
+                    "jugador":"Martin Rodriguez",
                     "penal":false
                 }
             ],
@@ -215,7 +215,7 @@
             "logo": "slt.png"
         },
         "fecha": "16/10/2024 - 20:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
 
