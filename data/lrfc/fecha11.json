@@ -113,6 +113,11 @@
                 "corto": "CSLA"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
