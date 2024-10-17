@@ -110,6 +110,11 @@
                 "corto": "UJB"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Segovia",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
