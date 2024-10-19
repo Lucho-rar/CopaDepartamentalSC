@@ -67,6 +67,20 @@
     {
         "local": {
             "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "visitante": {
+            "nombre": {
                 "completo": "SAN LORENZO (A)",
                 "corto": "CSLA"
             },
@@ -77,19 +91,6 @@
                 "rojas_directas": []
             },
             "logo": "ambro.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "ATL. TOSTADO",
-                "corto": "CAT"
-            },
-            "goles": [
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cat.png"
         },
         "fecha": "23/10/2024",
         "estado": "Por jugar",
