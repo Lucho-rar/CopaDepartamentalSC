@@ -1,0 +1,170 @@
+[
+    {
+        "local": {
+            "nombre": {
+                "completo": "UNION SAN GUILLERMO",
+                "corto": "UCYD"
+            },
+            "goles": [],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": [
+                ]
+            },
+            "logo": "ucyd.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "SAN LORENZO (T)",
+                "corto": "CSLT"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Carlos Sarco",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "slt.png"
+        },
+        "fecha":"18/10/2024",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "CENTRAL ARG. OLÍMPICO",
+                "corto": "CCAO"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Enzo Velásquez",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Martin Mendoza",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Martin Mendoza",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ccao.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "UNION Y JUVENTUD (B)",
+                "corto": "UJB"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Lucas Basualdo",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "bandera.png"
+        },
+        "fecha": "18/10/2024",
+        "estado": "finalizado",
+        "contexto": []
+    },
+     
+    
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "ATL. SELVA",
+                "corto": "CAS"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cas.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. UNIÓN DE CERES",
+                "corto": "CACU"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Ezequiel Toloza",
+                    "penal":false
+                }
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cacu.png"
+        },
+        "fecha": "18/10/2024",
+        "estado": "finalizado",
+        "contexto": []
+    },
+
+   
+
+    {
+        "local": {
+            "nombre": {
+                "completo": "FERRO DHO (SC)",
+                "corto": "FDSC"
+            },
+            "goles": [
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "ferro.png"
+        },
+        "visitante": {
+            "nombre": {
+                "completo": "ATL. TOSTADO",
+                "corto": "CAT"
+            },
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Rodrigo Roldan",
+                    "penal":false
+                }
+                
+            ],
+            "info": {
+                "amarillas": [],
+                "rojas_directas": []
+            },
+            "logo": "cat.png"
+        },
+        "fecha": "18/10/2024",
+        "estado": "finalizado",
+        "contexto": []
+    }
+
+]
