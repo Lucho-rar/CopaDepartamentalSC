@@ -5,7 +5,23 @@
                 "completo": "CENTRAL ARG. OLÍMPICO",
                 "corto": "CCAO"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Brian Yulka",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Fernando Romero",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Martin Mendoza",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": [
@@ -19,6 +35,17 @@
                 "corto": "CUDA"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Pablo Sacomano",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Andrés Pedrotti",
+                    "penal":false
+                }
+
             ],
             "info": {
                 "amarillas": [],
@@ -27,7 +54,7 @@
             "logo": "cuda.png"
         },
         "fecha":"20/10/2024 - 20:00hs",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
