@@ -92,7 +92,13 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Franco Galiano",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -100,7 +106,7 @@
             "logo": "cas.png"
         },
         "fecha": "20/10/2024 - 21:00hs",
-        "estado": "jugando",
+        "estado": "finalizado",
         "contexto": []
     },
      
