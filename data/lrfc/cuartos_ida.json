@@ -65,6 +65,21 @@
                 "corto": "UJB"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"Jonathan Godoy",
+                    "penal":false
+                },
+                {
+                    "min":"",
+                    "jugador":"",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -84,8 +99,8 @@
             },
             "logo": "cas.png"
         },
-        "fecha": "16/10/2024 - 21:00hs",
-        "estado": "Por jugar",
+        "fecha": "20/10/2024 - 21:00hs",
+        "estado": "jugando",
         "contexto": []
     },
      
