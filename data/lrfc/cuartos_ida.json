@@ -120,6 +120,11 @@
 
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Matías Cantadori",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -141,7 +146,7 @@
             "logo": "ambro.png"
         },
         "fecha": "23/10/2024",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     },
 
@@ -167,6 +172,11 @@
                 "corto": "CALT"
             },
             "goles": [
+                {
+                    "min":"",
+                    "jugador":"Facundo Monzón",
+                    "penal":false
+                }
             ],
             "info": {
                 "amarillas": [],
@@ -175,7 +185,7 @@
             "logo": "calt.png"
         },
         "fecha": "23/10/2024",
-        "estado": "Por jugar",
+        "estado": "finalizado",
         "contexto": []
     }
 
