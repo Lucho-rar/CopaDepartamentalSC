@@ -5,7 +5,13 @@
                 "completo": "ATL. SELVA",
                 "corto": "CAS"
             },
-            "goles": [],
+            "goles": [
+                {
+                    "min":"",
+                    "jugador":"Conrado Mandrille López",
+                    "penal":false
+                }
+            ],
             "info": {
                 "amarillas": [],
                 "rojas_directas": []
@@ -25,8 +31,10 @@
             "logo": "bandera.png"
         },
         "fecha": "27/10/2024", 
-        "estado": "Por jugar",
-        "contexto": []
+        "estado": "finalizado",
+        "contexto": [
+            "Clasificado: UNION Y JUVENTUD (B)"
+        ]
     },
     {
         "local": {
