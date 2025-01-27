@@ -1,99 +1,14 @@
-[
+{
+  "semifinales": [
     {
-        "local": {
-            "nombre": {
-                "completo": "ASOCIACION DEPORTIVA JUNIORS CLUB",
-                "corto": "ADJC"
-
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Ruiz",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": [
-                ]
-            },
-            "logo": "juniors.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "CENTRAL ARG. OLÍMPICO",
-                "corto": "CCAO"
-            },
-            "goles": [],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": [
-                    {
-                        "jugador":"Sayago"
-                    },
-                    {
-                        "jugador":"Ponce"
-                    }
-                ]
-            },
-            "logo": "ccao.png"
-        },
-        "fecha": "28/03/2024 - 22:00hs",
-        "estado": "Finalizado",
-        "contexto": []
+      "equipo1": "Equipo A",
+      "equipo2": "Equipo B",
+      "marcador": "2-1"
     },
-
     {
-        "local": {
-            "nombre": {
-                "completo": "ATL. UNIÓN DE CERES",
-                "corto": "CACU"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Camandona",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "cacu.png"
-        },
-        "visitante": {
-            "nombre": {
-                "completo": "SAN LORENZO (A)",
-                "corto": "CSLA"
-            },
-            "goles": [
-                {
-                    "min":"",
-                    "jugador":"Juan Pato",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Juan Pato",
-                    "penal":false
-                },
-                {
-                    "min":"",
-                    "jugador":"Juan Pablo Basualdo",
-                    "penal":false
-                }
-            ],
-            "info": {
-                "amarillas": [],
-                "rojas_directas": []
-            },
-            "logo": "ambro.png"
-        },
-        "fecha": "28/03/2024 - 22:00hs",
-        "estado": "Finalizado",
-        "contexto": []
+      "equipo1": "Equipo C",
+      "equipo2": "Equipo D",
+      "marcador": "3-2"
     }
-
-]
+  ]
+}
